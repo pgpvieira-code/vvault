@@ -78,4 +78,8 @@
     <value>Tip: Gebruik de g+l (go lock) sneltoets om de vault te vergrendelen.</value>
     <comment>Tip about keyboard shortcut for locking vault</comment>
   </data>
+  <data name="SourceCodeLink" xml:space="preserve">
+    <value>Broncode</value>
+    <comment>Link to the public source repository, shown to satisfy AGPL-3.0 section 13</comment>
+  </data>
 </root>

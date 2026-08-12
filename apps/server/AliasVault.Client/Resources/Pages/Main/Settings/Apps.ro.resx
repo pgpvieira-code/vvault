@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>Extensia de browser AliasVault îți permite să completezi automat datele de autentificare existente pe orice site. De asemenea, îți permite să generezi aliasuri noi în timpul înregistrării, să accesezi e-mailurile primite pe toate aliasurile tale și să îți vizualizezi aliasurile și identitățile.</value>
+    <value>Extensia de browser VelixVault îți permite să completezi automat datele de autentificare existente pe orice site. De asemenea, îți permite să generezi aliasuri noi în timpul înregistrării, să accesezi e-mailurile primite pe toate aliasurile tale și să îți vizualizezi aliasurile și identitățile.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>Aplicația mobilă AliasVault îți permite să îți accesezi aliasurile și identitățile de oriunde, să vizualizezi și să gestionezi e-mailurile primite și să generezi aliasuri noi oricând. Datele tale sunt protejate integral prin autentificare biometrică direct pe dispozitiv.</value>
+    <value>Aplicația mobilă VelixVault îți permite să îți accesezi aliasurile și identitățile de oriunde, să vizualizezi și să gestionezi e-mailurile primite și să generezi aliasuri noi oricând. Datele tale sunt protejate integral prin autentificare biometrică direct pe dispozitiv.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

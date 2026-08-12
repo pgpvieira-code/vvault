@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "AliasVault on latautumassa",
-    "message": "Alustetaan turvallista ympäristöä. AliasVault asettaa yksityisyytesi etusijalle toimien täysin verkkoselaimessasi. Ensimmäinen latautuminen voi kestää jonkin aikaa.",
+    "title": "VelixVault on latautumassa",
+    "message": "Alustetaan turvallista ympäristöä. VelixVault asettaa yksityisyytesi etusijalle toimien täysin verkkoselaimessasi. Ensimmäinen latautuminen voi kestää jonkin aikaa.",
     "refreshText": "Jos latautuminen näyttää juuttuneen, voit klikata alla olevaa painiketta virkistääksesi sivun.",
     "refreshButtonText": "Virkistä sivu"
   },
   "errors": {
     "unhandledError": "On tapahtunut käsittelemätön virhe. Yritäthän ladata sivu uudelleen. Jos ongelma jatkuu, otathan yhteyttä tukeen.",
-    "webAssemblyError": "AliasVault vaatii WebAssemblyn, jota tämä selain ei tue. Kokeile käyttää sitä tukevaa selainta.",
+    "webAssemblyError": "VelixVault vaatii WebAssemblyn, jota tämä selain ei tue. Kokeile käyttää sitä tukevaa selainta.",
     "reloadPageText": "Lataa sivu uudelleen"
   },
   "quotes": {

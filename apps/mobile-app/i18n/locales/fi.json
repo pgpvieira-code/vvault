@@ -35,7 +35,7 @@
       "unknownError": "Tapahtui tuntematon virhe.",
       "unknownErrorTryAgain": "Tapahtui tuntematon virhe. Yritä uudelleen.",
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
-      "serverVersionTooOld": "AliasVault-palvelin on päivitettävä uudempaan versioon, jotta se voi käyttää tätä ominaisuutta. Ota yhteyttä palvelimen ylläpitäjään jos tarvitset apua."
+      "serverVersionTooOld": "VelixVault-palvelin on päivitettävä uudempaan versioon, jotta se voi käyttää tätä ominaisuutta. Ota yhteyttä palvelimen ylläpitäjään jos tarvitset apua."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Syötä kelvollinen 6-numeroinen todennuskoodi.",
       "incorrectPassword": "Virheellinen salasana. Yritä uudelleen. ",
       "enterPassword": "Syötä salasanasi",
-      "serverError": "AliasVault-palvelimeen ei saatu yhteyttä. Yritä myöhemmin uudelleen tai ota yhteyttä tukeen, jos ongelma jatkuu.",
+      "serverError": "VelixVault-palvelimeen ei saatu yhteyttä. Yritä myöhemmin uudelleen tai ota yhteyttä tukeen, jos ongelma jatkuu.",
       "serverErrorSelfHosted": "API-rajapintaan ei saatu yhteyttä. Itseisännöityjen instanssien osalta varmista, että API-päätepiste on tavoitettavissa siirtymällä siihen selaimessa: sen pitäisi näyttää teksti 'Kaikki hyvin'.",
       "networkError": "Verkkopyyntö epäonnistui. Tarkista internet-yhteytesi ja yritä uudelleen.",
       "networkErrorSelfHosted": "Verkkopyyntö epäonnistui. Tarkista verkkoyhteytesi ja palvelimen saatavuus. Varmista, että itseisännöidyissä instansseissa on asennettuna voimassa oleva SSL-varmenne. Itseallekirjoitettuja varmenteita ei tueta mobiililaitteilla turvallisuussyistä.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Salatun tietokannan haku epäonnistui",
       "usernameNotFound": "Käyttäjänimeä ei löytynyt",
-      "vaultOutdated": "Holvisi on vanhentunut. Kirjaudu sisään AliasVault-verkkosivustolle ja seuraa ohjeita.",
+      "vaultOutdated": "Holvisi on vanhentunut. Kirjaudu sisään VelixVault-verkkosivustolle ja seuraa ohjeita.",
       "failedToSyncVault": "Holvin synkronointi epäonnistui",
-      "versionNotSupported": "Palvelin ei enää tue tätä AliasVault-mobiilisovelluksen versiota. Päivitä sovelluksesi uusimpaan versioon.",
-      "serverVersionNotSupported": "AliasVault-palvelin on päivitettävä uudempaan versioon, jotta tätä mobiilisovellusta voi käyttää. Ota yhteyttä tukeen, jos tarvitset apua.",
-      "appOutdated": "Tämä sovellus on vanhentunut, eikä sillä voi käyttää tätä (uudempaa) holviversiota. Päivitä AliasVault-sovellus jatkaaksesi.",
+      "versionNotSupported": "Palvelin ei enää tue tätä VelixVault-mobiilisovelluksen versiota. Päivitä sovelluksesi uusimpaan versioon.",
+      "serverVersionNotSupported": "VelixVault-palvelin on päivitettävä uudempaan versioon, jotta tätä mobiilisovellusta voi käyttää. Ota yhteyttä tukeen, jos tarvitset apua.",
+      "appOutdated": "Tämä sovellus on vanhentunut, eikä sillä voi käyttää tätä (uudempaa) holviversiota. Päivitä VelixVault-sovellus jatkaaksesi.",
       "passwordChanged": "Salasanasi on muuttunut viimeisimmän sisäänkirjautumisesi jälkeen. Kirjaudu sisään uudelleen turvallisuussyistä.",
       "passwordChangeRequiresOnline": "Salasanan vaihto vaatii internetyhteyden. Yritä uudelleen, kun olet verkossa."
     }
@@ -131,13 +131,13 @@
     "title": "Asetukset",
     "autofill": "Automaattitäyttö & Todennusavaimet",
     "iosAutofillSettings": {
-      "headerText": "Voit määrittää AliasVaultin tarjoamaan natiivin salasanan automaattinen täyttö -toiminnon iOS-käyttöjärjestelmässä. Ota se käyttöön noudattamalla alla olevia ohjeita.",
-      "passkeyNotice": "Todennusavaimet luodaan iOS:n kautta. Tallentaaksesi ne AliasVaultiin, varmista, että alla oleva Automaattinen täyttö on käytössä.",
+      "headerText": "Voit määrittää VelixVaultin tarjoamaan natiivin salasanan automaattinen täyttö -toiminnon iOS-käyttöjärjestelmässä. Ota se käyttöön noudattamalla alla olevia ohjeita.",
+      "passkeyNotice": "Todennusavaimet luodaan iOS:n kautta. Tallentaaksesi ne VelixVaultiin, varmista, että alla oleva Automaattinen täyttö on käytössä.",
       "howToEnable": "Kuinka otetana käyttään Automaattitäyttö ja Todennusvaimet",
       "step1": "1. Avaa iOS-asetukset alla olevasta painikkeesta.",
       "step2": "2. Mene kohtaan \"Yleinen\"",
       "step3": "3. Napauta \"Automaattinen Täyttö & Salasanat\"",
-      "step4": "4. Ota \"AliasVault\" käyttöön",
+      "step4": "4. Ota \"VelixVault\" käyttöön",
       "step5": "5. Poista käytöstä muut salasanan tarjoajat (esim. \"iCloud Passwords\") ristiriitojen välttämiseksi",
       "openIosSettings": "Avaa iOS-asetukset",
       "alreadyConfigured": "Olen jo määrittänyt sen"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Kokeellinen ominaisuus",
       "warningDescription": "Androidin automaattinen täyttö ja todennusavain -tuki on tällä hetkellä kokeellisessa tilassa.",
       "warningLink": "Lue lisää siitä täältä",
-      "headerText": "Voit määrittää AliasVaultin tarjoamaan natiivin salasanan automaattinen täyttö -toiminnon Androidissa. Ota se käyttöön noudattamalla alla olevia ohjeita.",
-      "passkeyNotice": "Todennusavaimet on luotu Androidin käyttöoikeustietojen hallinnan (Android 14+) kautta. Tallentaaksesi ne AliasVaultiin, varmista, että Alla oleva automaattinen täyttö on käytössä.",
+      "headerText": "Voit määrittää VelixVaultin tarjoamaan natiivin salasanan automaattinen täyttö -toiminnon Androidissa. Ota se käyttöön noudattamalla alla olevia ohjeita.",
+      "passkeyNotice": "Todennusavaimet on luotu Androidin käyttöoikeustietojen hallinnan (Android 14+) kautta. Tallentaaksesi ne VelixVaultiin, varmista, että Alla oleva automaattinen täyttö on käytössä.",
       "howToEnable": "Kuinka ottaa käyttöön automaattisen täytön ja salasanat:",
-      "step1": "1. Avaa Android-asetukset alla olevan painikkeen kautta ja vaihda \"automaattisen täytön ensisijainen palvelu\" \"AliasVault\":ksi",
+      "step1": "1. Avaa Android-asetukset alla olevan painikkeen kautta ja vaihda \"automaattisen täytön ensisijainen palvelu\" \"VelixVault\":ksi",
       "openAutofillSettings": "Avaa Automaattinen täyttö -asetukset",
       "buttonTip": "Jos yllä oleva painike ei toimi, se saattaa olla estetty turvallisuusasetusten vuoksi. Voit manuaalisesti mennä kohtaan Android-asetukset → Yleinen hallinta → Salasanat ja automaattinen täyttö.",
       "step2": "2. Jotkin sovellukset, kuten Google Chrome, saattavat vaatia asetuksissaan manuaalista määrittämistä salliakseen kolmannen osapuolen täytön sovellukset. Useimpien sovellusten pitäisi kuitenkin toimia oletuksena automaattisen täytön kanssa.",
       "alreadyConfigured": "Olen jo määrittänyt sen",
       "showSearchText": "Näytä hakuteksti",
-      "showSearchTextDescription": "Sisällytä teksti AliasVault vastaanottaa Androidilta, jota se käyttää etsimään vastaavaa tunnusta"
+      "showSearchTextDescription": "Sisällytä teksti VelixVault vastaanottaa Androidilta, jota se käyttää etsimään vastaavaa tunnusta"
     },
     "advancedOptions": "Lisäasetukset",
     "copyTotpOnFill": "Copy TOTP code on autofill",
@@ -164,7 +164,7 @@
     "autoLock": "Automaattisen lukituksen aikakatkaisu",
     "clipboardClear": "Tyhjennä leikepöytä",
     "clipboardClearDescription": "Poista automaattisesti kopioidut salasanat ja arkaluonteiset tiedot leikepöydältä tietyn ajanjakson jälkeen.",
-    "clipboardClearAndroidWarning": "Huomaa: joillakin Android-laitteilla on leikepöydän historia otettuna käyttöön, mikä saattaa seurata aiemmin kopioituja kohteita, vaikka AliasVault poistaisi leikepöydän. AliasVault voi korvata vain viimeisimmän kohteen, mutta vanhemmat kohteet voivat jäädä näkyviin historiassa. Turvallisuussyistä suosittelemme poistamaan kaikki leikepöydän historia-ominaisuudet käytöstä laitteesi asetuksista.",
+    "clipboardClearAndroidWarning": "Huomaa: joillakin Android-laitteilla on leikepöydän historia otettuna käyttöön, mikä saattaa seurata aiemmin kopioituja kohteita, vaikka VelixVault poistaisi leikepöydän. VelixVault voi korvata vain viimeisimmän kohteen, mutta vanhemmat kohteet voivat jäädä näkyviin historiassa. Turvallisuussyistä suosittelemme poistamaan kaikki leikepöydän historia-ominaisuudet käytöstä laitteesi asetuksista.",
     "clipboardLocalOnly": "Local Clipboard Only",
     "clipboardLocalOnlyDescription": "Keep copied credentials on this device instead of syncing them to your other Apple devices via Universal Clipboard.",
     "clipboardLocalOnlyDisabledWarning": "With this off, copied credentials can sync to your other Apple devices (Mac, iPad, etc.) through Universal Clipboard.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Ota Taustan leikepöydän tyhjennys käyttöön",
     "batteryOptimizationActive": "Akun optimointi estää taustatehtävät",
     "batteryOptimizationDisabled": "Leikepöydän tyhjennys taustalla otettu käyttöön.",
-    "batteryOptimizationHelpDescription": "Androidin akun optimointi estää leikepöydän luotettavan tyhjennyksen, kun sovellus on taustalla. AliasVaultin akun optimoinnin poistaminen käytöstä mahdollistaa tarkan taustalla tapahtuvan leikepöydän tyhjennyksen ja myöntää automaattisesti tarvittavat hälytysluvat.",
+    "batteryOptimizationHelpDescription": "Androidin akun optimointi estää leikepöydän luotettavan tyhjennyksen, kun sovellus on taustalla. VelixVaultin akun optimoinnin poistaminen käytöstä mahdollistaa tarkan taustalla tapahtuvan leikepöydän tyhjennyksen ja myöntää automaattisesti tarvittavat hälytysluvat.",
     "disableBatteryOptimization": "Poista akun optimointi käytöstä",
     "identityGenerator": "Identiteetin luonti",
     "passwordGenerator": "Salasanan luonti",
     "importExport": "Tuonti / Vienti",
     "importSectionTitle": "Tuo",
-    "importSectionDescription": "Tuo salasanasi muista salasanojen hallinnoijista tai aiemmasta AliasVault-viennistä.",
+    "importSectionDescription": "Tuo salasanasi muista salasanojen hallinnoijista tai aiemmasta VelixVault-viennistä.",
     "importWebNote": "Jos haluat tuoda käyttäjätunnuksia olemassa olevista salasanojen hallinnasta, ole hyvä ja kirjaudu web-sovellukseen. Tuo ominaisuus on tällä hetkellä saatavilla vain web-versiossa.",
     "exportSectionTitle": "Vie",
     "exportSectionDescription": "Vie holvisi tiedot CSV-tiedostoon. Tätä tiedostoa voidaan käyttää varmuuskopiona, ja se voidaan myös tuoda muihin salasanojen hallintalaitteisiin.",
@@ -196,6 +196,7 @@
       "exportDescription": "For security reasons, please enter your master password to confirm this export."
     },
     "security": "Turvallisuus",
+    "sourceCode": "Lähdekoodi",
     "appVersion": "App version",
     "serverVersion": "Server version",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 tuntia"
     },
     "language": "Kieli",
-    "languageSystemMessage": "Jos haluat vaihtaa sovelluksen kieltä, määritä AliasVaultin ensisijainen kieli laitteesi asetuksissa.",
+    "languageSystemMessage": "Jos haluat vaihtaa sovelluksen kieltä, määritä VelixVaultin ensisijainen kieli laitteesi asetuksissa.",
     "openSettings": "Avaa asetukset",
     "vaultUnlockSettings": {
       "description": "Valitse, miten haluat avata holvisi.",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "FaceID / TouchID",
       "biometricEnabled": "{{biometric}} on nyt onnistuneesti käytössä",
       "biometricNotAvailable": "{{biometric}} ei käytettävissä",
-      "biometricDisabledMessage": "{{biometric}} on poistettu käytöstä AliasVaultin osalta. Ota se ensin käyttöön laitteen asetuksissa.",
+      "biometricDisabledMessage": "{{biometric}} on poistettu käytöstä VelixVaultin osalta. Ota se ensin käyttöön laitteen asetuksissa.",
       "biometricHelp": "Käytä biometriikkaa avataksesi holvisi, joka on suojattu {{keystore}} -tunnuksella.",
       "biometricUnavailableHelp": "{{biometric}} ei ole käytettävissä. Avaa asetukset napauttamalla ja/tai siirry laitteen asetuksiin ottaaksesi sen käyttöön ja määrittääksesi sen.",
       "featureRequiresPasscode": "This feature requires a passcode to be enabled on your device.",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "QR-koodiskanneri",
-      "scanningMessage": "Skannaa AliasVault QR code",
+      "scanningMessage": "Skannaa VelixVault QR code",
       "mobileLogin": {
         "confirmTitle": "Vahvista kirjautumispyyntö",
         "confirmSubtitle": "Tunnistaudu uudelleen hyväksyäksesi kirjautuminen toisella laitteella.",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "Syötä sähköpostin etuliite",
     "selectEmailDomain": "Valitse sähköpostiverkkotunnus",
     "privateEmailTitle": "Yksityinen sähköposti",
-    "privateEmailAliasVaultServer": "AliasVault-palvelin",
+    "privateEmailAliasVaultServer": "VelixVault-palvelin",
     "privateEmailDescription": "Päästä päähän (E2E) salattu, täysin yksityinen.",
     "publicEmailTitle": "Julkiset väliaikaisten sähköpostiosoitteiden tarjoajat (PTEP)",
     "publicEmailDescription": "Anonyymi, mutta rajoitettu yksityisyys. Sähköpostin sisällön voi lukea kuka tahansa, joka tietää osoitteen.",
@@ -429,7 +430,7 @@
     "noMatchingItems": "No items match the selected filter.",
     "noMatchingItemsSearch": "No items matching \"{{search}}\"",
     "noMatchingItemsWithFilter": "No {{filter}} items matching \"{{search}}\"",
-    "noItemsFound": "Tietoja ei löytynyt. Luo sellainen aloittaaksesi. Vinkki: voit myös kirjautua AliasVaultin web-sovellukseen tuodaksesi käyttäjätietoja muista salasananhallintalaitteista.",
+    "noItemsFound": "Tietoja ei löytynyt. Luo sellainen aloittaaksesi. Vinkki: voit myös kirjautua VelixVaultin web-sovellukseen tuodaksesi käyttäjätietoja muista salasananhallintalaitteista.",
     "allItemsInFolders": "All your items are organized in folders. Tap a folder above to view your credentials, or use the search to find specific items.",
     "clearSearch": "Clear search",
     "clearFilter": "Clear filter",
@@ -670,7 +671,7 @@
       "message": "Tämä sivu on siirretty tai poistettu.",
       "goHome": "Siirry takaisin alkuun"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Holvi lukittu automaattisesti aikakatkaisun jälkeen.",
       "attemptingToUnlockMessage": "Yritetään avata lukitus."
@@ -690,7 +691,7 @@
       "version": "Versio {{version}}",
       "advancedSettings": "Advanced settings",
       "customProxyHeaders": "Custom proxy headers",
-      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your AliasVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your VelixVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
       "headerName": "Header name",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header value"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "Päivitä Holvi",
-    "subtitle": "AliasVault on päivitetty ja holvisi on päivitettävä. Tämän pitäisi kestää vain muutama sekunti.",
+    "subtitle": "VelixVault on päivitetty ja holvisi on päivitettävä. Tämän pitäisi kestää vain muutama sekunti.",
     "versionInformation": "Versiotiedot",
     "yourVault": "Holvisi versio:",
     "newVersion": "Uusi saatavilla oleva versio:",

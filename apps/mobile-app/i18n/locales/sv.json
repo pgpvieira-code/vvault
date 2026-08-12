@@ -35,7 +35,7 @@
       "unknownError": "Ett okänt fel har inträffat.",
       "unknownErrorTryAgain": "Ett okänt fel inträffade. Försök igen.",
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
-      "serverVersionTooOld": "AliasVault-servern behöver uppdateras till en nyare version för att kunna använda denna funktion. Vänligen kontakta serveradministratören om du behöver hjälp."
+      "serverVersionTooOld": "VelixVault-servern behöver uppdateras till en nyare version för att kunna använda denna funktion. Vänligen kontakta serveradministratören om du behöver hjälp."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Ange en giltig 6-siffrig autentiseringskod",
       "incorrectPassword": "Felaktigt lösenord. Var god försök igen.",
       "enterPassword": "Ange ditt lösenord",
-      "serverError": "Kunde inte nå AliasVault-servern. Försök igen senare eller kontakta support om problemet kvarstår.",
+      "serverError": "Kunde inte nå VelixVault-servern. Försök igen senare eller kontakta support om problemet kvarstår.",
       "serverErrorSelfHosted": "Kunde inte nå API:et. För egenhostade instanser, vänligen kontrollera att API-slutpunkten kan nås genom att navigera till den i en webbläsare: den ska visa 'OK'.",
       "networkError": "Nätverksförfrågan misslyckades. Kontrollera din internetanslutning och försök igen.",
       "networkErrorSelfHosted": "Nätverksförfrågan misslyckades. Kontrollera din nätverksanslutning och servertillgänglighet. För egenhostade instanser, se till att du har ett giltigt SSL-certifikat installerat. Självsignerade certifikat stöds inte på mobila enheter av säkerhetsskäl.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Det gick inte att hämta krypterad databas",
       "usernameNotFound": "Användarnamnet hittades inte",
-      "vaultOutdated": "Ditt valv är föråldrad. Logga in på AliasVault webbplats och följ stegen.",
+      "vaultOutdated": "Ditt valv är föråldrad. Logga in på VelixVault webbplats och följ stegen.",
       "failedToSyncVault": "Misslyckades att synkronisera valv",
-      "versionNotSupported": "Denna version av mobilappen AliasVault stöds inte längre av servern. Vänligen uppdatera ditt appen till den senaste versionen.",
-      "serverVersionNotSupported": "AliasVault-servern behöver uppdateras till en nyare version för att kunna använda mobilapp. Kontakta support om du behöver hjälp.",
-      "appOutdated": "Denna app är föråldrad och kan inte användas för att komma åt den här (nyare) valvversionen. Vänligen uppdatera AliasVault-appen för att fortsätta.",
+      "versionNotSupported": "Denna version av mobilappen VelixVault stöds inte längre av servern. Vänligen uppdatera ditt appen till den senaste versionen.",
+      "serverVersionNotSupported": "VelixVault-servern behöver uppdateras till en nyare version för att kunna använda mobilapp. Kontakta support om du behöver hjälp.",
+      "appOutdated": "Denna app är föråldrad och kan inte användas för att komma åt den här (nyare) valvversionen. Vänligen uppdatera VelixVault-appen för att fortsätta.",
       "passwordChanged": "Ditt lösenord har ändrats sedan du senast loggade in. Vänligen logga in igen av säkerhetsskäl.",
       "passwordChangeRequiresOnline": "Lösenordsbyte kräver en internetanslutning. Försök igen när du är online."
     }
@@ -131,13 +131,13 @@
     "title": "Inställningar",
     "autofill": "Autofyll & Passkeys",
     "iosAutofillSettings": {
-      "headerText": "Du kan konfigurera AliasVault för att ange ursprungliga lösenord och passkey-autofyll funktionalitet i iOS. Följ instruktionerna nedan för att aktivera det.",
-      "passkeyNotice": "Passkeys skapas via iOS. För att lagra dem i AliasVault, se till att Autofyll nedan är aktiverat.",
+      "headerText": "Du kan konfigurera VelixVault för att ange ursprungliga lösenord och passkey-autofyll funktionalitet i iOS. Följ instruktionerna nedan för att aktivera det.",
+      "passkeyNotice": "Passkeys skapas via iOS. För att lagra dem i VelixVault, se till att Autofyll nedan är aktiverat.",
       "howToEnable": "Så här aktiverar du Autofyll & Passkeys:",
       "step1": "1. Öppna iOS-inställningar via knappen nedan",
       "step2": "2. Gå till \"Allmänt\"",
       "step3": "3. Tryck på \"Autofyll och Lösenord\"",
-      "step4": "4. Aktivera \"AliasVault\"",
+      "step4": "4. Aktivera \"VelixVault\"",
       "step5": "5. Inaktivera andra lösenordshanterare (t.ex. \"iCloud-lösenord\") för att undvika konflikter",
       "openIosSettings": "Öppna iOS-inställningarna",
       "alreadyConfigured": "Jag har redan konfigurerat det"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Experimentell funktion",
       "warningDescription": "Autofyll och passkey stöd för Android är för närvarande i ett experimentellt tillstånd.",
       "warningLink": "Läs mer om det här",
-      "headerText": "Du kan konfigurera AliasVault för att ange ursprungliga lösenord och passkey-autofyll funktionalitet i Android. Följ instruktionerna nedan för att aktivera det.",
-      "passkeyNotice": "Passkeys skapas via Android Credential Manager (Android 14+). För att lagra dem i AliasVault, se till att Autofyll nedan är aktiverat.",
+      "headerText": "Du kan konfigurera VelixVault för att ange ursprungliga lösenord och passkey-autofyll funktionalitet i Android. Följ instruktionerna nedan för att aktivera det.",
+      "passkeyNotice": "Passkeys skapas via Android Credential Manager (Android 14+). För att lagra dem i VelixVault, se till att Autofyll nedan är aktiverat.",
       "howToEnable": "Så här aktiverar du Autofyll & Passkeys:",
-      "step1": "1. Öppna Android-inställningar via knappen nedan, och ändra \"Autofyll föredragen tjänst\" till \"AliasVault\"",
+      "step1": "1. Öppna Android-inställningar via knappen nedan, och ändra \"Autofyll föredragen tjänst\" till \"VelixVault\"",
       "openAutofillSettings": "Öppna inställningar för Autofyll",
       "buttonTip": "Om knappen ovan inte fungerar kan den blockeras på grund av säkerhetsinställningar. Du kan manuellt gå till Android Inställningar → Allmän hantering → Lösenord och autofyll.",
       "step2": "2. Vissa appar, t.ex. Google Chrome, kan kräva manuell konfiguration i sina inställningar för att tillåta autofyll appar från tredje part. De flesta appar bör dock fungera med autofyll som standard.",
       "alreadyConfigured": "Jag har redan konfigurerat det",
       "showSearchText": "Visa söktext",
-      "showSearchTextDescription": "Inkludera texten AliasVault tar emot från Android som den använder för att söka efter en matchande inloggningsuppgift"
+      "showSearchTextDescription": "Inkludera texten VelixVault tar emot från Android som den använder för att söka efter en matchande inloggningsuppgift"
     },
     "advancedOptions": "Avancerade inställningar",
     "copyTotpOnFill": "Copy TOTP code on autofill",
@@ -164,7 +164,7 @@
     "autoLock": "Timeout för automatisk låsning",
     "clipboardClear": "Rensa urklipp",
     "clipboardClearDescription": "Rensa automatiskt kopierade lösenord och känslig information från urklipp efter en viss tidsperiod.",
-    "clipboardClearAndroidWarning": "OBS: Vissa Android-enheter har urklipp historia aktiverad, som kan hålla reda på tidigare kopierade objekt, även efter AliasVault rensar urklipp. AliasVault kan bara skriva över det senaste objektet, men äldre poster kan förbli synliga i historiken. Av säkerhetsskäl rekommenderar vi att du inaktiverar alla funktioner för urklippshistorik i enhetens inställningar.",
+    "clipboardClearAndroidWarning": "OBS: Vissa Android-enheter har urklipp historia aktiverad, som kan hålla reda på tidigare kopierade objekt, även efter VelixVault rensar urklipp. VelixVault kan bara skriva över det senaste objektet, men äldre poster kan förbli synliga i historiken. Av säkerhetsskäl rekommenderar vi att du inaktiverar alla funktioner för urklippshistorik i enhetens inställningar.",
     "clipboardLocalOnly": "Endast lokalt urklipp",
     "clipboardLocalOnlyDescription": "Behåll kopierade uppgifter på den här enheten istället för att synkronisera dem till dina andra Apple-enheter via Universella urklipp.",
     "clipboardLocalOnlyDisabledWarning": "Med detta av kan kopierade uppgifter synkroniseras till dina övriga Apple enheter (Mac, iPad, osv.) via Universella urklipp.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Aktivera rensning av urklipp i bakgrunden",
     "batteryOptimizationActive": "Batterioptimering blockerar bakgrundsuppgifter",
     "batteryOptimizationDisabled": "Rensning av urklipp i bakgrunden aktiverad",
-    "batteryOptimizationHelpDescription": "Androids batterioptimering förhindrar tillförlitlig rensning av urklipp när appen är i bakgrunden. Inaktivering av batterioptimering för AliasVault tillåter exakt rensning av urklipp och ger automatiskt nödvändiga larmbehörigheter.",
+    "batteryOptimizationHelpDescription": "Androids batterioptimering förhindrar tillförlitlig rensning av urklipp när appen är i bakgrunden. Inaktivering av batterioptimering för VelixVault tillåter exakt rensning av urklipp och ger automatiskt nödvändiga larmbehörigheter.",
     "disableBatteryOptimization": "Inaktivera batterioptimering",
     "identityGenerator": "Identitetsgenerator",
     "passwordGenerator": "Lösenordsgenerator",
     "importExport": "Importera / Exportera",
     "importSectionTitle": "Importera",
-    "importSectionDescription": "Importera dina lösenord från andra lösenordshanterare eller från en tidigare AliasVault-export.",
+    "importSectionDescription": "Importera dina lösenord från andra lösenordshanterare eller från en tidigare VelixVault-export.",
     "importWebNote": "Logga in i webbappen för att importera inloggningsuppgifter från befintliga lösenordshanterare. Importfunktionen är för närvarande endast tillgänglig på webbversionen.",
     "exportSectionTitle": "Exportera",
     "exportSectionDescription": "Exportera dina valvdata till en CSV-fil. Denna fil kan användas som en säkerhetskopiering och kan även importeras till andra lösenordshanterare.",
@@ -196,6 +196,7 @@
       "exportDescription": "Av säkerhetsskäl, ange ditt huvudlösenord för att bekräfta denna export."
     },
     "security": "Säkerhet",
+    "sourceCode": "Källkod",
     "appVersion": "App version",
     "serverVersion": "Server version",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 timmar"
     },
     "language": "Språk",
-    "languageSystemMessage": "Om du vill ändra appens språk, konfigurera det önskade språket för AliasVault i enhetens inställningar.",
+    "languageSystemMessage": "Om du vill ändra appens språk, konfigurera det önskade språket för VelixVault i enhetens inställningar.",
     "openSettings": "Öppna inställningar",
     "vaultUnlockSettings": {
       "description": "Välj hur du vill låsa upp ditt valv.",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} har nu aktiverats",
       "biometricNotAvailable": "{{biometric}} ej tillgänglig",
-      "biometricDisabledMessage": "{{biometric}} är inaktiverat för AliasVault. För att använda funktionen, aktivera den först i enhetens inställningar.",
+      "biometricDisabledMessage": "{{biometric}} är inaktiverat för VelixVault. För att använda funktionen, aktivera den först i enhetens inställningar.",
       "biometricHelp": "Använd biometri för att låsa upp ditt valv, vilket är säkrat via {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} är inte tillgänglig. Tryck för att öppna inställningar och/eller gå till dina enhetsinställningar för att aktivera och konfigurera den.",
       "featureRequiresPasscode": "Denna funktion kräver att en lösenkod aktiveras på din enhet.",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "QR-kodskanner",
-      "scanningMessage": "Skanna AliasVault QR-kod",
+      "scanningMessage": "Skanna VelixVault QR-kod",
       "mobileLogin": {
         "confirmTitle": "Bekräfta inloggningsbegäran",
         "confirmSubtitle": "Återautentisera för att godkänna inloggning på en annan enhet.",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "Ange e-postprefix",
     "selectEmailDomain": "Välj e-postdomän",
     "privateEmailTitle": "Privat e-post",
-    "privateEmailAliasVaultServer": "AliasVault server",
+    "privateEmailAliasVaultServer": "VelixVault server",
     "privateEmailDescription": "E2E krypterad, helt privat.",
     "publicEmailTitle": "Offentliga Temp e-postleverantörer",
     "publicEmailDescription": "Anonym men begränsad integritet. E-postinnehåll kan läsas av alla som känner till adressen.",
@@ -429,7 +430,7 @@
     "noMatchingItems": "Inga objekt matchar de valda filtren",
     "noMatchingItemsSearch": "Inga objekt matchar \"{{search}}\"",
     "noMatchingItemsWithFilter": "Inga {{filter}} objekt som matchar \"{{search}}\"",
-    "noItemsFound": "Inga objekt hittades. Skapa ett för att komma igång. Tips: du kan även logga in på AliasVault webbapp för att importera inloggningsuppgifter från andra lösenordshanterare.",
+    "noItemsFound": "Inga objekt hittades. Skapa ett för att komma igång. Tips: du kan även logga in på VelixVault webbapp för att importera inloggningsuppgifter från andra lösenordshanterare.",
     "allItemsInFolders": "Alla dina objekt är organiserade i mappar. Klicka på en mapp ovan för att visa dina inloggningsuppgifter, eller använd sökningen för att hitta specifika objekt.",
     "clearSearch": "Rensa sökning",
     "clearFilter": "Rensa filter",
@@ -670,7 +671,7 @@
       "message": "Denna sida har flyttats eller tagits bort.",
       "goHome": "Gå tillbaka till början"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Valvet låst automatiskt efter timeout.",
       "attemptingToUnlockMessage": "Försöker låsa upp."
@@ -690,7 +691,7 @@
       "version": "Version: {{version}}",
       "advancedSettings": "Advanced settings",
       "customProxyHeaders": "Custom proxy headers",
-      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your AliasVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your VelixVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
       "headerName": "Header name",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header value"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "Uppgradera valv",
-    "subtitle": "AliasVault har uppdaterats och ditt valv måste uppgraderas. Detta bör bara ta några sekunder.",
+    "subtitle": "VelixVault har uppdaterats och ditt valv måste uppgraderas. Detta bör bara ta några sekunder.",
     "versionInformation": "Versionsinformation",
     "yourVault": "Din valvversion:",
     "newVersion": "Ny tillgänglig version:",

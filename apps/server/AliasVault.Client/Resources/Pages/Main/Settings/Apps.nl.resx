@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>De AliasVault browserextensie stelt je in staat om bestaande inloggegevens automatisch in te vullen op elke website. Het stelt je ook in staat om nieuwe aliassen te genereren tijdens registratie, ontvangen e-mails op al je aliassen te bekijken, en je aliassen en identiteiten te bekijken.</value>
+    <value>De VelixVault browserextensie stelt je in staat om bestaande inloggegevens automatisch in te vullen op elke website. Het stelt je ook in staat om nieuwe aliassen te genereren tijdens registratie, ontvangen e-mails op al je aliassen te bekijken, en je aliassen en identiteiten te bekijken.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>De AliasVault mobiele app stelt je in staat om onderweg toegang te krijgen tot je aliassen en identiteiten, ontvangen e-mails te bekijken en beheren, en altijd nieuwe aliassen te genereren. Je gegevens zijn volledig beschermd met biometrische authenticatie op het apparaat.</value>
+    <value>De VelixVault mobiele app stelt je in staat om onderweg toegang te krijgen tot je aliassen en identiteiten, ontvangen e-mails te bekijken en beheren, en altijd nieuwe aliassen te genereren. Je gegevens zijn volledig beschermd met biometrische authenticatie op het apparaat.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

@@ -75,7 +75,7 @@
     <comment>Refresh button text</comment>
   </data>
   <data name="NoEmailClaimsMessage" xml:space="preserve">
-    <value>您尚未使用任何私人邮箱地址。创建一个新的别名并使用 AliasVault 支持的私人邮箱地址。这些私人邮箱地址收到的所有邮件都会显示在这里。</value>
+    <value>您尚未使用任何私人邮箱地址。创建一个新的别名并使用 VelixVault 支持的私人邮箱地址。这些私人邮箱地址收到的所有邮件都会显示在这里。</value>
     <comment>Message when no email addresses are configured</comment>
   </data>
   <data name="NoEmailsReceivedMessage" xml:space="preserve">

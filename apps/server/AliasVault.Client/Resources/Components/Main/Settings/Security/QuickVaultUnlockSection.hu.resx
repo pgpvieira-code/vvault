@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>Mester jelszava az azonosítókulcs PRF-jével kerül titkosításra lokálisan. Ha újratölti az AliasVault oldalt, az azonosítókulcsával fel tudja oldani széfjét. Ha ki akarja kapcsolni az azonosítókulcsos feloldást, a lenti gombbal ezt megteheti. A mester jelszava továbbra is működni fog.</value>
+    <value>Mester jelszava az azonosítókulcs PRF-jével kerül titkosításra lokálisan. Ha újratölti az VelixVault oldalt, az azonosítókulcsával fel tudja oldani széfjét. Ha ki akarja kapcsolni az azonosítókulcsos feloldást, a lenti gombbal ezt megteheti. A mester jelszava továbbra is működni fog.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,7 +71,7 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>Alapból az AliasVault oldal újratöltése újból kéri a mester jelszó megadását. Az azonosítókulcs segítségével azonnal fel tudja azt oldani. Ha bekapcsolásra kerül, a mester jelszava lokálisan titkosításra kerül az azonosítókulcs PRF bővítményével. Megjegyzés: Az azonosítókulcs csak a jelenlegi eszközés fog működni, azon belül is csak abban a böngészőben ahol engedélyezi.</value>
+    <value>Alapból az VelixVault oldal újratöltése újból kéri a mester jelszó megadását. Az azonosítókulcs segítségével azonnal fel tudja azt oldani. Ha bekapcsolásra kerül, a mester jelszava lokálisan titkosításra kerül az azonosítókulcs PRF bővítményével. Megjegyzés: Az azonosítókulcs csak a jelenlegi eszközés fog működni, azon belül is csak abban a böngészőben ahol engedélyezi.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">

@@ -15,7 +15,7 @@ class CryptoNotAvailableError extends Error {
  */
 function checkCryptoAvailable() {
     if (!window.crypto || !window.crypto.subtle) {
-        const error = new CryptoNotAvailableError("Cryptographic operations are not available. Please ensure you are accessing AliasVault over HTTPS, as this is required for security features to work properly.");
+        const error = new CryptoNotAvailableError("Cryptographic operations are not available. Please ensure you are accessing VelixVault over HTTPS, as this is required for security features to work properly.");
         console.error(error.message);
         throw error;
     }

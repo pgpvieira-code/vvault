@@ -16,7 +16,7 @@ type ApiOption = {
 };
 
 const DEFAULT_OPTIONS: ApiOption[] = [
-  { label: 'AliasVault.com', value: AppInfo.DEFAULT_API_URL },
+  { label: 'VelixVault', value: AppInfo.DEFAULT_API_URL },
   { label: 'Self-hosted', value: 'custom' }
 ];
 

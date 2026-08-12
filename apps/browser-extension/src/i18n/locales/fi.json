@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Kirjaudu sisään AliasVaultiin",
+    "loginTitle": "Kirjaudu sisään VelixVaultiin",
     "username": "Käyttäjänimi tai sähköposti",
     "usernamePlaceholder": "nimi / nimi@yritys.fi",
     "passwordPlaceholder": "Syötä salasanasi",
@@ -29,7 +29,7 @@
     "switchAccounts": "Vaihdetaanko tiliä?",
     "loginWithMobile": "Kirjaudu sisään mobiilisovelluksella",
     "unlockWithMobile": "Avaa käyttämällä mobiilisovellusta",
-    "scanQrCode": "Skannaa tämä QR-koodi AliasVault-mobiilisovelluksellasi kirjautuaksesi sisään ja avataksesi holvisi.",
+    "scanQrCode": "Skannaa tämä QR-koodi VelixVault-mobiilisovelluksellasi kirjautuaksesi sisään ja avataksesi holvisi.",
     "passwordAttemptsWarning": "Incorrect password. You will be logged out if you enter the wrong password {{remainingAttempts}} more times.",
     "maxAttemptsReached": "Too many failed unlock attempts. You have been logged out for security reasons."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Yhdistetään holvin muutoksia...",
     "uploadingVault": "Uploading vault...",
     "errors": {
-      "serverNotAvailable": "AliasVault-palvelin ei ole käytettävissä. Yritä myöhemmin uudelleen tai ota yhteyttä tukeen, jos ongelma jatkuu.",
-      "clientVersionNotSupported": "Palvelin ei enää tue tätä AliasVault-selainlaajennuksen versiota. Päivitä selaimen laajennus uusimpaan versioon.",
+      "serverNotAvailable": "VelixVault-palvelin ei ole käytettävissä. Yritä myöhemmin uudelleen tai ota yhteyttä tukeen, jos ongelma jatkuu.",
+      "clientVersionNotSupported": "Palvelin ei enää tue tätä VelixVault-selainlaajennuksen versiota. Päivitä selaimen laajennus uusimpaan versioon.",
       "browserExtensionOutdated": "Tämä selainlaajennus on vanhentunut, eikä sillä voi saada pääsyä tähän holviin. Päivitä tämä selainlaajennus jatkaaksesi.",
-      "serverVersionNotSupported": "AliasVault-palvelin on päivitettävä uudempaan versioon, jotta voit käyttää tätä selainlaajennusta. Ota yhteyttä tukeen, jos tarvitset apua.",
-      "serverVersionTooOld": "AliasVault-palvelin on päivitettävä uudempaan versioon, jotta se voi käyttää tätä ominaisuutta. Ota yhteyttä palvelimen ylläpitäjään jos tarvitset apua.",
+      "serverVersionNotSupported": "VelixVault-palvelin on päivitettävä uudempaan versioon, jotta voit käyttää tätä selainlaajennusta. Ota yhteyttä tukeen, jos tarvitset apua.",
+      "serverVersionTooOld": "VelixVault-palvelin on päivitettävä uudempaan versioon, jotta se voi käyttää tätä ominaisuutta. Ota yhteyttä palvelimen ylläpitäjään jos tarvitset apua.",
       "unknownError": "Tapahtui tuntematon virhe",
       "unknownErrorTryAgain": "Tapahtui tuntematon virhe. Yritä uudelleen.",
       "vaultNotAvailable": "Holvi ei käytettävissä",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
       "vaultSyncTimeout": "Vault sync timed out. This can happen when the vault is large or the internet connection is slow. Please try again.",
       "invalidCode": "Syötä kelvollinen 6-numeroinen tunnistautumiskoodi.",
-      "serverError": "AliasVault-palvelimeen ei saatu yhteyttä. Yritä myöhemmin uudelleen tai ota yhteyttä tukeen, jos ongelma jatkuu.",
+      "serverError": "VelixVault-palvelimeen ei saatu yhteyttä. Yritä myöhemmin uudelleen tai ota yhteyttä tukeen, jos ongelma jatkuu.",
       "wrongPassword": "Virheellinen salasana. Yritä uudelleen. ",
       "sessionExpired": "Istuntosi on vanhentunut. Kirjaudu sisään uudelleen.",
       "mobileLoginRequestExpired": "Mobiilikirjautumispyyntö aikakatkaistiin. Lataa sivu uudelleen ja yritä uudelleen."
@@ -148,7 +148,7 @@
   "content": {
     "or": "tai",
     "new": "Uusi",
-    "vaultLocked": "AliasVault on lukittu.",
+    "vaultLocked": "VelixVault on lukittu.",
     "creatingNewAlias": "Luodaan uutta aliasta",
     "creatingNewCredential": "Creating new credential",
     "noMatchesFound": "Osumia ei löytynyt",
@@ -165,7 +165,7 @@
     "usernamePassword": "Käyttäjänimi/Salasana",
     "createAndSaveAlias": "Luo ja tallenna alias",
     "createAndSaveCredential": "Luo ja tallenna tunnistetieto",
-    "randomIdentityDescription": "Luo satunnainen identiteetti, jolla on satunnainen sähköpostiosoite, johon on pääsy AliasVaultissa.",
+    "randomIdentityDescription": "Luo satunnainen identiteetti, jolla on satunnainen sähköpostiosoite, johon on pääsy VelixVaultissa.",
     "randomIdentityDescriptionDropdown": "Satunnainen identiteetti satunnaisen sähköpostiosoitteen kanssa",
     "manualCredentialDescription": "Määritä oma sähköpostiosoitteesi ja käyttäjänimesi.",
     "manualCredentialDescriptionDropdown": "Manuaalinen käyttäjänimi ja salasana",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Luo uusi salasana",
     "togglePasswordVisibility": "Salasanan näkyvyyden päälle/pois päältä kytkeminen",
     "passwordCopiedToClipboard": "Salasana kopioitu leikepöydälle",
-    "openAliasVaultToUpgrade": "Avaa AliasVault päivittääksesi",
+    "openAliasVaultToUpgrade": "Avaa VelixVault päivittääksesi",
     "vaultUpgradeRequired": "Holvin päivitys vaaditaan.",
     "dismissPopup": "Hylkää ponnahdusikkuna",
     "noTotpItemsFound": "No 2FA code matches found",
     "close": "Sulje",
     "savePrompt": {
-      "title": "Save to AliasVault?",
+      "title": "Save to VelixVault?",
       "neverForThisSite": "Never for this site",
       "addUrlTitle": "Add URL to credential?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Folder Name",
     "folderNameRequired": "Folder name is required",
     "folder": "Kansio",
-    "welcomeTitle": "Tervetuloa AliasVaultiin!",
-    "welcomeDescription": "Käyttääksesi AliasVault-selainlaajennusta, siirry jollekin verkkosivustolle ja käytä AliasVaultin automaattisen täytön ponnahdusikkunaa luodaksesi uuden tunnistetiedon.",
+    "welcomeTitle": "Tervetuloa VelixVaultiin!",
+    "welcomeDescription": "Käyttääksesi VelixVault-selainlaajennusta, siirry jollekin verkkosivustolle ja käytä VelixVaultin automaattisen täytön ponnahdusikkunaa luodaksesi uuden tunnistetiedon.",
     "currentSiteMatch": "For {{domain}}",
     "numberOfItemMatchesFound": "{{count}} items found",
     "noMatchingItems": "No items match the selected filter.",
@@ -269,7 +269,7 @@
       "Suffix": "Suffix"
     },
     "privateEmailTitle": "Yksityinen sähköposti",
-    "privateEmailAliasVaultServer": "AliasVault-palvelin",
+    "privateEmailAliasVaultServer": "VelixVault-palvelin",
     "privateEmailDescription": "Päästä päähän (E2E) salattu, täysin yksityinen.",
     "publicEmailTitle": "Julkiset väliaikaisten sähköpostiosoitteiden tarjoajat (PTEP)",
     "publicEmailDescription": "Anonyymi, mutta rajoitettu yksityisyys. Sähköpostin sisällön voi lukea kuka tahansa, joka tietää osoitteen.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 tuntia",
     "autoLock8Hours": "8 tuntia",
     "autoLock24Hours": "24 tuntia",
+    "sourceCode": "Lähdekoodi",
     "versionPrefix": "App version",
     "serverVersion": "Server version",
     "autofillSettings": "Automaatisen täytön asetukset",
     "clipboardSettings": "Leikepöydän asetukset",
     "contextMenuSettings": "Kontekstivalikon asetukset",
     "passkeySettings": "Todennusavainten asetukset",
-    "contextMenuDescription": "Oikea-napsauta syöttökenttiä päästäksesi AliasVaultin vaihtoehtoihin",
+    "contextMenuDescription": "Oikea-napsauta syöttökenttiä päästäksesi VelixVaultin vaihtoehtoihin",
     "selectLanguage": "Valitse kieli",
     "serverConfiguration": "Palvelimen asetukset",
-    "serverConfigurationDescription": "Määritä AliasVault-palvelimen URL-osoite itse isännöityille instanssille",
+    "serverConfigurationDescription": "Määritä VelixVault-palvelimen URL-osoite itse isännöityille instanssille",
     "customApiUrl": "API-URL-osoite",
     "customClientUrl": "Asiakas-URL-osoite",
     "apiUrlHint": "API päätepisteen URL (yleensä asiakkaan URL + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Attach this passkey to an existing login credential for this site.",
       "attachingToCredential": "Adding passkey to: {{serviceName}}",
       "attachPasskey": "Add Passkey",
-      "unsupportedAlgorithm": "This website requires a passkey type that AliasVault doesn't support."
+      "unsupportedAlgorithm": "This website requires a passkey type that VelixVault doesn't support."
     },
     "settings": {
       "passkeyProvider": "Todennusavaimen toimittaja",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Päivitä holvi",
-    "subtitle": "AliasVault on päivitetty ja holvisi on päivitettävä. Tämän pitäisi kestää vain muutama sekunti.",
+    "subtitle": "VelixVault on päivitetty ja holvisi on päivitettävä. Tämän pitäisi kestää vain muutama sekunti.",
     "versionInformation": "Versiotiedot",
     "yourVault": "Holvisi versio:",
     "newVersion": "Uusi saatavilla oleva versio:",

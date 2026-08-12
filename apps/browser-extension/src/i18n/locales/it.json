@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Accedi ad AliasVaultriem",
+    "loginTitle": "Accedi ad VelixVaultriem",
     "username": "Nome utente o mail",
     "usernamePlaceholder": "nome / nome@azienda.com",
     "passwordPlaceholder": "Inserisci la tua password",
@@ -29,7 +29,7 @@
     "switchAccounts": "Cambia account",
     "loginWithMobile": "Accedi con l'App Mobile",
     "unlockWithMobile": "Sblocca con l'App Mobile",
-    "scanQrCode": "Scansiona questo codice QR con l'app mobile di AliasVault per accedere e sbloccare la cassaforte.",
+    "scanQrCode": "Scansiona questo codice QR con l'app mobile di VelixVault per accedere e sbloccare la cassaforte.",
     "passwordAttemptsWarning": "Password errata. Sarai disconnesso se inserisci la password errata {{remainingAttempts}} altre volte.",
     "maxAttemptsReached": "Troppi tentativi di sblocco falliti. Sei stato disconnesso per motivi di sicurezza."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Sincronizzzazione modifiche della cassaforte...",
     "uploadingVault": "Caricamento cassaforte in corso...",
     "errors": {
-      "serverNotAvailable": "Il server di AliasVault non è disponibile. Riprova più tardi o contatta il supporto se il problema persiste.",
-      "clientVersionNotSupported": "Questa versione dell'estensione del browser AliasVault non è più supportata dal server. Aggiorna l'estensione alla versione più recente.",
+      "serverNotAvailable": "Il server di VelixVault non è disponibile. Riprova più tardi o contatta il supporto se il problema persiste.",
+      "clientVersionNotSupported": "Questa versione dell'estensione del browser VelixVault non è più supportata dal server. Aggiorna l'estensione alla versione più recente.",
       "browserExtensionOutdated": "Questa estensione del browser è obsoleta e non può essere utilizzata per accedere a questa cassaforte. Si prega di aggiornare questa estensione per continuare.",
-      "serverVersionNotSupported": "Il server di AliasVault necessita un aggiornamento a una versione più recente per poter usare questa estensione. Contatta il supporto se hai bisogno di assistenza.",
-      "serverVersionTooOld": "Il server AliasVault deve essere aggiornato a una versione più recente per poter utilizzare questa app mobile. Se hai bisogno di aiuto, contatta il supporto.",
+      "serverVersionNotSupported": "Il server di VelixVault necessita un aggiornamento a una versione più recente per poter usare questa estensione. Contatta il supporto se hai bisogno di assistenza.",
+      "serverVersionTooOld": "Il server VelixVault deve essere aggiornato a una versione più recente per poter utilizzare questa app mobile. Se hai bisogno di aiuto, contatta il supporto.",
       "unknownError": "Si è verificato un errore sconosciuto",
       "unknownErrorTryAgain": "Si è verificato un errore sconosciuto. Riprova.",
       "vaultNotAvailable": "Cassaforte non disponibile",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "La cassaforte è troppo grande perché il server possa accettarla. Provare a rimuovere alcuni elementi o allegati per ridurre le dimensioni e riprovare.",
       "vaultSyncTimeout": "Sincronizzazione cassaforte scaduta. Questo può accadere quando la cassaforte è molto grande o la connessione internet è troppo lenta. Riprovare.",
       "invalidCode": "Inserisci un codice di autenticazione a 6 cifre valido.",
-      "serverError": "Impossibile raggiungere il server AliasVault. Riprova più tardi o contatta il supporto se il problema persiste.",
+      "serverError": "Impossibile raggiungere il server VelixVault. Riprova più tardi o contatta il supporto se il problema persiste.",
       "wrongPassword": "Password errata. Riprovare.",
       "sessionExpired": "La tua sessione è scaduta. Effettua di nuovo il login.",
       "mobileLoginRequestExpired": "Richiesta di accesso mobile scaduta. Ricarica la pagina e riprova."
@@ -148,7 +148,7 @@
   "content": {
     "or": "o",
     "new": "Nuovo",
-    "vaultLocked": "AliasVault è bloccato.",
+    "vaultLocked": "VelixVault è bloccato.",
     "creatingNewAlias": "Creazione nuovo alias",
     "creatingNewCredential": "Creazione nuove credenziali",
     "noMatchesFound": "Nessun risultato trovato",
@@ -165,7 +165,7 @@
     "usernamePassword": "Nome utente/password",
     "createAndSaveAlias": "Crea e salva alias",
     "createAndSaveCredential": "Crea e salva credenziali",
-    "randomIdentityDescription": "Genera un'identità casuale con un indirizzo email casuale accessibile in AliasVault.",
+    "randomIdentityDescription": "Genera un'identità casuale con un indirizzo email casuale accessibile in VelixVault.",
     "randomIdentityDescriptionDropdown": "Identità casuale con email casuale",
     "manualCredentialDescription": "Specifica il tuo indirizzo email e nome utente.",
     "manualCredentialDescriptionDropdown": "Nome utente e password manuali",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Genera nuova password",
     "togglePasswordVisibility": "Mostra/Nascondi password",
     "passwordCopiedToClipboard": "Password copiata negli appunti",
-    "openAliasVaultToUpgrade": "Apri AliasVault per aggiornare",
+    "openAliasVaultToUpgrade": "Apri VelixVault per aggiornare",
     "vaultUpgradeRequired": "Aggiornamento della cassaforte richiesto.",
     "dismissPopup": "Chiudi finestra",
     "noTotpItemsFound": "Nessun codice 2FA trovato",
     "close": "Chiudi",
     "savePrompt": {
-      "title": "Salvare su AliasVault?",
+      "title": "Salvare su VelixVault?",
       "neverForThisSite": "Mai per questo sito",
       "addUrlTitle": "Aggiungere URL alle credenziali?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Nome Cartella",
     "folderNameRequired": "Il nome della cartella è obbligatorio",
     "folder": "Cartella",
-    "welcomeTitle": "Benvenuto in AliasVault!",
-    "welcomeDescription": "Per usare l'estensione browser AliasVault: naviga su un sito e usa la finestra di compilazione automatica per creare una nuova credenziale.",
+    "welcomeTitle": "Benvenuto in VelixVault!",
+    "welcomeDescription": "Per usare l'estensione browser VelixVault: naviga su un sito e usa la finestra di compilazione automatica per creare una nuova credenziale.",
     "currentSiteMatch": "Per {{domain}}",
     "numberOfItemMatchesFound": "{{count}} elementi trovati",
     "noMatchingItems": "Nessun elemento corrisponde ai filtri selezionati",
@@ -269,7 +269,7 @@
       "Suffix": "Suffisso"
     },
     "privateEmailTitle": "Email Privata",
-    "privateEmailAliasVaultServer": "Server AliasVault",
+    "privateEmailAliasVaultServer": "Server VelixVault",
     "privateEmailDescription": "E2E crittografato, completamente privato.",
     "publicEmailTitle": "Fornitori Pubblici di Email Temporanee",
     "publicEmailDescription": "Anonimi ma con privacy ridotta. Accessibile a chiunque conosca l'indirizzo.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 ore",
     "autoLock8Hours": "8 ore",
     "autoLock24Hours": "24 ore",
+    "sourceCode": "Codice sorgente",
     "versionPrefix": "Versione app",
     "serverVersion": "Versione server",
     "autofillSettings": "Impostazioni di riempimento automatico",
     "clipboardSettings": "Impostazioni appunti",
     "contextMenuSettings": "Preferenze menu contestuale",
     "passkeySettings": "Impostazioni Passkey",
-    "contextMenuDescription": "Click destro sui campi di input per accedere alle opzioni di AliasVault",
+    "contextMenuDescription": "Click destro sui campi di input per accedere alle opzioni di VelixVault",
     "selectLanguage": "Seleziona la lingua",
     "serverConfiguration": "Configurazione del server",
-    "serverConfigurationDescription": "Configurare l'URL del server AliasVault per le istanze self-hosted",
+    "serverConfigurationDescription": "Configurare l'URL del server VelixVault per le istanze self-hosted",
     "customApiUrl": "API URL",
     "customClientUrl": "Url Client",
     "apiUrlHint": "L'URL endpoint API (di solito URL client + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Allega questa passkey a una credenziale di accesso esistente per questo sito.",
       "attachingToCredential": "Aggiunta passkey a: {{serviceName}}",
       "attachPasskey": "Aggiungi Passkey",
-      "unsupportedAlgorithm": "Questo sito web richiede un tipo di passkey che AliasVault non supporta."
+      "unsupportedAlgorithm": "Questo sito web richiede un tipo di passkey che VelixVault non supporta."
     },
     "settings": {
       "passkeyProvider": "Provider Passkey",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Aggiorna Cassaforte",
-    "subtitle": "AliasVault è stato aggiornato e la tua cassaforte deve essere aggiornata. Dovrebbe richiedere solo pochi secondi.",
+    "subtitle": "VelixVault è stato aggiornato e la tua cassaforte deve essere aggiornata. Dovrebbe richiedere solo pochi secondi.",
     "versionInformation": "Informazioni sulla versione",
     "yourVault": "Versione della tua cassaforte:",
     "newVersion": "Nuova versione disponibile:",

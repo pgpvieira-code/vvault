@@ -67,7 +67,7 @@
     <comment>Modal title for mobile unlock feature</comment>
   </data>
   <data name="ScanQrCodeDescription" xml:space="preserve">
-    <value>Olvassa be ezt a QR kódot az AliasVault applikációjával a bejelentkezéshez és széf feloldáshoz.</value>
+    <value>Olvassa be ezt a QR kódot az VelixVault applikációjával a bejelentkezéshez és széf feloldáshoz.</value>
     <comment>Description instructing user to scan QR code</comment>
   </data>
 </root>

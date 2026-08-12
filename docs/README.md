@@ -1,6 +1,6 @@
-# AliasVault documentation
+# VelixVault documentation
 
-The documentation site for AliasVault ([docs.aliasvault.com](https://docs.aliasvault.com)),
+The documentation site for VelixVault ([docs.aliasvault.com](https://docs.aliasvault.com)),
 built with [Docusaurus](https://docusaurus.io/).
 
 ## Run locally (development)

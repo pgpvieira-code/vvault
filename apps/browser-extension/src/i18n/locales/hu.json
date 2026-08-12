@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Belépés az AliasVault-ba",
+    "loginTitle": "Belépés az VelixVault-ba",
     "username": "Felhasználónév vagy e-mail",
     "usernamePlaceholder": "név / név@cégnév.hu",
     "passwordPlaceholder": "Adja meg jalszavát",
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Széf módosítások összefésülése...",
     "uploadingVault": "Széf feltöltése...",
     "errors": {
-      "serverNotAvailable": "Az AliasVault szerver nem elérhető. Kérem próbálkozzon újra később, és forduljon az ügyfélszolgálathoz ha továbbra is fennáll a hiba.",
+      "serverNotAvailable": "Az VelixVault szerver nem elérhető. Kérem próbálkozzon újra később, és forduljon az ügyfélszolgálathoz ha továbbra is fennáll a hiba.",
       "clientVersionNotSupported": "A szerver nem támogatja ezt a verziószámú bővítményt. Kérem, frissítse a legújabb verzióra a bővítményét.",
       "browserExtensionOutdated": "A bővítmény verziója túl régi, ahhoz hogy be tudjon lépni a széfjébe. Kérem frissítse a bővítményét a folytatáshoz.",
       "serverVersionNotSupported": "A bővítmény használatához a szervert frissíteni kell. Vegye fel az ügyfélszolgálattal a kapcsolatot, ha szüksége van segítségre.",
-      "serverVersionTooOld": "A funkció használatához az AliasVault szerverét frissíteni kell egy új verzióra. Kérem, lépjen kapcsolatba szerver rendszergazdájával a további segítségért.",
+      "serverVersionTooOld": "A funkció használatához az VelixVault szerverét frissíteni kell egy új verzióra. Kérem, lépjen kapcsolatba szerver rendszergazdájával a további segítségért.",
       "unknownError": "Ismeretlen hiba lépett fel",
       "unknownErrorTryAgain": "Egy ismeretlen hiba lépett fel. Próbálkozzon újra.",
       "vaultNotAvailable": "Széf nem elérhető",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "Túl nagy a széf a befogadásra. Próbáljon meg eltávolítani egyes elemeket vagy csatolmányokat a méret csökkentéséhez, majd próbálja újra.",
       "vaultSyncTimeout": "A széf szinkronizálás időtúllépés miatt leállt. Ez akkor fordulhat elő, ha az internet lassú vagy a széf túl nagy. Kérem próbálja újra.",
       "invalidCode": "Kérem adjon meg egy valós 6 számjegyű kódot.",
-      "serverError": "Az AliasVault szerverek nem elérhetőek. Kérem próbálkozzon később, vagy keresse fel az ügyfélszolgálatot ha a probléma továbbra is fent áll.",
+      "serverError": "Az VelixVault szerverek nem elérhetőek. Kérem próbálkozzon később, vagy keresse fel az ügyfélszolgálatot ha a probléma továbbra is fent áll.",
       "wrongPassword": "Hibás jelszó. Próbálkozzon újra.",
       "sessionExpired": "A munkamenete lejárt. Kérem, jelentkezzen be újra.",
       "mobileLoginRequestExpired": "A mobil belépési kérelem lejárt. Kérem, frissítse az oldalt, és próbálja újra."
@@ -148,7 +148,7 @@
   "content": {
     "or": "vagy",
     "new": "Új",
-    "vaultLocked": "Az AliasVault le van zárva.",
+    "vaultLocked": "Az VelixVault le van zárva.",
     "creatingNewAlias": "Új alias létrehozása",
     "creatingNewCredential": "Új bejegyzés létrehozása",
     "noMatchesFound": "Nincs találat",
@@ -165,7 +165,7 @@
     "usernamePassword": "Felhasználónév/jelszó",
     "createAndSaveAlias": "Alias létrehozása és mentése",
     "createAndSaveCredential": "Bejegyzés létrehozása és mentése",
-    "randomIdentityDescription": "Az AliasVault-on elérhető véletlenszerű személyazonosság és e-mail cím generálása.",
+    "randomIdentityDescription": "Az VelixVault-on elérhető véletlenszerű személyazonosság és e-mail cím generálása.",
     "randomIdentityDescriptionDropdown": "Véletlenszerű személyazonosság és e-mail cím",
     "manualCredentialDescription": "Adja meg saját e-mail címét és felhasználónevét.",
     "manualCredentialDescriptionDropdown": "Felhasználónév és jelszó megadása kézzel",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Új jelszó generálása",
     "togglePasswordVisibility": "Jelszó láthatósága",
     "passwordCopiedToClipboard": "Jelszó a vágólapra másolva",
-    "openAliasVaultToUpgrade": "A frissítéshez nyissa meg az AliasVault-ot",
+    "openAliasVaultToUpgrade": "A frissítéshez nyissa meg az VelixVault-ot",
     "vaultUpgradeRequired": "Széf frissítés szükséges.",
     "dismissPopup": "Felugró ablak figyelmen kívül hagyása",
     "noTotpItemsFound": "Nem található megfelelő kétlépcsős kód",
     "close": "Bezár",
     "savePrompt": {
-      "title": "Mentés az AliasVault-ba?",
+      "title": "Mentés az VelixVault-ba?",
       "neverForThisSite": "Ehhez az oldlhoz soha",
       "addUrlTitle": "Cím hozzáadása a bejegyzésekhez?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Mappa neve",
     "folderNameRequired": "Mappa név megadása szükséges",
     "folder": "Mappa",
-    "welcomeTitle": "Üdvözöljük az AliasVault-ban!",
-    "welcomeDescription": "Az AliasVault böngésző bővítmény kezeléséhez navigáljon egy oldalra, és használja az AliasVault kitöltés felugró panelt az új bejegyzés létrehozásához.",
+    "welcomeTitle": "Üdvözöljük az VelixVault-ban!",
+    "welcomeDescription": "Az VelixVault böngésző bővítmény kezeléséhez navigáljon egy oldalra, és használja az VelixVault kitöltés felugró panelt az új bejegyzés létrehozásához.",
     "currentSiteMatch": "{{domain}} tartományhoz",
     "numberOfItemMatchesFound": "{{count}} talált elem",
     "noMatchingItems": "Egyetlen elem sem felel meg a kiválasztott szűrőnek.",
@@ -269,7 +269,7 @@
       "Suffix": "Utótag"
     },
     "privateEmailTitle": "Privát e-mail",
-    "privateEmailAliasVaultServer": "AliasVault szerver",
+    "privateEmailAliasVaultServer": "VelixVault szerver",
     "privateEmailDescription": "E2E kódolású, teljesen bizalmas.",
     "publicEmailTitle": "Publikus ideiglenes e-mail fiók szolgáltatók",
     "publicEmailDescription": "Anonim de limitáltan bizalmas. Tartalma olvasható bárki számára aki ismeri az e-mail címét.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 óra",
     "autoLock8Hours": "8 óra",
     "autoLock24Hours": "24 óra",
+    "sourceCode": "Forráskód",
     "versionPrefix": "App verzió",
     "serverVersion": "Szerver verzió",
     "autofillSettings": "Kitöltés beállítások",
     "clipboardSettings": "Vágólap beállítások",
     "contextMenuSettings": "Kontextus menü beállítások",
     "passkeySettings": "Azonosítókulcs beállítások",
-    "contextMenuDescription": "Kattintson jobb egér gombbal a mezőre az AliasVault beállításokhoz",
+    "contextMenuDescription": "Kattintson jobb egér gombbal a mezőre az VelixVault beállításokhoz",
     "selectLanguage": "Nyelv kiválasztása",
     "serverConfiguration": "Szerver konfiguráció",
-    "serverConfigurationDescription": "AliasVault szerver webcím konfigurálása saját üzemeltetés esetén",
+    "serverConfigurationDescription": "VelixVault szerver webcím konfigurálása saját üzemeltetés esetén",
     "customApiUrl": "API webcím",
     "customClientUrl": "Kliens webcím",
     "apiUrlHint": "Az API végpont webcím (többnyire kliens webcím + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Egy már az oldalhoz tartozó elemhez való csatolás.",
       "attachingToCredential": "Hozzáadás a(z) {{serviceName}} oldalhoz",
       "attachPasskey": "Azonosítókulcs hozzáadása",
-      "unsupportedAlgorithm": "Az oldalhoz tartozó azonosítókulcsot nem támogatja az AliasVault."
+      "unsupportedAlgorithm": "Az oldalhoz tartozó azonosítókulcsot nem támogatja az VelixVault."
     },
     "settings": {
       "passkeyProvider": "Azonosítókulcs kiszolgáló",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Széf frissítése",
-    "subtitle": "Az AliasVault frissült, ezért a széfet is frissíteni kell. Ez csak pár másodpercig tart.",
+    "subtitle": "Az VelixVault frissült, ezért a széfet is frissíteni kell. Ez csak pár másodpercig tart.",
     "versionInformation": "Verzió információ",
     "yourVault": "A széf verziója:",
     "newVersion": "Legújabb elérhető verzió:",

@@ -75,7 +75,7 @@
     <comment>Refresh button text</comment>
   </data>
   <data name="NoEmailClaimsMessage" xml:space="preserve">
-    <value>Du bruger ikke nogen private e-mailadresser (endnu). Opret et nyt alias og brug en privat e-mailadresse som understøttes af AliasVault. Alle e-mails modtaget af disse private e-mailadresser vil blive vist her.</value>
+    <value>Du bruger ikke nogen private e-mailadresser (endnu). Opret et nyt alias og brug en privat e-mailadresse som understøttes af VelixVault. Alle e-mails modtaget af disse private e-mailadresser vil blive vist her.</value>
     <comment>Message when no email addresses are configured</comment>
   </data>
   <data name="NoEmailsReceivedMessage" xml:space="preserve">

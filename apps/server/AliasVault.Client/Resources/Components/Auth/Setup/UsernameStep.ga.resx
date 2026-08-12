@@ -21,7 +21,7 @@
   </xsd:schema>
   <!-- Assistant messages -->
   <data name="GreatNowLetsSetupUsername">
-    <value>Go hiontach! Anois, socraímis d'ainm úsáideora le haghaidh AliasVault.</value>
+    <value>Go hiontach! Anois, socraímis d'ainm úsáideora le haghaidh VelixVault.</value>
     <comment>Assistant message about setting up username</comment>
   </data>
   <data name="EnterUsernameInstructions">
@@ -55,12 +55,12 @@
     <comment>Error message when username is empty</comment>
   </data>
   <data name="ServerCommunicationError">
-    <value>Tharla earráid le linn cumarsáide leis an bhfreastalaí AliasVault.</value>
+    <value>Tharla earráid le linn cumarsáide leis an bhfreastalaí VelixVault.</value>
     <comment>Error message for server communication issues</comment>
   </data>
   <!-- Alt text -->
   <data name="AssistantAvatarAlt">
-    <value>Cúntóir AliasVault</value>
+    <value>Cúntóir VelixVault</value>
     <comment>Alt text for assistant avatar image</comment>
   </data>
 </root>

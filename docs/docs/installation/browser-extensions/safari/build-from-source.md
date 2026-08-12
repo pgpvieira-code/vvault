@@ -4,7 +4,7 @@ sidebar_label: "Build from Source"
 ---
 # Building Safari Extension from Source
 
-This guide explains how to build and install the AliasVault Safari extension from source code.
+This guide explains how to build and install the VelixVault Safari extension from source code.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ This guide explains how to build and install the AliasVault Safari extension fro
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/aliasvault/aliasvault.git
+git clone https://github.com/pgpvieira-code/velixvault.git
 ```
 
 2. Navigate to the Browser Extension directory:
@@ -34,15 +34,15 @@ npm install
 npm run build:safari
 ```
 
-5. Open Xcode and open the `apps/browser-extension/safari-xcode/AliasVault.xcodeproj` file
+5. Open Xcode and open the `apps/browser-extension/safari-xcode/VelixVault.xcodeproj` file
 
-6. Run the project. This will open up the AliasVault MacOS wrapper app and automatically install the extension to your Safari Extensions list.
+6. Run the project. This will open up the VelixVault MacOS wrapper app and automatically install the extension to your Safari Extensions list.
 
 ## Installing and enabling the extension in Safari
 
 1. Open Safari and go to menu > Safari > Settings
 2. Click on the "Extensions" tab
-3. Enable the AliasVault extension. If the extension is not visible, then you may need to enable developer mode in Safari settings first to allow unsigned extensions to run.
+3. Enable the VelixVault extension. If the extension is not visible, then you may need to enable developer mode in Safari settings first to allow unsigned extensions to run.
 
 ## Development Mode (Optional)
 

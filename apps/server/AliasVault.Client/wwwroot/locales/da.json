@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "AliasVault indlæser",
-    "message": "Initialiserer sikkert miljø. AliasVault prioriterer dit privatliv ved at køre udelukkende i din browser. Den første indlæsning kan tage et øjeblik.",
+    "title": "VelixVault indlæser",
+    "message": "Initialiserer sikkert miljø. VelixVault prioriterer dit privatliv ved at køre udelukkende i din browser. Den første indlæsning kan tage et øjeblik.",
     "refreshText": "Hvis indlæsningen ser ud til at sidde fast, kan du klikke på knappen nedenfor for at opdatere siden.",
     "refreshButtonText": "Opdater side"
   },
   "errors": {
     "unhandledError": "Der opstod en uventet fejl. Prøv venligst at genindlæse siden. Hvis problemet fortsætter, bedes du kontakte support.",
-    "webAssemblyError": "AliasVault kræver WebAssembly, som denne browser ikke understøtter. Prøv at bruge en mere moderne browser, der understøtter WebAssembly.",
+    "webAssemblyError": "VelixVault kræver WebAssembly, som denne browser ikke understøtter. Prøv at bruge en mere moderne browser, der understøtter WebAssembly.",
     "reloadPageText": "Genindlæs side"
   },
   "quotes": {

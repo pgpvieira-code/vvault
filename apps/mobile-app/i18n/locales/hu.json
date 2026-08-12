@@ -35,7 +35,7 @@
       "unknownError": "Ismeretlen hiba lépett fel.",
       "unknownErrorTryAgain": "Egy ismeretlen hiba lépett fel. Próbálkozzon újra.",
       "vaultTooLarge": "Túl nagy a széf a befogadásra. Próbáljon meg eltávolítani egyes elemeket vagy csatolmányokat a méret csökkentéséhez, majd próbálja újra.",
-      "serverVersionTooOld": "Az AliasVault szerverét frissíteni kell egy új verzióra ha akarja használni ezt a funkciót. Kérem lépjen kapcsolatba szerver adminjával további segítségért."
+      "serverVersionTooOld": "Az VelixVault szerverét frissíteni kell egy új verzióra ha akarja használni ezt a funkciót. Kérem lépjen kapcsolatba szerver adminjával további segítségért."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Kérem adjon meg egy valós 6 számjegyű kódot",
       "incorrectPassword": "Hibás jelszó. Kérem, próbálkozzon újra.",
       "enterPassword": "Kérem, adja meg a jelszavát",
-      "serverError": "Az AliasVault szerverek nem elérhetőek. Kérem, próbálkozzon később, vagy keresse fel az ügyfélszolgálatot ha a probléma továbbra is fent áll.",
+      "serverError": "Az VelixVault szerverek nem elérhetőek. Kérem, próbálkozzon később, vagy keresse fel az ügyfélszolgálatot ha a probléma továbbra is fent áll.",
       "serverErrorSelfHosted": "Az API nem elérhető. A saját szerveren üzemeltetés esetén igazolja vissza az API végpont elérést a böngészőn keresztül: 'OK'-nak kell megjelennie.",
       "networkError": "A hálózati kérés sikertelen. Kérem, ellenőrizze internet kapcsolatát, és próbálkozzon újra.",
       "networkErrorSelfHosted": "A hálózati kérés sikertelen. Ellenőrizze hálózati kapcsolatát és a szerver elérhetőséget. Saját szerver üzemeltetés esetén győződjön meg, hogy telepített fel érvényes SSL tanúsítványt. Saját aláírású tanúsítványok nem támogatottak a mobileszközön biztonsági okokból.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Adatbázis titkosítása sikertelen",
       "usernameNotFound": "Felhasználónév nem található",
-      "vaultOutdated": "A széfje túl régi. Lépjen be az AliasVault weboldalra és kövesse az utasításokat.",
+      "vaultOutdated": "A széfje túl régi. Lépjen be az VelixVault weboldalra és kövesse az utasításokat.",
       "failedToSyncVault": "Sikertelen széf szinkronizálás",
       "versionNotSupported": "A szerver már nem támogatja ezt a mobil app verziót. Kérem, frissítse applikációját a legfrissebb verzióra.",
       "serverVersionNotSupported": "A mobil app használatához frissítenie kell a szervert. Kérem, lépjen kapcsolatba az ügyfélszolgálattal ha segítségre van szüksége.",
-      "appOutdated": "Nem tudja használni ezt (az újabb) széf verziót mert mobil applikációja túl régi. Kérem, frissítse az AliasVault applikációt a folytatáshoz.",
+      "appOutdated": "Nem tudja használni ezt (az újabb) széf verziót mert mobil applikációja túl régi. Kérem, frissítse az VelixVault applikációt a folytatáshoz.",
       "passwordChanged": "A jelszava megváltozott a legutóbbi bejelentkezés óta. Kérem, jelentkezzen be újra biztonsági okokból.",
       "passwordChangeRequiresOnline": "A jelszó változtatás internet kapcsolat szükséges. Kérem, próbálja újra ha már online."
     }
@@ -131,13 +131,13 @@
     "title": "Beállítások",
     "autofill": "Kitöltés & Azonosítókulcsok",
     "iosAutofillSettings": {
-      "headerText": "Az AliasVault-ot be tudja úgy állítani, hogy natívan töltse ki a jelszavakat és azonosítókulcsokat az iOS-ben. Kövesse a lenti leírást a beállításhoz.",
+      "headerText": "Az VelixVault-ot be tudja úgy állítani, hogy natívan töltse ki a jelszavakat és azonosítókulcsokat az iOS-ben. Kövesse a lenti leírást a beállításhoz.",
       "passkeyNotice": "Az azonosítókulcsok az iOS-en keresztül készülnek. Ha az AliaVault-ban kívánja tárolni őlet, bizonyosodjon meg, hogy a lenti kitöltés be van kapcsolva.",
       "howToEnable": "Hogyan kapcsolható be a Kitöltés & Azonosítókulcsok:",
       "step1": "1. Nyissa meg az iOS Beállításokat a lenti gombbal",
       "step2": "2. Menjen \"Általános\" részbe",
       "step3": "3. Koppintson a \"Kitöltések & Jelszavak\" opcióra",
-      "step4": "4. \"AliasVault\" bekapcsolása",
+      "step4": "4. \"VelixVault\" bekapcsolása",
       "step5": "5. Minden más szolgáltató kikapcsolása (pl.: \"iCloud Jelszavak\") az összeütközések elkerülésére",
       "openIosSettings": "iOS beállítások megnyitása",
       "alreadyConfigured": "Már beállítottam"
@@ -146,10 +146,10 @@
       "warningTitle": "⚠️ Kísérleti funkció",
       "warningDescription": "Az Android-os kitöltés és azonosítókulcs támogatás jelenleg kísérleti fázisban van.",
       "warningLink": "Itt olvashat róla többet",
-      "headerText": "Az AliasVault-ot be tudja úgy állítani, hogy natívan töltse ki a jelszavakat és azonosítókulcsokat az Android-ban. Kövesse a lenti leírást a beállításhoz.",
-      "passkeyNotice": "Az azonosítókulcsok az Android Bejegyzés Menedzseren keresztül jönnek létre (Android 14+). Ha az AliasVault-ban akarja tárolni, állítsa be a kitöltést.",
+      "headerText": "Az VelixVault-ot be tudja úgy állítani, hogy natívan töltse ki a jelszavakat és azonosítókulcsokat az Android-ban. Kövesse a lenti leírást a beállításhoz.",
+      "passkeyNotice": "Az azonosítókulcsok az Android Bejegyzés Menedzseren keresztül jönnek létre (Android 14+). Ha az VelixVault-ban akarja tárolni, állítsa be a kitöltést.",
       "howToEnable": "Hogyan kapcsolja be a Kitöltés & Azonosítókulcsokat:",
-      "step1": "1. Nyissa meg az Android Beállításokat a lenti gombbal, és válassza ki az \"AliasVault\"-ot a \"Preferált kitöltés szolgáltatás\" menüben",
+      "step1": "1. Nyissa meg az Android Beállításokat a lenti gombbal, és válassza ki az \"VelixVault\"-ot a \"Preferált kitöltés szolgáltatás\" menüben",
       "openAutofillSettings": "Kitöltés beállítások megnyitása",
       "buttonTip": "Ha a fenti gomb nem működik, feltehetően biztonsági okokból tiltásra került. Kézi beavatkozás szükséges, menjen az Android Beállításokba → Általános Kezelés → Jelszavak és kitöltés.",
       "step2": "2. Egyes app-ok, - mint pl. a Google Chrome - kérhetnek utólagos visszaigazolást a harmadik féltől származó kitöltési app miatt. Azonban a legtöbb enélkül is működni fog alapból.",
@@ -164,7 +164,7 @@
     "autoLock": "Auto-zárolás időtúllépés",
     "clipboardClear": "Vágólap ürítése",
     "clipboardClearDescription": "Bizonyos idő után automatikusan törlésre kerülnek a vágólapról a másolt jelszavak és kényes információk.",
-    "clipboardClearAndroidWarning": "Megjegyzés:: Egyes Android eszközöknél be lehet kapcsolva a vágólap történet, amely még a vágólap ürítést követően is tartalmazza az adatokat. Az AliasVault csak a legfrissebb elemet tudja felülírni, de a korábbi adatok hozzáférhetőek lehetnek. Emiatt biztonsági okokból javasoljuk a vágólap történet követésének kikapcsolását eszközén.",
+    "clipboardClearAndroidWarning": "Megjegyzés:: Egyes Android eszközöknél be lehet kapcsolva a vágólap történet, amely még a vágólap ürítést követően is tartalmazza az adatokat. Az VelixVault csak a legfrissebb elemet tudja felülírni, de a korábbi adatok hozzáférhetőek lehetnek. Emiatt biztonsági okokból javasoljuk a vágólap történet követésének kikapcsolását eszközén.",
     "clipboardLocalOnly": "Csak helyi vágólap",
     "clipboardLocalOnlyDescription": "Maradjanak a másolt bejegyzések az eszközön, és nem szinkronizálódjanak a többi Apple eszközre az Univerzális Vágólap segítségével.",
     "clipboardLocalOnlyDisabledWarning": "Ha ez kikapcsolja, a másolt bejegyzések szinkronizálhatóak lesznek a többi Apple eszközével (Mac, iPad, stb.) Univerzális Vágólapon.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Háttér vágólap tisztítás bekapcsolása",
     "batteryOptimizationActive": "Akkumulátor optimalizáció blokkolja a háttérben való futást",
     "batteryOptimizationDisabled": "Háttér vágólap törlés bekapcsolva",
-    "batteryOptimizationHelpDescription": "Az Android rendszer akkumulátor optimalizálása akadályozza a megfelelő vágólap ürítést ha az app a háttérben van. Az AliasVault akkumulátor optimalizálás kikapcsolásával biztosíthatja a megfelelő vágólap használatot és a szükséges riasztási engedélyeket.",
+    "batteryOptimizationHelpDescription": "Az Android rendszer akkumulátor optimalizálása akadályozza a megfelelő vágólap ürítést ha az app a háttérben van. Az VelixVault akkumulátor optimalizálás kikapcsolásával biztosíthatja a megfelelő vágólap használatot és a szükséges riasztási engedélyeket.",
     "disableBatteryOptimization": "Az akkumulátor optimalizálás kikapcsolása",
     "identityGenerator": "Személyiség Generátor",
     "passwordGenerator": "Jelszó Generátor",
     "importExport": "Importálás / Exportálás",
     "importSectionTitle": "Importálás",
-    "importSectionDescription": "Importálja be jelszavait egy másik jelszókezelőből, vagy egy korábbi AliasVault exportból.",
+    "importSectionDescription": "Importálja be jelszavait egy másik jelszókezelőből, vagy egy korábbi VelixVault exportból.",
     "importWebNote": "Ahhoz, hogy más jelszókezelőkből tudjon importálni, be kell jelentkeznie a webes felületre. Az importálás sajnos jelenleg még csak a weben érhető el.",
     "exportSectionTitle": "Exportálás",
     "exportSectionDescription": "Exportálja széfét egy CSV fájlba. Biztonsági mentésként is használhatja, vagy importálhatja más jelszókezelőkbe is.",
@@ -196,6 +196,7 @@
       "exportDescription": "Biztonsági okokból kérem adja meg a mester jelszót az exportálás engedélyezéséhez."
     },
     "security": "Biztonság",
+    "sourceCode": "Forráskód",
     "appVersion": "App verzió",
     "serverVersion": "Szerver verzió",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 óra"
     },
     "language": "Nyelv",
-    "languageSystemMessage": "Az app nyelvváltáshoz az eszköz beállításokban változtassa meg az AliasVault nyelvét.",
+    "languageSystemMessage": "Az app nyelvváltáshoz az eszköz beállításokban változtassa meg az VelixVault nyelvét.",
     "openSettings": "Beállítások megnyitása",
     "vaultUnlockSettings": {
       "description": "Válassza ki, hogy akarja feloldani széfjét.",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "Arc ID / Érintés ID",
       "biometricEnabled": "{{biometric}} sikeresen aktiválva",
       "biometricNotAvailable": "{{biometric}} nem elérhető",
-      "biometricDisabledMessage": "A {{biometric}} kikapcsolásra kerüt az AliasVault-ban. Ha használni akarja, kapcsolja be az eszközén a beállításokban.",
+      "biometricDisabledMessage": "A {{biometric}} kikapcsolásra kerüt az VelixVault-ban. Ha használni akarja, kapcsolja be az eszközén a beállításokban.",
       "biometricHelp": "A {{keystore}} által biztosított biometria használata a széf feloldáshoz.",
       "biometricUnavailableHelp": "A {{biometric}} nem elérhető. Koppintson a beállításhoz, vagy kézileg menjen be a készülék mbeállítások közé.",
       "featureRequiresPasscode": "Ehhez a funkcióhoz eszközén be kell kapcsolnia a képernyőzárat.",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "QR kód olvasó",
-      "scanningMessage": "AliasVault QR kód beolvasása",
+      "scanningMessage": "VelixVault QR kód beolvasása",
       "mobileLogin": {
         "confirmTitle": "Bejelentkezési kérelem jóváhagyása",
         "confirmSubtitle": "Hitelesítsen újra a más eszközön való belépés jóváhagyásáért.",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "Email előtag megadása",
     "selectEmailDomain": "E-mail tartomány kiválasztása",
     "privateEmailTitle": "Privát e-mail",
-    "privateEmailAliasVaultServer": "AliasVault szerver",
+    "privateEmailAliasVaultServer": "VelixVault szerver",
     "privateEmailDescription": "E2E kódolású, teljesen bizalmas.",
     "publicEmailTitle": "Publikus ideiglenes e-mail fiók szolgáltatók",
     "publicEmailDescription": "Anonim de limitáltan bizalmas. Tartalma olvasható bárki számára aki ismeri az e-mail címét.",
@@ -670,7 +671,7 @@
       "message": "Az oldal áthelyezésre vagy törlésre került.",
       "goHome": "Ugrás a kezdéshez"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Időtúllépés miatt a széf automatikusan lezárt.",
       "attemptingToUnlockMessage": "Feloldás megpróbálása."
@@ -690,7 +691,7 @@
       "version": "{{version}} verzió",
       "advancedSettings": "Haladó beállítások",
       "customProxyHeaders": "Egyedi proxy header-ök",
-      "customProxyHeadersDescription": "Adja meg a HTTP header-öket, amelyek küldésre kerülnek az AliasVault szerver felé a kérések során. Olyan saját üzemeltetésű saját fordított proxy esetén használható amely egyedi header-öket ellenőriz (pl. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Adja meg a HTTP header-öket, amelyek küldésre kerülnek az VelixVault szerver felé a kérések során. Olyan saját üzemeltetésű saját fordított proxy esetén használható amely egyedi header-öket ellenőriz (pl. Pangolin, Cloudflare Access).",
       "headerName": "Header név",
       "headerNamePlaceholder": "X-Egyedi-Header",
       "headerValue": "Header érték"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "Széf frissítése",
-    "subtitle": "Az AliasVault frissült, ezért a széfet is frissíteni kell. Ez csak pár másodpercig tart.",
+    "subtitle": "Az VelixVault frissült, ezért a széfet is frissíteni kell. Ez csak pár másodpercig tart.",
     "versionInformation": "Verzió információ",
     "yourVault": "A széf verziója:",
     "newVersion": "Legújabb elérhető verzió:",

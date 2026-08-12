@@ -63,7 +63,7 @@
     <comment>Title for vault upgrade process</comment>
   </data>
   <data name="UpgradeDescription" xml:space="preserve">
-    <value>AliasVault 已更新，您的密码库需要升级。这只需几秒钟时间。</value>
+    <value>VelixVault 已更新，您的密码库需要升级。这只需几秒钟时间。</value>
     <comment>Description of vault upgrade process</comment>
   </data>
   <data name="VersionInformationTitle" xml:space="preserve">

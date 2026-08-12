@@ -35,7 +35,7 @@
       "unknownError": "Se produjo un error desconocido.",
       "unknownErrorTryAgain": "Se ha producido un error desconocido. Por favor, inténtelo de nuevo.",
       "vaultTooLarge": "La bóveda es demasiado grande para que el servidor lo acepte. Intente eliminar algunos elementos o archivos adjuntos para reducir el tamaño y vuelva a intentarlo.",
-      "serverVersionTooOld": "El servidor AliasVault necesita ser actualizado a una versión más reciente para poder utilizar esta característica. Por favor, contacte con el administrador del servidor si necesita ayuda."
+      "serverVersionTooOld": "El servidor VelixVault necesita ser actualizado a una versión más reciente para poder utilizar esta característica. Por favor, contacte con el administrador del servidor si necesita ayuda."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Por favor, introduzca un código de autenticación de 6 dígitos válido",
       "incorrectPassword": "Contraseña incorrecta. Por favor, inténtelo de nuevo.",
       "enterPassword": "Por favor, introduzca su contraseña",
-      "serverError": "No se pudo llegar al servidor AliasVault. Por favor, inténtelo de nuevo más tarde o póngase en contacto con el soporte si el problema persiste.",
+      "serverError": "No se pudo llegar al servidor VelixVault. Por favor, inténtelo de nuevo más tarde o póngase en contacto con el soporte si el problema persiste.",
       "serverErrorSelfHosted": "No se pudo llegar a la API. Para instancias autoalojadas, por favor verifique que el endpoint de la API es accesible navegando por él en un navegador: debería mostrar 'OK'.",
       "networkError": "Falló la solicitud de red. Compruebe su conexión a internet e inténtelo de nuevo.",
       "networkErrorSelfHosted": "Falló la solicitud de red. Compruebe su conexión de red y la disponibilidad del servidor. Para instancias autoalojadas, asegúrese de tener un certificado SSL válido. Los certificados autofirmados no son compatibles con dispositivos móviles por razones de seguridad.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Error al obtener la base de datos cifrada",
       "usernameNotFound": "Nombre de usuario no encontrado",
-      "vaultOutdated": "Tu bóveda está desactualizada. Por favor, inicia sesión en el sitio web de AliasVault y sigue los pasos.",
+      "vaultOutdated": "Tu bóveda está desactualizada. Por favor, inicia sesión en el sitio web de VelixVault y sigue los pasos.",
       "failedToSyncVault": "Error al sincronizar bóveda",
-      "versionNotSupported": "El servidor ya no admite esta versión de la aplicación móvil AliasVault. Por favor, actualice su aplicación a la última versión.",
-      "serverVersionNotSupported": "El servidor AliasVault necesita ser actualizado a una nueva versión para poder usar esta aplicación móvil. Contacte con soporte si necesita ayuda.",
-      "appOutdated": "Esta aplicación está desactualizada y no se puede utilizar para acceder a esta versión (nueva) de la bóveda. Por favor, actualice la aplicación AliasVault para continuar.",
+      "versionNotSupported": "El servidor ya no admite esta versión de la aplicación móvil VelixVault. Por favor, actualice su aplicación a la última versión.",
+      "serverVersionNotSupported": "El servidor VelixVault necesita ser actualizado a una nueva versión para poder usar esta aplicación móvil. Contacte con soporte si necesita ayuda.",
+      "appOutdated": "Esta aplicación está desactualizada y no se puede utilizar para acceder a esta versión (nueva) de la bóveda. Por favor, actualice la aplicación VelixVault para continuar.",
       "passwordChanged": "Tu contraseña ha cambiado desde la última vez que iniciaste sesión. Por favor, inicia sesión de nuevo por razones de seguridad.",
       "passwordChangeRequiresOnline": "El cambio de contraseña requiere una conexión a Internet. Por favor, inténtalo de nuevo cuando esté conectado."
     }
@@ -131,13 +131,13 @@
     "title": "Ajustes",
     "autofill": "Autorelleno y llaves de acceso",
     "iosAutofillSettings": {
-      "headerText": "Puede configurar AliasVault para que proporcione la funcionalidad nativa de contraseña y de autocompletado de contraseñas en iOS. Siga las instrucciones de abajo para habilitarlo.",
-      "passkeyNotice": "Las claves de acceso se crean a través de iOS. Para almacenarlas en AliasVault, asegúrese de que el Autocompletado a continuación está habilitado.",
+      "headerText": "Puede configurar VelixVault para que proporcione la funcionalidad nativa de contraseña y de autocompletado de contraseñas en iOS. Siga las instrucciones de abajo para habilitarlo.",
+      "passkeyNotice": "Las claves de acceso se crean a través de iOS. Para almacenarlas en VelixVault, asegúrese de que el Autocompletado a continuación está habilitado.",
       "howToEnable": "Cómo habilitar Autocompletar y llaves de acceso:",
       "step1": "1. Abre los ajustes de iOS a través del botón de abajo",
       "step2": "2. Ir a \"General\"",
       "step3": "3. Pulsa en \"Autorelleno y contraseñas\"",
-      "step4": "4. Activar \"AliasVault\"",
+      "step4": "4. Activar \"VelixVault\"",
       "step5": "5. Desactivar otros proveedores de contraseñas (por ejemplo, \"contraseñas iCloud\") para evitar conflictos",
       "openIosSettings": "Abrir ajustes de iOS",
       "alreadyConfigured": "Ya lo he configurado"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Característica experimental",
       "warningDescription": "El soporte de autorrelleno y llave de acceso para Android está actualmente en un estado experimental.",
       "warningLink": "Leer más sobre esto aquí",
-      "headerText": "Puede configurar AliasVault para que proporcione la funcionalidad nativa de contraseña y de autorrelleno de contraseñas en Android. Siga las instrucciones de abajo para habilitarlo.",
-      "passkeyNotice": "Las claves de acceso se crean a través de Android Credential Manager (Android 14+). Para almacenarlas en AliasVault, asegúrese de que el autorrelleno a continuación está habilitado.",
+      "headerText": "Puede configurar VelixVault para que proporcione la funcionalidad nativa de contraseña y de autorrelleno de contraseñas en Android. Siga las instrucciones de abajo para habilitarlo.",
+      "passkeyNotice": "Las claves de acceso se crean a través de Android Credential Manager (Android 14+). Para almacenarlas en VelixVault, asegúrese de que el autorrelleno a continuación está habilitado.",
       "howToEnable": "Cómo habilitar Autorellenar y llaves de acceso:",
-      "step1": "1. Abre la configuración de Android a través del botón de abajo, y cambia el \"servicio preferido de autorrelleno\" a \"AliasVault\"",
+      "step1": "1. Abre la configuración de Android a través del botón de abajo, y cambia el \"servicio preferido de autorrelleno\" a \"VelixVault\"",
       "openAutofillSettings": "Abrir opciones de autorellenado",
       "buttonTip": "Si el botón de arriba no funciona, podría ser por el bloqueo de los ajustes de seguridad. Puede ir manualmente a Ajustes de Android → Gestión General → Contraseñas y autocompletar.",
       "step2": "2. Algunas aplicaciones, por ejemplo, Google Chrome, pueden requerir configuración manual en sus ajustes para permitir aplicaciones de relleno automático de terceros. Sin embargo, la mayoría de las aplicaciones deberían funcionar con autorrelleno de forma predeterminada.",
       "alreadyConfigured": "Ya lo he configurado",
       "showSearchText": "Mostrar texto de búsqueda",
-      "showSearchTextDescription": "Incluye el texto que recibe AliasVault de Android para buscar una credencial coincidente"
+      "showSearchTextDescription": "Incluye el texto que recibe VelixVault de Android para buscar una credencial coincidente"
     },
     "advancedOptions": "Opciones Avanzadas",
     "copyTotpOnFill": "Copiar código TOTP al autorrelleno",
@@ -164,7 +164,7 @@
     "autoLock": "Tiempo de bloqueo automático",
     "clipboardClear": "Limpiar portapapeles",
     "clipboardClearDescription": "Limpiar automáticamente las contraseñas copiadas e información sensible del portapapeles después de un período de tiempo especificado.",
-    "clipboardClearAndroidWarning": "Nota: algunos dispositivos Android tienen el historial del portapapeles activado, que puede llevar un seguimiento de elementos previamente copiados, incluso después de que AliasVault borre el portapapeles. AliasVault sólo puede sobrescribir el elemento más reciente, pero las entradas más antiguas pueden seguir siendo visibles en la historia. Por razones de seguridad, recomendamos desactivar cualquier característica del historial del portapapeles en la configuración del dispositivo.",
+    "clipboardClearAndroidWarning": "Nota: algunos dispositivos Android tienen el historial del portapapeles activado, que puede llevar un seguimiento de elementos previamente copiados, incluso después de que VelixVault borre el portapapeles. VelixVault sólo puede sobrescribir el elemento más reciente, pero las entradas más antiguas pueden seguir siendo visibles en la historia. Por razones de seguridad, recomendamos desactivar cualquier característica del historial del portapapeles en la configuración del dispositivo.",
     "clipboardLocalOnly": "Solo portapapeles locales",
     "clipboardLocalOnlyDescription": "Mantén las credenciales copiadas en este dispositivo en lugar de sincronizarlas con tus otros dispositivos Apple a través del Portapapeles Universal.",
     "clipboardLocalOnlyDisabledWarning": "Con esto desactivado, las credenciales copiadas pueden sincronizarse a tus otros dispositivos Apple (Mac, iPad, etc.) a través del Portapapeles Universal.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Activar limpieza del portapapeles en segundo plano",
     "batteryOptimizationActive": "La optimización de la batería está bloqueando las tareas en segundo plano",
     "batteryOptimizationDisabled": "Limpieza del portapapeles en segundo plano habilitada",
-    "batteryOptimizationHelpDescription": "La optimización de la batería de Android previene la limpieza segura del portapapeles cuando la aplicación está en segundo plano. Deshabilitar la optimización de la batería para AliasVault permite la limpieza precisa del portapapeles de fondo y automáticamente concede los permisos de alarma necesarios.",
+    "batteryOptimizationHelpDescription": "La optimización de la batería de Android previene la limpieza segura del portapapeles cuando la aplicación está en segundo plano. Deshabilitar la optimización de la batería para VelixVault permite la limpieza precisa del portapapeles de fondo y automáticamente concede los permisos de alarma necesarios.",
     "disableBatteryOptimization": "Desactivar la optimización de la batería",
     "identityGenerator": "Generador de identidad",
     "passwordGenerator": "Generador de contraseñas",
     "importExport": "Importar / Exportar",
     "importSectionTitle": "Importar",
-    "importSectionDescription": "Importa tus contraseñas desde otros gestores de contraseñas o desde una exportación anterior de AliasVault.",
+    "importSectionDescription": "Importa tus contraseñas desde otros gestores de contraseñas o desde una exportación anterior de VelixVault.",
     "importWebNote": "Para importar credenciales de administradores de contraseñas existentes, por favor inicie sesión en la aplicación web. La función de importación sólo está disponible en la versión web.",
     "exportSectionTitle": "Exportar",
     "exportSectionDescription": "Exportar sus datos de bóveda a un archivo CSV. Este archivo puede ser utilizado como copia de seguridad y también puede ser importado a otros gestores de contraseñas.",
@@ -196,6 +196,7 @@
       "exportDescription": "Por razones de seguridad, por favor ingrese su contraseña maestra para confirmar esta exportación."
     },
     "security": "Seguridad",
+    "sourceCode": "Código fuente",
     "appVersion": "Versión de la app",
     "serverVersion": "Versión del servidor",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 horas"
     },
     "language": "Idioma",
-    "languageSystemMessage": "Para cambiar el idioma de la aplicación, configure el idioma preferido para AliasVault en la configuración de su dispositivo.",
+    "languageSystemMessage": "Para cambiar el idioma de la aplicación, configure el idioma preferido para VelixVault en la configuración de su dispositivo.",
     "openSettings": "Abrir configuración",
     "vaultUnlockSettings": {
       "description": "Elige cómo quieres desbloquear tu bóveda.",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} ha sido activado con éxito",
       "biometricNotAvailable": "{{biometric}} no disponible",
-      "biometricDisabledMessage": "{{biometric}} está deshabilitado para AliasVault. Para usarlo, por favor habilítelo en la configuración de tu dispositivo.",
+      "biometricDisabledMessage": "{{biometric}} está deshabilitado para VelixVault. Para usarlo, por favor habilítelo en la configuración de tu dispositivo.",
       "biometricHelp": "Usa los datos biométricos para desbloquear tu bóveda que está asegurada por la {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} no está disponible. Toca para abrir ajustes y/o ve a la configuración de tu dispositivo para activarlo y configurarlo.",
       "featureRequiresPasscode": "Esta característica requiere que se habilite un código de acceso en su dispositivo.",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "Lector de códigos QR",
-      "scanningMessage": "Escanear código QR de AliasVault",
+      "scanningMessage": "Escanear código QR de VelixVault",
       "mobileLogin": {
         "confirmTitle": "Confirmar solicitud de acceso",
         "confirmSubtitle": "Volver a autenticar para aprobar el inicio de sesión en otro dispositivo.",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "Introduzca prefijo de correo",
     "selectEmailDomain": "Seleccionar dominio de correo",
     "privateEmailTitle": "Correo electrónico privado",
-    "privateEmailAliasVaultServer": "Servidor AliasVault",
+    "privateEmailAliasVaultServer": "Servidor VelixVault",
     "privateEmailDescription": "E2E cifrado, totalmente privado.",
     "publicEmailTitle": "Proveedores de Correo Temporal Públicos",
     "publicEmailDescription": "Privacidad anónima pero limitada. Contenido de correo electrónico puede ser leído por cualquiera que conozca la dirección.",
@@ -429,7 +430,7 @@
     "noMatchingItems": "No hay elementos que coincidan con el filtro.",
     "noMatchingItemsSearch": "No hay elementos que coincidan con \"{{search}}\"",
     "noMatchingItemsWithFilter": "No hay elementos {{filter}} que coincidan con \"{{search}}\"",
-    "noItemsFound": "No se han encontrado elementos. Crea una para empezar. Consejo: también puedes iniciar sesión en la aplicación web de AliasVault para importar credenciales de otros gestores de contraseñas.",
+    "noItemsFound": "No se han encontrado elementos. Crea una para empezar. Consejo: también puedes iniciar sesión en la aplicación web de VelixVault para importar credenciales de otros gestores de contraseñas.",
     "allItemsInFolders": "Todos sus elementos están organizados en carpetas. Haga clic en una carpeta para ver sus credenciales o utilice la búsqueda para encontrar elementos específicos.",
     "clearSearch": "Limpiar búsqueda",
     "clearFilter": "Eliminar filtros",
@@ -670,7 +671,7 @@
       "message": "Esta página ha sido movida o borrada.",
       "goHome": "Volver al principio"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Bóveda autobloqueada después del tiempo de espera.",
       "attemptingToUnlockMessage": "Intentando desbloquear."
@@ -690,7 +691,7 @@
       "version": "Versión {{version}}",
       "advancedSettings": "Configuración avanzada",
       "customProxyHeaders": "Cabeceras proxy personalizadas",
-      "customProxyHeadersDescription": "Añade cabeceras HTTP que se enviarán con cada petición a tu servidor AliasVault. Puede utilizarse para configuraciones autoalojadas detrás de un proxy inverso, que comprueba cabeceras personalizadas (por ejemplo, Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Añade cabeceras HTTP que se enviarán con cada petición a tu servidor VelixVault. Puede utilizarse para configuraciones autoalojadas detrás de un proxy inverso, que comprueba cabeceras personalizadas (por ejemplo, Pangolin, Cloudflare Access).",
       "headerName": "Nombre del encabezado",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Valor de cabecera"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "Actualizar bóveda",
-    "subtitle": "AliasVault se ha actualizado y tu bóveda necesita ser actualizada. Esto solo debería tardar unos segundos.",
+    "subtitle": "VelixVault se ha actualizado y tu bóveda necesita ser actualizada. Esto solo debería tardar unos segundos.",
     "versionInformation": "Información de versión",
     "yourVault": "Tu versión de bóveda:",
     "newVersion": "Nueva versión disponible:",

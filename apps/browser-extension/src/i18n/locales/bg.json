@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Log in to AliasVault",
+    "loginTitle": "Log in to VelixVault",
     "username": "Потребителско име или имейл",
     "usernamePlaceholder": "name / name@company.com",
     "passwordPlaceholder": "Въведете паролата си",
@@ -29,7 +29,7 @@
     "switchAccounts": "Промяна на акаунта?",
     "loginWithMobile": "Log in using Mobile App",
     "unlockWithMobile": "Unlock using Mobile App",
-    "scanQrCode": "Scan this QR code with your AliasVault mobile app to log in and unlock your vault.",
+    "scanQrCode": "Scan this QR code with your VelixVault mobile app to log in and unlock your vault.",
     "passwordAttemptsWarning": "Incorrect password. You will be logged out if you enter the wrong password {{remainingAttempts}} more times.",
     "maxAttemptsReached": "Too many failed unlock attempts. You have been logged out for security reasons."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Merging vault changes...",
     "uploadingVault": "Uploading vault...",
     "errors": {
-      "serverNotAvailable": "The AliasVault server is not available. Please try again later or contact support if the problem persists.",
-      "clientVersionNotSupported": "This version of the AliasVault browser extension is not supported by the server anymore. Please update your browser extension to the latest version.",
+      "serverNotAvailable": "The VelixVault server is not available. Please try again later or contact support if the problem persists.",
+      "clientVersionNotSupported": "This version of the VelixVault browser extension is not supported by the server anymore. Please update your browser extension to the latest version.",
       "browserExtensionOutdated": "This browser extension is outdated and cannot be used to access this vault. Please update this browser extension to continue.",
-      "serverVersionNotSupported": "The AliasVault server needs to be updated to a newer version in order to use this browser extension. Please contact support if you need help.",
-      "serverVersionTooOld": "The AliasVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help.",
+      "serverVersionNotSupported": "The VelixVault server needs to be updated to a newer version in order to use this browser extension. Please contact support if you need help.",
+      "serverVersionTooOld": "The VelixVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help.",
       "unknownError": "An unknown error occurred",
       "unknownErrorTryAgain": "An unknown error occurred. Please try again.",
       "vaultNotAvailable": "Vault not available",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
       "vaultSyncTimeout": "Vault sync timed out. This can happen when the vault is large or the internet connection is slow. Please try again.",
       "invalidCode": "Please enter a valid 6-digit authentication code.",
-      "serverError": "Could not reach AliasVault server. Please try again later or contact support if the problem persists.",
+      "serverError": "Could not reach VelixVault server. Please try again later or contact support if the problem persists.",
       "wrongPassword": "Incorrect password. Please try again.",
       "sessionExpired": "Your session has expired. Please log in again.",
       "mobileLoginRequestExpired": "Mobile login request timed out. Please reload the page and try again."
@@ -148,7 +148,7 @@
   "content": {
     "or": "или",
     "new": "Нова",
-    "vaultLocked": "AliasVault is locked.",
+    "vaultLocked": "VelixVault is locked.",
     "creatingNewAlias": "Creating new alias",
     "creatingNewCredential": "Creating new credential",
     "noMatchesFound": "No matches found",
@@ -165,7 +165,7 @@
     "usernamePassword": "Username/password",
     "createAndSaveAlias": "Create and save alias",
     "createAndSaveCredential": "Create and save credential",
-    "randomIdentityDescription": "Generate a random identity with a random email address accessible in AliasVault.",
+    "randomIdentityDescription": "Generate a random identity with a random email address accessible in VelixVault.",
     "randomIdentityDescriptionDropdown": "Random identity with random email",
     "manualCredentialDescription": "Specify your own email address and username.",
     "manualCredentialDescriptionDropdown": "Manual username and password",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Generate new password",
     "togglePasswordVisibility": "Toggle password visibility",
     "passwordCopiedToClipboard": "Password copied to clipboard",
-    "openAliasVaultToUpgrade": "Open AliasVault to upgrade",
+    "openAliasVaultToUpgrade": "Open VelixVault to upgrade",
     "vaultUpgradeRequired": "Vault upgrade required.",
     "dismissPopup": "Dismiss popup",
     "noTotpItemsFound": "No 2FA code matches found",
     "close": "Затвори",
     "savePrompt": {
-      "title": "Save to AliasVault?",
+      "title": "Save to VelixVault?",
       "neverForThisSite": "Never for this site",
       "addUrlTitle": "Add URL to credential?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Folder Name",
     "folderNameRequired": "Folder name is required",
     "folder": "Folder",
-    "welcomeTitle": "Welcome to AliasVault!",
-    "welcomeDescription": "To use the AliasVault browser extension: navigate to a website and use the AliasVault autofill popup to create a new credential.",
+    "welcomeTitle": "Welcome to VelixVault!",
+    "welcomeDescription": "To use the VelixVault browser extension: navigate to a website and use the VelixVault autofill popup to create a new credential.",
     "currentSiteMatch": "For {{domain}}",
     "numberOfItemMatchesFound": "{{count}} items found",
     "noMatchingItems": "No items match the selected filter.",
@@ -269,7 +269,7 @@
       "Suffix": "Suffix"
     },
     "privateEmailTitle": "Private Email",
-    "privateEmailAliasVaultServer": "AliasVault server",
+    "privateEmailAliasVaultServer": "VelixVault server",
     "privateEmailDescription": "E2E encrypted, fully private.",
     "publicEmailTitle": "Public Temp Email Providers",
     "publicEmailDescription": "Anonymous but limited privacy. Email content is readable by anyone that knows the address.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 hours",
     "autoLock8Hours": "8 hours",
     "autoLock24Hours": "24 hours",
+    "sourceCode": "Изходен код",
     "versionPrefix": "App version",
     "serverVersion": "Server version",
     "autofillSettings": "Autofill Settings",
     "clipboardSettings": "Clipboard Settings",
     "contextMenuSettings": "Context Menu Settings",
     "passkeySettings": "Passkey Settings",
-    "contextMenuDescription": "Right-click on input fields to access AliasVault options",
+    "contextMenuDescription": "Right-click on input fields to access VelixVault options",
     "selectLanguage": "Select Language",
     "serverConfiguration": "Server Configuration",
-    "serverConfigurationDescription": "Configure the AliasVault server URL for self-hosted instances",
+    "serverConfigurationDescription": "Configure the VelixVault server URL for self-hosted instances",
     "customApiUrl": "API URL",
     "customClientUrl": "Client URL",
     "apiUrlHint": "The API endpoint URL (usually client URL + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Attach this passkey to an existing login credential for this site.",
       "attachingToCredential": "Adding passkey to: {{serviceName}}",
       "attachPasskey": "Add Passkey",
-      "unsupportedAlgorithm": "This website requires a passkey type that AliasVault doesn't support."
+      "unsupportedAlgorithm": "This website requires a passkey type that VelixVault doesn't support."
     },
     "settings": {
       "passkeyProvider": "Passkey Provider",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Upgrade Vault",
-    "subtitle": "AliasVault has updated and your vault needs to be upgraded. This should only take a few seconds.",
+    "subtitle": "VelixVault has updated and your vault needs to be upgraded. This should only take a few seconds.",
     "versionInformation": "Version Information",
     "yourVault": "Your vault version:",
     "newVersion": "New available version:",

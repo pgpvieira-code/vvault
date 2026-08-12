@@ -4,9 +4,9 @@ sidebar_label: "UI Translations"
 ---
 # UI Translations
 
-Help make AliasVault accessible to users worldwide by translating the user interface! 🌍
+Help make VelixVault accessible to users worldwide by translating the user interface! 🌍
 
-AliasVault is currently available in the following languages. See how complete each language is on the [Crowdin project page](https://crowdin.com/project/aliasvault). **Don't see your language?** Contact us and we'll add it so you can get started translating.
+VelixVault is currently available in the following languages. See how complete each language is on the [Crowdin project page](https://crowdin.com/project/aliasvault). **Don't see your language?** Contact us and we'll add it so you can get started translating.
 
 - 🇨🇳 Chinese (Simplified)
 - 🇩🇰 Danish
@@ -33,9 +33,9 @@ AliasVault is currently available in the following languages. See how complete e
 
 ### Step 1: Join Crowdin
 
-AliasVault uses [Crowdin](https://crowdin.com/) for translation management. It's a free, web-based platform that makes translating easy.
+VelixVault uses [Crowdin](https://crowdin.com/) for translation management. It's a free, web-based platform that makes translating easy.
 
-👉 **[Request access to the AliasVault Crowdin project](https://crowdin.com/project/aliasvault)**
+👉 **[Request access to the VelixVault Crowdin project](https://crowdin.com/project/aliasvault)**
 
 ### Step 2: Choose Your Language
 
@@ -69,7 +69,7 @@ The Crowdin project covers translations for all client apps in one place:
 
 ## Adding a New Language
 
-Want to add a completely new language to AliasVault?
+Want to add a completely new language to VelixVault?
 
 1. **Contact us first** via [Discord](https://discord.gg/DsaXMTEtpF) or email at [support@aliasvault.com](mailto:support@aliasvault.com)
 2. We'll add the language to Crowdin
@@ -86,4 +86,4 @@ Want to add a completely new language to AliasVault?
 - **Email**: [contact@support@aliasvault.com](mailto:support@aliasvault.com)
 - **Crowdin**: Use the discussion feature for specific strings
 
-Thank you for helping make AliasVault accessible to more people!
+Thank you for helping make VelixVault accessible to more people!

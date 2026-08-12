@@ -308,6 +308,13 @@ export default function SettingsScreen() : React.ReactNode {
     skeletonLoader: {
       marginRight: 8,
     },
+    sourceCodeLink: {
+      color: colors.textMuted,
+      fontSize: 12,
+      lineHeight: 20,
+      textAlign: 'center',
+      textDecorationLine: 'underline',
+    },
     versionContainer: {
       alignItems: 'center',
       marginTop: 20,
@@ -539,6 +546,9 @@ export default function SettingsScreen() : React.ReactNode {
               <ThemedText style={styles.versionLabel}>{t('settings.serverVersion')}:</ThemedText> {serverVersion} ({getDisplayUrl()})
             </ThemedText>
           )}
+          <TouchableOpacity onPress={() => Linking.openURL(AppInfo.SOURCE_CODE_URL)}>
+            <ThemedText style={styles.sourceCodeLink}>{t('settings.sourceCode')}</ThemedText>
+          </TouchableOpacity>
         </View>
       </Animated.ScrollView>
 

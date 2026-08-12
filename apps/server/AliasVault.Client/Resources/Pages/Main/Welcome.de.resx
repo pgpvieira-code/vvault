@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Willkommen bei AliasVault</value>
+    <value>Willkommen bei VelixVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>So funktioniert AliasVault</value>
+    <value>So funktioniert VelixVault</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -43,7 +43,7 @@
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
     <value>Glückwunsch – Dein Tresor ist jetzt eingerichtet!
-Erhöhe Deine Online-Privatsphäre, indem Du für jeden Dienst einen individuellen Alias nutzt. Lass uns jetzt gemeinsam lernen, wie AliasVault funktioniert und anschließend Deinen ersten sicheren Alias anlegen.</value>
+Erhöhe Deine Online-Privatsphäre, indem Du für jeden Dienst einen individuellen Alias nutzt. Lass uns jetzt gemeinsam lernen, wie VelixVault funktioniert und anschließend Deinen ersten sicheren Alias anlegen.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -52,7 +52,7 @@ Erhöhe Deine Online-Privatsphäre, indem Du für jeden Dienst einen individuell
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>AliasVault erzeugt eine zufällige Identität mit einer sicheren privaten E-Mail-Adresse.</value>
+    <value>VelixVault erzeugt eine zufällige Identität mit einer sicheren privaten E-Mail-Adresse.</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -89,7 +89,7 @@ Erhöhe Deine Online-Privatsphäre, indem Du für jeden Dienst einen individuell
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Installiere die AliasVault-Browsererweiterung und die mobile App, um Aliase und Formulare direkt aus Deinem Browser und Deinem Smartphone zu erstellen.</value>
+    <value>Installiere die VelixVault-Browsererweiterung und die mobile App, um Aliase und Formulare direkt aus Deinem Browser und Deinem Smartphone zu erstellen.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -98,7 +98,7 @@ Erhöhe Deine Online-Privatsphäre, indem Du für jeden Dienst einen individuell
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Nun weißt Du, wie AliasVault funktioniert. Lass uns jetzt Deine erste sichere Identität erstellen!</value>
+    <value>Nun weißt Du, wie VelixVault funktioniert. Lass uns jetzt Deine erste sichere Identität erstellen!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

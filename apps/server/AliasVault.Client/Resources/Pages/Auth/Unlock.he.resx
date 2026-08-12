@@ -111,7 +111,7 @@
     <comment>Error message for session timeout</comment>
   </data>
   <data name="ConnectionFailedError" xml:space="preserve">
-    <value>החיבור לשרתי ה־AliasVault נכשל. נא לנסות שוב (בהמשך).</value>
+    <value>החיבור לשרתי ה־VelixVault נכשל. נא לנסות שוב (בהמשך).</value>
     <comment>Error message for server connection failure</comment>
   </data>
   <data name="WebAuthnNotSupportedError" xml:space="preserve">

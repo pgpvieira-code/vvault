@@ -89,7 +89,7 @@ android {
 
     namespace 'net.aliasvault.app'
     defaultConfig {
-        applicationId 'net.aliasvault.app'
+        applicationId 'com.velixvault.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 3100100

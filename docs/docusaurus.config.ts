@@ -78,7 +78,7 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/aliasvault/aliasvault/tree/main/docs/',
+          editUrl: 'https://github.com/pgpvieira-code/velixvault/tree/main/docs/',
           showLastUpdateTime: true,
         },
         blog: false,
@@ -313,7 +313,7 @@ const config: Config = {
           'aria-label': 'AliasVault Discord',
         },
         {
-          href: 'https://github.com/aliasvault/aliasvault',
+          href: 'https://github.com/pgpvieira-code/velixvault',
           label: 'GitHub',
           position: 'right',
           className: 'navbar__icon-link navbar__icon-link--github',
@@ -338,7 +338,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/aliasvault/aliasvault',
+              href: 'https://github.com/pgpvieira-code/velixvault',
             },
             {label: 'Contributing', to: '/contributing/'},
             {label: 'Contact', to: '/contact/'},
@@ -350,7 +350,7 @@ const config: Config = {
             {label: 'Website', href: 'https://www.aliasvault.com'},
             {
               label: 'Edit these docs',
-              href: 'https://github.com/aliasvault/aliasvault/tree/main/docs',
+              href: 'https://github.com/pgpvieira-code/velixvault/tree/main/docs',
             },
           ],
         },

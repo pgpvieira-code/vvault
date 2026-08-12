@@ -1,6 +1,6 @@
 {
-    "name": "AliasVault",
-    "short_name": "AliasVault",
+    "name": "VelixVault",
+    "short_name": "VelixVault",
     "start_url": "./",
     "display": "standalone",
     "background_color": "#ffffff",

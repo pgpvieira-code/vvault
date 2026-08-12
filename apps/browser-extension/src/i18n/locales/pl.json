@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Zaloguj się do AliasVault",
+    "loginTitle": "Zaloguj się do VelixVault",
     "username": "Nazwa użytkownika lub e-mail",
     "usernamePlaceholder": "nazwa / nazwa@firma.com",
     "passwordPlaceholder": "Wprowadź swoje hasło ",
@@ -29,7 +29,7 @@
     "switchAccounts": "Przełącz konto",
     "loginWithMobile": "Zaloguj się za pomocą aplikacji mobilnej",
     "unlockWithMobile": "Odblokuj za pomocą aplikacji mobilnej",
-    "scanQrCode": "Zeskanuj ten kod QR za pomocą aplikacji mobilnej AliasVault, aby się zalogować i odblokować sejf.",
+    "scanQrCode": "Zeskanuj ten kod QR za pomocą aplikacji mobilnej VelixVault, aby się zalogować i odblokować sejf.",
     "passwordAttemptsWarning": "Nieprawidłowe hasło. Zostaniesz wylogowany, jeśli wprowadzisz nieprawidłowe hasło {{remainingAttempts}} więcej razy.",
     "maxAttemptsReached": "Zbyt wiele nieudanych prób odblokowania. Zostałeś wylogowany ze względów bezpieczeństwa."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Łączenie zmian w sejfie...",
     "uploadingVault": "Ładowanie sejfu...",
     "errors": {
-      "serverNotAvailable": "Serwer AliasVault jest niedostępny. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną, jeśli problem nadal występuje.",
-      "clientVersionNotSupported": "Ta wersja rozszerzenia przeglądarki AliasVault nie jest już obsługiwana przez serwer. Zaktualizuj rozszerzenie przeglądarki do najnowszej wersji.",
+      "serverNotAvailable": "Serwer VelixVault jest niedostępny. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną, jeśli problem nadal występuje.",
+      "clientVersionNotSupported": "Ta wersja rozszerzenia przeglądarki VelixVault nie jest już obsługiwana przez serwer. Zaktualizuj rozszerzenie przeglądarki do najnowszej wersji.",
       "browserExtensionOutdated": "To rozszerzenie przeglądarki jest nieaktualne i nie można go używać do uzyskania dostępu do tego sejfu. Aby kontynuować, zaktualizuj to rozszerzenie przeglądarki.",
-      "serverVersionNotSupported": "Aby korzystać z tego rozszerzenia przeglądarki, należy zaktualizować serwer AliasVault do nowszej wersji. Jeśli potrzebujesz pomocy, skontaktuj się z działem pomocy technicznej.",
-      "serverVersionTooOld": "Aby korzystać z tej funkcji, serwer AliasVault musi zostać zaktualizowany do nowszej wersji. Jeśli potrzebujesz pomocy, skontaktuj się z administratorem serwera.",
+      "serverVersionNotSupported": "Aby korzystać z tego rozszerzenia przeglądarki, należy zaktualizować serwer VelixVault do nowszej wersji. Jeśli potrzebujesz pomocy, skontaktuj się z działem pomocy technicznej.",
+      "serverVersionTooOld": "Aby korzystać z tej funkcji, serwer VelixVault musi zostać zaktualizowany do nowszej wersji. Jeśli potrzebujesz pomocy, skontaktuj się z administratorem serwera.",
       "unknownError": "Wystąpił nieznany błąd",
       "unknownErrorTryAgain": "Wystąpił nieznany błąd. Spróbuj ponownie.",
       "vaultNotAvailable": "Sejf niedostępny",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "Sejf jest zbyt duży, aby serwer mógł zaakceptować. Spróbuj usunąć niektóre elementy lub załączniki, aby zmniejszyć rozmiar i spróbować ponownie.",
       "vaultSyncTimeout": "Vault sync timed out. This can happen when the vault is large or the internet connection is slow. Please try again.",
       "invalidCode": "Wprowadź prawidłowy 6-cyfrowy kod uwierzytelniający.",
-      "serverError": "Nie można połączyć się z serwerem AliasVault. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną, jeśli problem nadal występuje.",
+      "serverError": "Nie można połączyć się z serwerem VelixVault. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną, jeśli problem nadal występuje.",
       "wrongPassword": "Nieprawidłowe hasło. Spróbuj ponownie.",
       "sessionExpired": "Twoja sesja wygasła. Prosimy o zalogowanie się ponownie.",
       "mobileLoginRequestExpired": "Limit czasu logowania upłynął. Proszę odświeżyć stronę i spróbować ponownie."
@@ -148,7 +148,7 @@
   "content": {
     "or": "lub",
     "new": "Nowy",
-    "vaultLocked": "AliasVault jest zablokowany.",
+    "vaultLocked": "VelixVault jest zablokowany.",
     "creatingNewAlias": "Tworzenie nowego aliasu",
     "creatingNewCredential": "Utwórz nowe dane logowania",
     "noMatchesFound": "Nie znaleziono żadnych wyników",
@@ -165,7 +165,7 @@
     "usernamePassword": "Nazwa użytkownika/hasło",
     "createAndSaveAlias": "Utwórz i zapisz alias",
     "createAndSaveCredential": "Utwórz i zapisz dane uwierzytelniające",
-    "randomIdentityDescription": "Wygeneruj losową tożsamość z losowym adresem e-mail dostępnym w AliasVault.",
+    "randomIdentityDescription": "Wygeneruj losową tożsamość z losowym adresem e-mail dostępnym w VelixVault.",
     "randomIdentityDescriptionDropdown": "Losowa tożsamość z losowym adresem e-mail",
     "manualCredentialDescription": "Określ swój adres e-mail i nazwę użytkownika.",
     "manualCredentialDescriptionDropdown": "Ręczne wprowadzanie nazwy użytkownika i hasła",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Wygeneruj nowe hasło",
     "togglePasswordVisibility": "Przełącz widoczność hasła",
     "passwordCopiedToClipboard": "Hasło skopiowane do schowka",
-    "openAliasVaultToUpgrade": "Otwórz AliasVault, aby dokonać aktualizacji",
+    "openAliasVaultToUpgrade": "Otwórz VelixVault, aby dokonać aktualizacji",
     "vaultUpgradeRequired": "Wymagana aktualizacja sejfu.",
     "dismissPopup": "Zamknij wyskakujące okienko",
     "noTotpItemsFound": "Nie znaleziono kodu 2FA",
     "close": "Zamknij",
     "savePrompt": {
-      "title": "Zapisać w AliasVault?",
+      "title": "Zapisać w VelixVault?",
       "neverForThisSite": "Nigdy dla tej strony",
       "addUrlTitle": "Dodaj nowe dane logowania?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Nazwa folderu",
     "folderNameRequired": "Nazwa folderu jest wymagana",
     "folder": "Katalog",
-    "welcomeTitle": "Witamy w AliasVault!",
-    "welcomeDescription": "Aby skorzystać z rozszerzenia przeglądarki AliasVault - przejdź do strony internetowej i użyj okienka autozupelniania, aby utworzyć nowa tożsamość.",
+    "welcomeTitle": "Witamy w VelixVault!",
+    "welcomeDescription": "Aby skorzystać z rozszerzenia przeglądarki VelixVault - przejdź do strony internetowej i użyj okienka autozupelniania, aby utworzyć nowa tożsamość.",
     "currentSiteMatch": "Dla {{domain}}",
     "numberOfItemMatchesFound": "{{count}} znalezionych przedmiotów",
     "noMatchingItems": "Żaden element nie pasuje do wybranego filtra.",
@@ -269,7 +269,7 @@
       "Suffix": "Sufiks"
     },
     "privateEmailTitle": "Prywatny adres e-mail",
-    "privateEmailAliasVaultServer": "Serwer AliasVault",
+    "privateEmailAliasVaultServer": "Serwer VelixVault",
     "privateEmailDescription": "Szyfrowane E2E, w pełni prywatne.",
     "publicEmailTitle": "Publiczni dostawcy tymczasowych adresów e-mail",
     "publicEmailDescription": "Anonimowe, ale ograniczają prywatność. Treść wiadomości e-mail jest dostępna dla każdego, kto zna adres.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 godziny",
     "autoLock8Hours": "8 godzin",
     "autoLock24Hours": "24 godziny",
+    "sourceCode": "Kod źródłowy",
     "versionPrefix": "Wersja aplikacji",
     "serverVersion": "Wersja serwera",
     "autofillSettings": "Ustawienia autouzupełniania",
     "clipboardSettings": "Ustawienia schowka",
     "contextMenuSettings": "Ustawienia menu kontekstowego",
     "passkeySettings": "Ustawienia kluczy dostępu",
-    "contextMenuDescription": "Kliknij prawym przyciskiem myszy na pola wejściowe, aby uzyskać dostęp do opcji AliasVault",
+    "contextMenuDescription": "Kliknij prawym przyciskiem myszy na pola wejściowe, aby uzyskać dostęp do opcji VelixVault",
     "selectLanguage": "Wybierz język",
     "serverConfiguration": "Konfiguracja serwera",
-    "serverConfigurationDescription": "Skonfiguruj adres URL serwera sejfu AliasVault",
+    "serverConfigurationDescription": "Skonfiguruj adres URL serwera sejfu VelixVault",
     "customApiUrl": "Adres URL interfejsu API",
     "customClientUrl": "Adresy URL klienta",
     "apiUrlHint": "Adres URL punktu końcowego API (zazwyczaj adres URL klienta + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Dołącz ten klucz dostępu do istniejącego logowania dla tej witryny.",
       "attachingToCredential": "Dodawanie klucza dostępu do: {{serviceName}}",
       "attachPasskey": "Dodaj klucz dostępu",
-      "unsupportedAlgorithm": "Ta strona wymaga typ passkey, którego AliasVault nie obsługuje."
+      "unsupportedAlgorithm": "Ta strona wymaga typ passkey, którego VelixVault nie obsługuje."
     },
     "settings": {
       "passkeyProvider": "Dostawca klucza dostępu",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Aktualizacja sejfu",
-    "subtitle": "Wersja AliasVault jest nieaktualna i konieczna jest aktualizacja Twojego sejfu. Zajmie to tylko kilka sekund.",
+    "subtitle": "Wersja VelixVault jest nieaktualna i konieczna jest aktualizacja Twojego sejfu. Zajmie to tylko kilka sekund.",
     "versionInformation": "Informacje o wersji",
     "yourVault": "Twoja wersja sejfu:",
     "newVersion": "Nowa dostępna wersja:",

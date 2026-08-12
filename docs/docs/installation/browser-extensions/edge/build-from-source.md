@@ -4,7 +4,7 @@ sidebar_label: "Build from Source"
 ---
 # Building Microsoft Edge Extension from Source
 
-This guide explains how to build and install the AliasVault Microsoft Edge extension from source code.
+This guide explains how to build and install the VelixVault Microsoft Edge extension from source code.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ This guide explains how to build and install the AliasVault Microsoft Edge exten
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/aliasvault/aliasvault.git
+git clone https://github.com/pgpvieira-code/velixvault.git
 ```
 
 2. Navigate to the Browser Extension directory:
@@ -39,7 +39,7 @@ npm run build:edge
 2. Enable "Developer mode" using the toggle in the top right corner
 3. Click "Load unpacked"
 4. Navigate to and select the folder `apps/browser-extension/dist/edge-mv3`
-5. The AliasVault extension should now appear in your extensions list
+5. The VelixVault extension should now appear in your extensions list
 
 ## Development Mode (Optional)
 

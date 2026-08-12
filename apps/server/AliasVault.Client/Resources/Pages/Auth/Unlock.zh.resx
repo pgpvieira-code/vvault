@@ -111,7 +111,7 @@
     <comment>Error message for session timeout</comment>
   </data>
   <data name="ConnectionFailedError" xml:space="preserve">
-    <value>与 AliasVault 服务器的连接失败。请（稍后）再试一次。</value>
+    <value>与 VelixVault 服务器的连接失败。请（稍后）再试一次。</value>
     <comment>Error message for server connection failure</comment>
   </data>
   <data name="WebAuthnNotSupportedError" xml:space="preserve">

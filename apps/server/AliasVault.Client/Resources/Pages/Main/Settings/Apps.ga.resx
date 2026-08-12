@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>Ligeann síneadh brabhsálaí AliasVault duit dintiúir atá ann cheana féin a líonadh isteach go huathoibríoch ar aon suíomh Gréasáin. Ligeann sé duit freisin leasainmneacha nua a ghiniúint le linn clárúcháin, rochtain a fháil ar ríomhphoist a fuarthas ar do leasainmneacha go léir, agus féachaint ar do leasainmneacha agus d’aitheantais.</value>
+    <value>Ligeann síneadh brabhsálaí VelixVault duit dintiúir atá ann cheana féin a líonadh isteach go huathoibríoch ar aon suíomh Gréasáin. Ligeann sé duit freisin leasainmneacha nua a ghiniúint le linn clárúcháin, rochtain a fháil ar ríomhphoist a fuarthas ar do leasainmneacha go léir, agus féachaint ar do leasainmneacha agus d’aitheantais.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>Leis an aip shoghluaiste AliasVault is féidir leat rochtain a fháil ar do leasainmneacha agus d’aitheantais agus tú ag gluaiseacht, ríomhphoist a fuarthas a fheiceáil agus a bhainistiú, agus leasainmneacha nua a ghiniúint am ar bith. Tá do shonraí faoi chosaint iomlán le fíordheimhniú bithmhéadrach ar an ngléas.</value>
+    <value>Leis an aip shoghluaiste VelixVault is féidir leat rochtain a fháil ar do leasainmneacha agus d’aitheantais agus tú ag gluaiseacht, ríomhphoist a fuarthas a fheiceáil agus a bhainistiú, agus leasainmneacha nua a ghiniúint am ar bith. Tá do shonraí faoi chosaint iomlán le fíordheimhniú bithmhéadrach ar an ngléas.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "AliasVault",
-    "slug": "AliasVault",
+    "name": "VelixVault",
+    "slug": "VelixVault",
     "version": "0.31.0-alpha",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "aliasvault",
+    "scheme": "velixvault",
     "userInterfaceStyle": "automatic",
     "platforms": [
       "ios",
@@ -21,7 +21,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "net.aliasvault.app"
+      "package": "com.velixvault.app"
     },
     "web": {
       "bundler": "metro",

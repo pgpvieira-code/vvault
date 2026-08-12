@@ -35,7 +35,7 @@
       "unknownError": "发生未知错误。",
       "unknownErrorTryAgain": "发生未知错误，请重试。",
       "vaultTooLarge": "密码库过大，服务器无法接受。请尝试移除一些项目或附件以减小其大小，然后重试。",
-      "serverVersionTooOld": "AliasVault 服务器需要更新到更高版本才能使用此功能。如需帮助，请联系服务器管理员。"
+      "serverVersionTooOld": "VelixVault 服务器需要更新到更高版本才能使用此功能。如需帮助，请联系服务器管理员。"
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "请输入有效的 6 位身份验证码",
       "incorrectPassword": "密码错误，请重试。",
       "enterPassword": "请输入您的密码",
-      "serverError": "无法访问 AliasVault 服务器。请稍后重试，若问题依旧，请联系支持人员。",
+      "serverError": "无法访问 VelixVault 服务器。请稍后重试，若问题依旧，请联系支持人员。",
       "serverErrorSelfHosted": "无法访问 API。对于自托管实例，请在浏览器中导航至 API 端点，验证其是否可访问：它应显示“OK”。",
       "networkError": "网络请求失败，请检查您的互联网连接并重试。",
       "networkErrorSelfHosted": "网络请求失败。请检查网络连接及服务器可用性。对于自托管实例，请确保已安装有效的 SSL 证书。出于安全考虑，移动设备不支持自签名证书。",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "获取加密数据库失败",
       "usernameNotFound": "未找到用户名",
-      "vaultOutdated": "您的密码库版本过低，请登录 AliasVault 官网并执行更新流程。",
+      "vaultOutdated": "您的密码库版本过低，请登录 VelixVault 官网并执行更新流程。",
       "failedToSyncVault": "同步密码库失败",
-      "versionNotSupported": "此版本的AliasVault移动应用已不再被服务器支持。请将应用更新至最新版本。",
-      "serverVersionNotSupported": "AliasVault 服务器需要更新到更高版本才能使用此移动应用。如需帮助，请联系支持人员。",
-      "appOutdated": "此应用已过时，无法用于访问新版本的密码库。请更新 AliasVault 应用以继续。",
+      "versionNotSupported": "此版本的VelixVault移动应用已不再被服务器支持。请将应用更新至最新版本。",
+      "serverVersionNotSupported": "VelixVault 服务器需要更新到更高版本才能使用此移动应用。如需帮助，请联系支持人员。",
+      "appOutdated": "此应用已过时，无法用于访问新版本的密码库。请更新 VelixVault 应用以继续。",
       "passwordChanged": "登录密码已更新，请重新登录以确保账户安全。",
       "passwordChangeRequiresOnline": "更改密码需要联网，请联网后重试。"
     }
@@ -131,13 +131,13 @@
     "title": "设置",
     "autofill": "自动填充与通行密钥",
     "iosAutofillSettings": {
-      "headerText": "您可以为 AliasVault 配置 iOS 原生密码和通行密钥自动填充功能，请依照以下说明进行启用。",
-      "passkeyNotice": "通行密钥是通过 iOS 创建的。要将其存储在 AliasVault 中，请确保已启用下方的自动填充。",
+      "headerText": "您可以为 VelixVault 配置 iOS 原生密码和通行密钥自动填充功能，请依照以下说明进行启用。",
+      "passkeyNotice": "通行密钥是通过 iOS 创建的。要将其存储在 VelixVault 中，请确保已启用下方的自动填充。",
       "howToEnable": "如何启用自动填充与通行密钥：",
       "step1": "1. 通过下方按钮打开 iOS 设置",
       "step2": "2. 前往“通用”",
       "step3": "3. 轻点“自动填充与密码”",
-      "step4": "4. 启用“AliasVault”",
+      "step4": "4. 启用“VelixVault”",
       "step5": "5. 禁用其他密码提供商（如“iCloud 密码”）以避免冲突",
       "openIosSettings": "打开 iOS 设置",
       "alreadyConfigured": "我已完成配置"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ 实验性功能",
       "warningDescription": "Android 系统的自动填充与密码支持目前处于实验阶段。",
       "warningLink": "在此进一步了解",
-      "headerText": "您可以为 AliasVault 配置 Android 原生密码和通行密钥自动填充功能，请依照以下说明进行启用。",
-      "passkeyNotice": "通行密钥是通过 Android 凭据管理器（Android 14+）创建的。要将其存储在 AliasVault 中，请确保已启用下方的自动填充。",
+      "headerText": "您可以为 VelixVault 配置 Android 原生密码和通行密钥自动填充功能，请依照以下说明进行启用。",
+      "passkeyNotice": "通行密钥是通过 Android 凭据管理器（Android 14+）创建的。要将其存储在 VelixVault 中，请确保已启用下方的自动填充。",
       "howToEnable": "如何启用自动填充与通行密钥：",
-      "step1": "1.点击下方按钮进入 Android 设置，将「自动填充首选服务」更改为「AliasVault」",
+      "step1": "1.点击下方按钮进入 Android 设置，将「自动填充首选服务」更改为「VelixVault」",
       "openAutofillSettings": "打开自动填充设置",
       "buttonTip": "如果上方按钮无效，可能是安全设置阻止了操作。您可手动前往：\nAndroid 设置 → 通用管理 → 密码与自动填充",
       "step2": "部分应用（比如Chrome浏览器）可能需在设置中手动配置，以允许第三方自动填充应用。但大多数应用默认应支持自动填充功能。",
       "alreadyConfigured": "我已配置完毕",
       "showSearchText": "显示搜索文本",
-      "showSearchTextDescription": "包含 AliasVault 从 Android 接收的用于搜索匹配凭据的文本"
+      "showSearchTextDescription": "包含 VelixVault 从 Android 接收的用于搜索匹配凭据的文本"
     },
     "advancedOptions": "高级选项",
     "copyTotpOnFill": "复制 TOTP 验证码到自动填充",
@@ -164,7 +164,7 @@
     "autoLock": "自动锁定超时时间",
     "clipboardClear": "清除剪贴板",
     "clipboardClearDescription": "在指定时间后自动清除剪贴板中复制的密码及敏感信息。",
-    "clipboardClearAndroidWarning": "注意：部分安卓设备已启用剪贴板历史记录功能，即使AliasVault清除了剪贴板内容，系统仍可能保留先前复制的项目。AliasVault仅能覆盖最近一项记录，但历史记录中的旧条目可能仍可见。出于安全考虑，建议您在设备设置中禁用所有剪贴板历史记录功能。",
+    "clipboardClearAndroidWarning": "注意：部分安卓设备已启用剪贴板历史记录功能，即使VelixVault清除了剪贴板内容，系统仍可能保留先前复制的项目。VelixVault仅能覆盖最近一项记录，但历史记录中的旧条目可能仍可见。出于安全考虑，建议您在设备设置中禁用所有剪贴板历史记录功能。",
     "clipboardLocalOnly": "仅本地剪贴板",
     "clipboardLocalOnlyDescription": "将复制的凭据保留在此设备上，而不是通过通用剪贴板将其同步到您的其他 Apple 设备。",
     "clipboardLocalOnlyDisabledWarning": "关闭后，复制的凭据可以通过通用剪贴板同步到您其他的 Apple 设备（Mac、iPad 等）。",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "启用背景剪贴板清除",
     "batteryOptimizationActive": "电池优化正在阻止后台任务",
     "batteryOptimizationDisabled": "后台剪贴板清除已启用",
-    "batteryOptimizationHelpDescription": "Android的电池优化阻止应用在后台时清理可靠的剪贴板。 禁用AliasVault 电池优化可以清理准确的背景剪贴板，并自动授予必要的提醒权限。",
+    "batteryOptimizationHelpDescription": "Android的电池优化阻止应用在后台时清理可靠的剪贴板。 禁用VelixVault 电池优化可以清理准确的背景剪贴板，并自动授予必要的提醒权限。",
     "disableBatteryOptimization": "禁用电池优化",
     "identityGenerator": "身份生成器",
     "passwordGenerator": "密码生成器",
     "importExport": "导入/导出",
     "importSectionTitle": "导入",
-    "importSectionDescription": "从其他密码管理员或以前导出的 AliasVault 导入您的密码。",
+    "importSectionDescription": "从其他密码管理员或以前导出的 VelixVault 导入您的密码。",
     "importWebNote": "要从现有密码管理器中导入凭据，请登录到 web 应用程序。导入功能目前只能在网页版本上提供。",
     "exportSectionTitle": "导出",
     "exportSectionDescription": "将您的密码库数据导出到一个 CSV 文件。此文件可以用作备份，也可以导入其他密码管理员。",
@@ -196,6 +196,7 @@
       "exportDescription": "出于安全考虑，请输入您的主密码以确认导出。"
     },
     "security": "安全",
+    "sourceCode": "源代码",
     "appVersion": "应用版本",
     "serverVersion": "服务器版本",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 小时"
     },
     "language": "语言",
-    "languageSystemMessage": "要更改应用语言，请在设备设置中配置 AliasVault 的首选语言。",
+    "languageSystemMessage": "要更改应用语言，请在设备设置中配置 VelixVault 的首选语言。",
     "openSettings": "打开设置",
     "vaultUnlockSettings": {
       "description": "选择您想要的密码库解锁方式。",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "面容 ID / 触控 ID",
       "biometricEnabled": "{{biometric}} 现已成功启用",
       "biometricNotAvailable": "{{biometric}} 不可用",
-      "biometricDisabledMessage": "AliasVault的{{biometric}}已禁用。如需使用，请先在设备设置中启用它。",
+      "biometricDisabledMessage": "VelixVault的{{biometric}}已禁用。如需使用，请先在设备设置中启用它。",
       "biometricHelp": "使用生物识别解锁您的密码库，经由 {{keystore}} 加密。",
       "biometricUnavailableHelp": "{{biometric}}不可用。点击打开设置和/或前往设备设置启用并配置它。",
       "featureRequiresPasscode": "此功能需要在您的设备上启用密码。",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "二维码扫描工具",
-      "scanningMessage": "扫描 AliasVault 二维码",
+      "scanningMessage": "扫描 VelixVault 二维码",
       "mobileLogin": {
         "confirmTitle": "确认登录请求",
         "confirmSubtitle": "重新认证以批准在另一台设备上登录。",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "输入邮箱前缀",
     "selectEmailDomain": "选择邮箱域",
     "privateEmailTitle": "私人邮箱",
-    "privateEmailAliasVaultServer": "AliasVault 服务器",
+    "privateEmailAliasVaultServer": "VelixVault 服务器",
     "privateEmailDescription": "端到端加密，完全私密。",
     "publicEmailTitle": "公共临时邮箱提供商",
     "publicEmailDescription": "匿名但隐私性有限，任何知晓其地址的人均可读取邮件内容。",
@@ -429,7 +430,7 @@
     "noMatchingItems": "没有项目符合所选筛选器。",
     "noMatchingItemsSearch": "未找到匹配“{{search}}”的项目",
     "noMatchingItemsWithFilter": "未找到匹配“{{search}}”的 {{filter}} 项目",
-    "noItemsFound": "未找到项目。请创建一个以开始使用。提示：您也可以登录 AliasVault 网页应用，从其他密码管理器导入凭据。",
+    "noItemsFound": "未找到项目。请创建一个以开始使用。提示：您也可以登录 VelixVault 网页应用，从其他密码管理器导入凭据。",
     "allItemsInFolders": "您的所有项目都已整理到文件夹中。点击上方文件夹即可查看您的凭据，或使用搜索查找特定的项目。",
     "clearSearch": "清除搜索",
     "clearFilter": "清除筛选器",
@@ -670,7 +671,7 @@
       "message": "该页面已被移除或不存在。",
       "goHome": "返回首页"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "超时后密码库已自动锁定。",
       "attemptingToUnlockMessage": "正在尝试解锁。"
@@ -690,7 +691,7 @@
       "version": "版本：{{version}}",
       "advancedSettings": "高级设置",
       "customProxyHeaders": "自定义代理标头",
-      "customProxyHeadersDescription": "添加 HTTP 标头，随每个发送到 AliasVault 服务器的请求一同发送。可用于位于反向代理（例如 Pangolin、Cloudflare Access）之后的自托管设置，该代理会检查自定义标头。",
+      "customProxyHeadersDescription": "添加 HTTP 标头，随每个发送到 VelixVault 服务器的请求一同发送。可用于位于反向代理（例如 Pangolin、Cloudflare Access）之后的自托管设置，该代理会检查自定义标头。",
       "headerName": "标头名称",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "标头值"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "升级密码库",
-    "subtitle": "AliasVault 已更新，您的密码库需要升级，这只需几秒钟时间。",
+    "subtitle": "VelixVault 已更新，您的密码库需要升级，这只需几秒钟时间。",
     "versionInformation": "版本信息",
     "yourVault": "您的密码库版本：",
     "newVersion": "新可用版本：",

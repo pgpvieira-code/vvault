@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "Carregando AliasVault",
-    "message": "Inicializando ambiente seguro. AliasVault prioriza sua segurança, rodando inteiramente no seu navegador. O carregamento inicial pode demorar um pouco.",
+    "title": "Carregando VelixVault",
+    "message": "Inicializando ambiente seguro. VelixVault prioriza sua segurança, rodando inteiramente no seu navegador. O carregamento inicial pode demorar um pouco.",
     "refreshText": "Se o carregamento parecer travado, você pode clicar no botão abaixo para atualizar a página.",
     "refreshButtonText": "Atualizar Página"
   },
   "errors": {
     "unhandledError": "Um erro imprevisto aconteceu. Por favor, tente atualizar a página. Se o erro persistir, por favor, entre em contato com o suporte.",
-    "webAssemblyError": "AliasVault requer WebAssembly, porém este navegador não suporta. Tente utilizar um navegador mais moderno que possua suporte ao WebAssembly.",
+    "webAssemblyError": "VelixVault requer WebAssembly, porém este navegador não suporta. Tente utilizar um navegador mais moderno que possua suporte ao WebAssembly.",
     "reloadPageText": "Atualizar Página"
   },
   "quotes": {

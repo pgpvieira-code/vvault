@@ -24,7 +24,7 @@ const FEATURES: Feature[] = [
     emoji: '📧',
     title: 'Built-in Email Server',
     description:
-      'Generate virtual email addresses for each identity. Emails sent to these addresses are instantly visible in the AliasVault app.',
+      'Generate virtual email addresses for each identity. Emails sent to these addresses are instantly visible in the VelixVault app.',
   },
   {
     emoji: '🎭',
@@ -36,7 +36,7 @@ const FEATURES: Feature[] = [
     emoji: '🏠',
     title: 'Self-Hosted',
     description:
-      'Run AliasVault on your own infrastructure with Docker: a managed install script or a single all-in-one container.',
+      'Run VelixVault on your own infrastructure with Docker: a managed install script or a single all-in-one container.',
   },
   {
     emoji: '🔓',
@@ -72,7 +72,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--outline button--lg"
-            href="https://github.com/aliasvault/aliasvault">
+            href="https://github.com/pgpvieira-code/velixvault">
             View on GitHub
           </Link>
         </div>
@@ -89,7 +89,7 @@ function HomepageFeatures() {
           Key Features
         </Heading>
         <p className={styles.sectionIntro}>
-          Unique features that make AliasVault stand out from other password managers:
+          Unique features that make VelixVault stand out from other password managers:
         </p>
         <div className="row">
           {FEATURES.map((feature) => (
@@ -120,7 +120,7 @@ const DOC_AREAS: DocArea[] = [
   {
     emoji: '🖥️',
     title: 'Self-hosting',
-    description: 'Install and run your own AliasVault server with Docker.',
+    description: 'Install and run your own VelixVault server with Docker.',
     to: '/installation/',
   },
   {
@@ -132,13 +132,13 @@ const DOC_AREAS: DocArea[] = [
   {
     emoji: '📱',
     title: 'Mobile apps',
-    description: 'Get AliasVault on iOS and Android.',
+    description: 'Get VelixVault on iOS and Android.',
     to: '/installation/mobile-apps/',
   },
   {
     emoji: '🏗️',
     title: 'Architecture',
-    description: 'Understand how AliasVault is built and secured.',
+    description: 'Understand how VelixVault is built and secured.',
     to: '/architecture/',
   },
 ];
@@ -179,7 +179,7 @@ function GettingStartedAndContribute() {
             <div className={styles.contentCard}>
               <Heading as="h3">🚀 Getting Started</Heading>
               <p>
-                Ready to get started with AliasVault? Spin up your own instance
+                Ready to get started with VelixVault? Spin up your own instance
                 with Docker in minutes, then connect the browser extension and
                 mobile apps.
               </p>
@@ -191,11 +191,11 @@ function GettingStartedAndContribute() {
           <div className="col col--6">
             <div className={styles.contentCard}>
               <Heading as="h3">🤝 Want to Contribute?</Heading>
-              <p>Help make AliasVault better for everyone:</p>
+              <p>Help make VelixVault better for everyone:</p>
               <ul>
                 <li>
                   <strong>🌍 Translate the UI</strong>: help translate
-                  AliasVault into your language.
+                  VelixVault into your language.
                 </li>
                 <li>
                   <strong>👤 Add Name Dictionaries</strong>: provide names for
@@ -218,7 +218,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title} Documentation`}
-      description="AliasVault: open-source, self-hostable password and identity manager with built-in email aliasing.">
+      description="VelixVault: open-source, self-hostable password and identity manager with built-in email aliasing.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

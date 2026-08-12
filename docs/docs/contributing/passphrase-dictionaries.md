@@ -4,7 +4,7 @@ sidebar_label: "Passphrase Generator"
 ---
 # Passphrase Generator
 
-AliasVault can generate memorable and secure passphrases (instead of random character passwords) using the [Diceware](https://en.wikipedia.org/wiki/Diceware) method. Each passphrase is built by picking random words from a language-specific word list, for example `correct-horse-battery-staple`.
+VelixVault can generate memorable and secure passphrases (instead of random character passwords) using the [Diceware](https://en.wikipedia.org/wiki/Diceware) method. Each passphrase is built by picking random words from a language-specific word list, for example `correct-horse-battery-staple`.
 
 The word lists (dictionaries) are available in the following languages:
 
@@ -43,7 +43,7 @@ A good word list:
 - **Discord**: Join our [community server](https://discord.gg/DsaXMTEtpF) and share in #translations (a maintainer will collaborate with you)
 - **Email**: [support@aliasvault.com](mailto:support@aliasvault.com) and attach the wordlist to the email.
 
-After we receive the list, we'll take care of the technical formatting, attribution, and wiring it into the AliasVault apps.
+After we receive the list, we'll take care of the technical formatting, attribution, and wiring it into the VelixVault apps.
 
 ---
 

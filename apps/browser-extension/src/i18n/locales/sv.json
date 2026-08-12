@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Logga in på AliasVault",
+    "loginTitle": "Logga in på VelixVault",
     "username": "Användarnamn eller e-post",
     "usernamePlaceholder": "namn / namn@företag.com",
     "passwordPlaceholder": "Ange ditt lösenord",
@@ -29,7 +29,7 @@
     "switchAccounts": "Växla konton?",
     "loginWithMobile": "Logga in med hjälp av mobilapp",
     "unlockWithMobile": "Lås upp med hjälp av mobilapp",
-    "scanQrCode": "Skanna denna QR-kod med din AliasVault-mobilapp för att logga in och låsa upp ditt valv.",
+    "scanQrCode": "Skanna denna QR-kod med din VelixVault-mobilapp för att logga in och låsa upp ditt valv.",
     "passwordAttemptsWarning": "Felaktigt lösenord. Du kommer att loggas ut om du anger fel lösenord {{remainingAttempts}} gång(er) till.",
     "maxAttemptsReached": "För många misslyckade upplåsningsförsök. Du har blivit utloggad av säkerhetsskäl."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Sammanfogar valvförändringar...",
     "uploadingVault": "Laddar upp valvet...",
     "errors": {
-      "serverNotAvailable": "AliasVault-servern är inte tillgänglig. Försök igen senare eller kontakta support om problemet kvarstår.",
-      "clientVersionNotSupported": "Denna version av webbläsartillägget AliasVault stöds inte längre av servern. Vänligen uppdatera ditt webbläsartillägg till den senaste versionen.",
+      "serverNotAvailable": "VelixVault-servern är inte tillgänglig. Försök igen senare eller kontakta support om problemet kvarstår.",
+      "clientVersionNotSupported": "Denna version av webbläsartillägget VelixVault stöds inte längre av servern. Vänligen uppdatera ditt webbläsartillägg till den senaste versionen.",
       "browserExtensionOutdated": "Detta webbläsartillägg är föråldrat och kan inte användas för att komma åt detta valv. Uppdatera detta webbläsartillägg för att fortsätta.",
-      "serverVersionNotSupported": "AliasVault-servern behöver uppdateras till en nyare version för att kunna använda detta webbläsartillägg. Kontakta support om du behöver hjälp.",
-      "serverVersionTooOld": "AliasVault-servern behöver uppdateras till en nyare version för att kunna använda denna funktion. Vänligen kontakta serveradministratören om du behöver hjälp.",
+      "serverVersionNotSupported": "VelixVault-servern behöver uppdateras till en nyare version för att kunna använda detta webbläsartillägg. Kontakta support om du behöver hjälp.",
+      "serverVersionTooOld": "VelixVault-servern behöver uppdateras till en nyare version för att kunna använda denna funktion. Vänligen kontakta serveradministratören om du behöver hjälp.",
       "unknownError": "Ett okänt fel har inträffat",
       "unknownErrorTryAgain": "Ett okänt fel inträffade. Försök igen.",
       "vaultNotAvailable": "Valvet är inte tillgängligt",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
       "vaultSyncTimeout": "Vault sync timed out. This can happen when the vault is large or the internet connection is slow. Please try again.",
       "invalidCode": "Ange en giltig 6-siffrig autentiseringskod.",
-      "serverError": "Kunde inte nå AliasVault-servern. Försök igen senare eller kontakta support om problemet kvarstår.",
+      "serverError": "Kunde inte nå VelixVault-servern. Försök igen senare eller kontakta support om problemet kvarstår.",
       "wrongPassword": "Felaktigt lösenord. Försök igen.",
       "sessionExpired": "Din session har löpt ut. Logga in igen.",
       "mobileLoginRequestExpired": "Mobil inloggningsbegäran har löpt ut. Ladda om sidan och försök igen."
@@ -148,7 +148,7 @@
   "content": {
     "or": "eller",
     "new": "Nytt",
-    "vaultLocked": "AliasVault är låst.",
+    "vaultLocked": "VelixVault är låst.",
     "creatingNewAlias": "Skapar nytt alias",
     "creatingNewCredential": "Creating new credential",
     "noMatchesFound": "Inga träffar hittades",
@@ -165,7 +165,7 @@
     "usernamePassword": "Användarnamn/Lösenord",
     "createAndSaveAlias": "Skapa och spara alias",
     "createAndSaveCredential": "Skapa och spara autentiseringsuppgifter",
-    "randomIdentityDescription": "Generera en slumpmässig identitet med en slumpmässig e-postadress tillgänglig i AliasVault.",
+    "randomIdentityDescription": "Generera en slumpmässig identitet med en slumpmässig e-postadress tillgänglig i VelixVault.",
     "randomIdentityDescriptionDropdown": "Slumpmässig identitet med slumpmässig e-post",
     "manualCredentialDescription": "Ange din egen e-postadress och användarnamn.",
     "manualCredentialDescriptionDropdown": "Manuellt användarnamn och lösenord",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Generera nytt lösenord",
     "togglePasswordVisibility": "Visa/dölj lösenordet",
     "passwordCopiedToClipboard": "Lösenord har kopierats till urklipp",
-    "openAliasVaultToUpgrade": "Öppna AliasVault för att uppgradera",
+    "openAliasVaultToUpgrade": "Öppna VelixVault för att uppgradera",
     "vaultUpgradeRequired": "Uppgradering av valv krävs.",
     "dismissPopup": "Avvisa popup",
     "noTotpItemsFound": "Inga matchande 2FA-koder funna",
     "close": "Stäng",
     "savePrompt": {
-      "title": "Spara till AliasVault?",
+      "title": "Spara till VelixVault?",
       "neverForThisSite": "Aldrig för denna webbplats",
       "addUrlTitle": "Lägg till URL till posten?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Mappens namn",
     "folderNameRequired": "Mappnamn krävs",
     "folder": "Mapp",
-    "welcomeTitle": "Välkommen till AliasVault!",
-    "welcomeDescription": "För att använda webbläsartillägget AliasVault: navigera till en webbplats och använd AliasVault-autofyllrutan för att skapa en ny inloggningsuppgift.",
+    "welcomeTitle": "Välkommen till VelixVault!",
+    "welcomeDescription": "För att använda webbläsartillägget VelixVault: navigera till en webbplats och använd VelixVault-autofyllrutan för att skapa en ny inloggningsuppgift.",
     "currentSiteMatch": "For {{domain}}",
     "numberOfItemMatchesFound": "{{count}} items found",
     "noMatchingItems": "Inga objekt matchar de valda filtren",
@@ -269,7 +269,7 @@
       "Suffix": "Suffix"
     },
     "privateEmailTitle": "Privat e-post",
-    "privateEmailAliasVaultServer": "AliasVault server",
+    "privateEmailAliasVaultServer": "VelixVault server",
     "privateEmailDescription": "E2E krypterad, helt privat.",
     "publicEmailTitle": "Offentliga Temp e-postleverantörer",
     "publicEmailDescription": "Anonym men begränsad integritet. E-postinnehåll kan läsas av alla som känner till adressen.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 timmar",
     "autoLock8Hours": "8 timmar",
     "autoLock24Hours": "24 timmar",
+    "sourceCode": "Källkod",
     "versionPrefix": "App version",
     "serverVersion": "Server version",
     "autofillSettings": "Inställningar för Autofyll",
     "clipboardSettings": "Urklippsinställningar",
     "contextMenuSettings": "Inställningar för snabbmenyn",
     "passkeySettings": "Passkey-inställningar",
-    "contextMenuDescription": "Högerklicka på inmatningsfält för att komma åt AliasVault-alternativ",
+    "contextMenuDescription": "Högerklicka på inmatningsfält för att komma åt VelixVault-alternativ",
     "selectLanguage": "Välj Språk",
     "serverConfiguration": "Serverkonfiguration",
-    "serverConfigurationDescription": "Konfigurera AliasVault-serverns URL för egenhostade instanser",
+    "serverConfigurationDescription": "Konfigurera VelixVault-serverns URL för egenhostade instanser",
     "customApiUrl": "API URL",
     "customClientUrl": "Klientens URL",
     "apiUrlHint": "API slutpunkts-URL (vanligtvis klientens URL + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Bifoga denna passkey till en befintlig inloggningsuppgift för den här webbplatsen.",
       "attachingToCredential": "Lägger till passkey till: {{serviceName}}",
       "attachPasskey": "Lägg till Passkey",
-      "unsupportedAlgorithm": "This website requires a passkey type that AliasVault doesn't support."
+      "unsupportedAlgorithm": "This website requires a passkey type that VelixVault doesn't support."
     },
     "settings": {
       "passkeyProvider": "Passkey-leverantör",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Uppgradera valv",
-    "subtitle": "AliasVault har uppdaterats och ditt valv måste uppgraderas. Detta bör bara ta några sekunder.",
+    "subtitle": "VelixVault har uppdaterats och ditt valv måste uppgraderas. Detta bör bara ta några sekunder.",
     "versionInformation": "Versionsinformation",
     "yourVault": "Din valvversion:",
     "newVersion": "Ny tillgänglig version:",

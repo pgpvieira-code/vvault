@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "AliasVault 加载中",
-    "message": "正在初始化安全环境。为最大限度保护您的隐私，AliasVault 完全在浏览器中运行。首次加载可能需要一点时间。",
+    "title": "VelixVault 加载中",
+    "message": "正在初始化安全环境。为最大限度保护您的隐私，VelixVault 完全在浏览器中运行。首次加载可能需要一点时间。",
     "refreshText": "如果加载出现卡住的情况，可以点击下方按钮刷新页面。",
     "refreshButtonText": "刷新页面"
   },
   "errors": {
     "unhandledError": "发生未处理的错误。请尝试重新加载页面。如果问题仍然存在，请联系支持人员。",
-    "webAssemblyError": "AliasVault 需要 WebAssembly，但此浏览器不支持。请尝试使用支持 WebAssembly 的现代浏览器。",
+    "webAssemblyError": "VelixVault 需要 WebAssembly，但此浏览器不支持。请尝试使用支持 WebAssembly 的现代浏览器。",
     "reloadPageText": "重新加载页面"
   },
   "quotes": {

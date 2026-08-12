@@ -111,7 +111,7 @@
     <comment>Error message for session timeout</comment>
   </data>
   <data name="ConnectionFailedError" xml:space="preserve">
-    <value>Theip ar an nasc leis na freastalaithe AliasVault. Déan iarracht arís (níos déanaí).</value>
+    <value>Theip ar an nasc leis na freastalaithe VelixVault. Déan iarracht arís (níos déanaí).</value>
     <comment>Error message for server connection failure</comment>
   </data>
   <data name="WebAuthnNotSupportedError" xml:space="preserve">

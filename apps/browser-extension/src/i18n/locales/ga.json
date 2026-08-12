@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Logáil isteach chuig AliasVault",
+    "loginTitle": "Logáil isteach chuig VelixVault",
     "username": "Ainm úsáideora nó ríomhphost",
     "usernamePlaceholder": "ainm / ainm@cuideachta.com",
     "passwordPlaceholder": "Cuir isteach do phasfhocal",
@@ -29,7 +29,7 @@
     "switchAccounts": "Cuntais a athrú?",
     "loginWithMobile": "Logáil isteach ag baint úsáide as Aip Soghluaiste",
     "unlockWithMobile": "Díghlasáil ag baint úsáide as Aip Soghluaiste",
-    "scanQrCode": "Scan an cód QR seo le d’aip shoghluaiste AliasVault chun logáil isteach agus do chruinneog a dhíghlasáil.",
+    "scanQrCode": "Scan an cód QR seo le d’aip shoghluaiste VelixVault chun logáil isteach agus do chruinneog a dhíghlasáil.",
     "passwordAttemptsWarning": "Focal faire mícheart. Logálfar amach thú má chuireann tú isteach an pasfhocal mícheart {{remainingAttempts}} níos mó uaireanta.",
     "maxAttemptsReached": "Theip ar an iomarca iarrachtaí díghlasála. Logáladh amach thú ar chúiseanna slándála."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Ag cumasc athruithe ar an chruinneachán...",
     "uploadingVault": "Ag uaslódáil an chruinneacháin...",
     "errors": {
-      "serverNotAvailable": "Níl an freastalaí AliasVault ar fáil. Déan iarracht arís ar ball nó déan teagmháil leis an bhfoireann tacaíochta má leanann an fhadhb.",
-      "clientVersionNotSupported": "Ní thacaíonn an freastalaí leis an leagan seo den síneadh brabhsálaí AliasVault a thuilleadh. Nuashonraigh do shíneadh brabhsálaí go dtí an leagan is déanaí.",
+      "serverNotAvailable": "Níl an freastalaí VelixVault ar fáil. Déan iarracht arís ar ball nó déan teagmháil leis an bhfoireann tacaíochta má leanann an fhadhb.",
+      "clientVersionNotSupported": "Ní thacaíonn an freastalaí leis an leagan seo den síneadh brabhsálaí VelixVault a thuilleadh. Nuashonraigh do shíneadh brabhsálaí go dtí an leagan is déanaí.",
       "browserExtensionOutdated": "Tá an síneadh brabhsálaí seo as dáta agus ní féidir é a úsáid chun rochtain a fháil ar an ngloine seo. Nuashonraigh an síneadh brabhsálaí seo le leanúint ar aghaidh.",
-      "serverVersionNotSupported": "Ní mór freastalaí AliasVault a nuashonrú go leagan níos nuaí chun an síneadh brabhsálaí seo a úsáid. Téigh i dteagmháil leis an bhfoireann tacaíochta más gá cabhair duit.",
-      "serverVersionTooOld": "Ní mór an freastalaí AliasVault a nuashonrú go leagan níos nuaí chun an ghné seo a úsáid. Téigh i dteagmháil le riarthóir an fhreastalaí más gá duit cabhair.",
+      "serverVersionNotSupported": "Ní mór freastalaí VelixVault a nuashonrú go leagan níos nuaí chun an síneadh brabhsálaí seo a úsáid. Téigh i dteagmháil leis an bhfoireann tacaíochta más gá cabhair duit.",
+      "serverVersionTooOld": "Ní mór an freastalaí VelixVault a nuashonrú go leagan níos nuaí chun an ghné seo a úsáid. Téigh i dteagmháil le riarthóir an fhreastalaí más gá duit cabhair.",
       "unknownError": "Tharla earráid anaithnid",
       "unknownErrorTryAgain": "Tharla earráid anaithnid. Déan iarracht arís.",
       "vaultNotAvailable": "Níl an cruinneachán ar fáil",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "Tá an cruinneachán rómhór don fhreastalaí le glacadh leis. Bain triail as roinnt míreanna nó ceangaltán a bhaint chun an méid a laghdú agus déan iarracht arís.",
       "vaultSyncTimeout": "Chuaigh an t-am isteach ar shioncrónú an tseomra cruinneacháin. Is féidir leis seo tarlú nuair a bhíonn an seomra cruinneacháin mór nó nuair a bhíonn an nasc idirlín mall. Déan iarracht arís.",
       "invalidCode": "Cuir isteach cód fíordheimhnithe 6 dhigit bailí le do thoil.",
-      "serverError": "Níorbh fhéidir teacht ar fhreastalaí AliasVault. Déan iarracht arís ar ball nó déan teagmháil leis an tacaíocht má leanann an fhadhb.",
+      "serverError": "Níorbh fhéidir teacht ar fhreastalaí VelixVault. Déan iarracht arís ar ball nó déan teagmháil leis an tacaíocht má leanann an fhadhb.",
       "wrongPassword": "Pasfhocal mícheart. Déan iarracht arís.",
       "sessionExpired": "Tá do sheisiún imithe in éag. Logáil isteach arís le do thoil.",
       "mobileLoginRequestExpired": "Iarratas logála isteach soghluaiste imithe in éag. Athlódáil an leathanach agus déan iarracht arís."
@@ -148,7 +148,7 @@
   "content": {
     "or": "nó",
     "new": "Nua",
-    "vaultLocked": "Tá AliasVault faoi ghlas.",
+    "vaultLocked": "Tá VelixVault faoi ghlas.",
     "creatingNewAlias": "Ag cruthú leasainm nua",
     "creatingNewCredential": "Dintiúr nua á chruthú",
     "noMatchesFound": "Níor aimsíodh aon mheaitseálacha",
@@ -165,7 +165,7 @@
     "usernamePassword": "Ainm úsáideora/pasfhocal",
     "createAndSaveAlias": "Cruthaigh agus sábháil leasainm",
     "createAndSaveCredential": "Cruthaigh agus sábháil dintiúir",
-    "randomIdentityDescription": "Gin aitheantas randamach le seoladh ríomhphoist randamach atá inrochtana in AliasVault.",
+    "randomIdentityDescription": "Gin aitheantas randamach le seoladh ríomhphoist randamach atá inrochtana in VelixVault.",
     "randomIdentityDescriptionDropdown": "Céannacht randamach le ríomhphost randamach",
     "manualCredentialDescription": "Sonraigh do sheoladh ríomhphoist agus d’ainm úsáideora féin.",
     "manualCredentialDescriptionDropdown": "Ainm úsáideora agus pasfhocal de láimh",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Gin pasfhocal nua",
     "togglePasswordVisibility": "Infheictheacht pasfhocail a scoránaigh",
     "passwordCopiedToClipboard": "Pasfhocal cóipeáilte chuig an ghearrthaisce",
-    "openAliasVaultToUpgrade": "Oscail AliasVault le huasghrádú",
+    "openAliasVaultToUpgrade": "Oscail VelixVault le huasghrádú",
     "vaultUpgradeRequired": "Tá uasghrádú ar an cruinneachán ag teastáil.",
     "dismissPopup": "Díbhe aníos",
     "noTotpItemsFound": "Ní bhfuarthas aon mheaitseálacha cód 2FA",
     "close": "Dún",
     "savePrompt": {
-      "title": "Sábháil chuig AliasVault?",
+      "title": "Sábháil chuig VelixVault?",
       "neverForThisSite": "Choíche don suíomh seo",
       "addUrlTitle": "An bhfuil tú ag iarraidh URL a chur leis an dintiúir?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Ainm an Fhillteáin",
     "folderNameRequired": "Tá ainm fillteáin ag teastáil",
     "folder": "Fillteán",
-    "welcomeTitle": "Fáilte go AliasVault!",
-    "welcomeDescription": "Chun síneadh brabhsálaí AliasVault a úsáid: nascleanúint chuig suíomh Gréasáin agus bain úsáid as an bhfuinneog aníos uathlíonta AliasVault chun dintiúir nua a chruthú.",
+    "welcomeTitle": "Fáilte go VelixVault!",
+    "welcomeDescription": "Chun síneadh brabhsálaí VelixVault a úsáid: nascleanúint chuig suíomh Gréasáin agus bain úsáid as an bhfuinneog aníos uathlíonta VelixVault chun dintiúir nua a chruthú.",
     "currentSiteMatch": "Do {{domain}}",
     "numberOfItemMatchesFound": "{{count}} earra aimsithe",
     "noMatchingItems": "Níl aon mhíreanna a oireann don scagaire roghnaithe.",
@@ -269,7 +269,7 @@
       "Suffix": "Iarmhír"
     },
     "privateEmailTitle": "Ríomhphost Príobháideach",
-    "privateEmailAliasVaultServer": "Freastalaí AliasVault",
+    "privateEmailAliasVaultServer": "Freastalaí VelixVault",
     "privateEmailDescription": "E2E criptithe, go hiomlán príobháideach.",
     "publicEmailTitle": "Soláthraithe Ríomhphoist Sealadacha Poiblí",
     "publicEmailDescription": "Príobháideacht gan ainm ach teoranta. Is féidir le duine ar bith a bhfuil an seoladh ar eolas aige ábhar an ríomhphoist a léamh.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 uair an chloig",
     "autoLock8Hours": "8 n-uaire an chloig",
     "autoLock24Hours": "24 uair an chloig",
+    "sourceCode": "Source code",
     "versionPrefix": "Leagan an aip",
     "serverVersion": "Leagan an fhreastalaí",
     "autofillSettings": "Socruithe Autofill",
     "clipboardSettings": "Socruithe gearrthaisce",
     "contextMenuSettings": "Socruithe Roghchláir Comhthéacs",
     "passkeySettings": "Pas eochair Socruithe",
-    "contextMenuDescription": "Deaschliceáil ar réimsí ionchuir chun rochtain a fháil ar roghanna AliasVault",
+    "contextMenuDescription": "Deaschliceáil ar réimsí ionchuir chun rochtain a fháil ar roghanna VelixVault",
     "selectLanguage": "Roghnaigh Teanga",
     "serverConfiguration": "Cumraíocht Freastalaí",
-    "serverConfigurationDescription": "Cumraigh URL an fhreastalaí AliasVault le haghaidh cásanna féin-óstáilte",
+    "serverConfigurationDescription": "Cumraigh URL an fhreastalaí VelixVault le haghaidh cásanna féin-óstáilte",
     "customApiUrl": "URL API",
     "customClientUrl": "URL an chliaint",
     "apiUrlHint": "URL críochphointe an API (URL an chliaint + / api de ghnáth)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Ceangail an eochair phas seo le dintiúir logála isteach atá ann cheana don suíomh seo.",
       "attachingToCredential": "Ag cur eochair phas le: {{serviceName}}",
       "attachPasskey": "Cuir Eochair phas leis",
-      "unsupportedAlgorithm": "Éilíonn an suíomh Gréasáin seo cineál eochair phas nach dtacaíonn AliasVault leis."
+      "unsupportedAlgorithm": "Éilíonn an suíomh Gréasáin seo cineál eochair phas nach dtacaíonn VelixVault leis."
     },
     "settings": {
       "passkeyProvider": "Soláthraí Eochrach Pas",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Uasghrádú an Cruinneacháin",
-    "subtitle": "Tá AliasVault nuashonraithe agus ní mór do chruinneachán a uasghrádú. Níor cheart go dtógfadh sé seo ach cúpla soicind.",
+    "subtitle": "Tá VelixVault nuashonraithe agus ní mór do chruinneachán a uasghrádú. Níor cheart go dtógfadh sé seo ach cúpla soicind.",
     "versionInformation": "Faisnéis Leagan",
     "yourVault": "Do leagan cruinneachán:",
     "newVersion": "Leagan nua ar fáil:",

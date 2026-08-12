@@ -4,14 +4,14 @@ sidebar_label: "Troubleshooting"
 ---
 # Troubleshooting
 
-This guide covers common issues and troubleshooting steps for AliasVault encountered during installation, updates or general maintenance.
+This guide covers common issues and troubleshooting steps for VelixVault encountered during installation, updates or general maintenance.
 
 ---
 
 ## Check Docker Container Status
 For any issues you might encounter, the first step is to check the Docker containers health. This will give you a quick insight into the status of the individual containers which will help you identify the root cause of the issue.
 
-1. List all running containers and their status (execute from the AliasVault installation directory):
+1. List all running containers and their status (execute from the VelixVault installation directory):
 ```bash
 docker compose ps
 ```
@@ -27,15 +27,15 @@ docker compose logs [container-name-here]]
 docker compose restart [container-name-here]
 ```
 
-4. In order to restart the whole AliasVault stack, do not use docker compose directly, but run the following command instead. This makes sure the correct `docker-compose.yml` file is being used:
+4. In order to restart the whole VelixVault stack, do not use docker compose directly, but run the following command instead. This makes sure the correct `docker-compose.yml` file is being used:
 ```bash
 ./install.sh restart
 ```
 
 ---
 
-## Check AliasVault Text Logs
-All AliasVault services log information and errors to text files. These files are located in the `logs` directory. You can check the logs of a specific service by running the following command:
+## Check VelixVault Text Logs
+All VelixVault services log information and errors to text files. These files are located in the `logs` directory. You can check the logs of a specific service by running the following command:
 
 ```bash
 cat logs/[service-name-here].txt
@@ -79,7 +79,7 @@ docker compose logs certbot
 docker compose logs reverse-proxy
 ```
 
-3. In case the SSL certificates are being correctly renewed, but the browser still shows TLS/SSL errors, try to restart AliasVault manually in order to force the NGINX container to reload the TLS/SSL certificates:
+3. In case the SSL certificates are being correctly renewed, but the browser still shows TLS/SSL errors, try to restart VelixVault manually in order to force the NGINX container to reload the TLS/SSL certificates:
 ```bash
 ./install.sh restart
 ```
@@ -97,8 +97,8 @@ If you are not receiving emails on your aliases, check the following:
 
 Refer to the [installation guide](../#3-email-server-setup) for more information on how to configure your DNS records and ports.
 
-### 4. Forgot AliasVault Admin Password
-If you have lost your admin password, you can reset it by running the install script with the `reset-admin-password` option. This will generate a new random password and update the .env file with it. After that it will restart the AliasVault containers to apply the changes.
+### 4. Forgot VelixVault Admin Password
+If you have lost your admin password, you can reset it by running the install script with the `reset-admin-password` option. This will generate a new random password and update the .env file with it. After that it will restart the VelixVault containers to apply the changes.
 
 ```bash
 ./install.sh reset-admin-password

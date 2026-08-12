@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Boas-vindas ao AliasVault</value>
+    <value>Boas-vindas ao VelixVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>Como o AliasVault Funciona</value>
+    <value>Como o VelixVault Funciona</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>Seu cofre foi criado com sucesso! Proteja sua privacidade online criando aliases únicos para cada serviço que você realizar um cadastro. Vamos aprender como o AliasVault funciona e então criar seu primeiro alias seguro.</value>
+    <value>Seu cofre foi criado com sucesso! Proteja sua privacidade online criando aliases únicos para cada serviço que você realizar um cadastro. Vamos aprender como o VelixVault funciona e então criar seu primeiro alias seguro.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>AliasVault irá gerar uma identidade aleatória com um endereço de e-mail privado e seguro</value>
+    <value>VelixVault irá gerar uma identidade aleatória com um endereço de e-mail privado e seguro</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Instale a extensão de navegador AliasVault e o aplicativo móvel para criar aliases e preencher formulários automaticamente diretamente do seu navegador e smartphone.</value>
+    <value>Instale a extensão de navegador VelixVault e o aplicativo móvel para criar aliases e preencher formulários automaticamente diretamente do seu navegador e smartphone.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Agora que você sabe como o AliasVault funciona, vamos criar sua primeira identidade segura!</value>
+    <value>Agora que você sabe como o VelixVault funciona, vamos criar sua primeira identidade segura!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

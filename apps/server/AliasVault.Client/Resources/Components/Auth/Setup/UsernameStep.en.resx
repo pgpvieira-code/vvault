@@ -22,7 +22,7 @@
 
   <!-- Assistant messages -->
   <data name="GreatNowLetsSetupUsername">
-    <value>Great! Now, let's set up your username for AliasVault.</value>
+    <value>Great! Now, let's set up your username for VelixVault.</value>
     <comment>Assistant message about setting up username</comment>
   </data>
   <data name="EnterUsernameInstructions">
@@ -58,13 +58,13 @@
     <comment>Error message when username is empty</comment>
   </data>
   <data name="ServerCommunicationError">
-    <value>An error occurred during communication with the AliasVault server.</value>
+    <value>An error occurred during communication with the VelixVault server.</value>
     <comment>Error message for server communication issues</comment>
   </data>
 
   <!-- Alt text -->
   <data name="AssistantAvatarAlt">
-    <value>AliasVault Assistant</value>
+    <value>VelixVault Assistant</value>
     <comment>Alt text for assistant avatar image</comment>
   </data>
 </root>

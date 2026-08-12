@@ -1,0 +1,29 @@
+VelixVault
+Copyright (c) 2026 Petter Vieira
+
+This product is a derivative work of AliasVault.
+
+  AliasVault
+  Copyright (c) AliasVault contributors
+  https://github.com/aliasvault/aliasvault
+  Licensed under the GNU Affero General Public License v3.0
+
+VelixVault is distributed under the same license, the GNU Affero General
+Public License v3.0. See LICENSE.md for the full license text.
+
+Changes made relative to upstream AliasVault are limited to user-facing
+branding (product name, logos, icons, application identifiers and
+user-interface strings). See docs/REBRAND.md for the complete inventory of
+what was changed and what was deliberately left untouched.
+
+AGPL-3.0 section 13 notice
+--------------------------
+If you run a modified version of this program on a server and let other
+users interact with it there, you must give those users access to the
+corresponding source of your modified version.
+
+The AliasVault name and logo are trademarks of the AliasVault project and
+are not used by VelixVault. References to "AliasVault" that remain in this
+codebase are either internal identifiers (namespaces, resource keys, build
+artifacts) or accurate references to the upstream project — for example,
+the feature that imports vault data exported from AliasVault.

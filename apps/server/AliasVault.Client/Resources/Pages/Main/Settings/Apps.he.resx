@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>הרחבת AliasVault לדפדפן מאפשר לך להשלים אוטומטית פרטי גישה קיימים בכל אתר שהוא. היא גם מאפשר לך לייצר כינויים חדשים במהלך הרישום, לגשת להודעות הדוא״ל שהתקבלו בכל הכינויים שלך ולצפות בכינויים ובזהויות שלך.</value>
+    <value>הרחבת VelixVault לדפדפן מאפשר לך להשלים אוטומטית פרטי גישה קיימים בכל אתר שהוא. היא גם מאפשר לך לייצר כינויים חדשים במהלך הרישום, לגשת להודעות הדוא״ל שהתקבלו בכל הכינויים שלך ולצפות בכינויים ובזהויות שלך.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>היישומון של AliasVault לניידים מאפשר לך לגשת לכינויים ולזהויות שלך בדרכים, אפשר לצפות ולנהל הודעות דוא״ל שהתקבלו ולייצר כינויים חדשים בכל זמן שמתחשק. הנתונים שלך מוגנים לחלוטין עם אימות ביומטרי במכשיר עצמו.</value>
+    <value>היישומון של VelixVault לניידים מאפשר לך לגשת לכינויים ולזהויות שלך בדרכים, אפשר לצפות ולנהל הודעות דוא״ל שהתקבלו ולייצר כינויים חדשים בכל זמן שמתחשק. הנתונים שלך מוגנים לחלוטין עם אימות ביומטרי במכשיר עצמו.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

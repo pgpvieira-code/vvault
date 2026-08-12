@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Bei AliasVault anmelden",
+    "loginTitle": "Bei VelixVault anmelden",
     "username": "Benutzername oder E-Mail-Adresse",
     "usernamePlaceholder": "Name / name@unternehmen.com",
     "passwordPlaceholder": "Gib Dein Passwort ein",
@@ -29,7 +29,7 @@
     "switchAccounts": "Konto wechseln?",
     "loginWithMobile": "Mit mobiler App anmelden",
     "unlockWithMobile": "Mit mobiler App entsperren",
-    "scanQrCode": "Scanne diesen QR-Code mit Deiner AliasVault-App, um Dich anzumelden und Deinen Tresor zu entsperren.",
+    "scanQrCode": "Scanne diesen QR-Code mit Deiner VelixVault-App, um Dich anzumelden und Deinen Tresor zu entsperren.",
     "passwordAttemptsWarning": "Ungültiges Passwort. Noch {{remainingAttempts}} Versuche bis zur Abmeldung.",
     "maxAttemptsReached": "Zu viele fehlgeschlagene Entsperrversuche. Du wurdest aus Sicherheitsgründen abgemeldet."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Tresor Änderungen zusammenführen...",
     "uploadingVault": "Tresor wird hochgeladen...",
     "errors": {
-      "serverNotAvailable": "Der AliasVault-Server ist nicht erreichbar. Bitte versuche es später noch einmal oder kontaktiere den Support, falls das Problem weiterhin besteht.",
-      "clientVersionNotSupported": "Diese Version der AliasVault-Browser-Erweiterung wird vom Server nicht mehr unterstützt. Bitte aktualisiere Deine Browser-Erweiterung auf die neueste Version.",
+      "serverNotAvailable": "Der VelixVault-Server ist nicht erreichbar. Bitte versuche es später noch einmal oder kontaktiere den Support, falls das Problem weiterhin besteht.",
+      "clientVersionNotSupported": "Diese Version der VelixVault-Browser-Erweiterung wird vom Server nicht mehr unterstützt. Bitte aktualisiere Deine Browser-Erweiterung auf die neueste Version.",
       "browserExtensionOutdated": "Diese Browser-Erweiterung ist veraltet und kann nicht verwendet werden, um auf diesen Tresor zuzugreifen. Bitte aktualisiere die Browser-Erweiterung, um fortzufahren.",
-      "serverVersionNotSupported": "Der AliasVault-Server muss auf eine neuere Version aktualisiert werden, um diese Browser-Erweiterung nutzen zu können. Bitte kontaktiere den Support, falls Du Hilfe benötigst.",
-      "serverVersionTooOld": "Der AliasVault-Server muss auf eine neuere Version aktualisiert werden, um dieses Feature nutzen zu können. Bitte kontaktiere den Administrator des Servers, falls Du Hilfe benötigst.",
+      "serverVersionNotSupported": "Der VelixVault-Server muss auf eine neuere Version aktualisiert werden, um diese Browser-Erweiterung nutzen zu können. Bitte kontaktiere den Support, falls Du Hilfe benötigst.",
+      "serverVersionTooOld": "Der VelixVault-Server muss auf eine neuere Version aktualisiert werden, um dieses Feature nutzen zu können. Bitte kontaktiere den Administrator des Servers, falls Du Hilfe benötigst.",
       "unknownError": "Ein unbekannter Fehler ist aufgetreten",
       "unknownErrorTryAgain": "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es erneut.",
       "vaultNotAvailable": "Tresor nicht verfügbar",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "Der Tresor ist zu groß für den Server. Versuche einige Elemente oder Anhänge zu entfernen, um die Größe zu verringern und versuche es dann erneut.",
       "vaultSyncTimeout": "Zeitüberschreitung bei der Tresor-Synchronisation. Dies kann passieren, wenn der Tresor groß ist oder die Internetverbindung langsam ist. Bitte versuche es erneut.",
       "invalidCode": "Bitte gib einen gültigen 6-stelligen Sicherheits-Code ein.",
-      "serverError": "Der AliasVault-Server ist nicht erreichbar. Bitte versuche es später noch einmal oder kontaktiere den Support, falls das Problem weiterhin besteht.",
+      "serverError": "Der VelixVault-Server ist nicht erreichbar. Bitte versuche es später noch einmal oder kontaktiere den Support, falls das Problem weiterhin besteht.",
       "wrongPassword": "Falsches Passwort. Bitte versuche es erneut.",
       "sessionExpired": "Deine Sitzung ist abgelaufen. Bitte melde Dich erneut an.",
       "mobileLoginRequestExpired": "Zeitüberschreitung für mobile Anmeldeanforderung. Bitte lade die Seite neu und versuche es erneut."
@@ -148,7 +148,7 @@
   "content": {
     "or": "oder",
     "new": "Neu",
-    "vaultLocked": "AliasVault ist gesperrt.",
+    "vaultLocked": "VelixVault ist gesperrt.",
     "creatingNewAlias": "Neuen Alias erstellen",
     "creatingNewCredential": "Neue Anmeldeinformationen erstellen",
     "noMatchesFound": "Keine Treffer gefunden",
@@ -165,7 +165,7 @@
     "usernamePassword": "Benutzername/Passwort",
     "createAndSaveAlias": "Alias erstellen und speichern",
     "createAndSaveCredential": "Zugang erstellen und speichern",
-    "randomIdentityDescription": "Generiere eine zufällige Identität mit einer zufälligen E-Mail-Adresse von AliasVault.",
+    "randomIdentityDescription": "Generiere eine zufällige Identität mit einer zufälligen E-Mail-Adresse von VelixVault.",
     "randomIdentityDescriptionDropdown": "Zufällige Identität mit zufälliger E-Mail-Adresse",
     "manualCredentialDescription": "Gebe Deine eigene E-Mail-Adresse und Benutzernamen an.",
     "manualCredentialDescriptionDropdown": "Manueller Benutzername und Passwort",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Neues Passwort erzeugen",
     "togglePasswordVisibility": "Passwort ein-/ausblenden",
     "passwordCopiedToClipboard": "Passwort in die Zwischenablage kopiert",
-    "openAliasVaultToUpgrade": "Zum Aktualisieren AliasVault öffnen",
+    "openAliasVaultToUpgrade": "Zum Aktualisieren VelixVault öffnen",
     "vaultUpgradeRequired": "Aktualisierung des Tresors erforderlich.",
     "dismissPopup": "Popup schließen",
     "noTotpItemsFound": "Kein passender 2FA-Code gefunden",
     "close": "Schließen",
     "savePrompt": {
-      "title": "In AliasVault speichern?",
+      "title": "In VelixVault speichern?",
       "neverForThisSite": "Niemals für diese Webseite",
       "addUrlTitle": "URL zu Anmeldeinformationen hinzufügen?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Ordnername",
     "folderNameRequired": "Ordnername ist erforderlich",
     "folder": "Ordner",
-    "welcomeTitle": "Welcome to AliasVault!",
-    "welcomeDescription": "Du möchtest die AliasVault-Browser-Erweiterung verwenden? Navigiere zu einer Website und verwende das AliasVault-Popup-Fenster um einen neuen Zugang zu erstellen.",
+    "welcomeTitle": "Welcome to VelixVault!",
+    "welcomeDescription": "Du möchtest die VelixVault-Browser-Erweiterung verwenden? Navigiere zu einer Website und verwende das VelixVault-Popup-Fenster um einen neuen Zugang zu erstellen.",
     "currentSiteMatch": "Für {{domain}}",
     "numberOfItemMatchesFound": "{{count}} Elemente gefunden",
     "noMatchingItems": "Keine Elemente entsprechen den ausgewählten Filtern.",
@@ -269,7 +269,7 @@
       "Suffix": "Suffix"
     },
     "privateEmailTitle": "Private E-Mail-Adresse",
-    "privateEmailAliasVaultServer": "AliasVault-Server",
+    "privateEmailAliasVaultServer": "VelixVault-Server",
     "privateEmailDescription": "Ende-zu-Ende verschlüsselt, vollständig privat.",
     "publicEmailTitle": "Öffentliche Temp-E-Mail-Anbieter",
     "publicEmailDescription": "Anonyme, aber beschränkte Privatsphäre. E-Mail-Inhalt ist für jeden lesbar, der die Adresse kennt.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 Stunden",
     "autoLock8Hours": "8 Stunden",
     "autoLock24Hours": "24 Stunden",
+    "sourceCode": "Quellcode",
     "versionPrefix": "App-Version",
     "serverVersion": "Server-Version",
     "autofillSettings": "Autofill-Einstellungen",
     "clipboardSettings": "Zwischenablage-Einstellungen",
     "contextMenuSettings": "Kontextmenü-Einstellungen",
     "passkeySettings": "Passkey-Einstellungen",
-    "contextMenuDescription": "Rechtsklicke auf Eingabefelder, um auf AliasVault-Optionen zuzugreifen",
+    "contextMenuDescription": "Rechtsklicke auf Eingabefelder, um auf VelixVault-Optionen zuzugreifen",
     "selectLanguage": "Sprache auswählen",
     "serverConfiguration": "Serverkonfiguration",
-    "serverConfigurationDescription": "AliasVault-Server-URL für selbstgehostete Instanzen konfigurieren",
+    "serverConfigurationDescription": "VelixVault-Server-URL für selbstgehostete Instanzen konfigurieren",
     "customApiUrl": "API-URL",
     "customClientUrl": "Client-URL",
     "apiUrlHint": "Die API-Endpunkt-URL (normalerweise Client-URL + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Diesen Passkey zu bestehenden Anmeldedaten für diese Webseite hinzufügen.",
       "attachingToCredential": "Passkey zu {{serviceName}} hinzufügen",
       "attachPasskey": "Passkey hinzufügen",
-      "unsupportedAlgorithm": "Diese Website benötigt einen Passkey-Typ, den AliasVault nicht unterstützt."
+      "unsupportedAlgorithm": "Diese Website benötigt einen Passkey-Typ, den VelixVault nicht unterstützt."
     },
     "settings": {
       "passkeyProvider": "Passkey-Anbieter",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Tresor aktualisieren",
-    "subtitle": "AliasVault wurde aktualisiert. Dadurch muss auch Dein Tresor aktualisiert werden. Dies sollte nur wenige Sekunden dauern.",
+    "subtitle": "VelixVault wurde aktualisiert. Dadurch muss auch Dein Tresor aktualisiert werden. Dies sollte nur wenige Sekunden dauern.",
     "versionInformation": "Versionsinformationen",
     "yourVault": "Version Deines Tresors:",
     "newVersion": "Neue verfügbare Version:",

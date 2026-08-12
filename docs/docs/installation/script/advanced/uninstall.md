@@ -4,10 +4,10 @@ sidebar_label: "Uninstall"
 ---
 # Uninstall
 
-To uninstall AliasVault, run the install script with the `uninstall` option. This will stop and remove the AliasVault containers and remove any local AliasVault Docker images.
+To uninstall VelixVault, run the install script with the `uninstall` option. This will stop and remove the VelixVault containers and remove any local VelixVault Docker images.
 
 :::note
-This will not delete any data stored in the database. If you wish to delete all data, you should manually delete the `database` directory and the other directories created by AliasVault.
+This will not delete any data stored in the database. If you wish to delete all data, you should manually delete the `database` directory and the other directories created by VelixVault.
 :::
 
 ### Steps

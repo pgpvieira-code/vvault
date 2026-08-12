@@ -31,17 +31,17 @@
   </data>
   <!-- Terms content -->
   <data name="TermsContent">
-    <value>Az AliasVault célja az internetes biztonság és adatvédelem megerősítése. Az AliasVault segítségével egyéni azonosítókat és e-mail alias-okat tud létrehozni internetes fiókjaihoz, ezzel elősegítve, hogy ne kerüljenek személyes adatai illetéktelen kezekbe.
+    <value>Az VelixVault célja az internetes biztonság és adatvédelem megerősítése. Az VelixVault segítségével egyéni azonosítókat és e-mail alias-okat tud létrehozni internetes fiókjaihoz, ezzel elősegítve, hogy ne kerüljenek személyes adatai illetéktelen kezekbe.
 
-Az AliasVault használatával belegyezik a következőkbe:
+Az VelixVault használatával belegyezik a következőkbe:
 
-1. Nem használja az AliasVault-ot illegális tevékenységre, mint csalás, mások személyazonosságának ellopása, más létező személyként való megszemélyesítés.
+1. Nem használja az VelixVault-ot illegális tevékenységre, mint csalás, mások személyazonosságának ellopása, más létező személyként való megszemélyesítés.
 
-2. Felelős fiókja titkosságának fenntartásáért, ezáltal minden AliasVault-on keresztül létrehozott alias-ért is.
+2. Felelős fiókja titkosságának fenntartásáért, ezáltal minden VelixVault-on keresztül létrehozott alias-ért is.
 
-3. Az AliasVault fenntartja a jogot a fiók törlésére, ha úgy véli a feltételek megszegésre kerültek.
+3. Az VelixVault fenntartja a jogot a fiók törlésére, ha úgy véli a feltételek megszegésre kerültek.
 
-4. Elfogadja, hogy habár az AliasVault jelentősen növeli biztonságát és adatvédelmét, semmilyen rendszer sem feltörhetetlen, emiatt saját felelősségre használja azt.</value>
+4. Elfogadja, hogy habár az VelixVault jelentősen növeli biztonságát és adatvédelmét, semmilyen rendszer sem feltörhetetlen, emiatt saját felelősségre használja azt.</value>
     <comment>Full terms and conditions content</comment>
   </data>
   <!-- Agreement checkbox -->

@@ -35,7 +35,7 @@
       "unknownError": "Bilinmeyen bir hata oluştu.",
       "unknownErrorTryAgain": "Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
-      "serverVersionTooOld": "The AliasVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help."
+      "serverVersionTooOld": "The VelixVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Lütfen geçerli 6 haneli doğrulama kodunu girin",
       "incorrectPassword": "Parola yanlış. Lütfen yeniden deneyin.",
       "enterPassword": "Lütfen parolanızı girin",
-      "serverError": "AliasVault sunucusuna ulaşılamadı. Lütfen daha sonra tekrar deneyin veya sorun devam ederse destek ile iletişime geçin.",
+      "serverError": "VelixVault sunucusuna ulaşılamadı. Lütfen daha sonra tekrar deneyin veya sorun devam ederse destek ile iletişime geçin.",
       "serverErrorSelfHosted": "API’ye ulaşılamadı. Kendi sunucunuzu kullanıyorsanız, API uç noktasına tarayıcıdan erişilebilir olduğunu kontrol edin: sayfada “Tamam” görünmelidir.",
       "networkError": "Ağ isteği başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
       "networkErrorSelfHosted": "Ağ isteği başarısız oldu. Lütfen internet bağlantınızı ve sunucunun erişilebilirliğini kontrol edin. Kendi sunucunuzu kullanıyorsanız, geçerli bir SSL sertifikası yüklü olduğundan emin olun. Güvenlik nedeniyle mobil cihazlarda kendi imzaladığınız sertifikalar desteklenmez.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Şifrelenmiş veritabanı alınamadı",
       "usernameNotFound": "Kullanıcı adı bulunamadı",
-      "vaultOutdated": "Kasınız güncel değil. Lütfen AliasVault web sitesinden giriş yapın ve gerekli adımları izleyin.",
+      "vaultOutdated": "Kasınız güncel değil. Lütfen VelixVault web sitesinden giriş yapın ve gerekli adımları izleyin.",
       "failedToSyncVault": "Kasa senkronize edilemedi",
-      "versionNotSupported": "AliasVault mobil uygulamasının bu sürümü artık sunucu tarafından desteklenmiyor. Lütfen uygulamanızı en son sürüme güncelleyin.",
-      "serverVersionNotSupported": "Bu mobil uygulamayı kullanabilmek için AliasVault sunucusunun daha yeni bir sürüme güncellenmesi gerekiyor. Yardıma ihtiyacınız olursa lütfen destek ile iletişime geçin.",
-      "appOutdated": "This app is outdated and cannot be used to access this (newer) vault version. Please update the AliasVault app to continue.",
+      "versionNotSupported": "VelixVault mobil uygulamasının bu sürümü artık sunucu tarafından desteklenmiyor. Lütfen uygulamanızı en son sürüme güncelleyin.",
+      "serverVersionNotSupported": "Bu mobil uygulamayı kullanabilmek için VelixVault sunucusunun daha yeni bir sürüme güncellenmesi gerekiyor. Yardıma ihtiyacınız olursa lütfen destek ile iletişime geçin.",
+      "appOutdated": "This app is outdated and cannot be used to access this (newer) vault version. Please update the VelixVault app to continue.",
       "passwordChanged": "Parolanız, en son giriş yaptığınızdan bu yana değişti. Güvenlik nedeniyle lütfen tekrar giriş yapın.",
       "passwordChangeRequiresOnline": "Password change requires an internet connection. Please try again when online."
     }
@@ -131,13 +131,13 @@
     "title": "Ayarlar",
     "autofill": "Otomatik doldurma ve Geçiş anahtarları",
     "iosAutofillSettings": {
-      "headerText": "You can configure AliasVault to provide native password and passkey autofill functionality in iOS. Follow the instructions below to enable it.",
-      "passkeyNotice": "Passkeys are created through iOS. To store them in AliasVault, ensure Autofill below is enabled.",
+      "headerText": "You can configure VelixVault to provide native password and passkey autofill functionality in iOS. Follow the instructions below to enable it.",
+      "passkeyNotice": "Passkeys are created through iOS. To store them in VelixVault, ensure Autofill below is enabled.",
       "howToEnable": "How to enable Autofill & Passkeys:",
       "step1": "1. Aşağıdaki buton ile iOS Ayarlarını açın",
       "step2": "2. “Genel” bölümüne gidin",
       "step3": "3. “Parolaları Otomatik Doldur” seçeneğine dokunun",
-      "step4": "4. “AliasVault”u etkinleştirin",
+      "step4": "4. “VelixVault”u etkinleştirin",
       "step5": "5. Çakışmaları önlemek için diğer parola sağlayıcılarını (örn. “iCloud Anahtar Zinciri”) devre dışı bırakın",
       "openIosSettings": "iOS Ayarlarını Aç",
       "alreadyConfigured": "Yapılandırma tamamlandı"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Deneysel Özellikler",
       "warningDescription": "Autofill and passkey support for Android is currently in an experimental state.",
       "warningLink": "Daha fazlasını buradan okuyun",
-      "headerText": "You can configure AliasVault to provide native password and passkey autofill functionality in Android. Follow the instructions below to enable it.",
-      "passkeyNotice": "Passkeys are created through Android Credential Manager (Android 14+). To store them in AliasVault, ensure Autofill below is enabled.",
+      "headerText": "You can configure VelixVault to provide native password and passkey autofill functionality in Android. Follow the instructions below to enable it.",
+      "passkeyNotice": "Passkeys are created through Android Credential Manager (Android 14+). To store them in VelixVault, ensure Autofill below is enabled.",
       "howToEnable": "How to enable Autofill & Passkeys:",
-      "step1": "1. Aşağıdaki buton ile Android Ayarlarını açın ve “Otomatik doldurma tercihi”ni “AliasVault” olarak değiştirin",
+      "step1": "1. Aşağıdaki buton ile Android Ayarlarını açın ve “Otomatik doldurma tercihi”ni “VelixVault” olarak değiştirin",
       "openAutofillSettings": "Otomatik Doldurma Ayarlarını Aç",
       "buttonTip": "Eğer yukarıdaki buton çalışmazsa, güvenlik ayarları nedeniyle engellenmiş olabilir. Manuel olarak Android Ayarları → Genel Yönetim → Parolalar ve otomatik doldurma bölümüne gidebilirsiniz.",
       "step2": "2. Bazı uygulamalar, örneğin Google Chrome, üçüncü taraf otomatik doldurma uygulamalarına izin vermek için kendi ayarlarında manuel yapılandırma gerektirebilir. Ancak çoğu uygulama varsayılan olarak otomatik doldurma ile çalışmalıdır.",
       "alreadyConfigured": "Yapılandırma tamamlandı",
       "showSearchText": "Show search text",
-      "showSearchTextDescription": "Include the text AliasVault receives from Android that it uses to search for a matching credential"
+      "showSearchTextDescription": "Include the text VelixVault receives from Android that it uses to search for a matching credential"
     },
     "advancedOptions": "Advanced Options",
     "copyTotpOnFill": "Copy TOTP code on autofill",
@@ -164,7 +164,7 @@
     "autoLock": "Otomatik Kilit Süresi",
     "clipboardClear": "Panoyu Temizle",
     "clipboardClearDescription": "Kopyalanan parolaları ve hassas bilgileri, belirtilen süre sonunda panodan otomatik olarak temizleyin.",
-    "clipboardClearAndroidWarning": "Not: Bazı Android cihazlarda pano geçmişi özelliği açıktır ve AliasVault panoyu temizledikten sonra bile daha önce kopyalanan öğeleri saklayabilir. AliasVault yalnızca en son öğeyi üzerine yazabilir, ancak daha eski girişler geçmişte görünmeye devam edebilir. Güvenlik nedeniyle, cihaz ayarlarınızdan pano geçmişi özelliklerini devre dışı bırakmanızı öneririz.",
+    "clipboardClearAndroidWarning": "Not: Bazı Android cihazlarda pano geçmişi özelliği açıktır ve VelixVault panoyu temizledikten sonra bile daha önce kopyalanan öğeleri saklayabilir. VelixVault yalnızca en son öğeyi üzerine yazabilir, ancak daha eski girişler geçmişte görünmeye devam edebilir. Güvenlik nedeniyle, cihaz ayarlarınızdan pano geçmişi özelliklerini devre dışı bırakmanızı öneririz.",
     "clipboardLocalOnly": "Local Clipboard Only",
     "clipboardLocalOnlyDescription": "Keep copied credentials on this device instead of syncing them to your other Apple devices via Universal Clipboard.",
     "clipboardLocalOnlyDisabledWarning": "With this off, copied credentials can sync to your other Apple devices (Mac, iPad, etc.) through Universal Clipboard.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Enable Background Clipboard Clearing",
     "batteryOptimizationActive": "Battery optimization is blocking background tasks",
     "batteryOptimizationDisabled": "Background clipboard clearing enabled",
-    "batteryOptimizationHelpDescription": "Android's battery optimization prevents reliable clipboard clearing when the app is in the background. Disabling battery optimization for AliasVault allows precise background clipboard clearing and automatically grants necessary alarm permissions.",
+    "batteryOptimizationHelpDescription": "Android's battery optimization prevents reliable clipboard clearing when the app is in the background. Disabling battery optimization for VelixVault allows precise background clipboard clearing and automatically grants necessary alarm permissions.",
     "disableBatteryOptimization": "Disable battery optimization",
     "identityGenerator": "Kimlik Oluşturucu",
     "passwordGenerator": "Password Generator",
     "importExport": "Import / Export",
     "importSectionTitle": "Import",
-    "importSectionDescription": "Import your passwords from other password managers or from a previous AliasVault export.",
+    "importSectionDescription": "Import your passwords from other password managers or from a previous VelixVault export.",
     "importWebNote": "To import credentials from existing password managers, please login to the web app. The import feature is currently only available on the web version.",
     "exportSectionTitle": "Export",
     "exportSectionDescription": "Export your vault data to a CSV file. This file can be used as a back-up and can also be imported into other password managers.",
@@ -196,6 +196,7 @@
       "exportDescription": "For security reasons, please enter your master password to confirm this export."
     },
     "security": "Güvenlik",
+    "sourceCode": "Kaynak kodu",
     "appVersion": "App version",
     "serverVersion": "Server version",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 saat"
     },
     "language": "Dil",
-    "languageSystemMessage": "Uygulama dilini değiştirmek için, cihaz ayarlarınızdan AliasVault için tercih edilen dili yapılandırın.",
+    "languageSystemMessage": "Uygulama dilini değiştirmek için, cihaz ayarlarınızdan VelixVault için tercih edilen dili yapılandırın.",
     "openSettings": "Ayarları Aç",
     "vaultUnlockSettings": {
       "description": "Kasanızı nasıl açmak istediğinizi seçin.",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} başarıyla etkinleştirildi",
       "biometricNotAvailable": "{{biometric}} Kullanılamıyor",
-      "biometricDisabledMessage": "{{biometric}} AliasVault için devre dışı bırakılmış. Kullanabilmek için önce cihaz ayarlarınızdan etkinleştirmeniz gerekmektedir.",
+      "biometricDisabledMessage": "{{biometric}} VelixVault için devre dışı bırakılmış. Kullanabilmek için önce cihaz ayarlarınızdan etkinleştirmeniz gerekmektedir.",
       "biometricHelp": "Use biometrics to unlock your vault, which is secured by the {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} kullanılamıyor. Ayarları açmak için dokunun veya etkinleştirmek ve yapılandırmak için cihaz ayarlarınıza gidin.",
       "featureRequiresPasscode": "This feature requires a passcode to be enabled on your device.",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "QR Code Scanner",
-      "scanningMessage": "Scan AliasVault QR code",
+      "scanningMessage": "Scan VelixVault QR code",
       "mobileLogin": {
         "confirmTitle": "Confirm Login Request",
         "confirmSubtitle": "Re-authenticate to approve login on another device.",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "E-posta önekini girin",
     "selectEmailDomain": "E-posta Alan Adını Seç",
     "privateEmailTitle": "Özel E-posta",
-    "privateEmailAliasVaultServer": "AliasVault sunucusu",
+    "privateEmailAliasVaultServer": "VelixVault sunucusu",
     "privateEmailDescription": "Uçtan uca şifreli, tamamen özel.",
     "publicEmailTitle": "Herkese Açık Geçici E-Posta Sağlayıcıları",
     "publicEmailDescription": "Anonim ama mahremiyeti sınırlı. E-posta içeriği, adresi bilen herkes tarafından okunabilir.",
@@ -429,7 +430,7 @@
     "noMatchingItems": "No items match the selected filter.",
     "noMatchingItemsSearch": "No items matching \"{{search}}\"",
     "noMatchingItemsWithFilter": "No {{filter}} items matching \"{{search}}\"",
-    "noItemsFound": "No items found. Create one to get started. Tip: you can also login to the AliasVault web app to import credentials from other password managers.",
+    "noItemsFound": "No items found. Create one to get started. Tip: you can also login to the VelixVault web app to import credentials from other password managers.",
     "allItemsInFolders": "All your items are organized in folders. Tap a folder above to view your credentials, or use the search to find specific items.",
     "clearSearch": "Clear search",
     "clearFilter": "Clear filter",
@@ -670,7 +671,7 @@
       "message": "This page has been moved or deleted.",
       "goHome": "Go back to the start"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Kasa zaman aşımının ardından otomatik olarak kilitlendi.",
       "attemptingToUnlockMessage": "Attempting to unlock."
@@ -690,7 +691,7 @@
       "version": "Version: {{version}}",
       "advancedSettings": "Advanced settings",
       "customProxyHeaders": "Custom proxy headers",
-      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your AliasVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your VelixVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
       "headerName": "Header name",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header value"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "Upgrade Vault",
-    "subtitle": "AliasVault has updated and your vault needs to be upgraded. This should only take a few seconds.",
+    "subtitle": "VelixVault has updated and your vault needs to be upgraded. This should only take a few seconds.",
     "versionInformation": "Version Information",
     "yourVault": "Your vault version:",
     "newVersion": "New available version:",

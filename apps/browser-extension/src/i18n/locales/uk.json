@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Увійти до AliasVault",
+    "loginTitle": "Увійти до VelixVault",
     "username": "Ім'я користувача або електронна пошта",
     "usernamePlaceholder": "ім'я / name@company.com",
     "passwordPlaceholder": "Введіть ваш пароль",
@@ -29,7 +29,7 @@
     "switchAccounts": "Змінити обліковий запис?",
     "loginWithMobile": "Увійти за допомогою мобільного додатку",
     "unlockWithMobile": "Розблокувати за допомогою мобільного додатку",
-    "scanQrCode": "Проскануйте цей QR-код за допомогою мобільного додатка AliasVault, щоб увійти та розблокувати сховище.",
+    "scanQrCode": "Проскануйте цей QR-код за допомогою мобільного додатка VelixVault, щоб увійти та розблокувати сховище.",
     "passwordAttemptsWarning": "Incorrect password. You will be logged out if you enter the wrong password {{remainingAttempts}} more times.",
     "maxAttemptsReached": "Too many failed unlock attempts. You have been logged out for security reasons."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Merging vault changes...",
     "uploadingVault": "Uploading vault...",
     "errors": {
-      "serverNotAvailable": "Не вдалося зв’язатися зі сервером AliasVault. Будь ласка, спробуйте пізніше або зверніться до служби підтримки, якщо проблема не зникне.",
-      "clientVersionNotSupported": "Ця версія розширення браузера AliasVault більше не підтримується сервером. Будь ласка, оновіть розширення браузера до останньої версії.",
+      "serverNotAvailable": "Не вдалося зв’язатися зі сервером VelixVault. Будь ласка, спробуйте пізніше або зверніться до служби підтримки, якщо проблема не зникне.",
+      "clientVersionNotSupported": "Ця версія розширення браузера VelixVault більше не підтримується сервером. Будь ласка, оновіть розширення браузера до останньої версії.",
       "browserExtensionOutdated": "Це розширення браузера застаріло, і його не можна використовувати для доступу до цього сховища. Щоб продовжити, оновіть це розширення браузера.",
-      "serverVersionNotSupported": "Щоб використовувати це розширення браузера, потрібно оновити сервер AliasVault до новішої версії. Зверніться до служби підтримки, якщо вам потрібна допомога.",
-      "serverVersionTooOld": "Щоб скористатися цією функцією, потрібно оновити сервер AliasVault до нової версії. Якщо вам потрібна допомога, будь ласка, зверніться до адміністратора сервера.",
+      "serverVersionNotSupported": "Щоб використовувати це розширення браузера, потрібно оновити сервер VelixVault до новішої версії. Зверніться до служби підтримки, якщо вам потрібна допомога.",
+      "serverVersionTooOld": "Щоб скористатися цією функцією, потрібно оновити сервер VelixVault до нової версії. Якщо вам потрібна допомога, будь ласка, зверніться до адміністратора сервера.",
       "unknownError": "Сталася невідома помилка",
       "unknownErrorTryAgain": "Сталася невідома помилка. Будь ласка, спробуйте ще раз.",
       "vaultNotAvailable": "Сховище недоступне",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
       "vaultSyncTimeout": "Vault sync timed out. This can happen when the vault is large or the internet connection is slow. Please try again.",
       "invalidCode": "Please enter a valid 6-digit authentication code.",
-      "serverError": "Не вдалося зв’язатися зі сервером AliasVault. Будь ласка, спробуйте пізніше або зверніться до служби підтримки, якщо проблема не зникне.",
+      "serverError": "Не вдалося зв’язатися зі сервером VelixVault. Будь ласка, спробуйте пізніше або зверніться до служби підтримки, якщо проблема не зникне.",
       "wrongPassword": "Невірний пароль. Будь ласка, спробуйте ще раз.",
       "sessionExpired": "Час сеансу закінчився. Будь ласка, увійдіть знову.",
       "mobileLoginRequestExpired": "Час очікування запиту на вхід у мобільний додаток закінчився. Перезавантажте сторінку та спробуйте ще раз."
@@ -148,7 +148,7 @@
   "content": {
     "or": "або",
     "new": "Новий",
-    "vaultLocked": "AliasVault заблоковано.",
+    "vaultLocked": "VelixVault заблоковано.",
     "creatingNewAlias": "Створення нового псевдоніму",
     "creatingNewCredential": "Creating new credential",
     "noMatchesFound": "Збігів не знайдено",
@@ -165,7 +165,7 @@
     "usernamePassword": "Ім'я користувача/Пароль",
     "createAndSaveAlias": "Створити та зберегти псевдонім",
     "createAndSaveCredential": "Створити та зберегти облікові дані",
-    "randomIdentityDescription": "Згенеруйте випадкову особу з випадковою адресою електронної пошти, доступною в AliasVault.",
+    "randomIdentityDescription": "Згенеруйте випадкову особу з випадковою адресою електронної пошти, доступною в VelixVault.",
     "randomIdentityDescriptionDropdown": "Випадкова ідентифікація з випадковою електронною поштою",
     "manualCredentialDescription": "Вкажіть власну адресу електронної пошти та ім'я користувача.",
     "manualCredentialDescriptionDropdown": "Ім'я користувача та пароль вручну",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Згенерувати новий пароль",
     "togglePasswordVisibility": "Перемикання видимості пароля",
     "passwordCopiedToClipboard": "Пароль скопійовано в буфер обміну",
-    "openAliasVaultToUpgrade": "Відкрити AliasVault для покращення",
+    "openAliasVaultToUpgrade": "Відкрити VelixVault для покращення",
     "vaultUpgradeRequired": "Потрібне оновлення сховища.",
     "dismissPopup": "Закрити спливаюче вікно",
     "noTotpItemsFound": "No 2FA code matches found",
     "close": "Закрити",
     "savePrompt": {
-      "title": "Save to AliasVault?",
+      "title": "Save to VelixVault?",
       "neverForThisSite": "Never for this site",
       "addUrlTitle": "Add URL to credential?"
     }
@@ -208,7 +208,7 @@
     "folderNameRequired": "Folder name is required",
     "folder": "Тека",
     "welcomeTitle": "Ласкаво просимо до AliasVult!",
-    "welcomeDescription": "Щоб скористатися розширенням браузера AliasVault: перейдіть на вебсайт і скористайтеся спливаючим вікном автозаповнення AliasVault, щоб створити нові облікові дані.",
+    "welcomeDescription": "Щоб скористатися розширенням браузера VelixVault: перейдіть на вебсайт і скористайтеся спливаючим вікном автозаповнення VelixVault, щоб створити нові облікові дані.",
     "currentSiteMatch": "For {{domain}}",
     "numberOfItemMatchesFound": "{{count}} items found",
     "noMatchingItems": "No items match the selected filter.",
@@ -269,7 +269,7 @@
       "Suffix": "Suffix"
     },
     "privateEmailTitle": "Приватна електронна адреса",
-    "privateEmailAliasVaultServer": "Сервер AliasVault",
+    "privateEmailAliasVaultServer": "Сервер VelixVault",
     "privateEmailDescription": "Наскрізне шифрування, повністю конфіденційно.",
     "publicEmailTitle": "Публічні тимчасові постачальники електронної пошти",
     "publicEmailDescription": "Анонімно, але обмежена конфіденційність. Зміст електронного листа може прочитати будь-хто, хто знає адресу.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 години",
     "autoLock8Hours": "8 годин",
     "autoLock24Hours": "24 години",
+    "sourceCode": "Вихідний код",
     "versionPrefix": "App version",
     "serverVersion": "Server version",
     "autofillSettings": "Налаштування автозаповнення",
     "clipboardSettings": "Параметри буфера обміну",
     "contextMenuSettings": "Налаштування контекстного меню",
     "passkeySettings": "Налаштування ключа доступу",
-    "contextMenuDescription": "Натисніть правою кнопкою миші на поля введення, щоб отримати доступ до параметрів AliasVault",
+    "contextMenuDescription": "Натисніть правою кнопкою миші на поля введення, щоб отримати доступ до параметрів VelixVault",
     "selectLanguage": "Виберіть мову",
     "serverConfiguration": "Конфігурація сервера",
-    "serverConfigurationDescription": "Налаштування URL-адреси сервера AliasVault для самостійно розміщених екземплярів",
+    "serverConfigurationDescription": "Налаштування URL-адреси сервера VelixVault для самостійно розміщених екземплярів",
     "customApiUrl": "URL-адреса API",
     "customClientUrl": "URL-адреса клієнта",
     "apiUrlHint": "URL-адреса кінцевої точки API (зазвичай URL-адреса клієнта + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Attach this passkey to an existing login credential for this site.",
       "attachingToCredential": "Adding passkey to: {{serviceName}}",
       "attachPasskey": "Add Passkey",
-      "unsupportedAlgorithm": "This website requires a passkey type that AliasVault doesn't support."
+      "unsupportedAlgorithm": "This website requires a passkey type that VelixVault doesn't support."
     },
     "settings": {
       "passkeyProvider": "Passkey Provider",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Оновлення сховища",
-    "subtitle": "AliasVault оновлено, і ваше сховище потрібно оновити. Це займе лише кілька секунд.",
+    "subtitle": "VelixVault оновлено, і ваше сховище потрібно оновити. Це займе лише кілька секунд.",
     "versionInformation": "Інформація про версію",
     "yourVault": "Ваша версія сховища:",
     "newVersion": "Доступна нова версія:",

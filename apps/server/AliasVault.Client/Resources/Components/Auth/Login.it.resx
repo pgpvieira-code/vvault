@@ -60,7 +60,7 @@
   </resheader>
   <!-- Page titles -->
   <data name="PageTitle" xml:space="preserve">
-    <value>Accedi ad AliasVault</value>
+    <value>Accedi ad VelixVault</value>
     <comment>Main login page title</comment>
   </data>
   <data name="TwoFactorAuthenticationTitle" xml:space="preserve">

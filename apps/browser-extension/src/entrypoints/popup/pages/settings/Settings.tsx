@@ -684,6 +684,16 @@ const Settings: React.FC = () => {
           {serverVersion && (
             <div><span className="font-bold">{t('settings.serverVersion')}:</span> {serverVersion} ({getDisplayUrl()})</div>
           )}
+          <div className="mt-1">
+            <a
+              href={AppInfo.SOURCE_CODE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-gray-500 dark:hover:text-gray-400"
+            >
+              {t('settings.sourceCode')}
+            </a>
+          </div>
         </div>
       </div>
     </>

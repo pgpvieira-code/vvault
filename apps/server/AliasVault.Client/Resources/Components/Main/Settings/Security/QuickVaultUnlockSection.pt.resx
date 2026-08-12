@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>Sua senha mestre é criptografada com passkey PRF e armazenada localmente. Quando você atualiza a página ou aba do AliasVault, você pode desbloquear seu cofre com sua passkey. Se você deseja desabilitar o desbloqueio por passkey, você pode utilizar o botão abaixo. Sua senha mestre ainda funcionará para desbloquear o cofre.</value>
+    <value>Sua senha mestre é criptografada com passkey PRF e armazenada localmente. Quando você atualiza a página ou aba do VelixVault, você pode desbloquear seu cofre com sua passkey. Se você deseja desabilitar o desbloqueio por passkey, você pode utilizar o botão abaixo. Sua senha mestre ainda funcionará para desbloquear o cofre.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>Por padrão, atualizar a página ou aba do AliasVault requer que você digite sua senha mestre novamente. Com uma passkey, você pode desbloquear seu cofre instantaneamente. Quando habilitado, sua senha mestre é criptografada localmente usando a extensão PRF da passkey. Nota: a passkey funcionará apenas no dispositivo atual e navegador em que você habilitar.</value>
+    <value>Por padrão, atualizar a página ou aba do VelixVault requer que você digite sua senha mestre novamente. Com uma passkey, você pode desbloquear seu cofre instantaneamente. Quando habilitado, sua senha mestre é criptografada localmente usando a extensão PRF da passkey. Nota: a passkey funcionará apenas no dispositivo atual e navegador em que você habilitar.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">
-    <value>Esta função é suportada pela extensão de navegador e aplicativo iOS do AliasVault. Suporte para Android será adicionado em breve. Se você tiver qualquer problema, você pode desabilitar esta função a qualquer momento.</value>
+    <value>Esta função é suportada pela extensão de navegador e aplicativo iOS do VelixVault. Suporte para Android será adicionado em breve. Se você tiver qualquer problema, você pode desabilitar esta função a qualquer momento.</value>
     <comment>Warning about feature compatibility</comment>
   </data>
   <data name="EnableButton" xml:space="preserve">

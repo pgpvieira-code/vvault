@@ -420,7 +420,7 @@ async function createWebAuthnCredentialAndDeriveKey(username) {
             publicKey: {
                 challenge,
                 rp: {
-                    name: "AliasVault Web Unlock",
+                    name: "VelixVault Web Unlock",
                     id: rpId},
                 user: {
                     id: crypto.getRandomValues(new Uint8Array(32)),

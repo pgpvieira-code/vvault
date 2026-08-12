@@ -35,7 +35,7 @@
       "unknownError": "אירעה שגיאה לא ידועה.",
       "unknownErrorTryAgain": "אירעה שגיאה לא ידועה, נא לנסות שוב.",
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
-      "serverVersionTooOld": "The AliasVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help."
+      "serverVersionTooOld": "The VelixVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "נא למלא קוד אימות באורך 6 ספרות",
       "incorrectPassword": "סיסמה שגויה. נא לנסות שוב.",
       "enterPassword": "נא למלא את הסיסמה שלך",
-      "serverError": "לא ניתן ליצור קשר עם השרת של AliasVault. נא לנסות שוב מאוחר יותר או ליצור קשר עם התמיכה אם הבעיה נשנית.",
+      "serverError": "לא ניתן ליצור קשר עם השרת של VelixVault. נא לנסות שוב מאוחר יותר או ליצור קשר עם התמיכה אם הבעיה נשנית.",
       "serverErrorSelfHosted": "לא ניתן להגיע ל־API. למערכות באירוח עצמי, נא לאמת שנקודת ה־API נגישה על ידי ניווט אליה בדפדפן: היא אמורה להציג ‚OK’ (תקין).",
       "networkError": "הבקשה דרך הרשת נכשלה. נא לבדוק שהחיבור שלך לאינטרנט תקין ולנסות שוב.",
       "networkErrorSelfHosted": "הבקשה דרך הרשת נכשלה. נא לבדוק שהחיבור שלך לאינטרנט והשרת זמינים. למערכות באירוח עצמי, נא לוודא שמותקן אצלך אישור SSL תקף. אישורים בחתימה עצמית לא נתמכים במכשירים ניידים מטעמי אבטחת מידע.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "משיכת מסד הנתונים המוצפן נכשלה",
       "usernameNotFound": "שם המשתמש לא נמצא",
-      "vaultOutdated": "הכספת שלך לא עדכנית. נא להיכנס לאתר AliasVault ולעקוב אחר ההנחיות.",
+      "vaultOutdated": "הכספת שלך לא עדכנית. נא להיכנס לאתר VelixVault ולעקוב אחר ההנחיות.",
       "failedToSyncVault": "סנכרון הכספת נכשל",
-      "versionNotSupported": "הגרסה הזאת של היישומון של AliasVault לניידים לא נתמכת עוד על ידי השרת. נא לעדכן את היישומון שלך לגרסה העדכנית ביותר.",
-      "serverVersionNotSupported": "יש לעדכן את שרת AliasVault לגרסה חדשה יותר כדי להשתמש ביישומון הזה לנייד. נא ליצור קשר עם התמיכה לקבלת עזרה.",
-      "appOutdated": "היישום הזה לא עדכני ואי אפשר להשתמש בו כדי לגשת לגרסת הכספת (החדשה יותר) הזאת. נא לעדכן את יישום AliasVault כדי להמשיך.",
+      "versionNotSupported": "הגרסה הזאת של היישומון של VelixVault לניידים לא נתמכת עוד על ידי השרת. נא לעדכן את היישומון שלך לגרסה העדכנית ביותר.",
+      "serverVersionNotSupported": "יש לעדכן את שרת VelixVault לגרסה חדשה יותר כדי להשתמש ביישומון הזה לנייד. נא ליצור קשר עם התמיכה לקבלת עזרה.",
+      "appOutdated": "היישום הזה לא עדכני ואי אפשר להשתמש בו כדי לגשת לגרסת הכספת (החדשה יותר) הזאת. נא לעדכן את יישום VelixVault כדי להמשיך.",
       "passwordChanged": "הסיסמה שלך השתנתה מאז הפעם האחרונה שנכנסת למערכת. נא להיכנס שוב מטעמי אבטחת מידע.",
       "passwordChangeRequiresOnline": "Password change requires an internet connection. Please try again when online."
     }
@@ -131,13 +131,13 @@
     "title": "הגדרות",
     "autofill": "Autofill & Passkeys",
     "iosAutofillSettings": {
-      "headerText": "You can configure AliasVault to provide native password and passkey autofill functionality in iOS. Follow the instructions below to enable it.",
-      "passkeyNotice": "Passkeys are created through iOS. To store them in AliasVault, ensure Autofill below is enabled.",
+      "headerText": "You can configure VelixVault to provide native password and passkey autofill functionality in iOS. Follow the instructions below to enable it.",
+      "passkeyNotice": "Passkeys are created through iOS. To store them in VelixVault, ensure Autofill below is enabled.",
       "howToEnable": "How to enable Autofill & Passkeys:",
       "step1": "1. לפתוח את הגדרות iOS דרך הכפתור שלהלן",
       "step2": "2. לעבור ל„כללי”",
       "step3": "3. לגעת ב„מילוי אוטומטי וסיסמאות”",
-      "step4": "4. להפעיל את „AliasVault”",
+      "step4": "4. להפעיל את „VelixVault”",
       "step5": "5. להשבית ספקי סיסמאות אחרים (למשל: „סיסמאות iCloud”) כדי להימנע מסתירות",
       "openIosSettings": "לפתוח את הגדרות iOS",
       "alreadyConfigured": "כבר הגדרתי את זה"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ יכולת ניסיונית",
       "warningDescription": "Autofill and passkey support for Android is currently in an experimental state.",
       "warningLink": "אפשר לקרוא עליה עוד כאן",
-      "headerText": "You can configure AliasVault to provide native password and passkey autofill functionality in Android. Follow the instructions below to enable it.",
-      "passkeyNotice": "Passkeys are created through Android Credential Manager (Android 14+). To store them in AliasVault, ensure Autofill below is enabled.",
+      "headerText": "You can configure VelixVault to provide native password and passkey autofill functionality in Android. Follow the instructions below to enable it.",
+      "passkeyNotice": "Passkeys are created through Android Credential Manager (Android 14+). To store them in VelixVault, ensure Autofill below is enabled.",
       "howToEnable": "How to enable Autofill & Passkeys:",
-      "step1": "1. לפתוח את הגדרות Android בעזרת הכפתור שלהלן ולשנות את „שירות השלמה אוטומטית מועדף” ל־„AliasVault”",
+      "step1": "1. לפתוח את הגדרות Android בעזרת הכפתור שלהלן ולשנות את „שירות השלמה אוטומטית מועדף” ל־„VelixVault”",
       "openAutofillSettings": "פתיחת הגדרות השלמה אוטומטית",
       "buttonTip": "אם הכפתור שלעיל לא עובד כנראה שהוא חסום עקב הגדרות אבטחת מידע. אפשר לגשת ידנית להגדרות Android ← ניהול כללי ← סיסמאות והשלמה אוטומטית.",
       "step2": "2. חלק מהיישומונים, למשל: Google Chrome, עלולים לדרוש הגדרות ידניות בהגדרות שלהן כדי שתאפשרנה יישומוני השלמות אוטומטיות מגורמי צד־שלישי. עם זאת, רוב היישומונים אמורים לעבוד עם השלמה אוטומטית כברירת מחדל.",
       "alreadyConfigured": "כבר הגדרתי את זה",
       "showSearchText": "הצגת טקסט חיפוש",
-      "showSearchTextDescription": "Include the text AliasVault receives from Android that it uses to search for a matching credential"
+      "showSearchTextDescription": "Include the text VelixVault receives from Android that it uses to search for a matching credential"
     },
     "advancedOptions": "אפשרויות מתקדמות",
     "copyTotpOnFill": "Copy TOTP code on autofill",
@@ -164,7 +164,7 @@
     "autoLock": "תום המתנה לנעילה אוטומטית",
     "clipboardClear": "פינוי לוח הגזירים",
     "clipboardClearDescription": "לפנות אוטומטית סיסמאות שהועתקו ופרטים רגישים מלוח הגזירים שלך לאחר פרק זמן מסוים.",
-    "clipboardClearAndroidWarning": "לתשומת ליבך: לחלק ממכשירי ה־Android יש היסטוריית לוח גזירים פעילה, מה שעלול להשאיר עקבות של פריטים שהועתקו בעבר, אפילו אחרי פינוי של לוח הגזירים על ידי AliasVault. ל־AliasVault יש אפשרות למחוק רק את הפריט העדכני ביותר, אבל רשומות ישנות יותר עשויות להישאר חשופות בהיסטוריה. מטעמי אבטחה, אנו ממליצים להשבית יכולות אחסון היסטורי של פריטי לוח הגזירים בהגדרות המכשיר שלך.",
+    "clipboardClearAndroidWarning": "לתשומת ליבך: לחלק ממכשירי ה־Android יש היסטוריית לוח גזירים פעילה, מה שעלול להשאיר עקבות של פריטים שהועתקו בעבר, אפילו אחרי פינוי של לוח הגזירים על ידי VelixVault. ל־VelixVault יש אפשרות למחוק רק את הפריט העדכני ביותר, אבל רשומות ישנות יותר עשויות להישאר חשופות בהיסטוריה. מטעמי אבטחה, אנו ממליצים להשבית יכולות אחסון היסטורי של פריטי לוח הגזירים בהגדרות המכשיר שלך.",
     "clipboardLocalOnly": "Local Clipboard Only",
     "clipboardLocalOnlyDescription": "Keep copied credentials on this device instead of syncing them to your other Apple devices via Universal Clipboard.",
     "clipboardLocalOnlyDisabledWarning": "With this off, copied credentials can sync to your other Apple devices (Mac, iPad, etc.) through Universal Clipboard.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "הפעלת פינוי לוח הגזירים ברקע",
     "batteryOptimizationActive": "מיטוב סוללה חוסם משימות רקע",
     "batteryOptimizationDisabled": "פינוי לוח גזירים ברקע פעיל",
-    "batteryOptimizationHelpDescription": "מיטוב הסוללה של Android מונע פינוי אמין של לוח הגזירים כשהיישום פועל ברקע. השבתת מיטוב הסוללה ל־AliasVault מאפשרת פינוי מדויק של לוח הגזירים ברקע ומאשרת אוטומטית הרשאות התראות הכרחיות.",
+    "batteryOptimizationHelpDescription": "מיטוב הסוללה של Android מונע פינוי אמין של לוח הגזירים כשהיישום פועל ברקע. השבתת מיטוב הסוללה ל־VelixVault מאפשרת פינוי מדויק של לוח הגזירים ברקע ומאשרת אוטומטית הרשאות התראות הכרחיות.",
     "disableBatteryOptimization": "השבתת מיטוב סוללה",
     "identityGenerator": "מייצר זהויות",
     "passwordGenerator": "יוצר סיסמאות",
     "importExport": "ייבוא / ייצוא",
     "importSectionTitle": "ייבוא",
-    "importSectionDescription": "אפשר לייבא את הסיסמאות שלך ממנהלי סיסמאות אחרים או מנתונים שיוצאו מ־AliasVault בעבר.",
+    "importSectionDescription": "אפשר לייבא את הסיסמאות שלך ממנהלי סיסמאות אחרים או מנתונים שיוצאו מ־VelixVault בעבר.",
     "importWebNote": "כדי לייבא פרטי גישה ממנהלי סיסמאות קיימים, נא להיכנס דרך יישום הדפדפן. יכולת הייבוא זמינה רק במהדורת הדפדפן.",
     "exportSectionTitle": "ייצוא",
     "exportSectionDescription": "ייצוא נתוני הכספת שלך לקובץ CSV. אפשר להשתמש בקובץ הזה כגיבוי וגם לייבא אותו למנהלי סיסמאות אחרים.",
@@ -196,6 +196,7 @@
       "exportDescription": "For security reasons, please enter your master password to confirm this export."
     },
     "security": "אבטחה",
+    "sourceCode": "Source code",
     "appVersion": "App version",
     "serverVersion": "Server version",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 שעות"
     },
     "language": "שפה",
-    "languageSystemMessage": "כדי לשנות את שפת היישומון, יש להגדיר את השפה המועדפת עבור AliasVault בהגדרות המכשיר שלך.",
+    "languageSystemMessage": "כדי לשנות את שפת היישומון, יש להגדיר את השפה המועדפת עבור VelixVault בהגדרות המכשיר שלך.",
     "openSettings": "לפתוח את ההגדרות",
     "vaultUnlockSettings": {
       "description": "נא לבחור איך לשחרר את נעילת הכספת שלך.",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID (זיהוי פנים/טביעת אצבע)",
       "biometricEnabled": "{{biometric}} פעיל כעת",
       "biometricNotAvailable": "{{biometric}} לא זמין",
-      "biometricDisabledMessage": "{{biometric}} מושבת עבור AliasVault. כדי להשתמש בו, נא להפעיל אותו בהגדרות ההתקן תחילה.",
+      "biometricDisabledMessage": "{{biometric}} מושבת עבור VelixVault. כדי להשתמש בו, נא להפעיל אותו בהגדרות ההתקן תחילה.",
       "biometricHelp": "Use biometrics to unlock your vault, which is secured by the {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} לא זמין. נא לגעת כדי לפתוח את ההגדרות ו/או לגשת להגדרות המכשיר שלך כדי להפעיל ולהגדיר אותו.",
       "featureRequiresPasscode": "This feature requires a passcode to be enabled on your device.",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "QR Code Scanner",
-      "scanningMessage": "Scan AliasVault QR code",
+      "scanningMessage": "Scan VelixVault QR code",
       "mobileLogin": {
         "confirmTitle": "Confirm Login Request",
         "confirmSubtitle": "Re-authenticate to approve login on another device.",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "נא למלא קידומת דוא״ל",
     "selectEmailDomain": "בחירת שם תחום לדוא״ל",
     "privateEmailTitle": "כתובת דוא״ל פרטית",
-    "privateEmailAliasVaultServer": "שרת AliasVault",
+    "privateEmailAliasVaultServer": "שרת VelixVault",
     "privateEmailDescription": "הצפנה מקצה לקצה, פרטיות מלאה.",
     "publicEmailTitle": "ספקי תיבת דוא״ל זמנית ציבוריים",
     "publicEmailDescription": "פרטיות אלמונית אך מוגבלת. תוכן הדוא״ל נגיש לכל מי שיודע את הכתובת.",
@@ -429,7 +430,7 @@
     "noMatchingItems": "No items match the selected filter.",
     "noMatchingItemsSearch": "No items matching \"{{search}}\"",
     "noMatchingItemsWithFilter": "No {{filter}} items matching \"{{search}}\"",
-    "noItemsFound": "No items found. Create one to get started. Tip: you can also login to the AliasVault web app to import credentials from other password managers.",
+    "noItemsFound": "No items found. Create one to get started. Tip: you can also login to the VelixVault web app to import credentials from other password managers.",
     "allItemsInFolders": "All your items are organized in folders. Tap a folder above to view your credentials, or use the search to find specific items.",
     "clearSearch": "Clear search",
     "clearFilter": "Clear filter",
@@ -670,7 +671,7 @@
       "message": "העמוד הזה הועבר או שנמחק.",
       "goHome": "חזרה להתחלה"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "הכספת ננעלה אוטומטית לאחר תום הזמן שהוקצב.",
       "attemptingToUnlockMessage": "מתבצע ניסיון לשחרור נעילה."
@@ -690,7 +691,7 @@
       "version": "גרסה: {{version}}",
       "advancedSettings": "Advanced settings",
       "customProxyHeaders": "Custom proxy headers",
-      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your AliasVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your VelixVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
       "headerName": "Header name",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header value"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "שדרוג כספת",
-    "subtitle": "AliasVault התעדכן וצריך לשדרג את הכספת שלך. הפעולה הזאת אמורה לארוך מספר שניות.",
+    "subtitle": "VelixVault התעדכן וצריך לשדרג את הכספת שלך. הפעולה הזאת אמורה לארוך מספר שניות.",
     "versionInformation": "פרטי גרסה",
     "yourVault": "גרסת הכספת שלך:",
     "newVersion": "הגרסה החדשה הזמינה:",

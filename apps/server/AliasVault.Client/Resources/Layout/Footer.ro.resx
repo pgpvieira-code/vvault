@@ -78,4 +78,8 @@
     <value>Sfat: Folosește comanda rapidă g+l (go lock) pentru a bloca seiful.</value>
     <comment>Tip about keyboard shortcut for locking vault</comment>
   </data>
+  <data name="SourceCodeLink" xml:space="preserve">
+    <value>Cod sursă</value>
+    <comment>Link to the public source repository, shown to satisfy AGPL-3.0 section 13</comment>
+  </data>
 </root>

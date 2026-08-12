@@ -22,7 +22,7 @@
 
   <!-- Step titles -->
   <data name="TermsAndConditionsStepTitle">
-    <value>Using AliasVault</value>
+    <value>Using VelixVault</value>
     <comment>Title for the terms and conditions step</comment>
   </data>
   <data name="UsernameStepTitle">

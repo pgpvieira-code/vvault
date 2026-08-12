@@ -63,7 +63,7 @@
     <comment>Title for vault upgrade process</comment>
   </data>
   <data name="UpgradeDescription" xml:space="preserve">
-    <value>Nuashonraíodh AliasVault agus ní mór do chruinneog a uasghrádú. Níor cheart go dtógfadh sé seo ach cúpla soicind.</value>
+    <value>Nuashonraíodh VelixVault agus ní mór do chruinneog a uasghrádú. Níor cheart go dtógfadh sé seo ach cúpla soicind.</value>
     <comment>Description of vault upgrade process</comment>
   </data>
   <data name="VersionInformationTitle" xml:space="preserve">

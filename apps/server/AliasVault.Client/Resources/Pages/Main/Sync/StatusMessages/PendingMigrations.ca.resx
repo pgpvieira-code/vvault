@@ -63,7 +63,7 @@
     <comment>Title for vault upgrade process</comment>
   </data>
   <data name="UpgradeDescription" xml:space="preserve">
-    <value>AliasVault has been updated and your vault needs to be upgraded. This should only take a few seconds.</value>
+    <value>VelixVault has been updated and your vault needs to be upgraded. This should only take a few seconds.</value>
     <comment>Description of vault upgrade process</comment>
   </data>
   <data name="VersionInformationTitle" xml:space="preserve">

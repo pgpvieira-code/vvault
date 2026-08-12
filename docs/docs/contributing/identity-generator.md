@@ -4,13 +4,13 @@ sidebar_label: "Identity Generator"
 ---
 # Identity Generator Translations
 
-In AliasVault, when creating a new credential, AliasVault automatically generates realistic alias identities including:
+In VelixVault, when creating a new credential, VelixVault automatically generates realistic alias identities including:
 - First names (male and female)
 - Last names (surnames)
 - Email addresses
 - Birthdate
 
-The AliasVault identity generator uses lists (dictionaries) of possible names. Currently, AliasVault has name lists for the following languages:
+The VelixVault identity generator uses lists (dictionaries) of possible names. Currently, VelixVault has name lists for the following languages:
 
 - 🇩🇰 **Danish** (da)
 - 🇬🇧 **English** (en)
@@ -30,7 +30,7 @@ The AliasVault identity generator uses lists (dictionaries) of possible names. C
 
 ## How to Contribute
 
-We need **lists of common first and last names** used in your language/region. Technical skills are not required. For each language that AliasVault supports, we need a text file with one name per line:
+We need **lists of common first and last names** used in your language/region. Technical skills are not required. For each language that VelixVault supports, we need a text file with one name per line:
 
 ### Basic name lists
 1. **Male** first names (100+ names)
@@ -38,7 +38,7 @@ We need **lists of common first and last names** used in your language/region. T
 3. Common last names/**surnames** (100+ names)
 
 ### History specific name lists
-AliasVault also supports history specific first names (per decade). In many countries and regions, name popularity has changed throughout the years. Names that used to be popular for people born in the 1950's are barely given to people born in the 1990's and vice versa.
+VelixVault also supports history specific first names (per decade). In many countries and regions, name popularity has changed throughout the years. Names that used to be popular for people born in the 1950's are barely given to people born in the 1990's and vice versa.
 
 ## How to Submit Your Names
 
@@ -52,9 +52,9 @@ AliasVault also supports history specific first names (per decade). In many coun
 2. **Send the files to us:**
    - **Discord**: Join our [community server](https://discord.gg/DsaXMTEtpF) and share in #translations or via private message
    - **Email**: [support@aliasvault.com](mailto:support@aliasvault.com)
-   - **Crowdin**: If you're already a member of the AliasVault Crowdin project, send a PM with an attachment
+   - **Crowdin**: If you're already a member of the VelixVault Crowdin project, send a PM with an attachment
 
-After we have received the files, we'll take care of the technical formatting and making it available in the AliasVault apps.
+After we have received the files, we'll take care of the technical formatting and making it available in the VelixVault apps.
 
 ## Tips
 
@@ -69,17 +69,17 @@ The more names = the more variety and more realistic identities!
 
 ## Examples from Existing Languages
 
-Want to see what the actual dictionaries look like that AliasVault uses right now? Check out these examples. We also welcome any additions to existing languages, e.g. adding more names.
+Want to see what the actual dictionaries look like that VelixVault uses right now? Check out these examples. We also welcome any additions to existing languages, e.g. adding more names.
 
 ### English (Simple Implementation)
-- [View female names](https://github.com/aliasvault/aliasvault/blob/main/core/rust/src/identity_generator/dictionaries/en/firstnames_female.txt)
-- [View male names](https://github.com/aliasvault/aliasvault/blob/main/core/rust/src/identity_generator/dictionaries/en/firstnames_male.txt)
-- [View last names](https://github.com/aliasvault/aliasvault/blob/main/core/rust/src/identity_generator/dictionaries/en/lastnames.txt)
+- [View female names](https://github.com/pgpvieira-code/velixvault/blob/main/core/rust/src/identity_generator/dictionaries/en/firstnames_female.txt)
+- [View male names](https://github.com/pgpvieira-code/velixvault/blob/main/core/rust/src/identity_generator/dictionaries/en/firstnames_male.txt)
+- [View last names](https://github.com/pgpvieira-code/velixvault/blob/main/core/rust/src/identity_generator/dictionaries/en/lastnames.txt)
 
 ### German (Decade-Based Implementation)
-- [View 1950s female names](https://github.com/aliasvault/aliasvault/blob/main/core/rust/src/identity_generator/dictionaries/de/firstnames_female_1950_1959.txt)
-- [View 2020s female names](https://github.com/aliasvault/aliasvault/blob/main/core/rust/src/identity_generator/dictionaries/de/firstnames_female_2020_2029.txt)
-- [Browse all German files](https://github.com/aliasvault/aliasvault/tree/main/core/rust/src/identity_generator/dictionaries/de)
+- [View 1950s female names](https://github.com/pgpvieira-code/velixvault/blob/main/core/rust/src/identity_generator/dictionaries/de/firstnames_female_1950_1959.txt)
+- [View 2020s female names](https://github.com/pgpvieira-code/velixvault/blob/main/core/rust/src/identity_generator/dictionaries/de/firstnames_female_2020_2029.txt)
+- [Browse all German files](https://github.com/pgpvieira-code/velixvault/tree/main/core/rust/src/identity_generator/dictionaries/de)
 
 ---
 

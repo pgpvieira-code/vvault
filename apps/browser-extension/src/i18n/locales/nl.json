@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Inloggen bij AliasVault",
+    "loginTitle": "Inloggen bij VelixVault",
     "username": "Gebruikersnaam of e-mail",
     "usernamePlaceholder": "naam / naam@bedrijf.com",
     "passwordPlaceholder": "Voer je wachtwoord in",
@@ -29,7 +29,7 @@
     "switchAccounts": "Wisselen van account?",
     "loginWithMobile": "Log in via de mobiele app",
     "unlockWithMobile": "Ontgrendel met mobiele app",
-    "scanQrCode": "Scan deze QR-code met de AliasVault mobiele app om in te loggen en je kluis te ontgrendelen.",
+    "scanQrCode": "Scan deze QR-code met de VelixVault mobiele app om in te loggen en je kluis te ontgrendelen.",
     "passwordAttemptsWarning": "Onjuist wachtwoord. Je wordt uitgelogd als je het verkeerde wachtwoord {{remainingAttempts}} keer vaker invult.",
     "maxAttemptsReached": "Te veel mislukte ontgrendel pogingen. Je bent uitgelogd om veiligheidsredenen."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Vault wijzigingen mergen...",
     "uploadingVault": "Vault opslaan...",
     "errors": {
-      "serverNotAvailable": "De AliasVault server is niet beschikbaar. Probeer het later opnieuw of neem contact op met de ondersteuning als het probleem aanhoudt.",
-      "clientVersionNotSupported": "Deze versie van de AliasVault browserextensie wordt niet meer ondersteund door de server. Update je browserextensie naar de nieuwste versie.",
+      "serverNotAvailable": "De VelixVault server is niet beschikbaar. Probeer het later opnieuw of neem contact op met de ondersteuning als het probleem aanhoudt.",
+      "clientVersionNotSupported": "Deze versie van de VelixVault browserextensie wordt niet meer ondersteund door de server. Update je browserextensie naar de nieuwste versie.",
       "browserExtensionOutdated": "Deze browserextensie is verouderd en kan niet worden gebruikt om toegang te krijgen tot deze vault. Update deze browserextensie om door te gaan.",
-      "serverVersionNotSupported": "De AliasVault server moet worden bijgewerkt naar een nieuwere versie om deze browserextensie te kunnen gebruiken. Neem contact op met support als je hulp nodig hebt.",
-      "serverVersionTooOld": "De AliasVault server moet bijgewerkt worden naar een nieuwere versie om deze functie te kunnen gebruiken. Neem contact op met support als je hulp nodig hebt.",
+      "serverVersionNotSupported": "De VelixVault server moet worden bijgewerkt naar een nieuwere versie om deze browserextensie te kunnen gebruiken. Neem contact op met support als je hulp nodig hebt.",
+      "serverVersionTooOld": "De VelixVault server moet bijgewerkt worden naar een nieuwere versie om deze functie te kunnen gebruiken. Neem contact op met support als je hulp nodig hebt.",
       "unknownError": "Er is een onbekende fout opgetreden",
       "unknownErrorTryAgain": "Er is een onbekende fout opgetreden. Probeer het opnieuw.",
       "vaultNotAvailable": "Vault niet beschikbaar",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "De vault is te groot voor de server om te accepteren. Probeer sommige items of bijlagen te verwijderen om de grootte te verkleinen en probeer het opnieuw.",
       "vaultSyncTimeout": "Vault synctijd is verlopen. Dit kan gebeuren als de vault te groot is of de internetverbinding traag is. Probeer het opnieuw.",
       "invalidCode": "Voer een geldige 6-cijferige code in.",
-      "serverError": "Kon de AliasVault server niet bereiken. Probeer het later opnieuw of neem contact op met support als het probleem aanhoudt.",
+      "serverError": "Kon de VelixVault server niet bereiken. Probeer het later opnieuw of neem contact op met support als het probleem aanhoudt.",
       "wrongPassword": "Onjuist wachtwoord. Probeer het opnieuw.",
       "sessionExpired": "Je sessie is verlopen. Log opnieuw in.",
       "mobileLoginRequestExpired": "De QR-code is verlopen. Herlaad de pagina en probeer opnieuw."
@@ -148,7 +148,7 @@
   "content": {
     "or": "of",
     "new": "Nieuw",
-    "vaultLocked": "AliasVault is vergrendeld.",
+    "vaultLocked": "VelixVault is vergrendeld.",
     "creatingNewAlias": "Nieuwe alias aanmaken",
     "creatingNewCredential": "Nieuwe inloggegevens aanmaken",
     "noMatchesFound": "Geen resultaten gevonden",
@@ -165,7 +165,7 @@
     "usernamePassword": "Gebruikersnaam/wachtwoord",
     "createAndSaveAlias": "Alias aanmaken",
     "createAndSaveCredential": "Credential aanmaken",
-    "randomIdentityDescription": "Genereer een willekeurige identiteit met een willekeurig e-mailadres toegankelijk in AliasVault.",
+    "randomIdentityDescription": "Genereer een willekeurige identiteit met een willekeurig e-mailadres toegankelijk in VelixVault.",
     "randomIdentityDescriptionDropdown": "Willekeurige identiteit met willekeurige e-mail",
     "manualCredentialDescription": "Specificeer je eigen e-mailadres en/of gebruikersnaam.",
     "manualCredentialDescriptionDropdown": "Handmatige gebruikersnaam en wachtwoord",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Genereer nieuw wachtwoord",
     "togglePasswordVisibility": "Schakel zichtbaarheid van wachtwoord in/uit",
     "passwordCopiedToClipboard": "Wachtwoord gekopieerd naar klembord",
-    "openAliasVaultToUpgrade": "Open AliasVault om te upgraden",
+    "openAliasVaultToUpgrade": "Open VelixVault om te upgraden",
     "vaultUpgradeRequired": "Update is vereist.",
     "dismissPopup": "Pop-up sluiten",
     "noTotpItemsFound": "Geen 2FA code overeenkomsten gevonden",
     "close": "Sluiten",
     "savePrompt": {
-      "title": "Opslaan in AliasVault?",
+      "title": "Opslaan in VelixVault?",
       "neverForThisSite": "Nooit voor deze site",
       "addUrlTitle": "URL naar inloggegevens toevoegen?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Mapnaam",
     "folderNameRequired": "Mapnaam is verplicht",
     "folder": "Map",
-    "welcomeTitle": "Welkom bij AliasVault!",
-    "welcomeDescription": "Om de AliasVault browser extensie te gebruiken: navigeer naar een website en gebruik de AliasVault autofill popup om nieuwe credentials aan te maken.",
+    "welcomeTitle": "Welkom bij VelixVault!",
+    "welcomeDescription": "Om de VelixVault browser extensie te gebruiken: navigeer naar een website en gebruik de VelixVault autofill popup om nieuwe credentials aan te maken.",
     "currentSiteMatch": "Voor {{domain}}",
     "numberOfItemMatchesFound": "{{count}} items gevonden",
     "noMatchingItems": "Geen items gevonden die overeenkomen met het geselecteerde filter.",
@@ -269,7 +269,7 @@
       "Suffix": "Achtervoegsel"
     },
     "privateEmailTitle": "Privé e-mail",
-    "privateEmailAliasVaultServer": "AliasVault server",
+    "privateEmailAliasVaultServer": "VelixVault server",
     "privateEmailDescription": "E2E versleuteld, volledig privé.",
     "publicEmailTitle": "Publieke tijdelijke e-mailproviders",
     "publicEmailDescription": "Anoniem maar beperkte privacy. E-mail inhoud is leesbaar door iedereen die het adres kent.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 uur",
     "autoLock8Hours": "8 uur",
     "autoLock24Hours": "24 uur",
+    "sourceCode": "Broncode",
     "versionPrefix": "App versie",
     "serverVersion": "Server versie",
     "autofillSettings": "Autofill instellingen",
     "clipboardSettings": "Klembord instellingen",
     "contextMenuSettings": "Context menu instellingen",
     "passkeySettings": "Passkey instellingen",
-    "contextMenuDescription": "Klik met de rechtermuisknop op invoervelden om AliasVault opties te zien",
+    "contextMenuDescription": "Klik met de rechtermuisknop op invoervelden om VelixVault opties te zien",
     "selectLanguage": "Selecteer taal",
     "serverConfiguration": "Serverconfiguratie",
-    "serverConfigurationDescription": "Configureer de AliasVault server URL voor self-hosted omgevingen",
+    "serverConfigurationDescription": "Configureer de VelixVault server URL voor self-hosted omgevingen",
     "customApiUrl": "API URL",
     "customClientUrl": "Client URL",
     "apiUrlHint": "De API endpoint URL (meestal client URL + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Deze passkey toevoegen aan een bestaande inloggegevens voor deze site.",
       "attachingToCredential": "Passkey toevoegen aan: {{serviceName}}",
       "attachPasskey": "Passkey toevoegen",
-      "unsupportedAlgorithm": "Deze website vereist een wachtwoord dat AliasVault niet ondersteunt."
+      "unsupportedAlgorithm": "Deze website vereist een wachtwoord dat VelixVault niet ondersteunt."
     },
     "settings": {
       "passkeyProvider": "Passkey provider",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Vault upgraden",
-    "subtitle": "AliasVault is vernieuwd en je vault moet worden bijgewerkt. Dit kan enkele seconden duren.",
+    "subtitle": "VelixVault is vernieuwd en je vault moet worden bijgewerkt. Dit kan enkele seconden duren.",
     "versionInformation": "Versie-informatie",
     "yourVault": "Jouw vault versie:",
     "newVersion": "Nieuwe beschikbare versie:",

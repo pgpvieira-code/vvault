@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "Iniciar sesión en AliasVault",
+    "loginTitle": "Iniciar sesión en VelixVault",
     "username": "Nombre de usuario o correo electrónico",
     "usernamePlaceholder": "nombre / nombre@empresa.com",
     "passwordPlaceholder": "Introduzca su contraseña",
@@ -29,7 +29,7 @@
     "switchAccounts": "¿Cambiar de cuenta?",
     "loginWithMobile": "Iniciar sesión con la aplicación móvil",
     "unlockWithMobile": "Desbloquear con la aplicación móvil",
-    "scanQrCode": "Escanea este código QR con tu aplicación móvil de AliasVault para iniciar sesión y desbloquear tu bóveda.",
+    "scanQrCode": "Escanea este código QR con tu aplicación móvil de VelixVault para iniciar sesión y desbloquear tu bóveda.",
     "passwordAttemptsWarning": "Contraseña incorrecta. Se cerrará la sesión si introduce la contraseña incorrecta {{remainingAttempts}} más veces.",
     "maxAttemptsReached": "Demasiados intentos de desbloqueo fallidos. Se ha cerrado la sesión por razones de seguridad."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Combinando cambios en la bóveda...",
     "uploadingVault": "Subiendo bóveda...",
     "errors": {
-      "serverNotAvailable": "El servidor AliasVault no está disponible. Por favor, inténtelo de nuevo más tarde o póngase en contacto con el soporte técnico si el problema persiste.",
-      "clientVersionNotSupported": "Esta versión de la extensión del navegador AliasVault ya no es compatible con el servidor. Por favor, actualice la extensión de su navegador a la última versión.",
+      "serverNotAvailable": "El servidor VelixVault no está disponible. Por favor, inténtelo de nuevo más tarde o póngase en contacto con el soporte técnico si el problema persiste.",
+      "clientVersionNotSupported": "Esta versión de la extensión del navegador VelixVault ya no es compatible con el servidor. Por favor, actualice la extensión de su navegador a la última versión.",
       "browserExtensionOutdated": "Esta extensión del navegador está desactualizada y no se puede utilizar para acceder a esta bóveda. Por favor, actualice esta extensión del navegador para continuar.",
-      "serverVersionNotSupported": "El servidor AliasVault necesita ser actualizado a una versión más reciente para poder usar esta extensión del navegador. Póngase en contacto con el soporte si necesita ayuda.",
-      "serverVersionTooOld": "El servidor AliasVault necesita ser actualizado a una versión más reciente para poder utilizar esta característica. Por favor, contacte con el administrador del servidor si necesita ayuda.",
+      "serverVersionNotSupported": "El servidor VelixVault necesita ser actualizado a una versión más reciente para poder usar esta extensión del navegador. Póngase en contacto con el soporte si necesita ayuda.",
+      "serverVersionTooOld": "El servidor VelixVault necesita ser actualizado a una versión más reciente para poder utilizar esta característica. Por favor, contacte con el administrador del servidor si necesita ayuda.",
       "unknownError": "Se produjo un error desconocido",
       "unknownErrorTryAgain": "Se ha producido un error desconocido. Por favor, inténtelo de nuevo.",
       "vaultNotAvailable": "Bóveda no disponible",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "La bóveda es demasiado grande para que el servidor lo acepte. Intente eliminar algunos elementos o archivos adjuntos para reducir el tamaño y vuelva a intentarlo.",
       "vaultSyncTimeout": "Se ha agotado el tiempo de sincronización de la bóveda. Esto puede suceder cuando la bóveda es grande o la conexión a Internet es lenta. Por favor, inténtelo de nuevo.",
       "invalidCode": "Por favor, introduzca un código de autenticación de 6 dígitos válido.",
-      "serverError": "No se pudo llegar al servidor AliasVault. Por favor, inténtelo de nuevo más tarde o póngase en contacto con el soporte si el problema persiste.",
+      "serverError": "No se pudo llegar al servidor VelixVault. Por favor, inténtelo de nuevo más tarde o póngase en contacto con el soporte si el problema persiste.",
       "wrongPassword": "Contraseña incorrecta. Por favor, inténtelo de nuevo.",
       "sessionExpired": "Su sesión ha caducado. Por favor, inicie sesión de nuevo.",
       "mobileLoginRequestExpired": "Se ha agotado el tiempo de inicio de sesión del móvil. Por favor, vuelva a cargar la página e inténtelo de nuevo."
@@ -148,7 +148,7 @@
   "content": {
     "or": "o",
     "new": "Nuevo",
-    "vaultLocked": "AliasVault está bloqueado.",
+    "vaultLocked": "VelixVault está bloqueado.",
     "creatingNewAlias": "Creando nuevo alias",
     "creatingNewCredential": "Creando nueva credencial",
     "noMatchesFound": "No se han encontrado resultados",
@@ -165,7 +165,7 @@
     "usernamePassword": "Nombre de usuario/Contraseña",
     "createAndSaveAlias": "Crear y guardar alias",
     "createAndSaveCredential": "Crear y guardar credencial",
-    "randomIdentityDescription": "Generar una identidad aleatoria con una dirección de correo electrónico aleatoria accesible en AliasVault.",
+    "randomIdentityDescription": "Generar una identidad aleatoria con una dirección de correo electrónico aleatoria accesible en VelixVault.",
     "randomIdentityDescriptionDropdown": "Identidad aleatoria con correo electrónico aleatorio",
     "manualCredentialDescription": "Especifique su propia dirección de correo electrónico y nombre de usuario.",
     "manualCredentialDescriptionDropdown": "Nombre de usuario y contraseña manual",
@@ -177,13 +177,13 @@
     "generateNewPassword": "Generar nueva contraseña",
     "togglePasswordVisibility": "Cambiar la visibilidad de la contraseña",
     "passwordCopiedToClipboard": "Contraseña copiada al portapapeles",
-    "openAliasVaultToUpgrade": "Abrir AliasVault para actualizar",
+    "openAliasVaultToUpgrade": "Abrir VelixVault para actualizar",
     "vaultUpgradeRequired": "Actualización de bóveda requerida.",
     "dismissPopup": "Descartar aviso",
     "noTotpItemsFound": "Ningún código 2FA encontrado",
     "close": "Cerrar",
     "savePrompt": {
-      "title": "¿Guardar en AliasVault?",
+      "title": "¿Guardar en VelixVault?",
       "neverForThisSite": "Nunca para este sitio",
       "addUrlTitle": "¿Añadir URL a la credencial?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Nombre de la carpeta",
     "folderNameRequired": "El nombre de la carpeta es obligatorio",
     "folder": "Folder",
-    "welcomeTitle": "¡Bienvenido a AliasVault!",
-    "welcomeDescription": "Para utilizar la extensión del navegador AliasVault: vaya a un sitio web y utilice la ventana de autocompletado de AliasVault para crear una nueva credencial.",
+    "welcomeTitle": "¡Bienvenido a VelixVault!",
+    "welcomeDescription": "Para utilizar la extensión del navegador VelixVault: vaya a un sitio web y utilice la ventana de autocompletado de VelixVault para crear una nueva credencial.",
     "currentSiteMatch": "Para {{domain}}",
     "numberOfItemMatchesFound": "{{count}} elementos encontrados",
     "noMatchingItems": "No hay elementos que coincidan con el filtro.",
@@ -269,7 +269,7 @@
       "Suffix": "Sufijo"
     },
     "privateEmailTitle": "Correo electrónico privado",
-    "privateEmailAliasVaultServer": "Servidor AliasVault",
+    "privateEmailAliasVaultServer": "Servidor VelixVault",
     "privateEmailDescription": "E2E cifrado, totalmente privado.",
     "publicEmailTitle": "Proveedores de Correo Temporal Públicos",
     "publicEmailDescription": "Privacidad anónima pero limitada. Contenido de correo electrónico puede ser leído por cualquiera que conozca la dirección.",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 horas",
     "autoLock8Hours": "8 horas",
     "autoLock24Hours": "24 horas",
+    "sourceCode": "Código fuente",
     "versionPrefix": "Versión de la app",
     "serverVersion": "Versión del servidor",
     "autofillSettings": "Ajustes de autocompletado",
     "clipboardSettings": "Ajustes del portapapeles",
     "contextMenuSettings": "Ajustes del menú contextual",
     "passkeySettings": "Ajustes de llaves de acceso",
-    "contextMenuDescription": "Haga clic derecho en los campos de entrada para acceder a las opciones de AliasVault",
+    "contextMenuDescription": "Haga clic derecho en los campos de entrada para acceder a las opciones de VelixVault",
     "selectLanguage": "Seleccionar idioma",
     "serverConfiguration": "Configuración del servidor",
-    "serverConfigurationDescription": "Configurar la URL del servidor AliasVault para instancias self-hosted",
+    "serverConfigurationDescription": "Configurar la URL del servidor VelixVault para instancias self-hosted",
     "customApiUrl": "API URL",
     "customClientUrl": "URL de Cliente",
     "apiUrlHint": "La URL del endpoint de la API (generalmente URL del cliente + /api)",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "Adjuntar esta llave a una credencial de inicio de sesión existente para este sitio.",
       "attachingToCredential": "Añadiendo llave a: {{serviceName}}",
       "attachPasskey": "Añadir llave de acceso",
-      "unsupportedAlgorithm": "Este sitio web requiere un tipo de llave de acceso que AliasVault no soporta."
+      "unsupportedAlgorithm": "Este sitio web requiere un tipo de llave de acceso que VelixVault no soporta."
     },
     "settings": {
       "passkeyProvider": "Proveedor de llave de acceso",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "Actualizar bóveda",
-    "subtitle": "AliasVault se ha actualizado y tu bóveda necesita ser actualizada. Esto solo debería tardar unos segundos.",
+    "subtitle": "VelixVault se ha actualizado y tu bóveda necesita ser actualizada. Esto solo debería tardar unos segundos.",
     "versionInformation": "Información de versión",
     "yourVault": "Tu versión de bóveda:",
     "newVersion": "Nueva versión disponible:",

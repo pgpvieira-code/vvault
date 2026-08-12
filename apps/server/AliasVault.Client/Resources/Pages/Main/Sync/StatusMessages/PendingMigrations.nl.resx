@@ -63,7 +63,7 @@
     <comment>Title for vault upgrade process</comment>
   </data>
   <data name="UpgradeDescription" xml:space="preserve">
-    <value>AliasVault is vernieuwd en je vault moet worden bijgewerkt. Dit kan enkele seconden duren.</value>
+    <value>VelixVault is vernieuwd en je vault moet worden bijgewerkt. Dit kan enkele seconden duren.</value>
     <comment>Description of vault upgrade process</comment>
   </data>
   <data name="VersionInformationTitle" xml:space="preserve">

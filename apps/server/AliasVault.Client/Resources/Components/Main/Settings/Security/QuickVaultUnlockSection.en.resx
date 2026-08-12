@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>Your master password is encrypted with the passkey PRF and stored locally. When you reload the AliasVault page or tab, you can unlock your vault with your passkey. If you wish to disable passkey unlock, you can do so with the button below. Your master password will still work for unlocking the vault.</value>
+    <value>Your master password is encrypted with the passkey PRF and stored locally. When you reload the VelixVault page or tab, you can unlock your vault with your passkey. If you wish to disable passkey unlock, you can do so with the button below. Your master password will still work for unlocking the vault.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>By default, reloading the AliasVault page or tab requires you to enter your master password again. With a passkey, you can unlock your vault instantly. When enabled, your master password is locally encrypted using the passkey's PRF extension. Note: the passkey will only work for the current device and browser that you enable it on.</value>
+    <value>By default, reloading the VelixVault page or tab requires you to enter your master password again. With a passkey, you can unlock your vault instantly. When enabled, your master password is locally encrypted using the passkey's PRF extension. Note: the passkey will only work for the current device and browser that you enable it on.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">
-    <value>This feature is currently supported by AliasVault browser extension and iOS app. Android support is coming soon. If you experience any issues, you can disable this feature at any time.</value>
+    <value>This feature is currently supported by VelixVault browser extension and iOS app. Android support is coming soon. If you experience any issues, you can disable this feature at any time.</value>
     <comment>Warning about feature compatibility</comment>
   </data>
   <data name="EnableButton" xml:space="preserve">

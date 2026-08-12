@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="WelcomeTitle" xml:space="preserve">
-    <value>Добро пожаловать в AliasVault</value>
+    <value>Добро пожаловать в VelixVault</value>
     <comment>Welcome title for new vault creation</comment>
   </data>
   <data name="CreatingDescription" xml:space="preserve">

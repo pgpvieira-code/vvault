@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
 ---
-# Updating AliasVault
+# Updating VelixVault
 :::note
 This guide is for Docker Compose manual installations. If you're using the `install.sh` script for self-hosted installations, see [Install Script Update Guide](../../script/update/).
 :::
 
 ## Before You Begin
-You can see the latest available version of AliasVault on [GitHub](https://github.com/aliasvault/aliasvault/releases).
+You can see the latest available version of VelixVault on [GitHub](https://github.com/pgpvieira-code/velixvault/releases).
 
 :::warning
 Before updating, it's recommended to backup your database and other important data. You can do this by making
@@ -17,7 +17,7 @@ a copy of the `database` and `certificates` directories.
 ## Standard Update Process
 For most version updates, you can use the standard update process. The container will automatically handle database migrations on startup:
 
-1. Navigate to your AliasVault directory:
+1. Navigate to your VelixVault directory:
 ```bash
 cd /path/to/your/aliasvault
 ```

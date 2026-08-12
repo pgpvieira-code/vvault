@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Bine ați venit la AliasVault</value>
+    <value>Bine ați venit la VelixVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>Cum funcționează AliasVault</value>
+    <value>Cum funcționează VelixVault</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>Seiful tău a fost creat cu succes! Protejează-ți confidențialitatea online creând aliasuri unice pentru fiecare serviciu la care te înregistrezi. Descoperă cum funcționează AliasVault și apoi creează primul tău alias securizat.</value>
+    <value>Seiful tău a fost creat cu succes! Protejează-ți confidențialitatea online creând aliasuri unice pentru fiecare serviciu la care te înregistrezi. Descoperă cum funcționează VelixVault și apoi creează primul tău alias securizat.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>AliasVault generează o identitate aleatorie cu o adresă de e-mail privată securizată</value>
+    <value>VelixVault generează o identitate aleatorie cu o adresă de e-mail privată securizată</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Instalează extensia de browser și aplicația mobilă AliasVault pentru a crea aliasuri și a completa automat câmpurile direct din browser și de pe smartphone.</value>
+    <value>Instalează extensia de browser și aplicația mobilă VelixVault pentru a crea aliasuri și a completa automat câmpurile direct din browser și de pe smartphone.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Acum că știi cum funcționează AliasVault, să creăm prima ta identitate securizată!</value>
+    <value>Acum că știi cum funcționează VelixVault, să creăm prima ta identitate securizată!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

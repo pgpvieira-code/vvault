@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>L'estensione del browser AliasVault consente di compilare automaticamente le credenziali esistenti su qualsiasi sito web. Ti permette inoltre di generare nuovi alias durante la registrazione, accedere alle email ricevute su tutti i tuoi alias e visualizzare gli alias e le identità.</value>
+    <value>L'estensione del browser VelixVault consente di compilare automaticamente le credenziali esistenti su qualsiasi sito web. Ti permette inoltre di generare nuovi alias durante la registrazione, accedere alle email ricevute su tutti i tuoi alias e visualizzare gli alias e le identità.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>L'app mobile AliasVault consente di accedere ai tuoi alias e identità in movimento, visualizzare e gestire le email ricevute e generare nuovi alias in qualsiasi momento. I tuoi dati sono completamente protetti con l'autenticazione biometrica sul dispositivo.</value>
+    <value>L'app mobile VelixVault consente di accedere ai tuoi alias e identità in movimento, visualizzare e gestire le email ricevute e generare nuovi alias in qualsiasi momento. I tuoi dati sono completamente protetti con l'autenticazione biometrica sul dispositivo.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

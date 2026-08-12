@@ -67,7 +67,7 @@
     <comment>Modal title for mobile unlock feature</comment>
   </data>
   <data name="ScanQrCodeDescription" xml:space="preserve">
-    <value>Zeskanuj ten kod QR za pomocą aplikacji mobilnej AliasVault, aby zalogować się i odblokować sejf.</value>
+    <value>Zeskanuj ten kod QR za pomocą aplikacji mobilnej VelixVault, aby zalogować się i odblokować sejf.</value>
     <comment>Description instructing user to scan QR code</comment>
   </data>
 </root>

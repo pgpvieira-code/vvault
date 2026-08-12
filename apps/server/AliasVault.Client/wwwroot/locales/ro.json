@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "AliasVault se încarcă",
-    "message": "Se inițializează mediul securizat. AliasVault prioritizează confidențialitatea ta rulând integral în browser. Prima încărcare ar putea dura puțin.",
+    "title": "VelixVault se încarcă",
+    "message": "Se inițializează mediul securizat. VelixVault prioritizează confidențialitatea ta rulând integral în browser. Prima încărcare ar putea dura puțin.",
     "refreshText": "Dacă încărcarea pare blocată, poți apăsa butonul de mai jos pentru a reîmprospăta pagina.",
     "refreshButtonText": "Actualizează pagina"
   },
   "errors": {
     "unhandledError": "A apărut o eroare neprevăzută. Încearcă să reîncarci pagina. Dacă problema persistă, contactează serviciul de asistență.",
-    "webAssemblyError": "AliasVault necesită WebAssembly, care nu este compatibil cu acest browser. Încearcă să folosești un browser mai modern.",
+    "webAssemblyError": "VelixVault necesită WebAssembly, care nu este compatibil cu acest browser. Încearcă să folosești un browser mai modern.",
     "reloadPageText": "Reîncarcă pagina"
   },
   "quotes": {

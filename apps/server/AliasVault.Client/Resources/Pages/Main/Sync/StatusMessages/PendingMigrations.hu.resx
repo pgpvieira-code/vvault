@@ -63,7 +63,7 @@
     <comment>Title for vault upgrade process</comment>
   </data>
   <data name="UpgradeDescription" xml:space="preserve">
-    <value>Az AliasVault frissült, ezért a széfjének is frissülnie kell. Ez csak egy pár másodpercet vesz majd igénybe.</value>
+    <value>Az VelixVault frissült, ezért a széfjének is frissülnie kell. Ez csak egy pár másodpercet vesz majd igénybe.</value>
     <comment>Description of vault upgrade process</comment>
   </data>
   <data name="VersionInformationTitle" xml:space="preserve">

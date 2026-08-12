@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>AliasVault-browserudvidelsen giver dig mulighed for automatisk at udfylde eksisterende loginoplysninger på ethvert websted. Den giver dig også mulighed for at generere nye aliaser under registrering, få adgang til modtagne e-mails på alle dine aliaser samt se dine aliaser og identiteter.</value>
+    <value>VelixVault-browserudvidelsen giver dig mulighed for automatisk at udfylde eksisterende loginoplysninger på ethvert websted. Den giver dig også mulighed for at generere nye aliaser under registrering, få adgang til modtagne e-mails på alle dine aliaser samt se dine aliaser og identiteter.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>AliasVault-mobilappen giver dig adgang til dine aliaser og identiteter på farten, mulighed for at læse og administrere modtagne e-mails samt generere nye aliaser når som helst. Dine data er fuldt beskyttet med biometrisk autentificering på enheden.</value>
+    <value>VelixVault-mobilappen giver dig adgang til dine aliaser og identiteter på farten, mulighed for at læse og administrere modtagne e-mails samt generere nye aliaser når som helst. Dine data er fuldt beskyttet med biometrisk autentificering på enheden.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

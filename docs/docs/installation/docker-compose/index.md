@@ -3,7 +3,7 @@ sidebar_position: 0
 sidebar_label: "Overview"
 ---
 # Self-host using Docker Compose (single container)
-The following guide will walk you through the steps to install AliasVault via the All-In-One Docker container. This container uses `s6-overlay` to combine all AliasVault's services into one image for convenience. The only downside compared to the `install.sh` installer is that this version does NOT come with SSL/TLS support, so you'll have to make the container available through your own SSL/TLS proxy.
+The following guide will walk you through the steps to install VelixVault via the All-In-One Docker container. This container uses `s6-overlay` to combine all VelixVault's services into one image for convenience. The only downside compared to the `install.sh` installer is that this version does NOT come with SSL/TLS support, so you'll have to make the container available through your own SSL/TLS proxy.
 
 :::info[Requirements]
 - Docker (20.10+) and Docker Compose (2.0+) installed on your system
@@ -14,7 +14,7 @@ The following guide will walk you through the steps to install AliasVault via th
 :::
 
 ## 1. Basic installation
-1. Create a new folder where you want to store AliasVault's data and configuration folders.
+1. Create a new folder where you want to store VelixVault's data and configuration folders.
 ```bash
 mkdir aliasvault
 cd aliasvault
@@ -46,11 +46,11 @@ services:
 ```
 
 :::tip
-For a full overview of all available environment variables and what they do, see [.env.example](https://github.com/aliasvault/aliasvault/blob/main/.env.example) in the AliasVault repository.
+For a full overview of all available environment variables and what they do, see [.env.example](https://github.com/pgpvieira-code/velixvault/blob/main/.env.example) in the VelixVault repository.
 :::
 
 3. Run `docker compose up -d` to start the container.
-4. After the container has started, AliasVault should now be running. You can access it at:
+4. After the container has started, VelixVault should now be running. You can access it at:
 
     - Admin Panel: http://localhost/admin
         - **Username:** admin
@@ -65,11 +65,11 @@ For a full overview of all available environment variables and what they do, see
 ---
 
 ## 2. SSL/TLS configuration
-To use AliasVault securely, HTTPS is required in the following situations:
+To use VelixVault securely, HTTPS is required in the following situations:
 - When accessing the web app from any address other than `localhost` (due to browser security restrictions)
 - When using the mobile apps, which require the API URL to be served with a **publicly trusted** TLS certificate; otherwise, the app will not connect
 
-You must set up and configure your own TLS/SSL infrastructure (such as Traefik, Nginx, HAProxy, or Cloudflare Tunnel) to make the AliasVault container accessible over HTTPS with a valid SSL/TLS certificate. For example: `https://aliasvault.yourdomain.com`.
+You must set up and configure your own TLS/SSL infrastructure (such as Traefik, Nginx, HAProxy, or Cloudflare Tunnel) to make the VelixVault container accessible over HTTPS with a valid SSL/TLS certificate. For example: `https://aliasvault.yourdomain.com`.
 
 **Note:** the mobile apps enforce SSL certificate validation at the OS level with no "Proceed anyway" option. If the web app and browser extension work but the mobile app does not: check the validity of your SSL cert: it must be issued by a publicly recognized CA (e.g. Let's Encrypt). Self-signed certificates, internal CAs, or ones manually added to the device keystore will not work.
 
@@ -77,20 +77,20 @@ You must set up and configure your own TLS/SSL infrastructure (such as Traefik, 
 
 ## 3. Email Server Setup
 
-AliasVault includes a built-in email server that allows you to generate email aliases on-the-fly for every website you use, and receive the emails straight in AliasVault.
+VelixVault includes a built-in email server that allows you to generate email aliases on-the-fly for every website you use, and receive the emails straight in VelixVault.
 
 :::note
-If you skip this step, AliasVault will default to use public email domains offered by SpamOK. While this still works for creating aliases, it has privacy limitations. For complete privacy and control, we recommend setting up your own domain.
+If you skip this step, VelixVault will default to use public email domains offered by SpamOK. While this still works for creating aliases, it has privacy limitations. For complete privacy and control, we recommend setting up your own domain.
 [Learn more about the differences between private and public email domains](../docs/private-vs-public-email).
 :::
 
 ### 3.1 Requirements
-- A **public IPv4 address** with ports 25 and 587 forwarded to your AliasVault server
+- A **public IPv4 address** with ports 25 and 587 forwarded to your VelixVault server
 - Open ports **25** and **587** on your server firewall for email SMTP traffic (*NOTE: some residential IP's block this, check with your ISP*).
 
 #### Verifying Port Access
 
-While the AliasVault docker containers are running, use `telnet` to confirm your public IP allows access to the ports:
+While the VelixVault docker containers are running, use `telnet` to confirm your public IP allows access to the ports:
 
 ```bash
 # Test standard SMTP port
@@ -101,7 +101,7 @@ telnet <your-server-public-ip> 587
 ```
 
 ### 3.2 DNS configuration
-Choose your configuration: primary domain vs subdomain. AliasVault can be configured under:
+Choose your configuration: primary domain vs subdomain. VelixVault can be configured under:
 
 - **A primary (top-level) domain**
   Example: `your-aliasvault.net`. This allows you to receive email on `%alias%@your-aliasvault.net`.
@@ -125,7 +125,7 @@ Configure the following DNS records **on your primary domain** (e.g. `your-alias
 ##### Example
 
 - `mail.your-aliasvault.net` points to your server IP.
-- Email to `@your-aliasvault.net` will be handled by your AliasVault server.
+- Email to `@your-aliasvault.net` will be handled by your VelixVault server.
 
 ---
 
@@ -147,14 +147,14 @@ Configure the following DNS records **on your subdomain setup** (for example, `a
 ##### Example
 
 - `mail.aliasvault.example.com` points to your server IP.
-- Emails to `user@aliasvault.example.com` will be handled by your AliasVault server.
+- Emails to `user@aliasvault.example.com` will be handled by your VelixVault server.
 
-This keeps the email configuration of your primary domain (`example.com`) completely separate, so you can keep receiving email on your normal email addresses and have unique AliasVault addresses too.
+This keeps the email configuration of your primary domain (`example.com`) completely separate, so you can keep receiving email on your normal email addresses and have unique VelixVault addresses too.
 
 ---
 
-### 3.3 AliasVault server email domain configuration
-After setting up your DNS, you have to configure AliasVault to let it know which email domains it should support. Update the `docker-compose.yml` file:
+### 3.3 VelixVault server email domain configuration
+After setting up your DNS, you have to configure VelixVault to let it know which email domains it should support. Update the `docker-compose.yml` file:
 
 ```bash
 # ...
@@ -170,7 +170,7 @@ docker compose down
 docker compose up -d
 ```
 
-Afterwards, when you login to the AliasVault web app, you should now be able to create an alias with your configured private domain and be able to receive email on it.
+Afterwards, when you login to the VelixVault web app, you should now be able to create an alias with your configured private domain and be able to receive email on it.
 
 :::note
 Important: DNS propagation can take up to 24-48 hours. During this time, email delivery might be inconsistent.

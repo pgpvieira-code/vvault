@@ -79,7 +79,7 @@
     <comment>Description of public email domains</comment>
   </data>
   <data name="PrivateEmailAliasVaultServer" xml:space="preserve">
-    <value>Serwer AliasVault</value>
+    <value>Serwer VelixVault</value>
     <comment>Subtitle for private email domains section</comment>
   </data>
 </root>

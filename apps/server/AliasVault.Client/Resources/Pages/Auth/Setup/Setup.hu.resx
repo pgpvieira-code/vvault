@@ -21,7 +21,7 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="TermsAndConditionsStepTitle">
-    <value>Az AliasVault használatával</value>
+    <value>Az VelixVault használatával</value>
     <comment>Title for the terms and conditions step</comment>
   </data>
   <data name="UsernameStepTitle">

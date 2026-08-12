@@ -4,7 +4,7 @@ sidebar_label: "Server & web app"
 ---
 # Server & web app
 
-The AliasVault server (the API, the Admin app and the web app/client) is built entirely with [.NET 10](https://dotnet.microsoft.com/) and [Blazor WebAssembly](https://learn.microsoft.com/aspnet/core/blazor/).
+The VelixVault server (the API, the Admin app and the web app/client) is built entirely with [.NET 10](https://dotnet.microsoft.com/) and [Blazor WebAssembly](https://learn.microsoft.com/aspnet/core/blazor/).
 
 You can open the .NET solution in [Visual Studio 2026+](https://visualstudio.microsoft.com/), [Visual Studio Code](https://code.visualstudio.com/) or [JetBrains Rider](https://www.jetbrains.com/rider/) and work on it like any other .NET project.
 

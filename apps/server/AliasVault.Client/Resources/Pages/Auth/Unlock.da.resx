@@ -111,7 +111,7 @@
     <comment>Error message for session timeout</comment>
   </data>
   <data name="ConnectionFailedError" xml:space="preserve">
-    <value>Forbindelsen til AliasVault-serverne mislykkedes. Prøv venligst igen (senere).</value>
+    <value>Forbindelsen til VelixVault-serverne mislykkedes. Prøv venligst igen (senere).</value>
     <comment>Error message for server connection failure</comment>
   </data>
   <data name="WebAuthnNotSupportedError" xml:space="preserve">

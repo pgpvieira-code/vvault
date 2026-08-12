@@ -63,7 +63,7 @@
     <comment>Title for vault upgrade process</comment>
   </data>
   <data name="UpgradeDescription" xml:space="preserve">
-    <value>AliasVault è stato aggiornato e la tua cassaforte deve essere aggiornata. Ci vorranno solo pochi secondi.</value>
+    <value>VelixVault è stato aggiornato e la tua cassaforte deve essere aggiornata. Ci vorranno solo pochi secondi.</value>
     <comment>Description of vault upgrade process</comment>
   </data>
   <data name="VersionInformationTitle" xml:space="preserve">

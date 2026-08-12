@@ -78,4 +78,8 @@
     <value>Подсказка: нажмите g+l (go lock), чтобы заблокировать хранилище.</value>
     <comment>Tip about keyboard shortcut for locking vault</comment>
   </data>
+  <data name="SourceCodeLink" xml:space="preserve">
+    <value>Исходный код</value>
+    <comment>Link to the public source repository, shown to satisfy AGPL-3.0 section 13</comment>
+  </data>
 </root>

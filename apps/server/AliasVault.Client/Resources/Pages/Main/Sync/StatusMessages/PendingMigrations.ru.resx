@@ -63,7 +63,7 @@
     <comment>Title for vault upgrade process</comment>
   </data>
   <data name="UpgradeDescription" xml:space="preserve">
-    <value>AliasVault был обновлён. Для продолжения необходимо обновить ваше хранилище. Это займёт всего несколько секунд.</value>
+    <value>VelixVault был обновлён. Для продолжения необходимо обновить ваше хранилище. Это займёт всего несколько секунд.</value>
     <comment>Description of vault upgrade process</comment>
   </data>
   <data name="VersionInformationTitle" xml:space="preserve">

@@ -863,7 +863,7 @@ export const TotpEditor: React.FC<TotpEditorProps> = ({
                     <View style={styles.qrCodeContainer}>
                       <QRCode
                         value={(() => {
-                          const issuer = itemDisplayName || 'AliasVault';
+                          const issuer = itemDisplayName || 'VelixVault';
                           const accountName = itemUsername || editingTotpCode.Name;
                           const label = `${encodeURIComponent(issuer)}:${encodeURIComponent(accountName)}`;
                           return `otpauth://totp/${label}?secret=${editingTotpCode.SecretKey}&issuer=${encodeURIComponent(issuer)}`;

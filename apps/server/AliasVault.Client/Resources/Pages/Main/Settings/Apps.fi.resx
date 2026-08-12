@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>AliasVault-selainlaajennuksen avulla voit automaattisesti täyttää olemassa olevat tunnistetiedot millä tahansa sivustolla, luoda uusia aliaksia rekisteröinnin aikana, käyttää vastaanotettuja sähköposteja kaikki aliakset, ja katsella aliaksia ja identiteettejä.</value>
+    <value>VelixVault-selainlaajennuksen avulla voit automaattisesti täyttää olemassa olevat tunnistetiedot millä tahansa sivustolla, luoda uusia aliaksia rekisteröinnin aikana, käyttää vastaanotettuja sähköposteja kaikki aliakset, ja katsella aliaksia ja identiteettejä.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>AliasVault-mobiilisovelluksen avulla voit käyttää aliaksiasi ja identiteettejäsi välittömästi, tarkastella ja hallita vastaanotettuja sähköposteja sekä luoda uusia aliaksia milloin tahansa. Tietosi ovat täysin suojattuja laitteella tapahtuvalla biometrisellä todennuksella.</value>
+    <value>VelixVault-mobiilisovelluksen avulla voit käyttää aliaksiasi ja identiteettejäsi välittömästi, tarkastella ja hallita vastaanotettuja sähköposteja sekä luoda uusia aliaksia milloin tahansa. Tietosi ovat täysin suojattuja laitteella tapahtuvalla biometrisellä todennuksella.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

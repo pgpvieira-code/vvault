@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>Pääsalasanasi on salattu todennusavaimella PRF ja tallennettu paikallisesti. Kun lataat AliasVault-sivun tai välilehden, voit avata holvisi salasanallasi. Jos haluat poistaa salasanan lukituksen käytöstä, voit tehdä sen alla olevalla painikkeella. Pääsalasanasi toimii yhä holvin lukituksen avaamiseksi.</value>
+    <value>Pääsalasanasi on salattu todennusavaimella PRF ja tallennettu paikallisesti. Kun lataat VelixVault-sivun tai välilehden, voit avata holvisi salasanallasi. Jos haluat poistaa salasanan lukituksen käytöstä, voit tehdä sen alla olevalla painikkeella. Pääsalasanasi toimii yhä holvin lukituksen avaamiseksi.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>Oletuksena AliasVault-sivun tai -välilehden lataaminen uudelleen edellyttää, että syötät pääsalasanan uudestaan. Salasanalla voit avata holvisi välittömästi. Kun käytössä, pääsalasanasi on paikallisesti salattu todennnusavaimen PRF-laajennuksen avulla. Huomautus: todennusavain toimii vain nykyiselle laitteelle ja selaimelle, jotka otat sen käyttöön.</value>
+    <value>Oletuksena VelixVault-sivun tai -välilehden lataaminen uudelleen edellyttää, että syötät pääsalasanan uudestaan. Salasanalla voit avata holvisi välittömästi. Kun käytössä, pääsalasanasi on paikallisesti salattu todennnusavaimen PRF-laajennuksen avulla. Huomautus: todennusavain toimii vain nykyiselle laitteelle ja selaimelle, jotka otat sen käyttöön.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">
-    <value>Tätä ominaisuutta tukee tällä hetkellä AliasVault-selainlaajennus ja iOS-sovellus. Android-tuki on tulossa pian. Jos sinulla on ongelmia, voit poistaa tämän ominaisuuden käytöstä milloin tahansa.</value>
+    <value>Tätä ominaisuutta tukee tällä hetkellä VelixVault-selainlaajennus ja iOS-sovellus. Android-tuki on tulossa pian. Jos sinulla on ongelmia, voit poistaa tämän ominaisuuden käytöstä milloin tahansa.</value>
     <comment>Warning about feature compatibility</comment>
   </data>
   <data name="EnableButton" xml:space="preserve">

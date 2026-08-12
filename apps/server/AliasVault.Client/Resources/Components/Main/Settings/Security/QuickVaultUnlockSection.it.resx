@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>La tua password principale è crittografata con passkey PRF e memorizzata localmente. Quando ricarichi la pagina o la scheda di AliasVault, puoi sbloccare la cassaforte con la tua passkey. Se si desidera disabilitare lo sblocco con passkey, è possibile farlo con il pulsante qui sotto. La password principale continuerà a funzionare per sbloccare la cassaforte.</value>
+    <value>La tua password principale è crittografata con passkey PRF e memorizzata localmente. Quando ricarichi la pagina o la scheda di VelixVault, puoi sbloccare la cassaforte con la tua passkey. Se si desidera disabilitare lo sblocco con passkey, è possibile farlo con il pulsante qui sotto. La password principale continuerà a funzionare per sbloccare la cassaforte.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>Per impostazione predefinita, ricaricare la pagina di AliasVault o la scheda richiede di inserire nuovamente la password principale. Con una passkey, è possibile sbloccare immediatamente la cassaforte. Se abilitata, la tua password principale viene crittografata localmente usando l'estensione PRF della passkey. Nota: la passkey funzionerà solo per il dispositivo e il browser attuali su cui è attivato.</value>
+    <value>Per impostazione predefinita, ricaricare la pagina di VelixVault o la scheda richiede di inserire nuovamente la password principale. Con una passkey, è possibile sbloccare immediatamente la cassaforte. Se abilitata, la tua password principale viene crittografata localmente usando l'estensione PRF della passkey. Nota: la passkey funzionerà solo per il dispositivo e il browser attuali su cui è attivato.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">
-    <value>Questa funzione è attualmente supportata dall'estensione del browser AliasVault e dall'app iOS. Il supporto Android arriverà presto. Se riscontri qualche problema, puoi disabilitare questa funzione in qualsiasi momento.</value>
+    <value>Questa funzione è attualmente supportata dall'estensione del browser VelixVault e dall'app iOS. Il supporto Android arriverà presto. Se riscontri qualche problema, puoi disabilitare questa funzione in qualsiasi momento.</value>
     <comment>Warning about feature compatibility</comment>
   </data>
   <data name="EnableButton" xml:space="preserve">

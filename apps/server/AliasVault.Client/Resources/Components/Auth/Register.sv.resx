@@ -60,7 +60,7 @@
   </resheader>
   <!-- Page title -->
   <data name="PageTitle" xml:space="preserve">
-    <value>Skapa ett nytt AliasVault-konto</value>
+    <value>Skapa ett nytt VelixVault-konto</value>
     <comment>Main registration page title</comment>
   </data>
   <!-- Form labels -->

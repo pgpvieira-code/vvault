@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Üdvözöljük az AliasVault-ban</value>
+    <value>Üdvözöljük az VelixVault-ban</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>Hogyan is működik az AliasVault</value>
+    <value>Hogyan is működik az VelixVault</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>A széfje sikeresen létre hozásra került! Az online adatvédelem elősegítésére használjon minden szolgáltatáshoz külön aliast. Tanulja meg, hogyan működik az AliasVault, és hozza létre első biztonságos aliasát.</value>
+    <value>A széfje sikeresen létre hozásra került! Az online adatvédelem elősegítésére használjon minden szolgáltatáshoz külön aliast. Tanulja meg, hogyan működik az VelixVault, és hozza létre első biztonságos aliasát.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>Az AliasVault generál egy véletlenszerű személyazonosságot egy biztonságos és privát e-mail címmel</value>
+    <value>Az VelixVault generál egy véletlenszerű személyazonosságot egy biztonságos és privát e-mail címmel</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Telepítse az AliasVault böngésző bővítményt vagy mobil alkalmazást, hogy automatikusan ki tudja tölteni közvetlenül a mezőket telefonján vagy böngészőjében.</value>
+    <value>Telepítse az VelixVault böngésző bővítményt vagy mobil alkalmazást, hogy automatikusan ki tudja tölteni közvetlenül a mezőket telefonján vagy böngészőjében.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Most, hogy tudja hogyan is működik az AliasVault, hozza létre első biztonságos személyazonosságát!</value>
+    <value>Most, hogy tudja hogyan is működik az VelixVault, hozza létre első biztonságos személyazonosságát!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

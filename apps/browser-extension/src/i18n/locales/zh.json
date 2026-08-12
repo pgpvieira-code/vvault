@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "登录到 AliasVault",
+    "loginTitle": "登录到 VelixVault",
     "username": "用户名或邮箱",
     "usernamePlaceholder": "姓名 / name@company.com",
     "passwordPlaceholder": "输入您的密码",
@@ -29,7 +29,7 @@
     "switchAccounts": "切换账户？",
     "loginWithMobile": "使用移动应用登录",
     "unlockWithMobile": "使用移动应用解锁",
-    "scanQrCode": "使用 AliasVault 移动端应用扫描该二维码，即可登录并解锁您的密码库。",
+    "scanQrCode": "使用 VelixVault 移动端应用扫描该二维码，即可登录并解锁您的密码库。",
     "passwordAttemptsWarning": "密码错误。若您再输入 {{remainingAttempts}} 次错误的密码，则会被退出登录。",
     "maxAttemptsReached": "解锁尝试次数过多，出于安全考虑，您已被退出登录。"
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "正在合并密码库更改...",
     "uploadingVault": "正在上传密码库…",
     "errors": {
-      "serverNotAvailable": "AliasVault服务器不可用。请稍后重试，若问题持续请联系支持人员。",
-      "clientVersionNotSupported": "此版本的AliasVault浏览器扩展已不被服务器支持。请将浏览器扩展更新到最新版本。",
+      "serverNotAvailable": "VelixVault服务器不可用。请稍后重试，若问题持续请联系支持人员。",
+      "clientVersionNotSupported": "此版本的VelixVault浏览器扩展已不被服务器支持。请将浏览器扩展更新到最新版本。",
       "browserExtensionOutdated": "此浏览器扩展已过时，无法用于访问此密码库。请更新此浏览器扩展以继续。",
-      "serverVersionNotSupported": "AliasVault服务器需要更新到新版本才能使用此浏览器扩展。如需帮助，请联系支持人员。",
-      "serverVersionTooOld": "AliasVault 服务器需要更新到更高版本才能使用此功能。如需帮助，请联系服务器管理员。",
+      "serverVersionNotSupported": "VelixVault服务器需要更新到新版本才能使用此浏览器扩展。如需帮助，请联系支持人员。",
+      "serverVersionTooOld": "VelixVault 服务器需要更新到更高版本才能使用此功能。如需帮助，请联系服务器管理员。",
       "unknownError": "发生未知错误",
       "unknownErrorTryAgain": "发生未知错误，请重试。",
       "vaultNotAvailable": "密码库不可用",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "密码库过大，服务器无法接受。请尝试移除一些项目或附件以减小其大小，然后重试。",
       "vaultSyncTimeout": "密码库同步超时。这可能是由于密码库过大或网络连接速度较慢造成的。请重试。",
       "invalidCode": "请输入有效的 6 位身份验证码。",
-      "serverError": "无法访问 AliasVault 服务器。请稍后重试，若问题依旧，请联系支持人员。",
+      "serverError": "无法访问 VelixVault 服务器。请稍后重试，若问题依旧，请联系支持人员。",
       "wrongPassword": "密码错误，请重试。",
       "sessionExpired": "您的会话已过期。请重新登录。",
       "mobileLoginRequestExpired": "移动端登录请求超时，请重新加载页面后重试。"
@@ -148,7 +148,7 @@
   "content": {
     "or": "或",
     "new": "新建",
-    "vaultLocked": "AliasVault已锁定。",
+    "vaultLocked": "VelixVault已锁定。",
     "creatingNewAlias": "正在创建新别名",
     "creatingNewCredential": "正在创建新凭据",
     "noMatchesFound": "未找到匹配项",
@@ -165,7 +165,7 @@
     "usernamePassword": "用户名/密码",
     "createAndSaveAlias": "创建并保存别名",
     "createAndSaveCredential": "创建并保存凭据",
-    "randomIdentityDescription": "生成一个包含随机邮箱地址的随机身份，可在AliasVault中查看。",
+    "randomIdentityDescription": "生成一个包含随机邮箱地址的随机身份，可在VelixVault中查看。",
     "randomIdentityDescriptionDropdown": "带随机邮箱的随机身份",
     "manualCredentialDescription": "指定您自己的邮箱地址和用户名。",
     "manualCredentialDescriptionDropdown": "手动输入用户名和密码",
@@ -177,13 +177,13 @@
     "generateNewPassword": "生成新密码",
     "togglePasswordVisibility": "切换密码可见性",
     "passwordCopiedToClipboard": "密码已复制到剪贴板",
-    "openAliasVaultToUpgrade": "打开AliasVault进行升级",
+    "openAliasVaultToUpgrade": "打开VelixVault进行升级",
     "vaultUpgradeRequired": "需要升级密码库。",
     "dismissPopup": "关闭弹窗",
     "noTotpItemsFound": "未找到匹配的两步验证码",
     "close": "关闭",
     "savePrompt": {
-      "title": "保存到 AliasVault？",
+      "title": "保存到 VelixVault？",
       "neverForThisSite": "此网站不再显示",
       "addUrlTitle": "将 URL 添加到凭据？"
     }
@@ -207,8 +207,8 @@
     "folderName": "文件夹名称",
     "folderNameRequired": "文件夹名称为必填项",
     "folder": "文件夹",
-    "welcomeTitle": "欢迎使用 AliasVault!",
-    "welcomeDescription": "要使用AliasVault浏览器扩展：导航到某个网站，使用AliasVault自动填充弹窗创建新凭据。",
+    "welcomeTitle": "欢迎使用 VelixVault!",
+    "welcomeDescription": "要使用VelixVault浏览器扩展：导航到某个网站，使用VelixVault自动填充弹窗创建新凭据。",
     "currentSiteMatch": "{{domain}} 的结果",
     "numberOfItemMatchesFound": "找到 {{count}} 个项目",
     "noMatchingItems": "没有项目符合所选筛选器。",
@@ -269,7 +269,7 @@
       "Suffix": "后缀"
     },
     "privateEmailTitle": "私人邮箱",
-    "privateEmailAliasVaultServer": "AliasVault 服务器",
+    "privateEmailAliasVaultServer": "VelixVault 服务器",
     "privateEmailDescription": "端到端加密，完全私密。",
     "publicEmailTitle": "公共临时邮箱提供商",
     "publicEmailDescription": "匿名但隐私性有限，任何知晓其地址的人均可读取邮件内容。",
@@ -433,16 +433,17 @@
     "autoLock4Hours": "4 小时",
     "autoLock8Hours": "8 小时",
     "autoLock24Hours": "24 小时",
+    "sourceCode": "源代码",
     "versionPrefix": "应用版本",
     "serverVersion": "服务器版本",
     "autofillSettings": "自动填充设置",
     "clipboardSettings": "剪贴板设置",
     "contextMenuSettings": "上下文菜单设置",
     "passkeySettings": "通行密钥设置",
-    "contextMenuDescription": "右键点击文本输入框即可访问 AliasVault 选项",
+    "contextMenuDescription": "右键点击文本输入框即可访问 VelixVault 选项",
     "selectLanguage": "选择语言",
     "serverConfiguration": "服务器配置",
-    "serverConfigurationDescription": "为自托管实例配置 AliasVault 服务器 URL",
+    "serverConfigurationDescription": "为自托管实例配置 VelixVault 服务器 URL",
     "customApiUrl": "API URL",
     "customClientUrl": "客户端 URL",
     "apiUrlHint": "API 端点 URL（通常为客户端 URL + /api）",
@@ -541,7 +542,7 @@
       "selectExistingLoginDescription": "将此通行密钥附加到此站点的现有登录凭据中。",
       "attachingToCredential": "正在将通行密钥添加到：{{serviceName}}",
       "attachPasskey": "添加通行密钥",
-      "unsupportedAlgorithm": "该网站需要 AliasVault 不支持的通行密钥类型。"
+      "unsupportedAlgorithm": "该网站需要 VelixVault 不支持的通行密钥类型。"
     },
     "settings": {
       "passkeyProvider": "通行密钥提供程序",
@@ -566,7 +567,7 @@
   },
   "upgrade": {
     "title": "升级密码库",
-    "subtitle": "AliasVault 已更新，您的密码库需要升级，这只需要几秒钟时间。",
+    "subtitle": "VelixVault 已更新，您的密码库需要升级，这只需要几秒钟时间。",
     "versionInformation": "版本信息",
     "yourVault": "您的密码库版本：",
     "newVersion": "新可用版本：",

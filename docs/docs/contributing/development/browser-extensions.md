@@ -3,7 +3,7 @@ sidebar_position: 3
 sidebar_label: "Browser extensions"
 ---
 # Browser extensions
-AliasVault offers browser extensions compatible with Chrome, Firefox, Edge and Safari. This guide explains how to build and debug the extensions locally.
+VelixVault offers browser extensions compatible with Chrome, Firefox, Edge and Safari. This guide explains how to build and debug the extensions locally.
 
 ## Development Setup
 The browser extensions are built using:
@@ -79,7 +79,7 @@ npm run build:edge
 npm run build:safari
 ```
 
-2. Open the Xcode project in the `safari-xcode/AliasVault.xcodeproj` folder and build / run the app.
+2. Open the Xcode project in the `safari-xcode/VelixVault.xcodeproj` folder and build / run the app.
 
 3. The extension will be installed automatically in Safari. Follow the on-screen MacOS app instructions to complete the installation.
 
@@ -95,7 +95,7 @@ npm run test
 ```
 
 ### End-to-end tests
-The E2E tests live in `tests/e2e/` and use [Playwright](https://playwright.dev/) to drive a real Chrome build of the extension. Unlike the unit tests, **they require a local AliasVault API to be running**, since the tests create a test user and exercise the full login/autofill flow against it.
+The E2E tests live in `tests/e2e/` and use [Playwright](https://playwright.dev/) to drive a real Chrome build of the extension. Unlike the unit tests, **they require a local VelixVault API to be running**, since the tests create a test user and exercise the full login/autofill flow against it.
 
 1. Start the dev API locally first (see [Development setup](development-setup.md#running-the-apps)):
 
@@ -130,8 +130,8 @@ The following websites have been known to cause issues in the past (but should b
 | [Hacker News](https://news.ycombinator.com/login?goto=news) | Popup and client favicon not showing due to SVG format |
 | [Bitwarden](https://vault.bitwarden.com/#/login) | Autofill password not detected (input not long enough), manually typing in works |
 | [Microsoft Online](https://login.microsoftonline.com/) | Password gets reset after autofill |
-| [ING Bank](https://mijn.ing.nl/login/) | Autofill doesn't detect input fields and AliasVault autofill icon placement is off |
-| [GitHub Issues](https://github.com/aliasvault/aliasvault/issues) | The "New issue -> Blank Issue" title field causes the autofill to trigger because of a parent form (outside of the role=modal div) |
+| [ING Bank](https://mijn.ing.nl/login/) | Autofill doesn't detect input fields and VelixVault autofill icon placement is off |
+| [GitHub Issues](https://github.com/pgpvieira-code/velixvault/issues) | The "New issue -> Blank Issue" title field causes the autofill to trigger because of a parent form (outside of the role=modal div) |
 | [Netim](https://www.netim.com/direct/) | Autofill popup not showing up |
 | [ChatGPT login](https://auth.openai.com/log-in) | Autofill popup not showing up |
-| TrueNAS (self-hosted login page) | Some characters in password field are inserted double. E.g. `abcde` in AliasVault becomes `abbccdee` in password field. |
+| TrueNAS (self-hosted login page) | Some characters in password field are inserted double. E.g. `abcde` in VelixVault becomes `abbccdee` in password field. |

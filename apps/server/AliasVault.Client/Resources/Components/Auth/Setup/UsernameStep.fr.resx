@@ -21,7 +21,7 @@
   </xsd:schema>
   <!-- Assistant messages -->
   <data name="GreatNowLetsSetupUsername">
-    <value>Super ! Maintenant, configurons votre nom d'utilisateur pour AliasVault.</value>
+    <value>Super ! Maintenant, configurons votre nom d'utilisateur pour VelixVault.</value>
     <comment>Assistant message about setting up username</comment>
   </data>
   <data name="EnterUsernameInstructions">
@@ -55,12 +55,12 @@
     <comment>Error message when username is empty</comment>
   </data>
   <data name="ServerCommunicationError">
-    <value>Une erreur s'est produite lors de la communication avec le serveur d'AliasVault.</value>
+    <value>Une erreur s'est produite lors de la communication avec le serveur d'VelixVault.</value>
     <comment>Error message for server communication issues</comment>
   </data>
   <!-- Alt text -->
   <data name="AssistantAvatarAlt">
-    <value>Assistant AliasVault</value>
+    <value>Assistant VelixVault</value>
     <comment>Alt text for assistant avatar image</comment>
   </data>
 </root>

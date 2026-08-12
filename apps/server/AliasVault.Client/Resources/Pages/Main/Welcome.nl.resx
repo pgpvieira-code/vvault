@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Welkom bij AliasVault</value>
+    <value>Welkom bij VelixVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>Hoe AliasVault werkt</value>
+    <value>Hoe VelixVault werkt</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>Je vault is succesvol aangemaakt! Bescherm je online privacy door unieke aliassen aan te maken voor elke website die je gebruikt. Doorloop de tutorial om te leren hoe AliasVault werkt en om vervolgens je eerste alias aan te maken.</value>
+    <value>Je vault is succesvol aangemaakt! Bescherm je online privacy door unieke aliassen aan te maken voor elke website die je gebruikt. Doorloop de tutorial om te leren hoe VelixVault werkt en om vervolgens je eerste alias aan te maken.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>AliasVault genereert een willekeurige identiteit met een veilig privé e-mailadres</value>
+    <value>VelixVault genereert een willekeurige identiteit met een veilig privé e-mailadres</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -72,7 +72,7 @@
     <comment>Title for master password tip</comment>
   </data>
   <data name="MasterPasswordTipContent">
-    <value>Je hoofdwachtwoord is vereist om je vault te ontsleutelen. Deel dit wachtwoord nooit en bewaar het op een veilige locatie. Waarschuwing: Als je je hoofdwachtwoord verliest, kunnen je gegevens niet worden hersteld - zelfs niet door het AliasVault team.</value>
+    <value>Je hoofdwachtwoord is vereist om je vault te ontsleutelen. Deel dit wachtwoord nooit en bewaar het op een veilige locatie. Waarschuwing: Als je je hoofdwachtwoord verliest, kunnen je gegevens niet worden hersteld - zelfs niet door het VelixVault team.</value>
     <comment>Content for master password tip</comment>
   </data>
   <data name="TwoFactorTipTitle">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Installeer de AliasVault browser-extensie en mobiele app om aliassen te maken en autofill te gebruiken via je browser en smartphone.</value>
+    <value>Installeer de VelixVault browser-extensie en mobiele app om aliassen te maken en autofill te gebruiken via je browser en smartphone.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Nu je weet hoe AliasVault werkt, laten we je eerste alias maken!</value>
+    <value>Nu je weet hoe VelixVault werkt, laten we je eerste alias maken!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

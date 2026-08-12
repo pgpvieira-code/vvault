@@ -4,7 +4,7 @@ sidebar_label: "Troubleshooting"
 ---
 # Troubleshooting
 
-This guide covers common issues and troubleshooting steps for AliasVault encountered during installation, updates or general maintenance.
+This guide covers common issues and troubleshooting steps for VelixVault encountered during installation, updates or general maintenance.
 
 ---
 
@@ -32,9 +32,9 @@ docker compose restart
 
 ---
 
-## Check AliasVault Text Logs
+## Check VelixVault Text Logs
 
-All AliasVault services log information and errors to text files. These files are located in the `logs` directory within your AliasVault installation folder.
+All VelixVault services log information and errors to text files. These files are located in the `logs` directory within your VelixVault installation folder.
 
 **View logs for a specific service:**
 
@@ -130,7 +130,7 @@ proxy_set_header Connection "upgrade";
 proxy_read_timeout 86400;
 ```
 
-### 4. Forgot AliasVault admin password
+### 4. Forgot VelixVault admin password
 
 **Solution:**
 

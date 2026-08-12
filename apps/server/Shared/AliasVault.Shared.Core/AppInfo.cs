@@ -15,7 +15,17 @@ public static class AppInfo
     /// <summary>
     /// Gets the application name.
     /// </summary>
-    public const string ApplicationName = "AliasVault";
+    public const string ApplicationName = "VelixVault";
+
+    /// <summary>
+    /// Gets the URL of the public source repository.
+    /// </summary>
+    /// <remarks>
+    /// This is surfaced in the UI to satisfy AGPL-3.0 section 13, which requires that users
+    /// interacting with a modified version over a network are offered its corresponding source.
+    /// The repository behind this URL must stay public and in sync with what is deployed.
+    /// </remarks>
+    public const string SourceCodeUrl = "https://github.com/pgpvieira-code/velixvault";
 
     /// <summary>
     /// Gets the major version number.

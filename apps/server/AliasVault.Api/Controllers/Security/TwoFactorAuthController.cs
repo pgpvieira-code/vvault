@@ -78,7 +78,7 @@ public class TwoFactorAuthController(IDbContextFactory<AliasServerDbContext> dbC
         }
 
         var encodedKey = urlEncoder.Encode(authenticatorKey!);
-        var qrCodeUrl = $"otpauth://totp/{urlEncoder.Encode("AliasVault")}:{urlEncoder.Encode(user.UserName!)}?secret={encodedKey}&issuer={urlEncoder.Encode("AliasVault")}";
+        var qrCodeUrl = $"otpauth://totp/{urlEncoder.Encode("VelixVault")}:{urlEncoder.Encode(user.UserName!)}?secret={encodedKey}&issuer={urlEncoder.Encode("VelixVault")}";
 
         return Ok(new { Secret = authenticatorKey, QrCodeUrl = qrCodeUrl });
     }

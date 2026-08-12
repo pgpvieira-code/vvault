@@ -35,7 +35,7 @@
       "unknownError": "Ein unbekannter Fehler ist aufgetreten.",
       "unknownErrorTryAgain": "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es erneut.",
       "vaultTooLarge": "Der Tresor ist zu groß für den Server. Versuche einige Elemente oder Anhänge zu entfernen, um die Größe zu verringern und versuche es dann erneut.",
-      "serverVersionTooOld": "Der AliasVault-Server muss auf eine neuere Version aktualisiert werden, um diese Funktion nutzen zu können. Bitte kontaktiere den Administrator des Servers, falls Du Hilfe benötigst."
+      "serverVersionTooOld": "Der VelixVault-Server muss auf eine neuere Version aktualisiert werden, um diese Funktion nutzen zu können. Bitte kontaktiere den Administrator des Servers, falls Du Hilfe benötigst."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Bitte gib einen gültigen 6-stelligen Sicherheits-Code ein.",
       "incorrectPassword": "Falsches Passwort. Bitte versuche es erneut.",
       "enterPassword": "Bitte gib Dein Passwort ein",
-      "serverError": "Der AliasVault-Server konnte nicht erreicht werden. Bitte versuche es später noch einmal oder kontaktiere den Support, falls das Problem weiterhin besteht.",
+      "serverError": "Der VelixVault-Server konnte nicht erreicht werden. Bitte versuche es später noch einmal oder kontaktiere den Support, falls das Problem weiterhin besteht.",
       "serverErrorSelfHosted": "Die API konnte nicht erreicht werden. Für selbstgehostete Instanzen überprüfe bitte, ob der API-Endpunkt erreichbar ist, indem Du in einem Browser zu ihm navigieren: Er sollte 'OK' anzeigen.",
       "networkError": "Netzwerkanfrage fehlgeschlagen. Bitte überprüfe Deine Internetverbindung und versuche es erneut.",
       "networkErrorSelfHosted": "Netzwerkanfrage fehlgeschlagen. Überprüfe deine Netzwerkverbindung und die Server-Verfügbarkeit. Stelle bei selbstgehosteten Instanzen sicher, dass ein gültiges SSL-Zertifikat installiert ist. Aus Sicherheitsgründen werden selbstsignierte Zertifikate auf mobilen Geräten nicht unterstützt.",
@@ -97,10 +97,10 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Fehler beim Abrufen der verschlüsselten Datenbank",
       "usernameNotFound": "Benutzername nicht gefunden",
-      "vaultOutdated": "Dein Tresor ist veraltet. Bitte melde Dich auf der AliasVault-Webseite an und folge den Anweisungen.",
+      "vaultOutdated": "Dein Tresor ist veraltet. Bitte melde Dich auf der VelixVault-Webseite an und folge den Anweisungen.",
       "failedToSyncVault": "Fehler beim Synchronisieren des Tresors",
-      "versionNotSupported": "Diese Version der AliasVault-App wird vom Server nicht mehr unterstützt. Bitte aktualisiere Deine App auf die neueste Version.",
-      "serverVersionNotSupported": "Der AliasVault-Server muss auf eine neuere Version aktualisiert werden, um diese mobile App nutzen zu können. Bitte kontaktiere den Support, falls Du Hilfe benötigst.",
+      "versionNotSupported": "Diese Version der VelixVault-App wird vom Server nicht mehr unterstützt. Bitte aktualisiere Deine App auf die neueste Version.",
+      "serverVersionNotSupported": "Der VelixVault-Server muss auf eine neuere Version aktualisiert werden, um diese mobile App nutzen zu können. Bitte kontaktiere den Support, falls Du Hilfe benötigst.",
       "appOutdated": "Diese App ist veraltet und kann nicht verwendet werden, um auf diesen Tresor zuzugreifen. Bitte aktualisiere die App, um fortzufahren.",
       "passwordChanged": "Dein Passwort hat sich seit Deiner letzten Anmeldung geändert. Bitte melden Dich aus Sicherheitsgründen erneut an.",
       "passwordChangeRequiresOnline": "Passwortänderung erfordert eine Internetverbindung. Bitte versuchen Sie es erneut wenn Sie online sind."
@@ -131,13 +131,13 @@
     "title": "Einstellungen",
     "autofill": "Autofill & Passkeys",
     "iosAutofillSettings": {
-      "headerText": "AliasVault kann so eingerichtet werden, dass es die integrierte Passwort- und Passkey-Autofill-Funktion von iOS unterstützt. Befolge dazu die folgenden Schritte.",
-      "passkeyNotice": "Passkeys werden durch iOS erstellt. Um sie in AliasVault zu speichern, stelle sicher, dass Autofill unten aktiviert ist.",
+      "headerText": "VelixVault kann so eingerichtet werden, dass es die integrierte Passwort- und Passkey-Autofill-Funktion von iOS unterstützt. Befolge dazu die folgenden Schritte.",
+      "passkeyNotice": "Passkeys werden durch iOS erstellt. Um sie in VelixVault zu speichern, stelle sicher, dass Autofill unten aktiviert ist.",
       "howToEnable": "So aktivierst Du Autofill & Passkey:",
       "step1": "1. Tippe unten auf die Schaltfläche, um die iOS-Einstellungen zu öffnen",
       "step2": "2. Gehe zu \"Allgemein\"",
       "step3": "3. Tippe auf \"Automatisch ausfüllen & Passwörter\"",
-      "step4": "4. Aktiviere \"AliasVault\"",
+      "step4": "4. Aktiviere \"VelixVault\"",
       "step5": "5. Deaktiviere andere Passwortanbieter (z. B. \"iCloud-Passwörter\"), um Konflikte zu vermeiden",
       "openIosSettings": "Öffne die iOS-Einstellugen",
       "alreadyConfigured": "Ich habe es bereits konfiguriert"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Experimentelles Feature",
       "warningDescription": "Die Autofill- und Passkeys-Funktionalität für Android ist aktuell noch experimentell.",
       "warningLink": "Mehr Informationen findest Du hier",
-      "headerText": "AliasVault kann so eingerichtet werden, dass es die integrierte Passwort- und Passkeys-Autofill-Funktion von Android unterstützt. Befolge dazu die folgenden Schritte.",
-      "passkeyNotice": "Passkeys werden durch den Android Credential Manager (Android 14+) erstellt. Um sie in AliasVault zu speichern, stelle sicher, dass Autofill unten aktiviert ist.",
+      "headerText": "VelixVault kann so eingerichtet werden, dass es die integrierte Passwort- und Passkeys-Autofill-Funktion von Android unterstützt. Befolge dazu die folgenden Schritte.",
+      "passkeyNotice": "Passkeys werden durch den Android Credential Manager (Android 14+) erstellt. Um sie in VelixVault zu speichern, stelle sicher, dass Autofill unten aktiviert ist.",
       "howToEnable": "So aktivierst Du Autofill & Passkey:",
-      "step1": "1. Tippe unten auf die Schaltfläche, um die Android-Einstellungen zu öffnen. Wähle \"AliasVault\" anschließend als bevorzugten Dienst aus",
+      "step1": "1. Tippe unten auf die Schaltfläche, um die Android-Einstellungen zu öffnen. Wähle \"VelixVault\" anschließend als bevorzugten Dienst aus",
       "openAutofillSettings": "Öffne die Autofill-Einstellungen",
       "buttonTip": "Falls die Schaltfläche oben nicht funktionieren sollte, könnte sie aufgrund von Sicherheitseinstellungen blockiert sein. Gehe in diesem Fall manuell zu \"Android-Einstellungen → Passwörter, Passkeys & Konten\".",
       "step2": "2. Manche Apps wie Google Chrome erfordern möglicherweise eine manuelle Konfiguration in ihren Einstellungen, um Drittanbieter-Autofill-Apps zuzulassen. Die meisten Apps sollten jedoch standardmäßig mit Autofill funktionieren.",
       "alreadyConfigured": "Ich habe es bereits konfiguriert",
       "showSearchText": "Suchtext anzeigen",
-      "showSearchTextDescription": "Füge den Text ein, den AliasVault von Android erhält und der verwendet wird, um nach passenden Anmeldedaten zu suchen"
+      "showSearchTextDescription": "Füge den Text ein, den VelixVault von Android erhält und der verwendet wird, um nach passenden Anmeldedaten zu suchen"
     },
     "advancedOptions": "Erweiterte Einstellungen",
     "copyTotpOnFill": "TOTP-Code bei Autofill kopieren",
@@ -164,7 +164,7 @@
     "autoLock": "Sperr-Timeout",
     "clipboardClear": "Zwischenablage leeren",
     "clipboardClearDescription": "Kopierte Passwörter und vertrauliche Informationen nach einem bestimmten Zeitraum automatisch aus der Zwischenablage löschen.",
-    "clipboardClearAndroidWarning": "Hinweis: Einige Android-Geräte haben den Zwischenablage-Verlauf aktiviert, was möglicherweise zuvor kopierte Einträge zwischenspeichern kann, auch wenn AliasVault die Zwischenablage löscht. AliasVault kann nur den letzten Eintrag überschreiben. Ältere Einträge bleiben möglicherweise im Verlauf sichtbar. Aus Sicherheitsgründen wird empfohlen, alle Verlaufsfunktionen zur Zwischenablage in den Geräteeinstellungen zu deaktivieren.",
+    "clipboardClearAndroidWarning": "Hinweis: Einige Android-Geräte haben den Zwischenablage-Verlauf aktiviert, was möglicherweise zuvor kopierte Einträge zwischenspeichern kann, auch wenn VelixVault die Zwischenablage löscht. VelixVault kann nur den letzten Eintrag überschreiben. Ältere Einträge bleiben möglicherweise im Verlauf sichtbar. Aus Sicherheitsgründen wird empfohlen, alle Verlaufsfunktionen zur Zwischenablage in den Geräteeinstellungen zu deaktivieren.",
     "clipboardLocalOnly": "Nur lokale Zwischenablage",
     "clipboardLocalOnlyDescription": "Behalte kopierte Anmeldedaten auf diesem Gerät, anstatt sie über die allgemeine Zwischenablage mit Deinen anderen Apple-Geräten zu synchronisieren.",
     "clipboardLocalOnlyDisabledWarning": "Damit können kopierte Anmeldedaten mit Deinen anderen Apple-Geräten (Mac, iPad, etc.) über die allgemeine Zwischenablage synchronisiert werden.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Löschen der Zwischenablage im Hintergrund aktivieren",
     "batteryOptimizationActive": "Die Akkuoptimierung blockiert die Hintergrundprozesse",
     "batteryOptimizationDisabled": "Das Löschen der Zwischenablage im Hintergrund ist aktiviert",
-    "batteryOptimizationHelpDescription": "Die Akkuoptimierung von Android verhindert, dass die Zwischenablage zuverlässig gelöscht wird, wenn die App im Hintergrund ist. Das Deaktivieren der Akkuoptimierung für AliasVault ermöglicht das zuverlässige Löschen der Zwischenablage und gewährt automatisch die notwendigen Alarmberechtigungen.",
+    "batteryOptimizationHelpDescription": "Die Akkuoptimierung von Android verhindert, dass die Zwischenablage zuverlässig gelöscht wird, wenn die App im Hintergrund ist. Das Deaktivieren der Akkuoptimierung für VelixVault ermöglicht das zuverlässige Löschen der Zwischenablage und gewährt automatisch die notwendigen Alarmberechtigungen.",
     "disableBatteryOptimization": "Akkuoptimierung deaktivieren",
     "identityGenerator": "Identitätsgenerator",
     "passwordGenerator": "Passwortgenerator",
     "importExport": "Import und Export",
     "importSectionTitle": "Importieren",
-    "importSectionDescription": "Importiere Deine Passwörter von anderen Passwort-Managern oder von einem früheren AliasVault-Export.",
+    "importSectionDescription": "Importiere Deine Passwörter von anderen Passwort-Managern oder von einem früheren VelixVault-Export.",
     "importWebNote": "Um Zugangsdaten von bestehenden Passwort-Managern zu importieren, melde Dich bitte in der Web-App an. Die Import-Funktion ist derzeit nur auf der Web-Version verfügbar.",
     "exportSectionTitle": "Exportieren",
     "exportSectionDescription": "Exportiere Deinen Tresor in eine CSV-Datei. Diese Datei kann als Sicherung verwendet werden und kann auch in andere Passwort-Manager importiert werden.",
@@ -196,6 +196,7 @@
       "exportDescription": "Bitte gebe aus Sicherheitsgründen Dein Master-Passwort ein, um diesen Export zu bestätigen."
     },
     "security": "Sicherheit",
+    "sourceCode": "Quellcode",
     "appVersion": "App-Version",
     "serverVersion": "Server-Version",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 Stunden"
     },
     "language": "Sprache",
-    "languageSystemMessage": "Um die App-Sprache zu ändern, stelle die bevorzugte Sprache für AliasVault in Deinen Geräteeinstellungen ein.",
+    "languageSystemMessage": "Um die App-Sprache zu ändern, stelle die bevorzugte Sprache für VelixVault in Deinen Geräteeinstellungen ein.",
     "openSettings": "Öffne die Einstellungen",
     "vaultUnlockSettings": {
       "description": "Wähle, wie Du Deinen Tresor entsperren möchtest.",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} wurde erfolgreich aktiviert",
       "biometricNotAvailable": "{{biometric}} nicht verfügbar",
-      "biometricDisabledMessage": "{{biometric}} ist für AliasVault deaktiviert. Bitte aktiviere es zuerst in den Geräteeinstellungen, um es zu verwenden.",
+      "biometricDisabledMessage": "{{biometric}} ist für VelixVault deaktiviert. Bitte aktiviere es zuerst in den Geräteeinstellungen, um es zu verwenden.",
       "biometricHelp": "Benutze Biometrie, um Deinen Tresor zu entsperren. Dieser ist durch den {{keystore}} gesichert ist.",
       "biometricUnavailableHelp": "{{biometric}} ist nicht verfügbar. Tippe, um die Einstellungen zu öffnen und/oder gehe zu den Geräteeinstellungen, um es zu aktivieren und zu konfigurieren.",
       "featureRequiresPasscode": "Diese Funktion erfordert, dass ein Zugangscode auf deinem Gerät eingerichtet ist.",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "QR-Code-Scanner",
-      "scanningMessage": "Scanne den AliasVault-QR-Code",
+      "scanningMessage": "Scanne den VelixVault-QR-Code",
       "mobileLogin": {
         "confirmTitle": "Anmeldeanfrage bestätigen",
         "confirmSubtitle": "Authentifizieren Dich erneut, um die Anmeldung auf einem anderen Gerät zu genehmigen.",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "E-Mail-Präfix eingeben",
     "selectEmailDomain": "E-Mail-Domain auswählen",
     "privateEmailTitle": "Private E-Mail-Adresse",
-    "privateEmailAliasVaultServer": "AliasVault-Server",
+    "privateEmailAliasVaultServer": "VelixVault-Server",
     "privateEmailDescription": "Ende-zu-Ende verschlüsselt, vollständig privat.",
     "publicEmailTitle": "Öffentliche Temp-E-Mail-Anbieter",
     "publicEmailDescription": "Anonyme, aber beschränkte Privatsphäre. E-Mail-Inhalt ist für jeden lesbar, der die Adresse kennt.",
@@ -429,7 +430,7 @@
     "noMatchingItems": "Keine Elemente entsprechen den ausgewählten Filtern.",
     "noMatchingItemsSearch": "Keine passenden Elemente \"{{search}}\"",
     "noMatchingItemsWithFilter": "Keine {{filter}} Elemente passend zu \"{{search}}\"",
-    "noItemsFound": "Keine Elemente gefunden. Erstelle ein Element, um zu beginnen. Tipp: Du kannst dich auch in der AliasVault-Webapp anmelden, um Anmeldedaten aus anderen Passwort-Managern zu importieren.",
+    "noItemsFound": "Keine Elemente gefunden. Erstelle ein Element, um zu beginnen. Tipp: Du kannst dich auch in der VelixVault-Webapp anmelden, um Anmeldedaten aus anderen Passwort-Managern zu importieren.",
     "allItemsInFolders": "Alle Deine Elemente sind in Ordnern organisiert. Tippe auf einen Ordner oben, um Deine Anmeldedaten anzuzeigen, oder verwende die Suche, um bestimmte Elemente zu finden.",
     "clearSearch": "Suche löschen",
     "clearFilter": "Filter löschen",
@@ -670,7 +671,7 @@
       "message": "Diese Seite wurde verschoben oder gelöscht.",
       "goHome": "Zum Start zurück gehen"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Der Tresor wurde nach Zeitüberschreitung automatisch gesperrt.",
       "attemptingToUnlockMessage": "Entsperrvorgang läuft."
@@ -690,7 +691,7 @@
       "version": "Version: {{version}}",
       "advancedSettings": "Erweiterte Einstellungen",
       "customProxyHeaders": "Benutzerdefinierte Proxy-Header",
-      "customProxyHeadersDescription": "Füge HTTP-Header hinzu, die mit jeder Anfrage an Deinen AliasVault-Server gesendet werden. Kann für selbstgehostete Setups hinter einem Reverse-Proxy verwendet werden, der auf benutzerdefinierte Header prüft (z.B. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Füge HTTP-Header hinzu, die mit jeder Anfrage an Deinen VelixVault-Server gesendet werden. Kann für selbstgehostete Setups hinter einem Reverse-Proxy verwendet werden, der auf benutzerdefinierte Header prüft (z.B. Pangolin, Cloudflare Access).",
       "headerName": "Header-Name",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header-Wert"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "Tresor aktualisieren",
-    "subtitle": "AliasVault wurde aktualisiert. Dadurch muss auch Dein Tresor aktualisiert werden. Dies sollte nur wenige Sekunden dauern.",
+    "subtitle": "VelixVault wurde aktualisiert. Dadurch muss auch Dein Tresor aktualisiert werden. Dies sollte nur wenige Sekunden dauern.",
     "versionInformation": "Versionsinformationen",
     "yourVault": "Version Deines Tresors:",
     "newVersion": "Neue verfügbare Version:",

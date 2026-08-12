@@ -35,7 +35,7 @@
       "unknownError": "Ocorreu um erro desconhecido.",
       "unknownErrorTryAgain": "Ocorreu um erro desconhecido. Por favor, tente novamente.",
       "vaultTooLarge": "O cofre é grande demais para o servidor aceitar. Tente remover alguns itens ou anexos para reduzir o tamanho e tente novamente.",
-      "serverVersionTooOld": "O servidor do AliasVault deve ser atualizado para uma versão mais recente para utilizar esta função. Por favor, entre em contato com o administrador do servidor se precisar de ajuda."
+      "serverVersionTooOld": "O servidor do VelixVault deve ser atualizado para uma versão mais recente para utilizar esta função. Por favor, entre em contato com o administrador do servidor se precisar de ajuda."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Por favor digite o código de autenticação de 6 dígitos",
       "incorrectPassword": "Senha incorreta. Por favor tente novamente.",
       "enterPassword": "Por favor digite sua senha",
-      "serverError": "Não foi possível conectar ao servidor do AliasVault. Por favor tente novamente mais tarde ou entre em contato com o suporte caso o problema persista.",
+      "serverError": "Não foi possível conectar ao servidor do VelixVault. Por favor tente novamente mais tarde ou entre em contato com o suporte caso o problema persista.",
       "serverErrorSelfHosted": "Não foi possível conectar à API. Para instâncias self-hosted, por favor verifique se os endpoints da API podem ser chamados através de um navegador. Ele deve mostrar 'OK'.",
       "networkError": "Conexão falhou. Por favor verifique sua conexão com a internet e tente novamente.",
       "networkErrorSelfHosted": "Conexão falhou. Verifique sua conexão com a rede e a disponibilidade do servidor. Para instâncias self-hosted, por favor confirme que possue um certificado SSL válido instalado. Certificados self-signed não são suportados em celulares por questões de segurança.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Falha ao acessar dados criptografados",
       "usernameNotFound": "Usuário não encontrado",
-      "vaultOutdated": "Seu cofre está desatualizado. Por favor realize login pelo site do AliasVault e siga as instruções.",
+      "vaultOutdated": "Seu cofre está desatualizado. Por favor realize login pelo site do VelixVault e siga as instruções.",
       "failedToSyncVault": "Falha ao sincronizar cofre",
-      "versionNotSupported": "Esta versão do aplicativo AliasVault não é mais suportada pelo servidor. Por favor atualize seu aplicativo para a última versão.",
-      "serverVersionNotSupported": "O servidor do AliasVault precisa ser atualizado para uma nova versão para poder utilizar o aplicativo móvel. Por favor, entre em contato com o suporte caso precise de ajuda.",
-      "appOutdated": "Este aplicativo está desatualizado e não pode ser utilizado para acessar essa (nova) versão do cofre. Por favor, atualize seu aplicativo AliasVault para continuar.",
+      "versionNotSupported": "Esta versão do aplicativo VelixVault não é mais suportada pelo servidor. Por favor atualize seu aplicativo para a última versão.",
+      "serverVersionNotSupported": "O servidor do VelixVault precisa ser atualizado para uma nova versão para poder utilizar o aplicativo móvel. Por favor, entre em contato com o suporte caso precise de ajuda.",
+      "appOutdated": "Este aplicativo está desatualizado e não pode ser utilizado para acessar essa (nova) versão do cofre. Por favor, atualize seu aplicativo VelixVault para continuar.",
       "passwordChanged": "Sua senha mudou desde o último login. Por favor realize login novamente por questões de segurança.",
       "passwordChangeRequiresOnline": "Alteração de senhas requer uma conexão com a internet. Por favor, tente novamente quando estiver online."
     }
@@ -131,13 +131,13 @@
     "title": "Configurações",
     "autofill": "Autopreenchimento & Passkeys",
     "iosAutofillSettings": {
-      "headerText": "Você pode configurar o AliasVault para prover autopreenchimento nativo de senhas e passkeys no iOS. Siga as instruções abaixo para habilitar.",
-      "passkeyNotice": "Passkeys são criadas através do iOS. Para armazená-las no AliasVault, confirme que o autopreenchimento está habilitado abaixo.",
+      "headerText": "Você pode configurar o VelixVault para prover autopreenchimento nativo de senhas e passkeys no iOS. Siga as instruções abaixo para habilitar.",
+      "passkeyNotice": "Passkeys são criadas através do iOS. Para armazená-las no VelixVault, confirme que o autopreenchimento está habilitado abaixo.",
       "howToEnable": "Como habilitar Autopreenchimento & Passkeys:",
       "step1": "1. Abra as Configurações do iOS através do botão abaixo",
       "step2": "2. Vá até \"Geral\"",
       "step3": "3. Clique \"Autopreenchimento & Senhas\"",
-      "step4": "4. Habilite \"AliasVault\"",
+      "step4": "4. Habilite \"VelixVault\"",
       "step5": "5. Desabilite outros provedores de senha (ex. \"iCloud Passwords\") para evitar conflitos",
       "openIosSettings": "Abrir Configurações do iOS",
       "alreadyConfigured": "Já configurei"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Funcionalidade Experimental",
       "warningDescription": "Suporte para autopreenchimento e passkeys no Android está em fase experimental.",
       "warningLink": "Leia mais sobre isso aqui",
-      "headerText": "Você pode configurar o AliasVault para prover a funcionalidade de autopreenchimento de senhas e passkeys no Android. Siga as instruções abaixo para habilitar.",
-      "passkeyNotice": "Passkeys são criadas através do Gerenciador de Credenciais Android (Android 14+). Para armazená-las no AliasVault, confirme que o autopreenchimento está habilitado abaixo.",
+      "headerText": "Você pode configurar o VelixVault para prover a funcionalidade de autopreenchimento de senhas e passkeys no Android. Siga as instruções abaixo para habilitar.",
+      "passkeyNotice": "Passkeys são criadas através do Gerenciador de Credenciais Android (Android 14+). Para armazená-las no VelixVault, confirme que o autopreenchimento está habilitado abaixo.",
       "howToEnable": "Como habilitar Autopreenchimento & Passkeys:",
-      "step1": "1. Abra as Configurações do Android através do botão abaixo, e troque o \"serviço de autopreenchimento preferido\" para \"AliasVault\"",
+      "step1": "1. Abra as Configurações do Android através do botão abaixo, e troque o \"serviço de autopreenchimento preferido\" para \"VelixVault\"",
       "openAutofillSettings": "Abrir Configurações de Autopreenchimento",
       "buttonTip": "Se o botão acima não funcionar pode estar bloqueado pelas configurações de segurança. Você pode ir manualmente às Configurações do Android → Configurações Gerais → Senhas e autopreenchimento.",
       "step2": "2. Alguns aplicativos, ex. Google Chrome, podem solicitar configurações manuais nas suas configurações para habilitar autopreenchimento de aplicativos terceiros. Porém, a maioria dos aplicativos deve funcionar com autopreenchimento por padrão.",
       "alreadyConfigured": "Já configurei",
       "showSearchText": "Mostrar busca por texto",
-      "showSearchTextDescription": "Inclua o texto que o AliasVault recebe do Android, e que é usado para pesquisar credenciais relacionadas"
+      "showSearchTextDescription": "Inclua o texto que o VelixVault recebe do Android, e que é usado para pesquisar credenciais relacionadas"
     },
     "advancedOptions": "Opções Avançadas",
     "copyTotpOnFill": "Copiar código de dois fatores ao autopreencher",
@@ -164,7 +164,7 @@
     "autoLock": "Tempo para Bloqueio Automático",
     "clipboardClear": "Limpar área de transferência",
     "clipboardClearDescription": "Limpa automaticamente as senhas e dados sensíveis copiados da sua área de transferência após o tempo especificado.",
-    "clipboardClearAndroidWarning": "Nota: alguns dispositivos Android têm histórico de área de transferência habilitado, o que pode manter dados copiados anteriormente, mesmo após o AliasVault limpar a área de transferência. O AliasVault só pode remover o item mais recente, porém outros itens podem permanecer visíveis no histórico. Por questões de segurança, recomendamos desabilitar qualquer histórico de área de transferência nas configurações do seu dispositivo.",
+    "clipboardClearAndroidWarning": "Nota: alguns dispositivos Android têm histórico de área de transferência habilitado, o que pode manter dados copiados anteriormente, mesmo após o VelixVault limpar a área de transferência. O VelixVault só pode remover o item mais recente, porém outros itens podem permanecer visíveis no histórico. Por questões de segurança, recomendamos desabilitar qualquer histórico de área de transferência nas configurações do seu dispositivo.",
     "clipboardLocalOnly": "Apenas área de transferência local",
     "clipboardLocalOnlyDescription": "Mantenha as credenciais copiadas neste dispositivo ao invés de sincronizá-las para seus outros dispositivos Apple através da Área de Transferência Universal.",
     "clipboardLocalOnlyDisabledWarning": "Com esta opção desativada, credenciais copiadas podem ser sincronizadas para seus dispositivos Apple (Mac, iPad, etc.) através da Área de Transferência Universal.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Habilitar Limpeza de Área de Transferência no Background",
     "batteryOptimizationActive": "Otimização de bateria está bloqueando tarefas em background",
     "batteryOptimizationDisabled": "Limpeza da área de transferência em background habilitada",
-    "batteryOptimizationHelpDescription": "A otimização de bateria do Android previne a limpeza correta da área de transferência enquanto o aplicativo está em background. Desabilitar a otimização de bateria para o AliasVault permite a limpeza correta da área de transferência em background e automaticamente autoriza as permissões de alarme.",
+    "batteryOptimizationHelpDescription": "A otimização de bateria do Android previne a limpeza correta da área de transferência enquanto o aplicativo está em background. Desabilitar a otimização de bateria para o VelixVault permite a limpeza correta da área de transferência em background e automaticamente autoriza as permissões de alarme.",
     "disableBatteryOptimization": "Desabilitar otimização de bateria",
     "identityGenerator": "Gerador de Identidade",
     "passwordGenerator": "Gerador de Senha",
     "importExport": "Importar / Exportar",
     "importSectionTitle": "Importar",
-    "importSectionDescription": "Importe suas senhas de outros gerenciadores de senhas ou de dados exportados anteriormente do AliasVault.",
+    "importSectionDescription": "Importe suas senhas de outros gerenciadores de senhas ou de dados exportados anteriormente do VelixVault.",
     "importWebNote": "Para importar credenciais de um gerenciador de senhas existente, por favor realize o login pelo site. Por enquanto, a função de importar só está disponível pela versão web.",
     "exportSectionTitle": "Exportar",
     "exportSectionDescription": "Exporte seu cofre para um arquivo CSV. Este arquivo pode ser utilizado como backup e também pode ser importado em outros gerenciadores de senhas.",
@@ -196,6 +196,7 @@
       "exportDescription": "Por questões de segurança, por favor, digite sua senha mestre para confirmar esta exportação."
     },
     "security": "Segurança",
+    "sourceCode": "Código-fonte",
     "appVersion": "App version",
     "serverVersion": "Server version",
     "autoLockOptions": {
@@ -213,7 +214,7 @@
       "24hours": "24 horas"
     },
     "language": "Idioma",
-    "languageSystemMessage": "Para mudar o idioma do aplicativo, configure o idioma preferido para o AliasVault nas configurações do seu dispositivo.",
+    "languageSystemMessage": "Para mudar o idioma do aplicativo, configure o idioma preferido para o VelixVault nas configurações do seu dispositivo.",
     "openSettings": "Abrir Configurações",
     "vaultUnlockSettings": {
       "description": "Escolha como você quer desbloquear seu cofre.",
@@ -223,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} foi ativado com sucesso",
       "biometricNotAvailable": "{{biometric}} Não Disponível",
-      "biometricDisabledMessage": "{{biometric}} está desabitado para o AliasVault. Para utilizar, por favor primeiro habilite nas configurações do seu dispositivo.",
+      "biometricDisabledMessage": "{{biometric}} está desabitado para o VelixVault. Para utilizar, por favor primeiro habilite nas configurações do seu dispositivo.",
       "biometricHelp": "Utilize biometria para desbloquear seu cofre, que está protegido por {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} não está disponível. Clique para abrir as configurações e/ou vá às configurações do seu dispositivo para habilitar e configurar.",
       "featureRequiresPasscode": "Este recurso requer uma senha para ser habilitado no seu dispositivo.",
@@ -326,7 +327,7 @@
     },
     "qrScanner": {
       "title": "Escaneador de Código QR",
-      "scanningMessage": "Escanear código QR do AliasVault",
+      "scanningMessage": "Escanear código QR do VelixVault",
       "mobileLogin": {
         "confirmTitle": "Confirmar Requisição de Login",
         "confirmSubtitle": "Autentique novamente para aprovar login em outros dispositivos.",
@@ -421,7 +422,7 @@
     "enterEmailPrefix": "Digite o prefixo do e-mail",
     "selectEmailDomain": "Selecionar domínio de e-mail",
     "privateEmailTitle": "E-mail Privado",
-    "privateEmailAliasVaultServer": "Servidor AliasVault",
+    "privateEmailAliasVaultServer": "Servidor VelixVault",
     "privateEmailDescription": "Criptografia E2E, totalmente privado.",
     "publicEmailTitle": "Provedores Públicos de E-mail Temporário",
     "publicEmailDescription": "Anônimo mas com privacidade limitada. Conteúdo do e-mail pode ser lido por qualquer um que souber o endereço.",
@@ -429,7 +430,7 @@
     "noMatchingItems": "Nenhum item corresponde ao filtro selecionado.",
     "noMatchingItemsSearch": "Nenhum item corresponde à \"{{search}}\"",
     "noMatchingItemsWithFilter": "Nenhum item com o filtro {{filter}} corresponde à \"{{search}}\"",
-    "noItemsFound": "Nenhum item encontrado. Crie um para iniciar. Dica: você também pode fazer login no aplicativo web do AliasVault para importar credenciais de outros gerenciadores de senhas.",
+    "noItemsFound": "Nenhum item encontrado. Crie um para iniciar. Dica: você também pode fazer login no aplicativo web do VelixVault para importar credenciais de outros gerenciadores de senhas.",
     "allItemsInFolders": "Todos os seus itens estão organizados em pastas. Toque em uma pasta acima para ver suas credenciais, ou utilize a busca para encontrar itens específicos.",
     "clearSearch": "Limpar busca",
     "clearFilter": "Limpar filtro",
@@ -670,7 +671,7 @@
       "message": "Esta página foi movida ou excluída.",
       "goHome": "Voltar ao início"
     },
-    "appName": "AliasVault",
+    "appName": "VelixVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Cofre bloqueado automaticamente após período.",
       "attemptingToUnlockMessage": "Tentando desbloquear."
@@ -690,7 +691,7 @@
       "version": "Versão: {{version}}",
       "advancedSettings": "Configurações avançadas",
       "customProxyHeaders": "Cabeçalhos de proxy personalizados",
-      "customProxyHeadersDescription": "Adicionar cabeçalhos HTTP que serão enviados com cada requisição para seu servidor AliasVault. Pode ser utilizado para configurações self-hosted atrás de proxies reversos que verifiquem por cabeçalhos (por exemplo, Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Adicionar cabeçalhos HTTP que serão enviados com cada requisição para seu servidor VelixVault. Pode ser utilizado para configurações self-hosted atrás de proxies reversos que verifiquem por cabeçalhos (por exemplo, Pangolin, Cloudflare Access).",
       "headerName": "Nome do cabeçalho",
       "headerNamePlaceholder": "X-Cabeçalho-Personalizado",
       "headerValue": "Valor do cabeçalho"
@@ -698,7 +699,7 @@
   },
   "upgrade": {
     "title": "Atualizar Cofre",
-    "subtitle": "AliasVault foi atualizado e seu cofre precisa ser atualizado. Isso deve levar apenas alguns segundos.",
+    "subtitle": "VelixVault foi atualizado e seu cofre precisa ser atualizado. Isso deve levar apenas alguns segundos.",
     "versionInformation": "Informação de Versão",
     "yourVault": "Versão do seu cofre:",
     "newVersion": "Nova versão disponível:",

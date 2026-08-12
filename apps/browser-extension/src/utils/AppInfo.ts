@@ -50,14 +50,23 @@ export class AppInfo {
   })();
 
   /**
-   * The default AliasVault client URL.
+   * The default VelixVault client URL.
    */
-  public static readonly DEFAULT_CLIENT_URL = 'https://app.aliasvault.com';
+  public static readonly DEFAULT_CLIENT_URL = 'http://localhost';
 
   /**
-   * The default AliasVault web API URL.
+   * The default VelixVault web API URL.
    */
-  public static readonly DEFAULT_API_URL = 'https://app.aliasvault.com/api';
+  public static readonly DEFAULT_API_URL = 'http://localhost/api';
+
+  /**
+   * The URL of the public source repository.
+   *
+   * Surfaced in the settings screen to satisfy AGPL-3.0: users who receive this extension are
+   * entitled to its corresponding source. The repository must stay public and in sync with what
+   * is published to the extension stores.
+   */
+  public static readonly SOURCE_CODE_URL = 'https://github.com/pgpvieira-code/velixvault';
 
   /**
    * Prevent instantiation of this utility class

@@ -3,9 +3,9 @@ sidebar_position: 4
 ---
 # Mobile apps
 
-The AliasVault mobile apps are built with [Expo](https://docs.expo.dev/) /
+The VelixVault mobile apps are built with [Expo](https://docs.expo.dev/) /
 React Native. Standard Expo workflow applies (`npx expo run:ios` /
-`run:android`); this section only covers the AliasVault-specific pieces. See also
+`run:android`); this section only covers the VelixVault-specific pieces. See also
 the platform notes for [Android](android.md) and [iOS](ios/index.md).
 
 ## Native Turbo Module: VaultManager
