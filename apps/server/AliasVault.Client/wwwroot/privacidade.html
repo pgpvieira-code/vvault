@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — VVault</title>
+<meta name="description" content="Como o VVault trata seus dados: o que armazena, o que não consegue ler, e por quê.">
+<link rel="icon" href="/favicon.png">
+<style>
+  :root {
+    --bg: #f9fafb; --fg: #111827; --muted: #4b5563;
+    --border: #e5e7eb; --card: #ffffff; --accent: #b45309;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --fg: #e5e7eb; --muted: #9ca3af;
+      --border: #262b36; --card: #161a22; --accent: #f59e0b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  header { display: flex; align-items: center; gap: .75rem; margin-bottom: 2.5rem; }
+  header img { width: 44px; height: 44px; }
+  header span { font-size: 1.6rem; font-weight: 700; letter-spacing: -.02em; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.25rem; margin: 2.5rem 0 .75rem; letter-spacing: -.01em; }
+  .updated { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+  p, li { color: var(--fg); }
+  a { color: var(--accent); }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: .6rem; padding: 1rem 1.25rem; margin: 1.25rem 0;
+  }
+  code {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: .25rem; padding: .1rem .35rem; font-size: .9em;
+  }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="/img/icon-nopadding.png" alt="VVault">
+    <span>VVault</span>
+  </header>
+
+  <h1>Política de Privacidade</h1>
+  <p class="updated">Última atualização: 13 de agosto de 2026</p>
+
+  <p>Esta política descreve quais dados o VVault coleta, o que ele consegue e o que <strong>não</strong>
+  consegue ler. Vale para o serviço em <code>app.vvault.com.br</code>, para as extensões de navegador
+  e para os aplicativos móveis.</p>
+
+  <div class="card">
+    <p style="margin:0"><strong>Resumo:</strong> o conteúdo do seu cofre é criptografado no seu
+    dispositivo antes de sair dele. O servidor guarda um bloco cifrado que não tem como abrir. Isso não
+    é uma promessa de política — é consequência de como o sistema foi construído, e o
+    <a href="https://github.com/pgpvieira-code/vvault">código é público</a> para quem quiser conferir.</p>
+  </div>
+
+  <h2>O que não conseguimos ver</h2>
+  <ul>
+    <li>Suas senhas, notas, chaves de acesso e códigos de autenticação</li>
+    <li>Os sites e serviços para os quais você guardou credenciais</li>
+    <li>O conteúdo dos e-mails recebidos nos seus aliases</li>
+    <li>Sua senha mestra</li>
+  </ul>
+  <p>A senha mestra passa por <strong>Argon2id</strong> no seu dispositivo e nunca é enviada. A
+  autenticação usa o protocolo <strong>SRP</strong>, que prova que você a conhece sem transmiti-la. O
+  cofre é cifrado com <strong>AES-256-GCM</strong> usando uma chave derivada dela.</p>
+  <p><strong>Se você perder a senha mestra, não há recuperação.</strong> Não temos cópia dela nem meio
+  técnico de abrir seu cofre. Isso é intencional.</p>
+
+  <h2>O que armazenamos</h2>
+  <ul>
+    <li><strong>Sua conta:</strong> nome de usuário e o verificador SRP — um valor que permite
+    verificar sua senha sem conhecê-la.</li>
+    <li><strong>Seu cofre:</strong> um arquivo criptografado. Sabemos seu tamanho e quando mudou, não
+    o que contém.</li>
+    <li><strong>E-mails dos aliases:</strong> chegam ao servidor, são criptografados com sua chave
+    pública e só então gravados. A partir daí ficam ilegíveis para nós. O endereço do destinatário
+    fica visível, porque é por ele que sabemos de quem é a mensagem.</li>
+    <li><strong>Registros técnicos:</strong> endereço IP e horário das tentativas de login, para
+    detectar ataques de força bruta. Os IPs são anonimizados nas estatísticas administrativas.</li>
+  </ul>
+
+  <h2>O que não coletamos</h2>
+  <p>Não há rastreadores, análise de comportamento, cookies de publicidade nem SDK de terceiros nos
+  nossos aplicativos. Não vendemos, alugamos nem compartilhamos seus dados. Não há anúncios.</p>
+  <p>O VVault <strong>não envia e-mail</strong> — não existe newsletter, mensagem promocional nem
+  e-mail transacional. O domínio publica registros SPF e DMARC restritivos justamente para que ninguém
+  consiga falsificar mensagens em nome dele.</p>
+
+  <h2>Retenção e exclusão</h2>
+  <p>Você pode excluir sua conta a qualquer momento pelas configurações. A exclusão remove o cofre, os
+  aliases e os e-mails associados. Registros de autenticação têm retenção limitada e são apagados
+  automaticamente.</p>
+
+  <h2>Seus direitos</h2>
+  <p>Sob a LGPD (Lei 13.709/2018), você tem direito de acessar, corrigir, portar e excluir seus dados
+  pessoais, além de revogar consentimento.</p>
+  <p>A arquitetura já entrega parte disso diretamente: os dados do cofre estão sob seu controle
+  exclusivo, e a exportação está disponível nas configurações a qualquer momento, sem depender de
+  ninguém. Para as demais solicitações:
+  <a href="mailto:privacidade@vvault.com.br">privacidade@vvault.com.br</a>.</p>
+
+  <h2>Autohospedagem</h2>
+  <p>O VVault é software livre sob AGPL-3.0. Você pode rodá-lo na sua própria infraestrutura, e nesse
+  caso nenhum dado passa por nós — esta política não se aplica, e o operador daquele servidor é o
+  responsável pelos dados.</p>
+
+  <h2>Segurança</h2>
+  <p>Encontrou uma vulnerabilidade? <strong>Não abra uma issue pública.</strong> Escreva para
+  <a href="mailto:security@vvault.com.br">security@vvault.com.br</a>.</p>
+
+  <h2>Alterações</h2>
+  <p>Mudanças materiais serão anunciadas na aplicação antes de entrar em vigor. O histórico completo
+  fica público no repositório.</p>
+
+  <footer>
+    VVault — <a href="https://github.com/pgpvieira-code/vvault">código-fonte</a> sob AGPL-3.0 ·
+    <a href="mailto:privacidade@vvault.com.br">privacidade@vvault.com.br</a>
+  </footer>
+</main>
+</body>
+</html>
