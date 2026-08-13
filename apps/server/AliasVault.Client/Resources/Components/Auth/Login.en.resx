@@ -61,7 +61,7 @@
 
   <!-- Page titles -->
   <data name="PageTitle" xml:space="preserve">
-    <value>Log in to VelixVault</value>
+    <value>Log in to VVault</value>
     <comment>Main login page title</comment>
   </data>
   <data name="TwoFactorAuthenticationTitle" xml:space="preserve">

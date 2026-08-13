@@ -42,7 +42,7 @@ const config: Config = {
     },
   ],
 
-  url: 'https://docs.aliasvault.com',
+  url: 'https://docs.vvault.com.br',
   baseUrl: '/',
 
   // Emit every internal link and page output with a trailing slash so the
@@ -78,7 +78,7 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/pgpvieira-code/velixvault/tree/main/docs/',
+          editUrl: 'https://github.com/pgpvieira-code/vvault/tree/main/docs/',
           showLastUpdateTime: true,
         },
         blog: false,
@@ -299,7 +299,7 @@ const config: Config = {
           label: 'Contact',
         },
         {
-          href: 'https://www.aliasvault.com',
+          href: 'https://www.vvault.com.br',
           label: 'Website',
           position: 'right',
           className: 'navbar__icon-link navbar__icon-link--website',
@@ -313,7 +313,7 @@ const config: Config = {
           'aria-label': 'AliasVault Discord',
         },
         {
-          href: 'https://github.com/pgpvieira-code/velixvault',
+          href: 'https://github.com/pgpvieira-code/vvault',
           label: 'GitHub',
           position: 'right',
           className: 'navbar__icon-link navbar__icon-link--github',
@@ -338,7 +338,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/pgpvieira-code/velixvault',
+              href: 'https://github.com/pgpvieira-code/vvault',
             },
             {label: 'Contributing', to: '/contributing/'},
             {label: 'Contact', to: '/contact/'},
@@ -347,10 +347,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {label: 'Website', href: 'https://www.aliasvault.com'},
+            {label: 'Website', href: 'https://www.vvault.com.br'},
             {
               label: 'Edit these docs',
-              href: 'https://github.com/pgpvieira-code/velixvault/tree/main/docs',
+              href: 'https://github.com/pgpvieira-code/vvault/tree/main/docs',
             },
           ],
         },

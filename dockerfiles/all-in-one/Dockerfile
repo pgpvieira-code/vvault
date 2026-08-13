@@ -122,7 +122,7 @@ LABEL org.opencontainers.image.source="https://github.com/aliasvault/aliasvault"
 LABEL org.opencontainers.image.vendor="AliasVault"
 LABEL org.opencontainers.image.licenses="AGPL-3.0"
 LABEL org.opencontainers.image.title="AliasVault All-in-One"
-LABEL org.opencontainers.image.description="Self-contained AliasVault server including web app, with all services bundled using s6-overlay. Single container solution for easy deployment (see docs.aliasvault.com)."
+LABEL org.opencontainers.image.description="Self-contained AliasVault server including web app, with all services bundled using s6-overlay. Single container solution for easy deployment (see docs.vvault.com.br)."
 
 # Copy s6-overlay from downloader stage
 COPY --from=s6-downloader /*.tar.xz /tmp/

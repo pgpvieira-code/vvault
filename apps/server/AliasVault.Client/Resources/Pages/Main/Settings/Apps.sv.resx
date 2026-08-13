@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>Med webbläsartillägget VelixVault kan du automatiskt fylla i befintliga uppgifter på alla webbplatser. Det gör också att du kan generera nya alias under registrering, komma åt mottagna e-postmeddelanden på alla dina alias samt visa dina alias och identiteter.</value>
+    <value>Med webbläsartillägget VVault kan du automatiskt fylla i befintliga uppgifter på alla webbplatser. Det gör också att du kan generera nya alias under registrering, komma åt mottagna e-postmeddelanden på alla dina alias samt visa dina alias och identiteter.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>VelixVault-mobilappen låter dig komma åt dina alias och identiteter när du är på språng, visa och hantera mottagna e-postmeddelanden och generera nya alias när som helst. Din data är helt skyddad med biometrisk autentisering på enheten.</value>
+    <value>VVault-mobilappen låter dig komma åt dina alias och identiteter när du är på språng, visa och hantera mottagna e-postmeddelanden och generera nya alias när som helst. Din data är helt skyddad med biometrisk autentisering på enheten.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

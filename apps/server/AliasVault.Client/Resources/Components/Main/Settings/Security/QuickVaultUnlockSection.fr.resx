@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>Votre mot de passe principal est chiffré avec la clé d'accès PRF et stocké localement. Lorsque vous rechargez la page ou l'onglet VelixVault, vous pouvez déverrouiller votre coffre-fort avec votre clé d'accès. Si vous souhaitez désactiver le déverrouillage par clé d'accès, vous pouvez le faire avec le bouton ci-dessous. Votre mot de passe principal fonctionnera toujours pour déverrouiller le coffre-fort.</value>
+    <value>Votre mot de passe principal est chiffré avec la clé d'accès PRF et stocké localement. Lorsque vous rechargez la page ou l'onglet VVault, vous pouvez déverrouiller votre coffre-fort avec votre clé d'accès. Si vous souhaitez désactiver le déverrouillage par clé d'accès, vous pouvez le faire avec le bouton ci-dessous. Votre mot de passe principal fonctionnera toujours pour déverrouiller le coffre-fort.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,12 +71,12 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>Par défaut, le rechargement de la page ou de l'onglet VelixVault nécessite que vous saisissiez à nouveau votre mot de passe maître. Avec une clé d'accès, vous pouvez déverrouiller votre coffre-fort instantanément. 
+    <value>Par défaut, le rechargement de la page ou de l'onglet VVault nécessite que vous saisissiez à nouveau votre mot de passe maître. Avec une clé d'accès, vous pouvez déverrouiller votre coffre-fort instantanément. 
 Lorsque cette option est activée, votre mot de passe principal est chiffré localement à l'aide de l'extension PRF de la clé d'accès. Note : cette clé ne fonctionnera que pour le périphérique actuel et le navigateur sur lequel vous l'activez.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">
-    <value>Cette fonctionnalité est actuellement prise en charge par l'extension de navigateur VelixVault et l'application iOS. Le support d'Android arrive bientôt. Si vous rencontrez des problèmes, vous pouvez désactiver cette fonctionnalité à tout moment.</value>
+    <value>Cette fonctionnalité est actuellement prise en charge par l'extension de navigateur VVault et l'application iOS. Le support d'Android arrive bientôt. Si vous rencontrez des problèmes, vous pouvez désactiver cette fonctionnalité à tout moment.</value>
     <comment>Warning about feature compatibility</comment>
   </data>
   <data name="EnableButton" xml:space="preserve">

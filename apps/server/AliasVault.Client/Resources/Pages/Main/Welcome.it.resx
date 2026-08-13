@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Benvenuto in VelixVault</value>
+    <value>Benvenuto in VVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>Come Funziona VelixVault</value>
+    <value>Come Funziona VVault</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>La tua cassaforte è stata creata con successo! Proteggi la tua privacy online creando alias unici per ogni servizio per cui ti iscrivi. Impariamo come funziona VelixVault e poi creiamo il tuo primo alias sicuro.</value>
+    <value>La tua cassaforte è stata creata con successo! Proteggi la tua privacy online creando alias unici per ogni servizio per cui ti iscrivi. Impariamo come funziona VVault e poi creiamo il tuo primo alias sicuro.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>VelixVault genera un'identità casuale con un indirizzo email privato sicuro</value>
+    <value>VVault genera un'identità casuale con un indirizzo email privato sicuro</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Installa l'estensione del browser VelixVault e l'app per dispositivi mobili per creare alias e moduli di riempimento automatico direttamente dal tuo browser e smartphone.</value>
+    <value>Installa l'estensione del browser VVault e l'app per dispositivi mobili per creare alias e moduli di riempimento automatico direttamente dal tuo browser e smartphone.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Adesso che sai come funziona VelixVault, creiamo la tua prima identità sicura!</value>
+    <value>Adesso che sai come funziona VVault, creiamo la tua prima identità sicura!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

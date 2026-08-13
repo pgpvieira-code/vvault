@@ -3,21 +3,21 @@ sidebar_position: 4
 sidebar_label: "Private vs Public Email Domains"
 ---
 # Private vs Public Email Domains
-VelixVault offers two types of email domains: private and public.
+VVault offers two types of email domains: private and public.
 
 ## Private Email Domains
 Private email domains come in two forms:
 
-1. For the official cloud-hosted VelixVault service, users get access to the aliasvault.net domain, which is a private domain managed by VelixVault.
+1. For the official cloud-hosted VVault service, users get access to the vvault.com.br domain, which is a private domain managed by VVault.
 
-2. For self-hosted installations, private domains are domains that you control and configure yourself to connect to your VelixVault server instance.
+2. For self-hosted installations, private domains are domains that you control and configure yourself to connect to your VVault server instance.
 
-In both cases, private domains are directly connected to the VelixVault server infrastructure. Any email aliases created using these domains benefit from full end-to-end encryption - emails are encrypted with the receiver's public/private key pair before they are stored on the VelixVault server. These emails can only be decrypted by the receiver's private key that is stored securely in the user's vault. This ensures that no one can read your emails except for you.
+In both cases, private domains are directly connected to the VVault server infrastructure. Any email aliases created using these domains benefit from full end-to-end encryption - emails are encrypted with the receiver's public/private key pair before they are stored on the VVault server. These emails can only be decrypted by the receiver's private key that is stored securely in the user's vault. This ensures that no one can read your emails except for you.
 
 ---
 
 ## Public Email Domains
-For convenience, VelixVault also offers public email domains which are provided through an integration with [SpamOK.com](https://spamok.com), a free service operated by Lanedirt (the author of VelixVault). These domains are suitable for testing and non-critical email aliases and offer convenience for self-hosted users who cannot set up their own private domains.
+For convenience, VVault also offers public email domains which are provided through an integration with [SpamOK.com](https://spamok.com), a free service operated by Lanedirt (the author of VVault). These domains are suitable for testing and non-critical email aliases and offer convenience for self-hosted users who cannot set up their own private domains.
 
 ## Available Domains
 The following public email domains are currently available through SpamOK:
@@ -41,13 +41,13 @@ Public email domains do have limitations, please be aware of them:
 
 ### When to Use SpamOK Domains
 SpamOK domains are suitable for:
-- Testing VelixVault functionality
+- Testing VVault functionality
 - Non-critical email aliases
 - Temporary or disposable email needs
 
 ### When to Set Up Your Own Email Server
 Consider setting up your own email server if you need:
 - Complete control over your email domains
-- Private email addresses where all incoming emails are encrypted before being stored on the VelixVault server. No one can read your emails except for you.
+- Private email addresses where all incoming emails are encrypted before being stored on the VVault server. No one can read your emails except for you.
 - Guaranteed service availability
 - Professional or business use

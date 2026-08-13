@@ -4,13 +4,13 @@ sidebar_label: "Testing guide"
 ---
 # Testing guide
 
-This guide explains how to run the iOS test suites for the VelixVault mobile app.
+This guide explains how to run the iOS test suites for the VVault mobile app.
 
 ## Overview
 
 The iOS app has two test targets:
 
-1. **VelixVaultUITests** - End-to-end UI tests that test full user flows
+1. **VVaultUITests** - End-to-end UI tests that test full user flows
 2. **VaultStoreKitTests** - Unit tests for the native VaultStoreKit framework
 
 ## Prerequisites
@@ -28,7 +28,7 @@ The iOS app has two test targets:
 1. Open the project in Xcode:
    ```bash
    cd apps/mobile-app/ios
-   open VelixVault.xcworkspace
+   open VVault.xcworkspace
    ```
 
 2. Select a simulator (e.g., iPhone 17 Pro)
@@ -47,8 +47,8 @@ cd apps/mobile-app/ios
 
 # Run all tests on iPhone 17 Pro simulator
 xcodebuild test \
-  -workspace VelixVault.xcworkspace \
-  -scheme VelixVault \
+  -workspace VVault.xcworkspace \
+  -scheme VVault \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
   -resultBundlePath ./test-results
 ```
@@ -57,18 +57,18 @@ xcodebuild test \
 
 ```bash
 xcodebuild test \
-  -workspace VelixVault.xcworkspace \
-  -scheme VelixVault \
+  -workspace VVault.xcworkspace \
+  -scheme VVault \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
-  -only-testing:VelixVaultUITests
+  -only-testing:VVaultUITests
 ```
 
 #### Run VaultStoreKit Unit Tests Only
 
 ```bash
 xcodebuild test \
-  -workspace VelixVault.xcworkspace \
-  -scheme VelixVault \
+  -workspace VVault.xcworkspace \
+  -scheme VVault \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
   -only-testing:VaultStoreKitTests
 ```
@@ -78,17 +78,17 @@ xcodebuild test \
 ```bash
 # Run a specific test class
 xcodebuild test \
-  -workspace VelixVault.xcworkspace \
-  -scheme VelixVault \
+  -workspace VVault.xcworkspace \
+  -scheme VVault \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
-  -only-testing:VelixVaultUITests/VelixVaultUITests
+  -only-testing:VVaultUITests/VVaultUITests
 
 # Run a specific test method
 xcodebuild test \
-  -workspace VelixVault.xcworkspace \
-  -scheme VelixVault \
+  -workspace VVault.xcworkspace \
+  -scheme VVault \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
-  -only-testing:VelixVaultUITests/VelixVaultUITests/test01AppLaunch
+  -only-testing:VVaultUITests/VVaultUITests/test01AppLaunch
 ```
 
 #### With Custom API URL (for UI tests)
@@ -97,10 +97,10 @@ Point `API_URL` at your API dev instance (by default `5100`):
 
 ```bash
 API_URL="http://your-server:5100" xcodebuild test \
-  -workspace VelixVault.xcworkspace \
-  -scheme VelixVault \
+  -workspace VVault.xcworkspace \
+  -scheme VVault \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
-  -only-testing:VelixVaultUITests
+  -only-testing:VVaultUITests
 ```
 
 ### List Available Simulators

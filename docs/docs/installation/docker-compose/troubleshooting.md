@@ -4,7 +4,7 @@ sidebar_label: "Troubleshooting"
 ---
 # Troubleshooting
 
-This guide covers common issues and troubleshooting steps for VelixVault encountered during installation, updates or general maintenance.
+This guide covers common issues and troubleshooting steps for VVault encountered during installation, updates or general maintenance.
 
 ---
 
@@ -32,9 +32,9 @@ docker compose restart
 
 ---
 
-## Check VelixVault Text Logs
+## Check VVault Text Logs
 
-All VelixVault services log information and errors to text files. These files are located in the `logs` directory within your VelixVault installation folder.
+All VVault services log information and errors to text files. These files are located in the `logs` directory within your VVault installation folder.
 
 **View logs for a specific service:**
 
@@ -130,7 +130,7 @@ proxy_set_header Connection "upgrade";
 proxy_read_timeout 86400;
 ```
 
-### 4. Forgot VelixVault admin password
+### 4. Forgot VVault admin password
 
 **Solution:**
 
@@ -163,4 +163,4 @@ The mobile apps enforce certificate trust at the OS level and reject certificate
 
 If you encounter any other issues not mentioned here and need help, please join our Discord server or create an issue on the GitHub repository and we will be happy to help you out.
 
-Find all contact information on the contact page of our website: [https://www.aliasvault.com/contact](https://www.aliasvault.com/contact)
+Find all contact information on the contact page of our website: [https://www.vvault.com.br/contact](https://www.vvault.com.br/contact)

@@ -446,7 +446,7 @@
     /// <returns>The TOTP URI.</returns>
     private string GetTotpUri(TotpCode totpCode)
     {
-        var issuer = ItemDisplayName ?? "VelixVault";
+        var issuer = ItemDisplayName ?? "VVault";
         var accountName = ItemUsername ?? totpCode.Name;
         var label = $"{Uri.EscapeDataString(issuer)}:{Uri.EscapeDataString(accountName)}";
         return $"otpauth://totp/{label}?secret={totpCode.SecretKey}&issuer={Uri.EscapeDataString(issuer)}";

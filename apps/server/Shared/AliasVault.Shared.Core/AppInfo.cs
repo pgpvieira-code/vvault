@@ -15,7 +15,7 @@ public static class AppInfo
     /// <summary>
     /// Gets the application name.
     /// </summary>
-    public const string ApplicationName = "VelixVault";
+    public const string ApplicationName = "VVault";
 
     /// <summary>
     /// Gets the URL of the public source repository.
@@ -25,7 +25,7 @@ public static class AppInfo
     /// interacting with a modified version over a network are offered its corresponding source.
     /// The repository behind this URL must stay public and in sync with what is deployed.
     /// </remarks>
-    public const string SourceCodeUrl = "https://github.com/pgpvieira-code/velixvault";
+    public const string SourceCodeUrl = "https://github.com/pgpvieira-code/vvault";
 
     /// <summary>
     /// Gets the major version number.

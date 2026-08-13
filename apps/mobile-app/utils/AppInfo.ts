@@ -37,14 +37,14 @@ export class AppInfo {
   })();
 
   /**
-   * The default VelixVault client URL.
+   * The default VVault client URL.
    */
-  public static readonly DEFAULT_CLIENT_URL = 'http://localhost';
+  public static readonly DEFAULT_CLIENT_URL = 'https://app.vvault.com.br';
 
   /**
-   * The default VelixVault web API URL.
+   * The default VVault web API URL.
    */
-  public static readonly DEFAULT_API_URL = 'http://localhost/api';
+  public static readonly DEFAULT_API_URL = 'https://app.vvault.com.br/api';
 
   /**
    * The URL of the public source repository.
@@ -53,7 +53,7 @@ export class AppInfo {
    * to its corresponding source. The repository must stay public and in sync with what is
    * published to the app stores.
    */
-  public static readonly SOURCE_CODE_URL = 'https://github.com/pgpvieira-code/velixvault';
+  public static readonly SOURCE_CODE_URL = 'https://github.com/pgpvieira-code/vvault';
 
   /**
    * Prevent instantiation of this utility class

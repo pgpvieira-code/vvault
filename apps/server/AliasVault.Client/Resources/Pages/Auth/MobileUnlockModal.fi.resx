@@ -67,7 +67,7 @@
     <comment>Modal title for mobile unlock feature</comment>
   </data>
   <data name="ScanQrCodeDescription" xml:space="preserve">
-    <value>Skannaa tämä QR-koodi VelixVault-mobiilisovelluksellasi kirjautuaksesi sisään ja avataksesi holvisi.</value>
+    <value>Skannaa tämä QR-koodi VVault-mobiilisovelluksellasi kirjautuaksesi sisään ja avataksesi holvisi.</value>
     <comment>Description instructing user to scan QR code</comment>
   </data>
 </root>

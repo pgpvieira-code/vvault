@@ -1,6 +1,6 @@
 {
-  "name": "velixvault-browser-extension",
-  "description": "VelixVault Browser Extension",
+  "name": "vvault-browser-extension",
+  "description": "VVault Browser Extension",
   "private": true,
   "version": "0.31.0",
   "type": "module",

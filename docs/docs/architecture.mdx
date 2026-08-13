@@ -8,24 +8,24 @@ sidebar_label: "Architecture"
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-VelixVault implements zero-knowledge encryption where sensitive user data never leaves the client device in unencrypted form. Below is a detailed explanation of how the system secures user data and communications.
+VVault implements zero-knowledge encryption where sensitive user data never leaves the client device in unencrypted form. Below is a detailed explanation of how the system secures user data and communications.
 
-**What is Zero-Knowledge in VelixVault**:
+**What is Zero-Knowledge in VVault**:
 - **Vault Data** (usernames, passwords, notes, passkeys etc.) is fully encrypted client-side before being sent to the server. The server cannot decrypt any vault contents.
 - **Email Contents**: When emails are received by the server, their contents are immediately encrypted with your public key before being saved. Only you can decrypt and read them with your private key.
 
 ## Diagram
-The security architecture diagram below illustrates all encryption and authentication processes used in VelixVault to secure user data and communications.
+The security architecture diagram below illustrates all encryption and authentication processes used in VVault to secure user data and communications.
 
 <ThemedImage
-  alt="VelixVault Security Architecture Diagram"
+  alt="VVault Security Architecture Diagram"
   sources={{
     light: useBaseUrl('/assets/diagrams/security-architecture/aliasvault-security-architecture-light.svg'),
     dark: useBaseUrl('/assets/diagrams/security-architecture/aliasvault-security-architecture-dark.svg'),
   }}
 />
 
-You can also view the diagram in a browser-friendly HTML format: [VelixVault Security Architecture](pathname:///assets/diagrams/security-architecture/aliasvault-security-architecture.html)
+You can also view the diagram in a browser-friendly HTML format: [VVault Security Architecture](pathname:///assets/diagrams/security-architecture/aliasvault-security-architecture.html)
 
 ## Key Components and Process Flow
 
@@ -79,7 +79,7 @@ You can also view the diagram in a browser-friendly HTML format: [VelixVault Sec
 
 ### 5. Passkey Authentication
 
-VelixVault includes a virtual passkey authenticator that implements the WebAuthn Level 2 specification, allowing users to securely store and use passkeys for passwordless authentication across websites and services.
+VVault includes a virtual passkey authenticator that implements the WebAuthn Level 2 specification, allowing users to securely store and use passkeys for passwordless authentication across websites and services.
 
 #### Virtual Authenticator Implementation
 1. Platform Support
@@ -107,7 +107,7 @@ VelixVault includes a virtual passkey authenticator that implements the WebAuthn
         - BS (Backup State) - Credential is backed up in vault
 
 2. Authenticator Data
-    - Uses VelixVault's unique AAGUID (Authenticator Attestation GUID): `a11a5faa-9f32-4b8c-8c5d-2f7d13e8c942`
+    - Uses VVault's unique AAGUID (Authenticator Attestation GUID): `a11a5faa-9f32-4b8c-8c5d-2f7d13e8c942`
     - Sign count always 0 for syncable credentials
     - Supports both "none" and "packed" self-attestation formats
     - CBOR/COSE encoding for attestation objects
@@ -137,7 +137,7 @@ VelixVault includes a virtual passkey authenticator that implements the WebAuthn
 
 ### 6. Login with Mobile
 
-VelixVault includes a secure "Login with Mobile" feature that allows users to unlock their vault on web browsers or browser extensions by scanning a QR code with their mobile app. This system provides a convenient authentication method while maintaining zero-knowledge security through end-to-end encryption.
+VVault includes a secure "Login with Mobile" feature that allows users to unlock their vault on web browsers or browser extensions by scanning a QR code with their mobile app. This system provides a convenient authentication method while maintaining zero-knowledge security through end-to-end encryption.
 
 #### Security Architecture
 

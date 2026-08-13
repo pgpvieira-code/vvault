@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 ---
-# Updating VelixVault
+# Updating VVault
 :::note
 This guide is for self-hosted installations using the `install.sh` script. If you're using Docker Compose for manual installs, see [Docker Compose Update Guide](../../docker-compose/update/).
 :::
 
 ## Before You Begin
-You can see the latest available version of VelixVault on [GitHub](https://github.com/pgpvieira-code/velixvault/releases).
+You can see the latest available version of VVault on [GitHub](https://github.com/pgpvieira-code/vvault/releases).
 
 :::warning
 Before updating, it's recommended to backup your database and other important data. You can do this by making
@@ -26,13 +26,13 @@ For most version updates, you can use the standard update process:
 ## Version-Specific Upgrade Guides
 Upgrading from certain earlier versions require additional steps during upgrade. If you are upgrading from an older version, please check the relevant articles below if it applies to your server:
 
-- [Updating to 0.23.0](v0.23.0.md) - Update Docker Image locations due to new VelixVault GitHub organization
+- [Updating to 0.23.0](v0.23.0.md) - Update Docker Image locations due to new VVault GitHub organization
 - [Updating to 0.22.0](v0.22.0.md) - Move secrets from .env to file based secrets
 
 ## Additional Update Options
 
 ### Updating the installer script
-The installer script can check for and apply updates to itself. This is done as part of the `update` command. However you can also update the installer script separately with the `update-installer` command. This is useful if you want to update the installer script without updating VelixVault itself, e.g. as a separate step during CI/CD pipeline.
+The installer script can check for and apply updates to itself. This is done as part of the `update` command. However you can also update the installer script separately with the `update-installer` command. This is useful if you want to update the installer script without updating VVault itself, e.g. as a separate step during CI/CD pipeline.
 
 ```bash
 ./install.sh update-installer

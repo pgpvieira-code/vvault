@@ -9,7 +9,7 @@ By default the admin panel at `/admin` is reachable from the public internet, al
 - Sign-in requires the admin password you set during installation (and optional 2FA).
 - The admin account is protected against brute force: after 10 failed sign-in attempts the account is locked for 30 minutes.
 
-If you'd still rather not expose `/admin` to the open internet, for example if your VelixVault server is only meant to be reached from a home network or VPN, you can restrict it by client IP at the reverse-proxy layer using the `ADMIN_IP_ALLOWLIST` environment variable.
+If you'd still rather not expose `/admin` to the open internet, for example if your VVault server is only meant to be reached from a home network or VPN, you can restrict it by client IP at the reverse-proxy layer using the `ADMIN_IP_ALLOWLIST` environment variable.
 
 ## How it works
 
@@ -56,4 +56,4 @@ docker compose up -d
 
 ## Behind another reverse proxy
 
-If VelixVault is itself running behind another reverse proxy (Cloudflare, Traefik, an upstream nginx, etc.), the allowlist is matched against the client IP forwarded via `X-Forwarded-For`. Make sure your upstream proxy is setting that header correctly, otherwise every request will appear to come from the proxy's own address.
+If VVault is itself running behind another reverse proxy (Cloudflare, Traefik, an upstream nginx, etc.), the allowlist is matched against the client IP forwarded via `X-Forwarded-For`. Make sure your upstream proxy is setting that header correctly, otherwise every request will appear to come from the proxy's own address.

@@ -23,7 +23,7 @@ public class CredentialTests : ClientPlaywrightTest
     public async Task CredentialListingTest()
     {
         await NavigateUsingBlazorRouter("items");
-        await WaitForUrlAsync("items", "VelixVault");
+        await WaitForUrlAsync("items", "VVault");
 
         // Check if the expected content is present.
         var pageContent = await Page.TextContentAsync("body");

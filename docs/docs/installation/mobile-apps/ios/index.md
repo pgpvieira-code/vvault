@@ -2,10 +2,10 @@
 sidebar_position: 1
 ---
 # iOS app
-In order to install the VelixVault iOS app, see the options below.
+In order to install the VVault iOS app, see the options below.
 
 ## Download from App Store
-You can download the VelixVault mobile app via the iOS App Store.
+You can download the VVault mobile app via the iOS App Store.
 
 1. Go to the [iOS App Store](https://apps.apple.com/us/app/aliasvault/id6745490915?mt=12)
 2. Click on the "Get" button

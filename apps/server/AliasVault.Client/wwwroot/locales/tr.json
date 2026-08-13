@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "VelixVault yükleniyor",
-    "message": "Güvenli ortam başlatılıyor. VelixVault, tamamen tarayıcınızda çalışarak gizliliğinizi önceliklendirir. İlk açılış biraz zaman alabilir.",
+    "title": "VVault yükleniyor",
+    "message": "Güvenli ortam başlatılıyor. VVault, tamamen tarayıcınızda çalışarak gizliliğinizi önceliklendirir. İlk açılış biraz zaman alabilir.",
     "refreshText": "Yükleme takılmış gibi görünüyorsa, sayfayı yenilemek için aşağıdaki butona tıklayabilirsiniz.",
     "refreshButtonText": "Sayfayı Yenile"
   },
   "errors": {
     "unhandledError": "Beklenmeyen bir hata oluştu. Lütfen sayfayı yeniden yüklemeyi deneyin. Sorun devam ederse, destek ile iletişime geçin.",
-    "webAssemblyError": "VelixVault, WebAssembly gerektirir; bu tarayıcı WebAssembly’i desteklemiyor. WebAssembly destekleyen daha modern bir tarayıcı kullanmayı deneyin.",
+    "webAssemblyError": "VVault, WebAssembly gerektirir; bu tarayıcı WebAssembly’i desteklemiyor. WebAssembly destekleyen daha modern bir tarayıcı kullanmayı deneyin.",
     "reloadPageText": "Sayfayı Yeniden Yükle"
   },
   "quotes": {

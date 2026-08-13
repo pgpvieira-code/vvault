@@ -53,14 +53,14 @@ export default defineConfig({
     }
 
     return {
-      name: "VelixVault",
-      description: "VelixVault Browser AutoFill Extension. Keeping your personal information private.",
+      name: "VVault",
+      description: "VVault Browser AutoFill Extension. Keeping your personal information private.",
       version: "0.31.0",
       content_security_policy: {
         extension_pages: "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
       },
       action: {
-        default_title: "VelixVault"
+        default_title: "VVault"
       },
       permissions,
       host_permissions: [
@@ -87,7 +87,7 @@ export default defineConfig({
       ...(browser === 'firefox' ? {
         browser_specific_settings: {
           gecko: {
-            id: "{4be8a675-c042-4ee0-b49f-abbde66921ce}"
+            id: "{3f87d06d-0d25-4d67-a611-ddae6d479431}"
           }
         }
       } : {})

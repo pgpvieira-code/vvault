@@ -75,7 +75,7 @@
     <comment>Refresh button text</comment>
   </data>
   <data name="NoEmailClaimsMessage" xml:space="preserve">
-    <value>עוד אין לך אף כתובת דוא״ל פרטית בשימוש (עדיין). אפשר ליצור כינוי חדש ולהשתמש בכתובת דוא״ל פרטית שנתמכת על ידי VelixVault. כל הודעות הדוא״ל שמגיעות לכתובת הדוא״ל הפרטיות האלה תופענה כאן.</value>
+    <value>עוד אין לך אף כתובת דוא״ל פרטית בשימוש (עדיין). אפשר ליצור כינוי חדש ולהשתמש בכתובת דוא״ל פרטית שנתמכת על ידי VVault. כל הודעות הדוא״ל שמגיעות לכתובת הדוא״ל הפרטיות האלה תופענה כאן.</value>
     <comment>Message when no email addresses are configured</comment>
   </data>
   <data name="NoEmailsReceivedMessage" xml:space="preserve">

@@ -1,5 +1,5 @@
 /**
- * VelixVault documentation theme.
+ * VVault documentation theme.
  *
  * The Inter webfont is loaded via `headTags` preconnect + <link> in
  * docusaurus.config.ts (not an `@import` here) to avoid render-blocking.
@@ -111,7 +111,7 @@ html[data-theme='dark'] {
   font-size: 1.1rem;
 }
 
-/* The logo SVG includes the "VelixVault" wordmark, so its height drives the
+/* The logo SVG includes the "VVault" wordmark, so its height drives the
  * whole brand size (there is no separate navbar title text). */
 .navbar__logo {
   height: 2.75rem;
@@ -691,7 +691,7 @@ html[class*='docs-doc-id-installation/index'] .theme-doc-markdown {
 
 /* ------------------------------------------------------------ Admonitions -- */
 
-/* Brand the informational admonitions (:::info / :::note) with the VelixVault
+/* Brand the informational admonitions (:::info / :::note) with the VVault
  * orange instead of Docusaurus' default blue/grey, matching the marketing
  * site's callouts (border-primary + faint primary fill). `.theme-admonition`
  * keeps this off the FAQ <details>, which share the `alert--info` class. */

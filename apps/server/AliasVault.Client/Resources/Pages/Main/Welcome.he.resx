@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>ברוך בואך ל־VelixVault</value>
+    <value>ברוך בואך ל־VVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>איך VelixVault עובד</value>
+    <value>איך VVault עובד</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>הכספת שלך נוצרה בהלחה! מוטב להגן על הפרטיות שלך ברשת על ידי יצירת כינויים ייחודיים לכל שירות שבחרת להירשם אליו. הנה הסבר על איך עובד VelixVault ולאחר מכן יתאפשר לך ליצור את הכינוי המאובטח הראשון שלך.</value>
+    <value>הכספת שלך נוצרה בהלחה! מוטב להגן על הפרטיות שלך ברשת על ידי יצירת כינויים ייחודיים לכל שירות שבחרת להירשם אליו. הנה הסבר על איך עובד VVault ולאחר מכן יתאפשר לך ליצור את הכינוי המאובטח הראשון שלך.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>VelixVault מייצר זהות אקראית עם כתובת דוא״ל פרטית מאובטחת</value>
+    <value>VVault מייצר זהות אקראית עם כתובת דוא״ל פרטית מאובטחת</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>יש להתקין את הרחבת הדפדפן VelixVault ואת היישומון לניידים כדי ליצור כינויים ולהשלים טפסים אוטומטית ישירות מהדפדפן ומהטלפון החכם שלך.</value>
+    <value>יש להתקין את הרחבת הדפדפן VVault ואת היישומון לניידים כדי ליצור כינויים ולהשלים טפסים אוטומטית ישירות מהדפדפן ומהטלפון החכם שלך.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>עכשיו כשברור לך איך VelixVault עובד, אפשר להתחיל ליצור את הזהות המאובטחת הראשונה שלך!</value>
+    <value>עכשיו כשברור לך איך VVault עובד, אפשר להתחיל ליצור את הזהות המאובטחת הראשונה שלך!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

@@ -10,13 +10,13 @@
 ║ /_/   \_\_|_|\__,_|___/ \_/ \__,_|\__,_|_|\__|  ║
 ║                                                 ║
 ╚═════════════════════════════════════════════════╝
-VelixVault - Privacy-first password manager
-https://github.com/pgpvieira-code/velixvault | AGPLv3
+VVault - Privacy-first password manager
+https://github.com/pgpvieira-code/vvault | AGPLv3
 Build: @BuildVersion
 -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-    <title>VelixVault</title>
+    <title>VVault</title>
     <base href="/" />
     <link rel="stylesheet" href="css/app.css?v=@CacheBuster" />
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -79,9 +79,9 @@ Build: @BuildVersion
                                     <div class="index-dot-inline index-delay-4"></div>
                                 </div>
                             </div>
-                            <h2 id="loading-title" class="mt-4 text-xl font-semibold text-gray-900 dark:text-white">VelixVault is loading</h2>
+                            <h2 id="loading-title" class="mt-4 text-xl font-semibold text-gray-900 dark:text-white">VVault is loading</h2>
                             <p id="loading-message" class="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                                Initializing secure environment. VelixVault prioritizes your privacy by running entirely in your browser. The first load might take a short while.
+                                Initializing secure environment. VVault prioritizes your privacy by running entirely in your browser. The first load might take a short while.
                             </p>
                             <div class="loading-progress-text text-sm font-medium text-gray-700 dark:text-gray-300 mt-4"></div>
                             <div class="mt-4 text-center">
@@ -158,14 +158,14 @@ Build: @BuildVersion
                 // Fallback translations
                 translations = {
                     loading: {
-                        title: 'VelixVault is loading',
-                        message: 'Initializing secure environment. VelixVault prioritizes your privacy by running entirely in your browser. The first load might take a short while.',
+                        title: 'VVault is loading',
+                        message: 'Initializing secure environment. VVault prioritizes your privacy by running entirely in your browser. The first load might take a short while.',
                         refreshText: 'If loading seems stuck, you can click the button below to refresh the page.',
                         refreshButtonText: 'Refresh Page'
                     },
                     errors: {
                         unhandledError: 'An unhandled error has occurred. Please try reloading the page. If the issue persists, please contact support.',
-                        webAssemblyError: 'VelixVault requires WebAssembly, which this browser does not support. Try using a more modern browser that supports WebAssembly.',
+                        webAssemblyError: 'VVault requires WebAssembly, which this browser does not support. Try using a more modern browser that supports WebAssembly.',
                         reloadPageText: 'Reload Page'
                     },
                     quotes: {
@@ -292,14 +292,14 @@ Build: @BuildVersion
         async function handleBlazorBootFailure() {
             if (bootFailureHandled) {
                 // Already attempted recovery once this session, don't loop
-                console.warn('VelixVault: Boot failure recovery already attempted. Showing error to user.');
+                console.warn('VVault: Boot failure recovery already attempted. Showing error to user.');
                 showError('Failed to load application. Please try clearing your browser cache and refreshing the page.');
                 return;
             }
             bootFailureHandled = true;
             sessionStorage.setItem(BOOT_FAILURE_KEY, 'true');
 
-            console.info('VelixVault: Blazor boot failure detected. Clearing caches and reloading...');
+            console.info('VVault: Blazor boot failure detected. Clearing caches and reloading...');
 
             try {
                 // Clear all browser caches (Cache API)
@@ -313,7 +313,7 @@ Build: @BuildVersion
                     await Promise.all(registrations.map(r => r.unregister()));
                 }
             } catch (e) {
-                console.error('VelixVault: Cache clear failed:', e);
+                console.error('VVault: Cache clear failed:', e);
             }
             // Force reload bypassing cache
             const url = new URL(window.location.href);

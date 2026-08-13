@@ -4,9 +4,9 @@ sidebar_label: "UI Translations"
 ---
 # UI Translations
 
-Help make VelixVault accessible to users worldwide by translating the user interface! 🌍
+Help make VVault accessible to users worldwide by translating the user interface! 🌍
 
-VelixVault is currently available in the following languages. See how complete each language is on the [Crowdin project page](https://crowdin.com/project/aliasvault). **Don't see your language?** Contact us and we'll add it so you can get started translating.
+VVault is currently available in the following languages. See how complete each language is on the [Crowdin project page](https://crowdin.com/project/aliasvault). **Don't see your language?** Contact us and we'll add it so you can get started translating.
 
 - 🇨🇳 Chinese (Simplified)
 - 🇩🇰 Danish
@@ -33,9 +33,9 @@ VelixVault is currently available in the following languages. See how complete e
 
 ### Step 1: Join Crowdin
 
-VelixVault uses [Crowdin](https://crowdin.com/) for translation management. It's a free, web-based platform that makes translating easy.
+VVault uses [Crowdin](https://crowdin.com/) for translation management. It's a free, web-based platform that makes translating easy.
 
-👉 **[Request access to the VelixVault Crowdin project](https://crowdin.com/project/aliasvault)**
+👉 **[Request access to the VVault Crowdin project](https://crowdin.com/project/aliasvault)**
 
 ### Step 2: Choose Your Language
 
@@ -61,7 +61,7 @@ Other contributors may review and approve your translations. This helps ensure q
 ## What Gets Translated?
 
 The Crowdin project covers translations for all client apps in one place:
-- Web app (https://app.aliasvault.com)
+- Web app (https://app.vvault.com.br)
 - Browser extension
 - Mobile App (iOS and Android)
 
@@ -69,9 +69,9 @@ The Crowdin project covers translations for all client apps in one place:
 
 ## Adding a New Language
 
-Want to add a completely new language to VelixVault?
+Want to add a completely new language to VVault?
 
-1. **Contact us first** via [Discord](https://discord.gg/DsaXMTEtpF) or email at [support@aliasvault.com](mailto:support@aliasvault.com)
+1. **Contact us first** via [Discord](https://discord.gg/DsaXMTEtpF) or email at [suporte@vvault.com.br](mailto:suporte@vvault.com.br)
 2. We'll add the language to Crowdin
 3. We'll configure it in the codebase
 4. You can start translating!
@@ -83,7 +83,7 @@ Want to add a completely new language to VelixVault?
 ### Questions About Translation?
 
 - **Discord**: Join our [community server](https://discord.gg/DsaXMTEtpF) - Ask in #translations
-- **Email**: [contact@support@aliasvault.com](mailto:support@aliasvault.com)
+- **Email**: [contact@suporte@vvault.com.br](mailto:suporte@vvault.com.br)
 - **Crowdin**: Use the discussion feature for specific strings
 
-Thank you for helping make VelixVault accessible to more people!
+Thank you for helping make VVault accessible to more people!

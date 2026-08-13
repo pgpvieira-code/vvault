@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "VelixVault in caricamento",
-    "message": "Inizializzazione dell'ambiente sicuro. VelixVault dà la priorità alla tua privacy funzionando interamente nel tuo browser. Il primo caricamento potrebbe richiedere un più tempo.",
+    "title": "VVault in caricamento",
+    "message": "Inizializzazione dell'ambiente sicuro. VVault dà la priorità alla tua privacy funzionando interamente nel tuo browser. Il primo caricamento potrebbe richiedere un più tempo.",
     "refreshText": "Se il caricamento sembra bloccato, puoi cliccare sul pulsante qui sotto per aggiornare la pagina.",
     "refreshButtonText": "Aggiornare pagina"
   },
   "errors": {
     "unhandledError": "Si è verificato un errore imprevisto. Per favore prova a ricaricare la pagina. Se il problema persiste, contatta l'aiuto.",
-    "webAssemblyError": "VelixVault richiede WebAssembly, che questo browser non supporta. Prova a utilizzare un browser più moderno che supporta WebAssembly.",
+    "webAssemblyError": "VVault richiede WebAssembly, che questo browser non supporta. Prova a utilizzare un browser più moderno che supporta WebAssembly.",
     "reloadPageText": "Aggiorna la Pagina"
   },
   "quotes": {

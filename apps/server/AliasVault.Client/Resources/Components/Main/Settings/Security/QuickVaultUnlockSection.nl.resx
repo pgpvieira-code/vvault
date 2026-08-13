@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>Je hoofdwachtwoord is versleuteld met de passkey (PRF) en lokaal opgeslagen. Wanneer je de VelixVault pagina of tabblad ververst, kun je je kluis ontgrendelen met je passkey. Als je de passkey wilt uitschakelen, kun je dat doen met de onderstaande knop. Je hoofdwachtwoord zal nog steeds werken om de kluis te ontgrendelen.</value>
+    <value>Je hoofdwachtwoord is versleuteld met de passkey (PRF) en lokaal opgeslagen. Wanneer je de VVault pagina of tabblad ververst, kun je je kluis ontgrendelen met je passkey. Als je de passkey wilt uitschakelen, kun je dat doen met de onderstaande knop. Je hoofdwachtwoord zal nog steeds werken om de kluis te ontgrendelen.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>Als je de VelixVault pagina of het tabblad ververst, moet je je hoofdwachtwoord opnieuw invoeren. Met een passkey kun je je kluis direct ontgrendelen. Wanneer ingeschakeld, is jouw hoofdwachtwoord lokaal versleuteld met behulp van de PRF-extensie van de passkey. Opmerking: de passkey zal alleen werken voor het huidige apparaat en de browser waar je deze hebt ingeschakeld.</value>
+    <value>Als je de VVault pagina of het tabblad ververst, moet je je hoofdwachtwoord opnieuw invoeren. Met een passkey kun je je kluis direct ontgrendelen. Wanneer ingeschakeld, is jouw hoofdwachtwoord lokaal versleuteld met behulp van de PRF-extensie van de passkey. Opmerking: de passkey zal alleen werken voor het huidige apparaat en de browser waar je deze hebt ingeschakeld.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">
-    <value>Deze functie wordt momenteel ondersteund door VelixVault browserextensie en iOS app. Android ondersteuning komt binnenkort. Als je problemen ondervindt, kunt je deze functie op elk gewenst moment uitschakelen.</value>
+    <value>Deze functie wordt momenteel ondersteund door VVault browserextensie en iOS app. Android ondersteuning komt binnenkort. Als je problemen ondervindt, kunt je deze functie op elk gewenst moment uitschakelen.</value>
     <comment>Warning about feature compatibility</comment>
   </data>
   <data name="EnableButton" xml:space="preserve">

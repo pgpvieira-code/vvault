@@ -75,7 +75,7 @@
     <comment>Refresh button text</comment>
   </data>
   <data name="NoEmailClaimsMessage" xml:space="preserve">
-    <value>Et vielä käytä yksityisiä sähköpostiosoitteita. Luo uusi alias ja käytä VelixVaultin tukemaa yksityistä sähköpostiosoitetta. Kaikki näihin yksityisiin sähköpostiosoitteisiin vastaanotetut sähköpostit näkyvät täällä.</value>
+    <value>Et vielä käytä yksityisiä sähköpostiosoitteita. Luo uusi alias ja käytä VVaultin tukemaa yksityistä sähköpostiosoitetta. Kaikki näihin yksityisiin sähköpostiosoitteisiin vastaanotetut sähköpostit näkyvät täällä.</value>
     <comment>Message when no email addresses are configured</comment>
   </data>
   <data name="NoEmailsReceivedMessage" xml:space="preserve">

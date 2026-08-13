@@ -111,7 +111,7 @@
     <comment>Error message for session timeout</comment>
   </data>
   <data name="ConnectionFailedError" xml:space="preserve">
-    <value>Nem elérhető az VelixVault szerver. Próbálja meg újra (később).</value>
+    <value>Nem elérhető az VVault szerver. Próbálja meg újra (később).</value>
     <comment>Error message for server connection failure</comment>
   </data>
   <data name="WebAuthnNotSupportedError" xml:space="preserve">

@@ -22,11 +22,11 @@
 
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Welcome to VelixVault</value>
+    <value>Welcome to VVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>How VelixVault Works</value>
+    <value>How VVault Works</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -44,7 +44,7 @@
 
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>Your vault has been successfully created! Protect your online privacy by creating unique aliases for each service you sign up for. Let's learn how VelixVault works and then create your first secure alias.</value>
+    <value>Your vault has been successfully created! Protect your online privacy by creating unique aliases for each service you sign up for. Let's learn how VVault works and then create your first secure alias.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
 
@@ -54,7 +54,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>VelixVault generates a random identity with a secure private email address</value>
+    <value>VVault generates a random identity with a secure private email address</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -92,7 +92,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Install the VelixVault browser extension and mobile app to create aliases and autofill forms directly from your browser and smartphone.</value>
+    <value>Install the VVault browser extension and mobile app to create aliases and autofill forms directly from your browser and smartphone.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
 
@@ -102,7 +102,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Now that you know how VelixVault works, let's create your first secure identity!</value>
+    <value>Now that you know how VVault works, let's create your first secure identity!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

@@ -4,7 +4,7 @@ sidebar_label: "Trusted proxies"
 ---
 # Trusted proxies
 
-When VelixVault sits behind another reverse proxy (HAProxy, Traefik, Cloudflare, an upstream nginx, etc.), the built-in nginx reads the real client IP from the `X-Forwarded-For` header so that audit logs and the IP allowlist see the actual client rather than the upstream proxy.
+When VVault sits behind another reverse proxy (HAProxy, Traefik, Cloudflare, an upstream nginx, etc.), the built-in nginx reads the real client IP from the `X-Forwarded-For` header so that audit logs and the IP allowlist see the actual client rather than the upstream proxy.
 
 To prevent header spoofing, nginx only honors `X-Forwarded-For` when the request comes from an explicitly trusted upstream. The `TRUSTED_PROXIES` environment variable controls that list.
 
@@ -56,4 +56,4 @@ docker compose up -d
 
 ## Why narrow this down
 
-The default of all RFC1918 ranges is convenient. Most setups place VelixVault and its upstream proxy in the same private network. But it does mean that **any** request originating from a private IP can spoof `X-Forwarded-For` and appear in the logs as a different client. If you have other workloads on the same private network, set `TRUSTED_PROXIES` to your specific upstream proxy address(es) so only that proxy is trusted to set the header.
+The default of all RFC1918 ranges is convenient. Most setups place VVault and its upstream proxy in the same private network. But it does mean that **any** request originating from a private IP can spoof `X-Forwarded-For` and appear in the logs as a different client. If you have other workloads on the same private network, set `TRUSTED_PROXIES` to your specific upstream proxy address(es) so only that proxy is trusted to set the header.

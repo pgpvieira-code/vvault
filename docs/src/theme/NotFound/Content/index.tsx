@@ -45,7 +45,7 @@ export default function NotFoundContent({className}: Props): ReactNode {
           </ul>
           <p>
             Still stuck? Open an issue on{' '}
-            <Link href="https://github.com/pgpvieira-code/velixvault/issues">
+            <Link href="https://github.com/pgpvieira-code/vvault/issues">
               GitHub
             </Link>{' '}
             or reach out via the <Link to="/contact/">contact</Link>{' '}

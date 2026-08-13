@@ -35,7 +35,7 @@
       "unknownError": "Wystąpił nieznany błąd.",
       "unknownErrorTryAgain": "Wystąpił nieznany błąd. Spróbuj ponownie.",
       "vaultTooLarge": "Sejf jest zbyt duży, aby serwer mógł zaakceptować. Spróbuj usunąć niektóre elementy lub załączniki, aby zmniejszyć rozmiar i spróbować ponownie.",
-      "serverVersionTooOld": "Aby korzystać z tej funkcji, serwer VelixVault musi zostać zaktualizowany do nowszej wersji. Jeśli potrzebujesz pomocy, skontaktuj się z administratorem serwera."
+      "serverVersionTooOld": "Aby korzystać z tej funkcji, serwer VVault musi zostać zaktualizowany do nowszej wersji. Jeśli potrzebujesz pomocy, skontaktuj się z administratorem serwera."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Wprowadź prawidłowy 6-cyfrowy kod uwierzytelniający",
       "incorrectPassword": "Nieprawidłowe hasło. Spróbuj ponownie.",
       "enterPassword": "Wprowadź swoje hasło",
-      "serverError": "Nie można połączyć się z serwerem VelixVault. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną, jeśli problem nadal występuje.",
+      "serverError": "Nie można połączyć się z serwerem VVault. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną, jeśli problem nadal występuje.",
       "serverErrorSelfHosted": "Nie można połączyć się z API. W przypadku instancji hostowanych samodzielnie sprawdź, czy punkt końcowy API jest dostępny, przechodząc do niego w przeglądarce: powinien wyświetlić komunikat „OK”.",
       "networkError": "Wystąpił błąd żądania sieciowego. Sprawdź połączenie internetowe i spróbuj ponownie.",
       "networkErrorSelfHosted": "Wystąpił błąd żądania sieciowego. Sprawdź połączenie sieciowe i dostępność serwera. W przypadku instancji hostowanych samodzielnie upewnij się, że masz zainstalowany ważny certyfikat SSL. Certyfikaty z podpisem własnym nie są obsługiwane na urządzeniach mobilnych ze względów bezpieczeństwa.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Nie udało się pobrać zaszyfrowanej bazy danych",
       "usernameNotFound": "Nazwa użytkownika nie została znaleziona",
-      "vaultOutdated": "Twoje sejf jest nieaktualny. Zaloguj się na stronie VelixVault i postępuj zgodnie z instrukcjami.",
+      "vaultOutdated": "Twoje sejf jest nieaktualny. Zaloguj się na stronie VVault i postępuj zgodnie z instrukcjami.",
       "failedToSyncVault": "Nie udało się zsynchronizować sejfu",
-      "versionNotSupported": "Ta wersja aplikacji mobilnej VelixVault nie jest już obsługiwana przez serwer. Zaktualizuj aplikację do najnowszej wersji.",
-      "serverVersionNotSupported": "Aby korzystać z tej aplikacji mobilnej, serwer VelixVault musi zostać zaktualizowany do nowszej wersji. Jeśli potrzebujesz pomocy, skontaktuj się z działem pomocy technicznej.",
-      "appOutdated": "Ta aplikacja jest nieaktualna i nie można jej używać do uzyskania dostępu do tej (nowszej) wersji sejfu. Aby kontynuować, zaktualizuj aplikację VelixVault.",
+      "versionNotSupported": "Ta wersja aplikacji mobilnej VVault nie jest już obsługiwana przez serwer. Zaktualizuj aplikację do najnowszej wersji.",
+      "serverVersionNotSupported": "Aby korzystać z tej aplikacji mobilnej, serwer VVault musi zostać zaktualizowany do nowszej wersji. Jeśli potrzebujesz pomocy, skontaktuj się z działem pomocy technicznej.",
+      "appOutdated": "Ta aplikacja jest nieaktualna i nie można jej używać do uzyskania dostępu do tej (nowszej) wersji sejfu. Aby kontynuować, zaktualizuj aplikację VVault.",
       "passwordChanged": "Twoje hasło uległo zmianie od czasu ostatniego logowania. Ze względów bezpieczeństwa prosimy o ponowne zalogowanie się.",
       "passwordChangeRequiresOnline": "Zmiana hasła wymaga połączenia z Internetem. Spróbuj ponownie, gdy będziesz online."
     }
@@ -131,13 +131,13 @@
     "title": "Ustawienia",
     "autofill": "Autouzupełnianie i klucze dostępu",
     "iosAutofillSettings": {
-      "headerText": "Możesz skonfigurować VelixVault, aby zapewnić natywną funkcję automatycznego wypełniania haseł i kluczy dostępu w systemie iOS. Aby ją włączyć, postępuj zgodnie z poniższymi instrukcjami.",
-      "passkeyNotice": "Klucze dostępu są tworzone za pośrednictwem systemu iOS. Aby zapisać je w VelixVault, upewnij się, że opcja Autofill poniżej jest włączona.",
+      "headerText": "Możesz skonfigurować VVault, aby zapewnić natywną funkcję automatycznego wypełniania haseł i kluczy dostępu w systemie iOS. Aby ją włączyć, postępuj zgodnie z poniższymi instrukcjami.",
+      "passkeyNotice": "Klucze dostępu są tworzone za pośrednictwem systemu iOS. Aby zapisać je w VVault, upewnij się, że opcja Autofill poniżej jest włączona.",
       "howToEnable": "Jak włączyć autouzupełnianie i klucze dostępu:",
       "step1": "1. Otwórz ustawienia iOS za pomocą poniższego przycisku",
       "step2": "2. Przejdź do „Ogólne”",
       "step3": "3. Wybierz „Autouzupełnianie i hasła”",
-      "step4": "4. Włącz „VelixVault”",
+      "step4": "4. Włącz „VVault”",
       "step5": "5. Wyłącz inne dostawców haseł (np. „Hasła iCloud”), aby uniknąć konfliktów",
       "openIosSettings": "Otwórz ustawienia systemu iOS",
       "alreadyConfigured": "Już to skonfigurowałem"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Funkcja eksperymentalna",
       "warningDescription": "Funkcja autouzupełniania i obsługa hasła dostępowego dla systemu Android są obecnie w fazie eksperymentalnej.",
       "warningLink": "Więcej informacji na ten temat można znaleźć tutaj",
-      "headerText": "Możesz skonfigurować VelixVault, aby zapewnić natywną funkcję automatycznego wypełniania haseł i kluczy dostępu w systemie Android. Aby ją włączyć, postępuj zgodnie z poniższymi instrukcjami.",
-      "passkeyNotice": "Klucze dostępu są tworzone za pomocą menedżera poświadczeń systemu Android (Android 14+). Aby zapisać je w VelixVault, upewnij się, że opcja Autofill poniżej jest włączona.",
+      "headerText": "Możesz skonfigurować VVault, aby zapewnić natywną funkcję automatycznego wypełniania haseł i kluczy dostępu w systemie Android. Aby ją włączyć, postępuj zgodnie z poniższymi instrukcjami.",
+      "passkeyNotice": "Klucze dostępu są tworzone za pomocą menedżera poświadczeń systemu Android (Android 14+). Aby zapisać je w VVault, upewnij się, że opcja Autofill poniżej jest włączona.",
       "howToEnable": "Jak włączyć autouzupełnianie i klucze dostępu:",
-      "step1": "1. Otwórz ustawienia systemu Android za pomocą poniższego przycisku i zmień „preferowaną usługę autouzupełniania” na „VelixVault”",
+      "step1": "1. Otwórz ustawienia systemu Android za pomocą poniższego przycisku i zmień „preferowaną usługę autouzupełniania” na „VVault”",
       "openAutofillSettings": "Otwórz ustawienia autouzupełniania",
       "buttonTip": "Jeśli powyższy przycisk nie działa, może to oznaczać, że został zablokowany w ustawieniach bezpieczeństwa. Możesz ręcznie przejść do Ustawień Androida → Zarządzanie ogólne → Hasła i autouzupełnianie.",
       "step2": "2. Niektóre aplikacje, np. Google Chrome, mogą wymagać ręcznej konfiguracji w ustawieniach, aby zezwolić na korzystanie z aplikacji innych firm do automatycznego wypełniania formularzy. Jednak większość aplikacji powinna domyślnie obsługiwać funkcję automatycznego wypełniania formularzy.",
       "alreadyConfigured": "Już to skonfigurowałem",
       "showSearchText": "Wyświetl tekst wyszukiwania",
-      "showSearchTextDescription": "VelixVault otrzymuje z Androida dane, których używa do wyszukania pasujących danych logowania"
+      "showSearchTextDescription": "VVault otrzymuje z Androida dane, których używa do wyszukania pasujących danych logowania"
     },
     "advancedOptions": "Opcje zaawansowane",
     "copyTotpOnFill": "Skopiuj kod TOTP przy autouzupełnianiu",
@@ -164,7 +164,7 @@
     "autoLock": "Automatyczne blokowanie",
     "clipboardClear": "Wyczyść schowek",
     "clipboardClearDescription": "Automatycznie usuwa skopiowane hasła i poufne informacje ze schowka po upływie określonego czasu.",
-    "clipboardClearAndroidWarning": "Uwaga: niektóre urządzenia z systemem Android mają włączoną historię schowka, która może śledzić wcześniej skopiowane elementy, nawet po wyczyszczeniu schowka przez VelixVault. VelixVault może nadpisać tylko najnowszy element, ale starsze wpisy mogą pozostać widoczne w historii. Ze względów bezpieczeństwa zalecamy wyłączenie funkcji historii schowka w ustawieniach urządzenia.",
+    "clipboardClearAndroidWarning": "Uwaga: niektóre urządzenia z systemem Android mają włączoną historię schowka, która może śledzić wcześniej skopiowane elementy, nawet po wyczyszczeniu schowka przez VVault. VVault może nadpisać tylko najnowszy element, ale starsze wpisy mogą pozostać widoczne w historii. Ze względów bezpieczeństwa zalecamy wyłączenie funkcji historii schowka w ustawieniach urządzenia.",
     "clipboardLocalOnly": "Tylko lokalny schowek",
     "clipboardLocalOnlyDescription": "Zachowaj skopiowane dane uwierzytelniające na tym urządzeniu zamiast synchronizować je z innymi urządzeniami Apple za pośrednictwem Universal Cslipboard.",
     "clipboardLocalOnlyDisabledWarning": "Dzięki temu skopiowane dane uwierzytelniające mogą synchronizować się z innymi urządzeniami Apple (Mac, iPad, itp.) za pośrednictwem Universal Cschowk.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Włącz czyszczenie schowka w tle",
     "batteryOptimizationActive": "Optymalizacja baterii blokuje zadania w tle",
     "batteryOptimizationDisabled": "Włączono czyszczenie schowka w tle",
-    "batteryOptimizationHelpDescription": "Optymalizacja baterii systemu Android uniemożliwia niezawodne czyszczenie schowka, gdy aplikacja działa w tle. Wyłączenie optymalizacji baterii dla VelixVault umożliwia precyzyjne czyszczenie schowka w tle i automatycznie przyznaje niezbędne uprawnienia alarmowe.",
+    "batteryOptimizationHelpDescription": "Optymalizacja baterii systemu Android uniemożliwia niezawodne czyszczenie schowka, gdy aplikacja działa w tle. Wyłączenie optymalizacji baterii dla VVault umożliwia precyzyjne czyszczenie schowka w tle i automatycznie przyznaje niezbędne uprawnienia alarmowe.",
     "disableBatteryOptimization": "Wyłącz optymalizację baterii",
     "identityGenerator": "Generator tożsamości",
     "passwordGenerator": "Generator haseł",
     "importExport": "Import / Eksport",
     "importSectionTitle": "Importowanie",
-    "importSectionDescription": "Zaimportuj swoje hasła z innych menedżerów haseł lub z poprzedniego eksportu VelixVault.",
+    "importSectionDescription": "Zaimportuj swoje hasła z innych menedżerów haseł lub z poprzedniego eksportu VVault.",
     "importWebNote": "Aby zaimportować dane logowania z istniejących menedżerów haseł, zaloguj się do aplikacji internetowej. Funkcja importowania jest obecnie dostępna tylko w wersji internetowej.",
     "exportSectionTitle": "Eksportowanie",
     "exportSectionDescription": "Wyeksportuj dane swojego sejfu do pliku CSV. Plik ten może służyć jako kopia zapasowa, a także może zostać zaimportowany do innych menedżerów haseł.",
@@ -214,7 +214,7 @@
       "24hours": "24 godziny"
     },
     "language": "Język",
-    "languageSystemMessage": "Aby zmienić język aplikacji, skonfiguruj preferowany język dla VelixVault w ustawieniach urządzenia.",
+    "languageSystemMessage": "Aby zmienić język aplikacji, skonfiguruj preferowany język dla VVault w ustawieniach urządzenia.",
     "openSettings": "Otwórz ustawienia",
     "vaultUnlockSettings": {
       "description": "Wybierz sposób odblokowania sejfu.",
@@ -224,7 +224,7 @@
       "faceIdTouchId": "Rozpoznawanie twarzy / Odcisk palca",
       "biometricEnabled": "{{biometric}} zostało pomyślnie włączone",
       "biometricNotAvailable": "{{biometric}} nie dostepne",
-      "biometricDisabledMessage": "Funkcja {{biometric}} jest wyłączona dla VelixVault. Aby z niej skorzystać, należy najpierw włączyć ją w ustawieniach urządzenia.",
+      "biometricDisabledMessage": "Funkcja {{biometric}} jest wyłączona dla VVault. Aby z niej skorzystać, należy najpierw włączyć ją w ustawieniach urządzenia.",
       "biometricHelp": "Użyj danych biometrycznych, aby odblokować sejf zabezpieczony przez {{keystore}}.",
       "biometricUnavailableHelp": "Funkcja {{biometric}} jest niedostępna. Dotknij, aby otworzyć ustawienia i/lub przejdź do ustawień urządzenia, aby ją włączyć.",
       "featureRequiresPasscode": "Ta funkcja wymaga włączenia kodu PIN na twoim urządzeniu.",
@@ -327,7 +327,7 @@
     },
     "qrScanner": {
       "title": "Skaner kodów QR",
-      "scanningMessage": "Zeskanuj kod QR VelixVault",
+      "scanningMessage": "Zeskanuj kod QR VVault",
       "mobileLogin": {
         "confirmTitle": "Potwierdź prośbę o zalogowanie",
         "confirmSubtitle": "Ponownie uwierzytelnij się, aby zatwierdzić logowanie na innym urządzeniu.",
@@ -422,7 +422,7 @@
     "enterEmailPrefix": "Wprowadź prefiks adresu e-mail",
     "selectEmailDomain": "Wybierz domenę poczty e-mail",
     "privateEmailTitle": "Prywatny adres e-mail",
-    "privateEmailAliasVaultServer": "Serwer VelixVault",
+    "privateEmailAliasVaultServer": "Serwer VVault",
     "privateEmailDescription": "Szyfrowane E2E, w pełni prywatne.",
     "publicEmailTitle": "Publiczni dostawcy tymczasowych adresów e-mail",
     "publicEmailDescription": "Anonimowe, ale ograniczają prywatność. Treść wiadomości e-mail jest dostępna dla każdego, kto zna adres.",
@@ -430,7 +430,7 @@
     "noMatchingItems": "Żaden element nie pasuje do wybranego filtra.",
     "noMatchingItemsSearch": "Nie znaleziono żadnych elementów pasujących do „{{search}}”",
     "noMatchingItemsWithFilter": "Brak elementów {{filter}} pasujących do „{{search}}”",
-    "noItemsFound": "Nie znaleziono żadnych elementów. Utwórz jeden, aby rozpocząć. Wskazówka: możesz również zalogować się do aplikacji internetowej VelixVault, aby zaimportować dane uwierzytelniające z innych menedżerów haseł.",
+    "noItemsFound": "Nie znaleziono żadnych elementów. Utwórz jeden, aby rozpocząć. Wskazówka: możesz również zalogować się do aplikacji internetowej VVault, aby zaimportować dane uwierzytelniające z innych menedżerów haseł.",
     "allItemsInFolders": "Wszystkie Twoje elementy są uporządkowane w folderach. Dotknij folderu powyżej, aby wyświetlić swoje poświadczenia, lub skorzystaj z wyszukiwania, aby znaleźć konkretne elementy.",
     "clearSearch": "Wyczyść wyszukiwanie",
     "clearFilter": "Wyczyść filtr",
@@ -671,7 +671,7 @@
       "message": "Ta strona została przeniesiona lub usunięta.",
       "goHome": "Wróć do początku"
     },
-    "appName": "VelixVault",
+    "appName": "VVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Sejf zostanie automatycznie zablokowany po upływie czasu.",
       "attemptingToUnlockMessage": "Próba odblokowania."
@@ -691,7 +691,7 @@
       "version": "Wersja: {{version}}",
       "advancedSettings": "Ustawienia zaawansowane",
       "customProxyHeaders": "Niestandardowe nagłówki serwera proxy",
-      "customProxyHeadersDescription": "Dodaj nagłówki HTTP, które będą wysyłane z każdą prośbą do serwera VelixVault. Mogą być używane do samodzielnych konfiguracji za odwróconym proxy sprawdzającym nagłówki niestandardowe (np. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Dodaj nagłówki HTTP, które będą wysyłane z każdą prośbą do serwera VVault. Mogą być używane do samodzielnych konfiguracji za odwróconym proxy sprawdzającym nagłówki niestandardowe (np. Pangolin, Cloudflare Access).",
       "headerName": "Header name",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header value"
@@ -699,7 +699,7 @@
   },
   "upgrade": {
     "title": "Aktualizacja sejfu",
-    "subtitle": "Wersja VelixVault jest nieaktualna i konieczna jest aktualizacja Twojego sejfu. Zajmie to tylko kilka sekund.",
+    "subtitle": "Wersja VVault jest nieaktualna i konieczna jest aktualizacja Twojego sejfu. Zajmie to tylko kilka sekund.",
     "versionInformation": "Informacje o wersji",
     "yourVault": "Twoja wersja sejfu:",
     "newVersion": "Nowa dostępna wersja:",

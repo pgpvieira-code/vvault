@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>La extensión del navegador VelixVault le permite autorrellenar las credenciales existentes en cualquier sitio web. También le permite generar nuevos alias durante el registro, acceder a correos electrónicos recibidos en todos sus alias, y ver sus alias e identidades.</value>
+    <value>La extensión del navegador VVault le permite autorrellenar las credenciales existentes en cualquier sitio web. También le permite generar nuevos alias durante el registro, acceder a correos electrónicos recibidos en todos sus alias, y ver sus alias e identidades.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>La aplicación móvil VelixVault te permite acceder a tus alias e identidades donde sea, ver y administrar los correos recibidos y generar nuevos alias en cualquier momento. Sus datos están totalmente protegidos con autenticación biométrica del dispositivo.</value>
+    <value>La aplicación móvil VVault te permite acceder a tus alias e identidades donde sea, ver y administrar los correos recibidos y generar nuevos alias en cualquier momento. Sus datos están totalmente protegidos con autenticación biométrica del dispositivo.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

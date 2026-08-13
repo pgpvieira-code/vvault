@@ -4,10 +4,10 @@ sidebar_label: "Uninstall"
 ---
 # Uninstall
 
-To uninstall VelixVault, run the install script with the `uninstall` option. This will stop and remove the VelixVault containers and remove any local VelixVault Docker images.
+To uninstall VVault, run the install script with the `uninstall` option. This will stop and remove the VVault containers and remove any local VVault Docker images.
 
 :::note
-This will not delete any data stored in the database. If you wish to delete all data, you should manually delete the `database` directory and the other directories created by VelixVault.
+This will not delete any data stored in the database. If you wish to delete all data, you should manually delete the `database` directory and the other directories created by VVault.
 :::
 
 ### Steps

@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Добро пожаловать в VelixVault</value>
+    <value>Добро пожаловать в VVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>Как работает VelixVault</value>
+    <value>Как работает VVault</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>Ваше хранилище готово! Защитите свою онлайн‑приватность — создавайте уникальные псевдонимы для каждого сервиса, где регистрируетесь. Давайте посмотрим, как работает VelixVault, и создадим ваш первый надёжный псевдоним.</value>
+    <value>Ваше хранилище готово! Защитите свою онлайн‑приватность — создавайте уникальные псевдонимы для каждого сервиса, где регистрируетесь. Давайте посмотрим, как работает VVault, и создадим ваш первый надёжный псевдоним.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>VelixVault генерирует случайную личность с приватным email‑адресом</value>
+    <value>VVault генерирует случайную личность с приватным email‑адресом</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Установите VelixVault как расширение для браузера и приложение на смартфон, чтобы удобно создавать псевдонимы и автоматически заполнять формы.</value>
+    <value>Установите VVault как расширение для браузера и приложение на смартфон, чтобы удобно создавать псевдонимы и автоматически заполнять формы.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Теперь, когда вы узнали, как работает VelixVault, давайте создадим вашу первую безопасную личность!</value>
+    <value>Теперь, когда вы узнали, как работает VVault, давайте создадим вашу первую безопасную личность!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

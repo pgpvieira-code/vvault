@@ -2,7 +2,7 @@
 
 # Diagrams
 
-This folder contains architecture and flow diagrams for VelixVault in various formats.
+This folder contains architecture and flow diagrams for VVault in various formats.
 
 ## Draw.io Diagrams (.drawio)
 Files with `.drawio` extension are created with Draw.io (also known as diagrams.net), an open-source diagramming tool.

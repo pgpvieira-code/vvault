@@ -78,7 +78,7 @@
   </data>
   <!-- Warning message -->
   <data name="WarningMessage" xml:space="preserve">
-    <value>Bitte beachte: Nach dem Deaktivieren der Zwei-Faktor-Authentifizierung wird der konfigurierte VelixVault-Eintrag in jeder Authentifizierungs-App nicht mehr funktionieren. Wenn Du die Zwei-Faktor-Authentifizierung wieder aktivieren möchtest, musst Du die Authentifizierungs-App(s) erneut konfigurieren.</value>
+    <value>Bitte beachte: Nach dem Deaktivieren der Zwei-Faktor-Authentifizierung wird der konfigurierte VVault-Eintrag in jeder Authentifizierungs-App nicht mehr funktionieren. Wenn Du die Zwei-Faktor-Authentifizierung wieder aktivieren möchtest, musst Du die Authentifizierungs-App(s) erneut konfigurieren.</value>
     <comment>Warning message about the consequences of disabling 2FA</comment>
   </data>
   <!-- Status message -->

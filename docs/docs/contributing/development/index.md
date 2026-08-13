@@ -4,7 +4,7 @@ sidebar_label: "Overview"
 ---
 # Development Guide
 
-This section covers what you need to work on VelixVault itself. It assumes you're
+This section covers what you need to work on VVault itself. It assumes you're
 already comfortable with the relevant frameworks (.NET, React / [WXT](https://wxt.dev/)
 for the browser extension, [Expo](https://docs.expo.dev/) / React Native for the
 mobile apps, and Docker).

@@ -71,7 +71,7 @@
     <comment>Title of domain selection popup</comment>
   </data>
   <data name="PrivateEmailTitle" xml:space="preserve">
-    <value>E-mail privat (server VelixVault)</value>
+    <value>E-mail privat (server VVault)</value>
     <comment>Title for private email domains section</comment>
   </data>
   <data name="PrivateEmailDescription" xml:space="preserve">

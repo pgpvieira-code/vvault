@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>Az VelixVault böngésző bővítmény segítségével ki tudja tölteni a mezőket meglévő adataival bármely oldalon. Ezen felül lehetővé teszi, hogy új aliasokat generáljon a regisztrálás során, hozzáférést biztosít minden alias e-mailjéhez, valamint az aliashoz tartozó személyazonossághoz is.</value>
+    <value>Az VVault böngésző bővítmény segítségével ki tudja tölteni a mezőket meglévő adataival bármely oldalon. Ezen felül lehetővé teszi, hogy új aliasokat generáljon a regisztrálás során, hozzáférést biztosít minden alias e-mailjéhez, valamint az aliashoz tartozó személyazonossághoz is.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>Az VelixVault mobil app segítségével elérheti az aliasait és személyazonosságait bárhol, megtekintheti és rendszerezheti e-mailjeit, és új aliasokat generálhat bármikor. Az adatai teljes biztonságban vannak az eszközén biometrikus hitelesítéssel.</value>
+    <value>Az VVault mobil app segítségével elérheti az aliasait és személyazonosságait bárhol, megtekintheti és rendszerezheti e-mailjeit, és új aliasokat generálhat bármikor. Az adatai teljes biztonságban vannak az eszközén biometrikus hitelesítéssel.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

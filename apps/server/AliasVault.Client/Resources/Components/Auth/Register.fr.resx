@@ -60,7 +60,7 @@
   </resheader>
   <!-- Page title -->
   <data name="PageTitle" xml:space="preserve">
-    <value>Créer un nouveau compte VelixVault</value>
+    <value>Créer un nouveau compte VVault</value>
     <comment>Main registration page title</comment>
   </data>
   <!-- Form labels -->

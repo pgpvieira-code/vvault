@@ -49,7 +49,7 @@ export default function SettingsScreen() : React.ReactNode {
   const [isLoading, setIsLoading] = useState(true);
 
   const DEFAULT_OPTIONS: ApiOption[] = useMemo(() => [
-    { label: 'VelixVault', value: AppInfo.DEFAULT_API_URL },
+    { label: 'VVault', value: AppInfo.DEFAULT_API_URL },
     { label: t('app.loginSettings.selfHosted'), value: 'custom' },
   ], [t]);
 

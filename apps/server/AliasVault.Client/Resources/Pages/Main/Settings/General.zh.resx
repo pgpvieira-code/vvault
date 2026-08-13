@@ -25,7 +25,7 @@
     <comment>Page title for general settings</comment>
   </data>
   <data name="PageDescription">
-    <value>配置VelixVault的通用设置。</value>
+    <value>配置VVault的通用设置。</value>
     <comment>Page description for general settings</comment>
   </data>
   <data name="BreadcrumbTitle">

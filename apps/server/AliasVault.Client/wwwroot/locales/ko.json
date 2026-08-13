@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "VelixVault is loading",
-    "message": "Initializing secure environment. VelixVault prioritizes your privacy by running entirely in your browser. The first load might take a short while.",
+    "title": "VVault is loading",
+    "message": "Initializing secure environment. VVault prioritizes your privacy by running entirely in your browser. The first load might take a short while.",
     "refreshText": "If loading seems stuck, you can click the button below to refresh the page.",
     "refreshButtonText": "Refresh Page"
   },
   "errors": {
     "unhandledError": "An unhandled error has occurred. Please try reloading the page. If the issue persists, please contact support.",
-    "webAssemblyError": "VelixVault requires WebAssembly, which this browser does not support. Try using a more modern browser that supports WebAssembly.",
+    "webAssemblyError": "VVault requires WebAssembly, which this browser does not support. Try using a more modern browser that supports WebAssembly.",
     "reloadPageText": "Reload Page"
   },
   "quotes": {

@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Fáilte go dtí VelixVault</value>
+    <value>Fáilte go dtí VVault</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>Conas a Oibríonn VelixVault</value>
+    <value>Conas a Oibríonn VVault</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>Tá do chruinneachán cruthaithe go rathúil! Cosain do phríobháideacht ar líne trí leasainmneacha uathúla a chruthú do gach seirbhís a chláraíonn tú léi. Foghlaimímis conas a oibríonn VelixVault agus ansin cruthaímis do chéad leasainm slán.</value>
+    <value>Tá do chruinneachán cruthaithe go rathúil! Cosain do phríobháideacht ar líne trí leasainmneacha uathúla a chruthú do gach seirbhís a chláraíonn tú léi. Foghlaimímis conas a oibríonn VVault agus ansin cruthaímis do chéad leasainm slán.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>Gineann VelixVault céannacht randamach le seoladh ríomhphoist príobháideach slán</value>
+    <value>Gineann VVault céannacht randamach le seoladh ríomhphoist príobháideach slán</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Suiteáil síneadh brabhsálaí VelixVault agus an aip shoghluaiste chun leasainmneacha agus foirmeacha uathlíonta a chruthú go díreach ó do bhrabhsálaí agus ó do ghuthán cliste.</value>
+    <value>Suiteáil síneadh brabhsálaí VVault agus an aip shoghluaiste chun leasainmneacha agus foirmeacha uathlíonta a chruthú go díreach ó do bhrabhsálaí agus ó do ghuthán cliste.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Anois go bhfuil a fhios agat conas a oibríonn VelixVault, cruthaímis do chéad chéannacht shlán!</value>
+    <value>Anois go bhfuil a fhios agat conas a oibríonn VVault, cruthaímis do chéad chéannacht shlán!</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>Mit der VelixVault-Browser-Erweiterung kannst Du bestehende Zugangsdaten auf jeder Webseite automatisch eintragen. Außerdem kannst Du während der Registrierung neue Aliase generieren, auf alle Deine Aliase zugreifen und Aliase und Identitäten anzeigen.</value>
+    <value>Mit der VVault-Browser-Erweiterung kannst Du bestehende Zugangsdaten auf jeder Webseite automatisch eintragen. Außerdem kannst Du während der Registrierung neue Aliase generieren, auf alle Deine Aliase zugreifen und Aliase und Identitäten anzeigen.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>Mit der mobilen VelixVault-App kannst Du unterwegs auf Deine Aliase und Identitäten zugreifen, empfangene E-Mails ansehen und verwalten und jederzeit neue Aliase generieren. Deine Daten sind vollständig durch die biometrische Authentifizierung Deines Gerätes geschützt.</value>
+    <value>Mit der mobilen VVault-App kannst Du unterwegs auf Deine Aliase und Identitäten zugreifen, empfangene E-Mails ansehen und verwalten und jederzeit neue Aliase generieren. Deine Daten sind vollständig durch die biometrische Authentifizierung Deines Gerätes geschützt.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "Tá VelixVault ag lódáil",
-    "message": "Ag tosú timpeallacht shlán. Tugann VelixVault tús áite do do phríobháideacht trí rith go hiomlán i do bhrabhsálaí. D’fhéadfadh sé go dtógfadh an chéad ualach tamall beag.",
+    "title": "Tá VVault ag lódáil",
+    "message": "Ag tosú timpeallacht shlán. Tugann VVault tús áite do do phríobháideacht trí rith go hiomlán i do bhrabhsálaí. D’fhéadfadh sé go dtógfadh an chéad ualach tamall beag.",
     "refreshText": "Más cosúil go bhfuil an luchtú i bhfostú, is féidir leat cliceáil ar an gcnaipe thíos chun an leathanach a athnuachan.",
     "refreshButtonText": "Athnuachan Leathanach"
   },
   "errors": {
     "unhandledError": "Tharla earráid neamhláimhseáilte. Déan iarracht an leathanach a athlódáil. Má leanann an fhadhb, déan teagmháil leis an bhfoireann tacaíochta.",
-    "webAssemblyError": "Éilíonn VelixVault WebAssembly, rud nach dtacaíonn an brabhsálaí seo leis. Bain triail as brabhsálaí níos nua-aimseartha a thacaíonn le WebAssembly.",
+    "webAssemblyError": "Éilíonn VVault WebAssembly, rud nach dtacaíonn an brabhsálaí seo leis. Bain triail as brabhsálaí níos nua-aimseartha a thacaíonn le WebAssembly.",
     "reloadPageText": "Athlódáil an Leathanach"
   },
   "quotes": {

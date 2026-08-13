@@ -1,5 +1,5 @@
-# https://docs.aliasvault.com
+# https://docs.vvault.com.br
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.aliasvault.com/sitemap.xml
+Sitemap: https://docs.vvault.com.br/sitemap.xml

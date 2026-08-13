@@ -67,11 +67,11 @@
     <comment>Modal title for mobile unlock feature</comment>
   </data>
   <data name="ScanQrCodeDescription" xml:space="preserve">
-    <value>Escanea este código QR con tu app móvil de VelixVault para iniciar sesión.</value>
+    <value>Escanea este código QR con tu app móvil de VVault para iniciar sesión.</value>
     <comment>Description instructing user to scan QR code</comment>
   </data>
   <data name="ScanQrCodeToUnlock" xml:space="preserve">
-    <value>Escanea este código QR con tu app móvil de VelixVault para desbloquear tu bóveda.</value>
+    <value>Escanea este código QR con tu app móvil de VVault para desbloquear tu bóveda.</value>
     <comment>Description instructing user to scan QR code to unlock</comment>
   </data>
 </root>

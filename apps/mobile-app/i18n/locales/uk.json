@@ -35,7 +35,7 @@
       "unknownError": "Сталася невідома помилка.",
       "unknownErrorTryAgain": "Сталася невідома помилка. Будь ласка, спробуйте ще раз.",
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
-      "serverVersionTooOld": "Сервер VelixVault потрібно оновити до новішої версії, щоб використовувати цю функцію. Будь ласка, зверніться до адміністратора серверу, якщо вам потрібна допомога."
+      "serverVersionTooOld": "Сервер VVault потрібно оновити до новішої версії, щоб використовувати цю функцію. Будь ласка, зверніться до адміністратора серверу, якщо вам потрібна допомога."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Будь ласка, введіть дійсний 6-значний код автентифікації",
       "incorrectPassword": "Невірний пароль. Будь ласка, спробуйте ще раз.",
       "enterPassword": "Будь ласка, введіть ваш пароль",
-      "serverError": "Не вдалося зв’язатися зі сервером VelixVault. Будь ласка, спробуйте пізніше або зверніться до служби підтримки, якщо проблема не зникне.",
+      "serverError": "Не вдалося зв’язатися зі сервером VVault. Будь ласка, спробуйте пізніше або зверніться до служби підтримки, якщо проблема не зникне.",
       "serverErrorSelfHosted": "Не вдалося зв’язатися з API. Для самостійно розміщених екземплярів перевірте доступність кінцевої точки API, перейшовши до неї у браузері: має показуватися «OK».",
       "networkError": "Не вдалося виконати мережевий запит. Перевірте підключення до Інтернету та повторіть спробу.",
       "networkErrorSelfHosted": "Не вдалося виконати мережевий запит. Перевірте мережеве з’єднання та доступність сервера. Для самостійно розміщених екземплярів переконайтеся, що у вас встановлено дійсний SSL-сертифікат. Самопідписані сертифікати не підтримуються на мобільних пристроях з міркувань безпеки.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Не вдалося отримати зашифровану базу даних",
       "usernameNotFound": "Ім'я користувача не знайдено",
-      "vaultOutdated": "Ваше сховище застаріло. Будь ласка, увійдіть на вебсайт VelixVault та виконайте наведені нижче дії.",
+      "vaultOutdated": "Ваше сховище застаріло. Будь ласка, увійдіть на вебсайт VVault та виконайте наведені нижче дії.",
       "failedToSyncVault": "Не вдалося синхронізувати сховище",
-      "versionNotSupported": "Ця версія мобільного застосунку VelixVault більше не підтримується сервером. Будь ласка, оновіть свій застосунок до останньої версії.",
-      "serverVersionNotSupported": "Щоб користуватися цим мобільним додатком, потрібно оновити сервер VelixVault до новішої версії. Зверніться до служби підтримки, якщо вам потрібна допомога.",
-      "appOutdated": "Ця програма застаріла і не може бути використана для доступу до цієї (новіші) версії сховища. Будь ласка, оновіть додаток VelixVault для продовження.",
+      "versionNotSupported": "Ця версія мобільного застосунку VVault більше не підтримується сервером. Будь ласка, оновіть свій застосунок до останньої версії.",
+      "serverVersionNotSupported": "Щоб користуватися цим мобільним додатком, потрібно оновити сервер VVault до новішої версії. Зверніться до служби підтримки, якщо вам потрібна допомога.",
+      "appOutdated": "Ця програма застаріла і не може бути використана для доступу до цієї (новіші) версії сховища. Будь ласка, оновіть додаток VVault для продовження.",
       "passwordChanged": "Ваш пароль змінився з моменту останнього входу. З міркувань безпеки, будь ласка, увійдіть ще раз.",
       "passwordChangeRequiresOnline": "Password change requires an internet connection. Please try again when online."
     }
@@ -131,13 +131,13 @@
     "title": "Налаштування",
     "autofill": "Автозаповнення та ключі доступу",
     "iosAutofillSettings": {
-      "headerText": "Ви можете налаштувати VelixVault для надання функціональності автозаповнення власних паролів і ключів доступу в iOS. Щоб увімкнути цю функцію, виконайте наведені нижче інструкції.",
-      "passkeyNotice": "Ключі доступу створюються через iOS. Щоб зберігати їх в VelixVault, переконайтеся, що нижче ввімкнено автозаповнення.",
+      "headerText": "Ви можете налаштувати VVault для надання функціональності автозаповнення власних паролів і ключів доступу в iOS. Щоб увімкнути цю функцію, виконайте наведені нижче інструкції.",
+      "passkeyNotice": "Ключі доступу створюються через iOS. Щоб зберігати їх в VVault, переконайтеся, що нижче ввімкнено автозаповнення.",
       "howToEnable": "Як увімкнути автозаповнення та ключі доступу:",
       "step1": "1. Відкрийте налаштування iOS за допомогою кнопки нижче",
       "step2": "2. Перейдіть до розділу «Загальні»",
       "step3": "3. Натисніть «Автозаповнення та паролі»",
-      "step4": "4. Увімкнути \"VelixVault\"",
+      "step4": "4. Увімкнути \"VVault\"",
       "step5": "5. Вимкніть інших постачальників паролів (наприклад, «Паролі iCloud»), щоб уникнути конфліктів",
       "openIosSettings": "Відкрийте налаштування iOS",
       "alreadyConfigured": "Я вже це налаштував"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Експериментальна функція",
       "warningDescription": "Підтримка автозаповнення та ключа доступу для Android наразі перебуває в експериментальному стані.",
       "warningLink": "Детальніше про це читайте тут",
-      "headerText": "Ви можете налаштувати VelixVault для надання функціональності автозаповнення власних паролів і ключів доступу в Android. Щоб увімкнути цю функцію, виконайте наведені нижче дії.",
-      "passkeyNotice": "Ключі доступу створюються за допомогою Android Credential Manager (Android 14+). Щоб зберегти їх в VelixVault, переконайтеся, що нижче ввімкнено автозаповнення.",
+      "headerText": "Ви можете налаштувати VVault для надання функціональності автозаповнення власних паролів і ключів доступу в Android. Щоб увімкнути цю функцію, виконайте наведені нижче дії.",
+      "passkeyNotice": "Ключі доступу створюються за допомогою Android Credential Manager (Android 14+). Щоб зберегти їх в VVault, переконайтеся, що нижче ввімкнено автозаповнення.",
       "howToEnable": "Як увімкнути автозаповнення та ключі доступу:",
-      "step1": "1. Відкрийте налаштування Android за допомогою кнопки нижче та змініть «бажаний сервіс автозаповнення» на «VelixVault»",
+      "step1": "1. Відкрийте налаштування Android за допомогою кнопки нижче та змініть «бажаний сервіс автозаповнення» на «VVault»",
       "openAutofillSettings": "Відкрити налаштування автозаповнення",
       "buttonTip": "Якщо кнопка вище не працює, можливо, вона заблокована через налаштування безпеки. Ви можете вручну перейти до Налаштувань Android → Загальне керування → Паролі та автозаповнення.",
       "step2": "2. Деякі програми, наприклад, Google Chrome, можуть вимагати ручної конфігурації в налаштуваннях, щоб дозволити використання сторонніх програм автозаповнення. Однак більшість програм повинні працювати з автозаповненням за замовчуванням.",
       "alreadyConfigured": "Я вже це налаштував",
       "showSearchText": "Показати текст пошуку",
-      "showSearchTextDescription": "Включити текст, який VelixVault отримує від Android, який він використовує для пошуку відповідних облікових даних"
+      "showSearchTextDescription": "Включити текст, який VVault отримує від Android, який він використовує для пошуку відповідних облікових даних"
     },
     "advancedOptions": "Додаткові параметри",
     "copyTotpOnFill": "Copy TOTP code on autofill",
@@ -164,7 +164,7 @@
     "autoLock": "Тайм-аут автоматичного блокування",
     "clipboardClear": "Очистити буфер обміну",
     "clipboardClearDescription": "Автоматично очищати скопійовані паролі та конфіденційну інформацію з буфера обміну через вказаний період.",
-    "clipboardClearAndroidWarning": "Примітка: деякі Android-пристрої мають включену історію обміну, яка може відстежувати раніше скопійовані елементи, навіть після того, як VelixVault очищує буфер обміну. VelixVault може перезаписати лише найновіший предмет, але старі записи можуть залишатися видимими в історії. З міркувань безпеки ми радимо вимкнути всі функції історії буфера обміну в налаштуваннях пристрою.",
+    "clipboardClearAndroidWarning": "Примітка: деякі Android-пристрої мають включену історію обміну, яка може відстежувати раніше скопійовані елементи, навіть після того, як VVault очищує буфер обміну. VVault може перезаписати лише найновіший предмет, але старі записи можуть залишатися видимими в історії. З міркувань безпеки ми радимо вимкнути всі функції історії буфера обміну в налаштуваннях пристрою.",
     "clipboardLocalOnly": "Local Clipboard Only",
     "clipboardLocalOnlyDescription": "Keep copied credentials on this device instead of syncing them to your other Apple devices via Universal Clipboard.",
     "clipboardLocalOnlyDisabledWarning": "With this off, copied credentials can sync to your other Apple devices (Mac, iPad, etc.) through Universal Clipboard.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Увімкнути очищення буфера обміну у фоновому режимі",
     "batteryOptimizationActive": "Оптимізація акумулятора блокує фонові завдання",
     "batteryOptimizationDisabled": "Увімкнено очищення буфера обміну у фоновому режимі",
-    "batteryOptimizationHelpDescription": "Оптимізація батареї Android перешкоджає надійному очищенню буфера обміну, коли додаток працює у фоновому режимі. Вимкнення оптимізації батареї для VelixVault дозволяє точно очищати буфер обміну у фоновому режимі та автоматично надає необхідні дозволи на сигнали.",
+    "batteryOptimizationHelpDescription": "Оптимізація батареї Android перешкоджає надійному очищенню буфера обміну, коли додаток працює у фоновому режимі. Вимкнення оптимізації батареї для VVault дозволяє точно очищати буфер обміну у фоновому режимі та автоматично надає необхідні дозволи на сигнали.",
     "disableBatteryOptimization": "Вимкнути оптимізацію акумулятора",
     "identityGenerator": "Генератор ідентифікаційних даних",
     "passwordGenerator": "Генератор паролів",
     "importExport": "Імпорт / Експорт",
     "importSectionTitle": "Імпорт",
-    "importSectionDescription": "Імпортуйте свої паролі з інших менеджерів паролів або з попереднього експорту VelixVault.",
+    "importSectionDescription": "Імпортуйте свої паролі з інших менеджерів паролів або з попереднього експорту VVault.",
     "importWebNote": "Щоб імпортувати облікові дані з наявних менеджерів паролів, увійдіть у вебпрограму. Наразі функція імпортування доступна лише у вебверсії.",
     "exportSectionTitle": "Експорт",
     "exportSectionDescription": "Експортуйте дані свого сховища в файл CSV. Цей файл можна використовувати як резервну копію, а також імпортувати в інші менеджери паролів.",
@@ -214,7 +214,7 @@
       "24hours": "24 години"
     },
     "language": "Мова",
-    "languageSystemMessage": "Щоб змінити мову програми, налаштуйте потрібну мову для VelixVault у налаштуваннях вашого пристрою.",
+    "languageSystemMessage": "Щоб змінити мову програми, налаштуйте потрібну мову для VVault у налаштуваннях вашого пристрою.",
     "openSettings": "Відкрити Налаштування",
     "vaultUnlockSettings": {
       "description": "Виберіть, як ви хочете розблокувати своє сховище.",
@@ -224,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} тепер успішно ввімкнено",
       "biometricNotAvailable": "{{biometric}} Недоступно",
-      "biometricDisabledMessage": "{{biometric}} вимкнено для VelixVault. Щоб використовувати його, спочатку ввімкніть в налаштуваннях вашого пристрою.",
+      "biometricDisabledMessage": "{{biometric}} вимкнено для VVault. Щоб використовувати його, спочатку ввімкніть в налаштуваннях вашого пристрою.",
       "biometricHelp": "Використовуйте біометричні дані, щоб розблокувати сховище, захищене {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} недоступний. Натисніть, щоб відкрити налаштування, та/або перейдіть до налаштувань пристрою, щоб увімкнути та налаштувати його.",
       "featureRequiresPasscode": "Ця функція вимагає включений пароль на вашому пристрої.",
@@ -327,7 +327,7 @@
     },
     "qrScanner": {
       "title": "Сканер QR-коду",
-      "scanningMessage": "Проскануйте QR-код VelixVault",
+      "scanningMessage": "Проскануйте QR-код VVault",
       "mobileLogin": {
         "confirmTitle": "Підтвердити запит на вхід",
         "confirmSubtitle": "Повторно пройдіть автентифікацію, щоб підтвердити вхід на іншому пристрої.",
@@ -422,7 +422,7 @@
     "enterEmailPrefix": "Введіть префікс електронної адреси",
     "selectEmailDomain": "Виберіть домен електронної пошти",
     "privateEmailTitle": "Приватна електронна адреса",
-    "privateEmailAliasVaultServer": "Сервер VelixVault",
+    "privateEmailAliasVaultServer": "Сервер VVault",
     "privateEmailDescription": "Наскрізне шифрування, повністю конфіденційно.",
     "publicEmailTitle": "Публічні тимчасові постачальники електронної пошти",
     "publicEmailDescription": "Анонімно, але обмежена конфіденційність. Зміст електронного листа може прочитати будь-хто, хто знає адресу.",
@@ -430,7 +430,7 @@
     "noMatchingItems": "No items match the selected filter.",
     "noMatchingItemsSearch": "No items matching \"{{search}}\"",
     "noMatchingItemsWithFilter": "No {{filter}} items matching \"{{search}}\"",
-    "noItemsFound": "No items found. Create one to get started. Tip: you can also login to the VelixVault web app to import credentials from other password managers.",
+    "noItemsFound": "No items found. Create one to get started. Tip: you can also login to the VVault web app to import credentials from other password managers.",
     "allItemsInFolders": "All your items are organized in folders. Tap a folder above to view your credentials, or use the search to find specific items.",
     "clearSearch": "Clear search",
     "clearFilter": "Clear filter",
@@ -671,7 +671,7 @@
       "message": "Цю сторінку було переміщено або видалено.",
       "goHome": "Повернутися до початку"
     },
-    "appName": "VelixVault",
+    "appName": "VVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Сховище автоматично заблоковано після закінчення часу очікування.",
       "attemptingToUnlockMessage": "Спроба розблокування."
@@ -691,7 +691,7 @@
       "version": "Версія: {{version}}",
       "advancedSettings": "Advanced settings",
       "customProxyHeaders": "Custom proxy headers",
-      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your VelixVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your VVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
       "headerName": "Header name",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header value"
@@ -699,7 +699,7 @@
   },
   "upgrade": {
     "title": "Оновлення сховища",
-    "subtitle": "VelixVault оновлено, і ваше сховище потрібно оновити. Це займе лише кілька секунд.",
+    "subtitle": "VVault оновлено, і ваше сховище потрібно оновити. Це займе лише кілька секунд.",
     "versionInformation": "Інформація про версію",
     "yourVault": "Ваша версія сховища:",
     "newVersion": "Доступна нова версія:",

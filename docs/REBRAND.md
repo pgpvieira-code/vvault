@@ -1,7 +1,7 @@
-# VelixVault — mapa de rebrand
+# VVault — mapa de rebrand
 
 Fork do [AliasVault](https://github.com/aliasvault/aliasvault) (AGPL-3.0), branch `velix`,
-publicado em [pgpvieira-code/velixvault](https://github.com/pgpvieira-code/velixvault),
+publicado em [pgpvieira-code/vvault](https://github.com/pgpvieira-code/vvault),
 a partir de `c11e0657` (2026-08-10).
 
 Este documento classifica **1865 arquivos** que contêm a string `aliasvault`. Serve para dois fins:
@@ -43,14 +43,14 @@ Receita segura:
 ```bash
 cd apps/server/AliasVault.Client/Resources
 grep -rl "AliasVault" --include='*.resx' . | grep -v ImportExport | \
-  xargs sed -i '' '/<value>/s/AliasVault/VelixVault/g'
+  xargs sed -i '' '/<value>/s/AliasVault/VVault/g'
 ```
 
 Conferência pós-lote — os dois comandos devem sair vazios:
 
 ```bash
 git diff --name-only | grep ImportExport
-grep -rho 'data name="[^"]*VelixVault[^"]*"' .
+grep -rho 'data name="[^"]*VVault[^"]*"' .
 ```
 
 ### Código C# / Razor — o nome do produto vem de uma constante
@@ -113,9 +113,9 @@ estampado em letra garrafal na primeira tela que o usuário vê. Sempre buscar s
 
 | Linha | Valor atual | Novo |
 |---|---|---|
-| 56 | `name: "AliasVault"` | `"VelixVault"` |
+| 56 | `name: "AliasVault"` | `"VVault"` |
 | 57 | `description: "AliasVault Browser AutoFill Extension..."` | reescrever |
-| 66 | `host_permissions` | apontar pro domínio do VelixVault |
+| 66 | `host_permissions` | apontar pro domínio do VVault |
 | 90 | `id: "{a06e3383-fc5f-431d-8405-1c54c2f85971}"` | **gerar UUID novo** — é o ID Firefox; reutilizar colide com a extensão original |
 
 Linha 17 (`name: 'aliasvault:ascii-only-js'`) é o nome de um plugin de build interno — **não muda**.
@@ -150,7 +150,7 @@ Leva ~130s na primeira vez; os volumes deixam as reexecuções rápidas.
 
 ### Mobile — `apps/mobile-app/app.json` + nativos
 
-`app.json`: `name`, `slug`, `scheme` (`aliasvault` → `velixvault`), `ios.bundleIdentifier`, `android.package`.
+`app.json`: `name`, `slug`, `scheme` (`aliasvault` → `vvault`), `ios.bundleIdentifier`, `android.package`.
 
 **O `app.json` sozinho não basta** — os diretórios nativos estão versionados. iOS tem **9 bundle identifiers**:
 
@@ -184,7 +184,7 @@ Nomes de imagem em `dockerfiles/docker-compose.build.yml` (`aliasvault-api`, `al
 | Namespaces C#, `.csproj`, `.sln`, nomes de classe | Invisível ao usuário; renomear garante conflito em todo merge |
 | Nomes de tabela e schema | Migrations do EF Core quebram |
 | `core/` inteiro — `rust`, `models`, `vault` | `core/models` gera código pra C#/Swift/Kotlin; renomear quebra as 3 plataformas de uma vez |
-| `Resources/**/ImportExport/` (350 ocorrências) | Descrevem importar dados **do AliasVault real** (CSV/AVUX/AVEX). Trocar produziria texto factualmente errado — o VelixVault deve continuar importando do AliasVault |
+| `Resources/**/ImportExport/` (350 ocorrências) | Descrevem importar dados **do AliasVault real** (CSV/AVUX/AVEX). Trocar produziria texto factualmente errado — o VVault deve continuar importando do AliasVault |
 | 5 chaves de recurso × 27 culturas (135) | `AliasVaultDescription`, `AliasVaultInstructionsPart1`, `AliasVaultSupportedFormatsInfo`, `HowAliasVaultWorksStepTitle`, `PrivateEmailAliasVaultServer` — referenciadas nos `.razor`; renomear só no `.resx` quebra o build |
 | `LICENSE.md` e cabeçalhos de copyright | Exigência da AGPL-3.0 |
 | Atribuição no `NOTICE` | Idem |
@@ -194,16 +194,16 @@ Nomes de imagem em `dockerfiles/docker-compose.build.yml` (`aliasvault-api`, `al
 ## Pendências que dependem de valores reais
 
 Estas ocorrências usam `aliasvault` em **minúsculo**, então a substituição case-sensitive
-`AliasVault` → `VelixVault` passou por cima delas de propósito: são URLs, domínios e e-mails que
+`AliasVault` → `VVault` passou por cima delas de propósito: são URLs, domínios e e-mails que
 precisam de valores reais, não de tradução de marca.
 
 | Onde | Qtd | Valor necessário | Situação |
 |---|---|---|---|
-| `docs/**` — URL do repositório | ~21 | repo público | ✅ `github.com/pgpvieira-code/velixvault` |
+| `docs/**` — URL do repositório | ~21 | repo público | ✅ `github.com/pgpvieira-code/vvault` |
 | `wwwroot/index.template.html:14` | 1 | link AGPL do banner | ✅ resolvido |
-| `docs/**` — `support@aliasvault.com` | 13 | e-mail de suporte | **pendente** |
-| `docs/**` — `aliasvault.com` | 14 | domínio do produto | **pendente** |
-| `docs/**` — `aliasvault.net` | 13 | domínio de e-mail privado | **pendente** |
+| `docs/**` — `suporte@vvault.com.br` | 13 | e-mail de suporte | **pendente** |
+| `docs/**` — `vvault.com.br` | 14 | domínio do produto | **pendente** |
+| `docs/**` — `vvault.com.br` | 13 | domínio de e-mail privado | **pendente** |
 | `wwwroot/appsettings.json` | 1 | `PrivateEmailDomains` de exemplo | **pendente** |
 
 **Cuidado ao rodar um `sed` sobre `docs/`**: este próprio arquivo mora em `docs/` e menciona o
@@ -218,9 +218,9 @@ listas de palavras, não branding.
 
 ### Servidor padrão dos clientes — resolvido, mas provisório
 
-`DEFAULT_API_URL` e `DEFAULT_CLIENT_URL` apontavam para `https://app.aliasvault.com` na extensão
+`DEFAULT_API_URL` e `DEFAULT_CLIENT_URL` apontavam para `https://app.vvault.com.br` na extensão
 (`src/utils/AppInfo.ts`) e no mobile (`utils/AppInfo.ts`). Distribuir assim faria todo usuário do
-VelixVault sincronizar o cofre **no servidor do AliasVault**. Ambos foram apontados para
+VVault sincronizar o cofre **no servidor do AliasVault**. Ambos foram apontados para
 `http://localhost` como medida provisória de desenvolvimento.
 
 **Bloqueante para distribuição**: trocar para o domínio real antes de publicar extensão ou app.
@@ -242,7 +242,7 @@ docker compose -f docker-compose.yml -f dockerfiles/docker-compose.build.yml up 
 Para conferir qual imagem um container está realmente rodando:
 
 ```bash
-docker inspect velixvault-client-1 --format '{{.Config.Image}}'
+docker inspect vvault-client-1 --format '{{.Config.Image}}'
 ```
 
 Se responder `ghcr.io/...`, você está olhando para o AliasVault original, não para o seu fork.
@@ -292,12 +292,12 @@ ar.** Um link para repositório privado ou desatualizado não cumpre a licença.
 
 ## Conformidade AGPL-3.0
 
-O fork herda a AGPL-3.0 e não pode ser relicenciado. Operar o VelixVault como serviço em rede aciona a
+O fork herda a AGPL-3.0 e não pode ser relicenciado. Operar o VVault como serviço em rede aciona a
 seção 13: o código-fonte modificado precisa estar disponível aos usuários do serviço.
 
 Obrigatório antes de expor a instância publicamente:
 
-- repositório VelixVault público sob AGPL-3.0;
+- repositório VVault público sob AGPL-3.0;
 - link "Código-fonte" visível na UI web, na extensão e no app;
 - `LICENSE.md` e cabeçalhos de copyright originais preservados;
 - `NOTICE` atribuindo o AliasVault e seus autores.

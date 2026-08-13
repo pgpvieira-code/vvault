@@ -35,7 +35,7 @@
       "unknownError": "Une erreur inconnue s'est produite.",
       "unknownErrorTryAgain": "Une erreur inconnue s'est produite. Merci de réessayer.",
       "vaultTooLarge": "Le coffre-fort est trop grand pour que le serveur l'accepte. Essayez de supprimer certains éléments ou pièces jointes pour réduire la taille et réessayez.",
-      "serverVersionTooOld": "Le serveur VelixVault doit être mis à jour vers une version plus récente pour pouvoir utiliser cette fonctionnalité. Veuillez contacter l'administrateur du serveur si vous avez besoin d'aide."
+      "serverVersionTooOld": "Le serveur VVault doit être mis à jour vers une version plus récente pour pouvoir utiliser cette fonctionnalité. Veuillez contacter l'administrateur du serveur si vous avez besoin d'aide."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Veuillez entrer un code d'authentification à 6 chiffres valide",
       "incorrectPassword": "Mot de passe incorrect. Veuillez réessayer.",
       "enterPassword": "Veuillez saisir votre mot de passe",
-      "serverError": "Impossible d'accéder au serveur VelixVault. Veuillez réessayer plus tard ou contacter le support si le problème persiste.",
+      "serverError": "Impossible d'accéder au serveur VVault. Veuillez réessayer plus tard ou contacter le support si le problème persiste.",
       "serverErrorSelfHosted": "Impossible d'atteindre l'API. Pour les instances auto-hébergées, veuillez vérifier que le point de terminaison de l'API est accessible en naviguant vers celui-ci dans un navigateur : il devrait afficher 'OK'.",
       "networkError": "Erreur réseau. Vérifiez votre connexion et réessayez.",
       "networkErrorSelfHosted": "La requête réseau a échoué. Vérifiez votre connexion réseau et la disponibilité du serveur. Pour les instances auto-hébergées, veuillez vous assurer que vous avez un certificat SSL valide. Les certificats auto-signés ne sont pas pris en charge pour des raisons de sécurité.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Impossible d'obtenir la base de données chiffrée",
       "usernameNotFound": "Identifiant non trouvé",
-      "vaultOutdated": "Votre coffre-fort est obsolète. Veuillez vous connecter sur le site VelixVault et suivre les étapes.",
+      "vaultOutdated": "Votre coffre-fort est obsolète. Veuillez vous connecter sur le site VVault et suivre les étapes.",
       "failedToSyncVault": "Échec de la synchronisation du coffre",
-      "versionNotSupported": "Cette version de l'application mobile VelixVault n'est plus prise en charge par le serveur. Veuillez mettre à jour votre application vers la dernière version.",
-      "serverVersionNotSupported": "Le serveur VelixVault doit être mis à jour vers une version plus récente afin d'utiliser cette application mobile. Veuillez contacter le support si vous avez besoin d'aide.",
-      "appOutdated": "Cette application est obsolète et ne peut pas être utilisée pour accéder à cette (nouvelle) version du coffre-fort. Veuillez mettre à jour l'application VelixVault pour continuer.",
+      "versionNotSupported": "Cette version de l'application mobile VVault n'est plus prise en charge par le serveur. Veuillez mettre à jour votre application vers la dernière version.",
+      "serverVersionNotSupported": "Le serveur VVault doit être mis à jour vers une version plus récente afin d'utiliser cette application mobile. Veuillez contacter le support si vous avez besoin d'aide.",
+      "appOutdated": "Cette application est obsolète et ne peut pas être utilisée pour accéder à cette (nouvelle) version du coffre-fort. Veuillez mettre à jour l'application VVault pour continuer.",
       "passwordChanged": "Votre mot de passe a changé depuis la dernière fois que vous vous êtes connecté. Veuillez vous reconnecter pour des raisons de sécurité.",
       "passwordChangeRequiresOnline": "Le changement de mot de passe nécessite une connexion internet. Veuillez réessayer une fois connecté."
     }
@@ -131,13 +131,13 @@
     "title": "Réglages",
     "autofill": "Remplissage automatique et clés d'accès",
     "iosAutofillSettings": {
-      "headerText": "Vous pouvez configurer VelixVault pour fournir des fonctionnalités natives de saisie automatique du mot de passe et de clés d'accès dans iOS. Suivez les instructions ci-dessous pour l'activer.",
-      "passkeyNotice": "Les clés d'accès sont créées via iOS. Pour les stocker dans VelixVault, assurez-vous que le remplissage automatique ci-dessous est activé.",
+      "headerText": "Vous pouvez configurer VVault pour fournir des fonctionnalités natives de saisie automatique du mot de passe et de clés d'accès dans iOS. Suivez les instructions ci-dessous pour l'activer.",
+      "passkeyNotice": "Les clés d'accès sont créées via iOS. Pour les stocker dans VVault, assurez-vous que le remplissage automatique ci-dessous est activé.",
       "howToEnable": "Comment activer le remplissage automatique et les clés d'accès :",
       "step1": "1. Ouvrir les paramètres d'iOS via le bouton ci-dessous",
       "step2": "2. Aller dans « Général »",
       "step3": "3. Appuyer sur « Remplissage automatique et mots de passe »",
-      "step4": "4. Activer \"VelixVault\"",
+      "step4": "4. Activer \"VVault\"",
       "step5": "5. Désactiver les autres fournisseurs de mot de passe (par exemple \"mots de passe iCloud\") pour éviter les conflits",
       "openIosSettings": "Ouvrir les réglages d'iOS",
       "alreadyConfigured": "Je l'ai déjà configuré"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Fonctionnalité expérimentale",
       "warningDescription": "Le remplissage automatique et la prise en charge de la clé d'accès pour Android sont actuellement dans un état expérimental.",
       "warningLink": "En savoir plus à ce sujet ici",
-      "headerText": "Vous pouvez configurer VelixVault pour fournir le mot de passe natif et la fonctionnalité de saisie automatique du mot de passe dans Android. Suivez les instructions ci-dessous pour l'activer.",
-      "passkeyNotice": "Les mots de passe sont créés via le gestionnaire d'identifiants Android (Android 14+). Pour les stocker dans VelixVault, assurez-vous que le remplissage automatique ci-dessous est activé.",
+      "headerText": "Vous pouvez configurer VVault pour fournir le mot de passe natif et la fonctionnalité de saisie automatique du mot de passe dans Android. Suivez les instructions ci-dessous pour l'activer.",
+      "passkeyNotice": "Les mots de passe sont créés via le gestionnaire d'identifiants Android (Android 14+). Pour les stocker dans VVault, assurez-vous que le remplissage automatique ci-dessous est activé.",
       "howToEnable": "Comment activer le remplissage automatique et les clés d'accès :",
-      "step1": "1. Ouvrez les paramètres Android via le bouton ci-dessous, et changez le \"service préféré de saisie automatique\" par \"VelixVault\"",
+      "step1": "1. Ouvrez les paramètres Android via le bouton ci-dessous, et changez le \"service préféré de saisie automatique\" par \"VVault\"",
       "openAutofillSettings": "Ouvrir les paramètres de remplissage automatique",
       "buttonTip": "Si le bouton ci-dessus ne fonctionne pas, il peut être bloqué en raison des paramètres de sécurité. Vous pouvez manuellement aller dans Réglages Android → Gestion Générale → Mots de passe et saisie automatique.",
       "step2": "2. Certaines applications, par exemple Google Chrome, peuvent nécessiter une configuration manuelle dans leurs paramètres pour permettre le remplissage automatique des applications tierces. Cependant, la plupart des applications devraient fonctionner avec le remplissage automatique par défaut.",
       "alreadyConfigured": "Je l'ai déjà configuré",
       "showSearchText": "Afficher le texte de recherche",
-      "showSearchTextDescription": "Inclure le texte que VelixVault reçoit d'Android qu'il utilise pour rechercher un identifiant correspondant"
+      "showSearchTextDescription": "Inclure le texte que VVault reçoit d'Android qu'il utilise pour rechercher un identifiant correspondant"
     },
     "advancedOptions": "Options avancées",
     "copyTotpOnFill": "Copier le code à usage unique lors de la saisie automatique",
@@ -164,7 +164,7 @@
     "autoLock": "Délai de verrouillage automatique",
     "clipboardClear": "Effacer le presse-papiers",
     "clipboardClearDescription": "Effacer automatiquement les mots de passe copiés et les informations sensibles du presse-papiers après une période donnée.",
-    "clipboardClearAndroidWarning": "Remarque : certains appareils Android ont l'historique du presse-papiers activé, qui peut garder une trace des éléments précédemment copiés, même après que VelixVault a effacé le presse-papiers. VelixVault ne peut que remplacer l'élément le plus récent, mais les entrées plus anciennes peuvent rester visibles dans l'historique. Pour des raisons de sécurité, nous vous recommandons de désactiver toutes les fonctionnalités d'historique du presse-papiers dans les paramètres de votre appareil.",
+    "clipboardClearAndroidWarning": "Remarque : certains appareils Android ont l'historique du presse-papiers activé, qui peut garder une trace des éléments précédemment copiés, même après que VVault a effacé le presse-papiers. VVault ne peut que remplacer l'élément le plus récent, mais les entrées plus anciennes peuvent rester visibles dans l'historique. Pour des raisons de sécurité, nous vous recommandons de désactiver toutes les fonctionnalités d'historique du presse-papiers dans les paramètres de votre appareil.",
     "clipboardLocalOnly": "Presse-papiers local uniquement",
     "clipboardLocalOnlyDescription": "Conserver les identifiants copiés sur cet appareil au lieu de les synchroniser à vos autres appareils Apple via Universal Clipboard.",
     "clipboardLocalOnlyDisabledWarning": "Avec cette option désactivée, les identifiants copiés peuvent être synchronisés sur vos autres appareils Apple (Mac, iPad, etc.) via le presse-papiers universel.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Activer le nettoyage du presse-papier en arrière-plan",
     "batteryOptimizationActive": "L'optimisation de la batterie bloque les tâches en arrière-plan",
     "batteryOptimizationDisabled": "Effacement du presse-papiers en arrière-plan activé",
-    "batteryOptimizationHelpDescription": "L'optimisation de la batterie d'Android empêche le nettoyage fiable du presse-papiers lorsque l'application est en arrière-plan. La désactivation de l'optimisation de la batterie pour VelixVault permet un nettoyage précis du presse-papiers et accorde automatiquement les autorisations d'alarme nécessaires.",
+    "batteryOptimizationHelpDescription": "L'optimisation de la batterie d'Android empêche le nettoyage fiable du presse-papiers lorsque l'application est en arrière-plan. La désactivation de l'optimisation de la batterie pour VVault permet un nettoyage précis du presse-papiers et accorde automatiquement les autorisations d'alarme nécessaires.",
     "disableBatteryOptimization": "Désactiver l'optimisation de la batterie",
     "identityGenerator": "Générateur d'identité",
     "passwordGenerator": "Générateur de mot de passe",
     "importExport": "Importer / Exporter",
     "importSectionTitle": "Importer",
-    "importSectionDescription": "Importez vos mots de passe depuis d'autres gestionnaires de mots de passe ou depuis un précédent export VelixVault.",
+    "importSectionDescription": "Importez vos mots de passe depuis d'autres gestionnaires de mots de passe ou depuis un précédent export VVault.",
     "importWebNote": "Pour importer des informations d’identification à partir des gestionnaires de mots de passe existants, veuillez vous connecter à l’application Web. La fonction d’importation n’est actuellement disponible que sur la version web.",
     "exportSectionTitle": "Exporter",
     "exportSectionDescription": "Exporter les données de votre coffre-fort vers un fichier CSV. Ce fichier peut être utilisé comme une sauvegarde et peut également être importé dans d'autres gestionnaires de mots de passe.",
@@ -214,7 +214,7 @@
       "24hours": "24 heures"
     },
     "language": "Langue",
-    "languageSystemMessage": "Pour modifier la langue de l'application, configurez la langue préférée pour VelixVault dans les paramètres de votre appareil.",
+    "languageSystemMessage": "Pour modifier la langue de l'application, configurez la langue préférée pour VVault dans les paramètres de votre appareil.",
     "openSettings": "Ouvrir les paramètres",
     "vaultUnlockSettings": {
       "description": "Choisissez comment vous souhaitez déverrouiller votre coffre-fort.",
@@ -224,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} est désormais activé avec succès",
       "biometricNotAvailable": "{{biometric}} non disponible",
-      "biometricDisabledMessage": "{{biometric}} est désactivé pour VelixVault. Pour l'utiliser, veuillez d'abord l'activer dans les paramètres de votre appareil.",
+      "biometricDisabledMessage": "{{biometric}} est désactivé pour VVault. Pour l'utiliser, veuillez d'abord l'activer dans les paramètres de votre appareil.",
       "biometricHelp": "Utilisez la biométrie pour déverrouiller votre coffre-fort, qui est sécurisé par l’ {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} n'est pas disponible. Appuyez pour ouvrir les paramètres et/ou allez dans les paramètres de votre appareil pour l'activer et le configurer.",
       "featureRequiresPasscode": "Cette fonctionnalité nécessite un code d'accès pour être activée sur votre appareil.",
@@ -327,7 +327,7 @@
     },
     "qrScanner": {
       "title": "Scanner de QR Code",
-      "scanningMessage": "Scanner le QR code VelixVault",
+      "scanningMessage": "Scanner le QR code VVault",
       "mobileLogin": {
         "confirmTitle": "Confirmer la demande de connexion",
         "confirmSubtitle": "Se ré-authentifier pour approuver la connexion sur un autre appareil.",
@@ -422,7 +422,7 @@
     "enterEmailPrefix": "Entrez le préfixe de l'email",
     "selectEmailDomain": "Sélectionner un domaine de messagerie",
     "privateEmailTitle": "E-mail privé",
-    "privateEmailAliasVaultServer": "Serveur VelixVault",
+    "privateEmailAliasVaultServer": "Serveur VVault",
     "privateEmailDescription": "E2E chiffré, entièrement privé.",
     "publicEmailTitle": "Fournisseurs d'email public temporaires",
     "publicEmailDescription": "Anonyme mais confidentiel limitée. Le contenu des e-mails est lisible par toute personne qui connaît l'adresse.",
@@ -430,7 +430,7 @@
     "noMatchingItems": "Aucun élément ne correspond au filtre sélectionné.",
     "noMatchingItemsSearch": "Aucun élément correspondant à \"{{search}}\"",
     "noMatchingItemsWithFilter": "Aucun élément {{filter}} correspondant à \"{{search}}\"",
-    "noItemsFound": "Aucun élément trouvé. Créez-en un pour commencer. Astuce : vous pouvez également vous connecter à l'application Web VelixVault pour importer les identifiants depuis d'autres gestionnaires de mots de passe.",
+    "noItemsFound": "Aucun élément trouvé. Créez-en un pour commencer. Astuce : vous pouvez également vous connecter à l'application Web VVault pour importer les identifiants depuis d'autres gestionnaires de mots de passe.",
     "allItemsInFolders": "Tous vos éléments sont organisés dans des dossiers. Appuyez sur un dossier ci-dessus pour voir vos identifiants, ou utilisez la recherche pour trouver des éléments spécifiques.",
     "clearSearch": "Effacer la recherche",
     "clearFilter": "Effacer le filtre",
@@ -671,7 +671,7 @@
       "message": "Cette page a été déplacée ou supprimée.",
       "goHome": "Revenir au début"
     },
-    "appName": "VelixVault",
+    "appName": "VVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Coffre-fort verrouillé automatiquement après expiration du délai.",
       "attemptingToUnlockMessage": "Tentative de déverrouillage."
@@ -691,7 +691,7 @@
       "version": "Version : {{version}}",
       "advancedSettings": "Paramètres avancés",
       "customProxyHeaders": "En-têtes de proxy personnalisés",
-      "customProxyHeadersDescription": "Ajoutez des en-têtes HTTP qui seront envoyés avec chaque requête à votre serveur VelixVault. Peut être utilisé pour les configurations auto-hébergées derrière un proxy inverse qui vérifie les en-têtes personnalisés (par exemple, Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Ajoutez des en-têtes HTTP qui seront envoyés avec chaque requête à votre serveur VVault. Peut être utilisé pour les configurations auto-hébergées derrière un proxy inverse qui vérifie les en-têtes personnalisés (par exemple, Pangolin, Cloudflare Access).",
       "headerName": "Nom de l'en-tête",
       "headerNamePlaceholder": "En-tête X-Custom",
       "headerValue": "Valeur de l'en-tête"
@@ -699,7 +699,7 @@
   },
   "upgrade": {
     "title": "Mettre à niveau le coffre-fort",
-    "subtitle": "VelixVault a été mis à jour et votre coffre-fort doit être mis à niveau. Cela ne devrait prendre que quelques secondes.",
+    "subtitle": "VVault a été mis à jour et votre coffre-fort doit être mis à niveau. Cela ne devrait prendre que quelques secondes.",
     "versionInformation": "Informations de version",
     "yourVault": "Version de votre coffre-fort :",
     "newVersion": "Nouvelle version disponible :",

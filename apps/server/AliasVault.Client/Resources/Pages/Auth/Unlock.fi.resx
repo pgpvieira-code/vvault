@@ -111,7 +111,7 @@
     <comment>Error message for session timeout</comment>
   </data>
   <data name="ConnectionFailedError" xml:space="preserve">
-    <value>Yhteys VelixVault-palvelimiin epäonnistui. Yritäthän uudelleen myöhemmin.</value>
+    <value>Yhteys VVault-palvelimiin epäonnistui. Yritäthän uudelleen myöhemmin.</value>
     <comment>Error message for server connection failure</comment>
   </data>
   <data name="WebAuthnNotSupportedError" xml:space="preserve">

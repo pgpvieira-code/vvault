@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "VelixVault indlæser",
-    "message": "Initialiserer sikkert miljø. VelixVault prioriterer dit privatliv ved at køre udelukkende i din browser. Den første indlæsning kan tage et øjeblik.",
+    "title": "VVault indlæser",
+    "message": "Initialiserer sikkert miljø. VVault prioriterer dit privatliv ved at køre udelukkende i din browser. Den første indlæsning kan tage et øjeblik.",
     "refreshText": "Hvis indlæsningen ser ud til at sidde fast, kan du klikke på knappen nedenfor for at opdatere siden.",
     "refreshButtonText": "Opdater side"
   },
   "errors": {
     "unhandledError": "Der opstod en uventet fejl. Prøv venligst at genindlæse siden. Hvis problemet fortsætter, bedes du kontakte support.",
-    "webAssemblyError": "VelixVault kræver WebAssembly, som denne browser ikke understøtter. Prøv at bruge en mere moderne browser, der understøtter WebAssembly.",
+    "webAssemblyError": "VVault kræver WebAssembly, som denne browser ikke understøtter. Prøv at bruge en mere moderne browser, der understøtter WebAssembly.",
     "reloadPageText": "Genindlæs side"
   },
   "quotes": {

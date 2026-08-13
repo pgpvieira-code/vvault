@@ -5,12 +5,12 @@ sidebar_label: "Database"
 import TOCInline from '@theme/TOCInline';
 
 # Database (Docker Compose)
-This page explains how to import/export on the VelixVault server database when installed via the all-in-one Docker container, and how to point VelixVault at an external PostgreSQL server.
+This page explains how to import/export on the VVault server database when installed via the all-in-one Docker container, and how to point VVault at an external PostgreSQL server.
 
 <TOCInline toc={toc} />
 
 ## Database Export
-In order to backup the VelixVault server database (which includes all encrypted user vaults as well), you can use the following command. Run this command from the directory where your VelixVault `docker-compose.yml` is located.
+In order to backup the VVault server database (which includes all encrypted user vaults as well), you can use the following command. Run this command from the directory where your VVault `docker-compose.yml` is located.
 
 ```bash
 $ docker compose exec aliasvault pg_dump -U aliasvault aliasvault > backup.sql
@@ -20,7 +20,7 @@ $ docker compose exec aliasvault pg_dump -U aliasvault aliasvault > backup.sql
 
 ## Database Import
 
-To restore a previously exported database, you can use the following snippet. Run these commands from the directory where your VelixVault `docker-compose.yml` is located.
+To restore a previously exported database, you can use the following snippet. Run these commands from the directory where your VVault `docker-compose.yml` is located.
 
 ```bash
 # Drop database first (warning: this can't be undone!)

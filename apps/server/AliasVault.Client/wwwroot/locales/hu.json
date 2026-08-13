@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "VelixVault betöltés alatt",
-    "message": "Biztonságos környezet létrehozása. Az VelixVault teljes mértékben a böngészőben fut, ezáltal szem előtt tartva a magán adatait. Az első indulás tovább tarthat.",
+    "title": "VVault betöltés alatt",
+    "message": "Biztonságos környezet létrehozása. Az VVault teljes mértékben a böngészőben fut, ezáltal szem előtt tartva a magán adatait. Az első indulás tovább tarthat.",
     "refreshText": "Ha úgy tűnik, hogy elakadt a betöltés, kattintson a lenti frissítés gombra az oldal újratöltéséhez.",
     "refreshButtonText": "Oldal frissítése"
   },
   "errors": {
     "unhandledError": "Egy nem kezelt hiba lépett fel. Próbálja meg újra betölteni az oldalt. Ha továbbra is fennáll, lépjen kapcsolatba az ügyfélszolgálattal.",
-    "webAssemblyError": "Ez a böngésző nem támogatja a WebAssembly-t, mely szükséges az VelixVault működéséhez. Próbáljon ki egy modernebb böngészőt, amely már támogatja azt.",
+    "webAssemblyError": "Ez a böngésző nem támogatja a WebAssembly-t, mely szükséges az VVault működéséhez. Próbáljon ki egy modernebb böngészőt, amely már támogatja azt.",
     "reloadPageText": "Oldal frissítése"
   },
   "quotes": {

@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>Twoje hasło główne jest zaszyfrowane za pomocą klucza dostępu PRF i przechowywane lokalnie. Po ponownym załadowaniu strony lub karty VelixVault możesz odblokować swój sejf za pomocą klucza dostępu. Jeśli chcesz wyłączyć odblokowywanie kluczem dostępu, możesz to zrobić klikając poniżej. Nadal będziesz mógł odblokować sejf hasłem głównym.</value>
+    <value>Twoje hasło główne jest zaszyfrowane za pomocą klucza dostępu PRF i przechowywane lokalnie. Po ponownym załadowaniu strony lub karty VVault możesz odblokować swój sejf za pomocą klucza dostępu. Jeśli chcesz wyłączyć odblokowywanie kluczem dostępu, możesz to zrobić klikając poniżej. Nadal będziesz mógł odblokować sejf hasłem głównym.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>Domyślnie, ponowne załadowanie strony lub karty VelixVault wymaga ponownego wprowadzenia hasła głównego. Dzięki kluczowi dostępu możesz odblokować swój sejf natychmiastowo. Po włączeniu hasło główne jest szyfrowane lokalnie za pomocą rozszerzenia PRF klucza dostępu. Uwaga: klucz dostępu będzie działał tylko na bieżącym urządzeniu i przeglądarce, na której go włączysz.</value>
+    <value>Domyślnie, ponowne załadowanie strony lub karty VVault wymaga ponownego wprowadzenia hasła głównego. Dzięki kluczowi dostępu możesz odblokować swój sejf natychmiastowo. Po włączeniu hasło główne jest szyfrowane lokalnie za pomocą rozszerzenia PRF klucza dostępu. Uwaga: klucz dostępu będzie działał tylko na bieżącym urządzeniu i przeglądarce, na której go włączysz.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">
-    <value>Ta funkcja jest obecnie obsługiwana przez rozszerzenie przeglądarki VelixVault oraz aplikację iOS. Obsługa Androida pojawi się wkrótce. Jeśli napotkasz jakiekolwiek problemy, możesz w dowolnym momencie wyłączyć tę funkcję.</value>
+    <value>Ta funkcja jest obecnie obsługiwana przez rozszerzenie przeglądarki VVault oraz aplikację iOS. Obsługa Androida pojawi się wkrótce. Jeśli napotkasz jakiekolwiek problemy, możesz w dowolnym momencie wyłączyć tę funkcję.</value>
     <comment>Warning about feature compatibility</comment>
   </data>
   <data name="EnableButton" xml:space="preserve">

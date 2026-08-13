@@ -1,13 +1,13 @@
 {
   "loading": {
-    "title": "VelixVault está cargando",
-    "message": "Inicializando el entorno seguro. VelixVault prioriza su privacidad ejecutándose completamente en su navegador. La primera carga puede tardar un poco.",
+    "title": "VVault está cargando",
+    "message": "Inicializando el entorno seguro. VVault prioriza su privacidad ejecutándose completamente en su navegador. La primera carga puede tardar un poco.",
     "refreshText": "Si la carga parece atascada, puede hacer clic en el botón de abajo para actualizar la página.",
     "refreshButtonText": "Actualizar página"
   },
   "errors": {
     "unhandledError": "Se ha producido un error no controlado. Por favor, intente recargar la página. Si el problema persiste, póngase en contacto con el servicio de soporte.",
-    "webAssemblyError": "VelixVault requiere WebAssembly, que este navegador no soporta. Intente utilizar un navegador más moderno que soporte WebAssembly.",
+    "webAssemblyError": "VVault requiere WebAssembly, que este navegador no soporta. Intente utilizar un navegador más moderno que soporte WebAssembly.",
     "reloadPageText": "Recargar página"
   },
   "quotes": {

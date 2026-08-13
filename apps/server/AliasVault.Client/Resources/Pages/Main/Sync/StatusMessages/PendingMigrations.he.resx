@@ -63,7 +63,7 @@
     <comment>Title for vault upgrade process</comment>
   </data>
   <data name="UpgradeDescription" xml:space="preserve">
-    <value>VelixVault התעדכן וצריך לשדרג את הכספת שלך. הפעולה הזאת אמורה לארוך מספר שניות.</value>
+    <value>VVault התעדכן וצריך לשדרג את הכספת שלך. הפעולה הזאת אמורה לארוך מספר שניות.</value>
     <comment>Description of vault upgrade process</comment>
   </data>
   <data name="VersionInformationTitle" xml:space="preserve">

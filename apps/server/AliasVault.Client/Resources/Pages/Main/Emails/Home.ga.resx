@@ -75,7 +75,7 @@
     <comment>Refresh button text</comment>
   </data>
   <data name="NoEmailClaimsMessage" xml:space="preserve">
-    <value>Níl aon seoltaí ríomhphoist príobháideacha in úsáid agat (go fóill). Cruthaigh leasainm nua agus bain úsáid as seoladh ríomhphoist príobháideach a dtacaítear leis ag VelixVault. Taispeánfar anseo gach ríomhphost a fhaightear trí na seoltaí ríomhphoist príobháideacha seo.</value>
+    <value>Níl aon seoltaí ríomhphoist príobháideacha in úsáid agat (go fóill). Cruthaigh leasainm nua agus bain úsáid as seoladh ríomhphoist príobháideach a dtacaítear leis ag VVault. Taispeánfar anseo gach ríomhphost a fhaightear trí na seoltaí ríomhphoist príobháideacha seo.</value>
     <comment>Message when no email addresses are configured</comment>
   </data>
   <data name="NoEmailsReceivedMessage" xml:space="preserve">

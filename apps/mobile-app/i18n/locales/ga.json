@@ -35,7 +35,7 @@
       "unknownError": "Tharla earráid anaithnid.",
       "unknownErrorTryAgain": "Tharla earráid anaithnid. Déan iarracht arís.",
       "vaultTooLarge": "Tá an cruinneachán rómhór don fhreastalaí le glacadh leis. Bain triail as roinnt míreanna nó ceangaltán a bhaint chun an méid a laghdú agus déan iarracht arís.",
-      "serverVersionTooOld": "Ní mór an freastalaí VelixVault a nuashonrú go leagan níos nuaí chun an ghné seo a úsáid. Téigh i dteagmháil le riarthóir an fhreastalaí más gá duit cabhair."
+      "serverVersionTooOld": "Ní mór an freastalaí VVault a nuashonrú go leagan níos nuaí chun an ghné seo a úsáid. Téigh i dteagmháil le riarthóir an fhreastalaí más gá duit cabhair."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Cuir isteach cód fíordheimhnithe 6 dhigit bailí le do thoil",
       "incorrectPassword": "Pasfhocal mícheart. Déan iarracht arís.",
       "enterPassword": "Cuir isteach do phasfhocal le do thoil",
-      "serverError": "Níorbh fhéidir teacht ar fhreastalaí VelixVault. Déan iarracht arís ar ball nó déan teagmháil leis an tacaíocht má leanann an fhadhb.",
+      "serverError": "Níorbh fhéidir teacht ar fhreastalaí VVault. Déan iarracht arís ar ball nó déan teagmháil leis an tacaíocht má leanann an fhadhb.",
       "serverErrorSelfHosted": "Níorbh fhéidir teacht ar an API. I gcás cásanna féinóstáilte, fíoraigh le do thoil go bhfuil teacht ar chríochphointe an API trí nascleanúint a dhéanamh chuige i mbrabhsálaí: ba chóir go mbeadh 'Ceart go leor' le feiceáil air.",
       "networkError": "Theip ar an iarratas líonra. Seiceáil do nasc idirlín agus déan iarracht eile.",
       "networkErrorSelfHosted": "Theip ar an iarratas líonra. Seiceáil do nasc líonra agus infhaighteacht do fhreastalaí. I gcás cásanna féinóstáilte, cinntigh go bhfuil teastas SSL bailí suiteáilte agat. Ní thacaítear le teastais féinshínithe ar ghléasanna soghluaiste ar chúiseanna slándála.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Theip ar an mbunachar sonraí criptithe a fháil",
       "usernameNotFound": "Ainm úsáideora gan aimsiú",
-      "vaultOutdated": "Tá do chruinneachán as dáta. Logáil isteach ar shuíomh gréasáin VelixVault agus lean na céimeanna.",
+      "vaultOutdated": "Tá do chruinneachán as dáta. Logáil isteach ar shuíomh gréasáin VVault agus lean na céimeanna.",
       "failedToSyncVault": "Theip ar an cruinneachán a shioncronú",
-      "versionNotSupported": "Ní thacaíonn an freastalaí leis an leagan seo den aip shoghluaiste VelixVault a thuilleadh. Nuashonraigh d'aip go dtí an leagan is déanaí.",
-      "serverVersionNotSupported": "Ní mór freastalaí VelixVault a nuashonrú go leagan níos nuaí chun an aip shoghluaiste seo a úsáid. Téigh i dteagmháil leis an bhfoireann tacaíochta más gá cabhair duit.",
-      "appOutdated": "Tá an aip seo as dáta agus ní féidir í a úsáid chun rochtain a fháil ar an leagan (níos nua) seo den chruinneachán. Nuashonraigh an aip VelixVault le leanúint ar aghaidh.",
+      "versionNotSupported": "Ní thacaíonn an freastalaí leis an leagan seo den aip shoghluaiste VVault a thuilleadh. Nuashonraigh d'aip go dtí an leagan is déanaí.",
+      "serverVersionNotSupported": "Ní mór freastalaí VVault a nuashonrú go leagan níos nuaí chun an aip shoghluaiste seo a úsáid. Téigh i dteagmháil leis an bhfoireann tacaíochta más gá cabhair duit.",
+      "appOutdated": "Tá an aip seo as dáta agus ní féidir í a úsáid chun rochtain a fháil ar an leagan (níos nua) seo den chruinneachán. Nuashonraigh an aip VVault le leanúint ar aghaidh.",
       "passwordChanged": "Tá do phasfhocal athraithe ó logáil tú isteach an uair dheireanach. Logáil isteach arís ar chúiseanna slándála.",
       "passwordChangeRequiresOnline": "Éilíonn athrú pasfhocail nasc idirlín. Déan iarracht arís agus tú ar líne."
     }
@@ -131,13 +131,13 @@
     "title": "Socruithe",
     "autofill": "Líonadh Uathoibríoch & Eochracha Pas",
     "iosAutofillSettings": {
-      "headerText": "Is féidir leat VelixVault a chumrú chun feidhmiúlacht uathlíonta pasfhocail agus eochracha pas dúchasacha a sholáthar in iOS. Lean na treoracha thíos chun é a chumasú.",
-      "passkeyNotice": "Cruthaítear pasfhocail trí iOS. Chun iad a stóráil in VelixVault, cinntigh go bhfuil an Líonadh Uathoibríoch thíos cumasaithe.",
+      "headerText": "Is féidir leat VVault a chumrú chun feidhmiúlacht uathlíonta pasfhocail agus eochracha pas dúchasacha a sholáthar in iOS. Lean na treoracha thíos chun é a chumasú.",
+      "passkeyNotice": "Cruthaítear pasfhocail trí iOS. Chun iad a stóráil in VVault, cinntigh go bhfuil an Líonadh Uathoibríoch thíos cumasaithe.",
       "howToEnable": "Conas Líonadh Uathoibríoch & Eochracha Pas a chumasú:",
       "step1": "1. Oscail Socruithe iOS tríd an gcnaipe thíos",
       "step2": "2. Téigh go \"Ginearálta\"",
       "step3": "3. Beartaigh \"Líonadh Uathoibríoch & Pasfhocail\"",
-      "step4": "4. Cumasaigh \"VelixVault\"",
+      "step4": "4. Cumasaigh \"VVault\"",
       "step5": "5. Díchumasaigh soláthraithe pasfhocal eile (m.sh. \"Pasfhocail iCloud\") chun coimhlintí a sheachaint",
       "openIosSettings": "Oscail Socruithe iOS",
       "alreadyConfigured": "Tá sé cumraithe agam cheana féin"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Gné Thurgnamhach",
       "warningDescription": "Tá tacaíocht uathlíonta agus eochairfhocail le haghaidh Android i riocht turgnamhach faoi láthair.",
       "warningLink": "Léigh tuilleadh faoi anseo",
-      "headerText": "Is féidir leat VelixVault a chumrú chun feidhmiúlacht uathlíonta pasfhocail agus eochracha pas dúchasacha a sholáthar in Android. Lean na treoracha thíos chun é a chumasú.",
-      "passkeyNotice": "Cruthaítear pasfhocail trí Bhainisteoir Dintiúirí Android (Android 14+). Chun iad a stóráil in VelixVault, cinntigh go bhfuil an Líonadh Uathoibríoch thíos cumasaithe.",
+      "headerText": "Is féidir leat VVault a chumrú chun feidhmiúlacht uathlíonta pasfhocail agus eochracha pas dúchasacha a sholáthar in Android. Lean na treoracha thíos chun é a chumasú.",
+      "passkeyNotice": "Cruthaítear pasfhocail trí Bhainisteoir Dintiúirí Android (Android 14+). Chun iad a stóráil in VVault, cinntigh go bhfuil an Líonadh Uathoibríoch thíos cumasaithe.",
       "howToEnable": "Conas Líonadh Uathoibríoch & Eochracha Pas a chumasú:",
-      "step1": "1. Oscail Socruithe Android tríd an gcnaipe thíos, agus athraigh an \"seirbhís uathlíonta is fearr leat\" go \"VelixVault\"",
+      "step1": "1. Oscail Socruithe Android tríd an gcnaipe thíos, agus athraigh an \"seirbhís uathlíonta is fearr leat\" go \"VVault\"",
       "openAutofillSettings": "Oscail Socruithe Uathlíonta",
       "buttonTip": "Mura n-oibríonn an cnaipe thuas, b'fhéidir go bhfuil sé blocáilte mar gheall ar shocruithe slándála. Is féidir leat dul de láimh chuig Socruithe Android → Bainistíocht Ghinearálta → Pasfhocail agus uathlíonadh.",
       "step2": "2. D’fhéadfadh sé go mbeadh gá le cumraíocht láimhe sna socruithe i gcás roinnt aipeanna, m.sh. Google Chrome, chun ligean d’aipeanna uathlíonta tríú páirtí. Mar sin féin, ba cheart go n-oibreodh formhór na n-aipeanna le huathlíonadh de réir réamhshocraithe.",
       "alreadyConfigured": "Tá sé cumraithe agam cheana féin",
       "showSearchText": "Taispeáin téacs cuardaigh",
-      "showSearchTextDescription": "Cuir an téacs a fhaigheann VelixVault ó Android san áireamh a úsáideann sé chun dintiúir chomhoiriúnacha a chuardach"
+      "showSearchTextDescription": "Cuir an téacs a fhaigheann VVault ó Android san áireamh a úsáideann sé chun dintiúir chomhoiriúnacha a chuardach"
     },
     "advancedOptions": "Roghanna Casta",
     "copyTotpOnFill": "Cóipeáil cód TOTP ar uathlíonadh",
@@ -164,7 +164,7 @@
     "autoLock": "Am Teorann Uathghlasála",
     "clipboardClear": "Glan an Ghearrthaisce",
     "clipboardClearDescription": "Glan pasfhocail chóipeáilte agus faisnéis íogair go huathoibríoch ó do ghearrthaisce tar éis tréimhse ama shonraithe.",
-    "clipboardClearAndroidWarning": "Tabhair faoi deara: tá stair na gearrthaisce cumasaithe ar roinnt gléasanna Android, rud a d'fhéadfadh súil a choinneáil ar mhíreanna a cóipeáladh roimhe seo, fiú tar éis do VelixVault an gearrthaisce a ghlanadh. Ní féidir le VelixVault ach an mhír is déanaí a athscríobh, ach d'fhéadfadh iontrálacha níos sine fanacht le feiceáil sa stair. Ar chúiseanna slándála, molaimid aon ghnéithe staire gearrthaisce a dhíchumasú i socruithe do ghléis.",
+    "clipboardClearAndroidWarning": "Tabhair faoi deara: tá stair na gearrthaisce cumasaithe ar roinnt gléasanna Android, rud a d'fhéadfadh súil a choinneáil ar mhíreanna a cóipeáladh roimhe seo, fiú tar éis do VVault an gearrthaisce a ghlanadh. Ní féidir le VVault ach an mhír is déanaí a athscríobh, ach d'fhéadfadh iontrálacha níos sine fanacht le feiceáil sa stair. Ar chúiseanna slándála, molaimid aon ghnéithe staire gearrthaisce a dhíchumasú i socruithe do ghléis.",
     "clipboardLocalOnly": "Gearrthaisce Áitiúil Amháin",
     "clipboardLocalOnlyDescription": "Coinnigh dintiúir chóipeáilte ar an ngléas seo in ionad iad a shioncronú le do ghléasanna Apple eile tríd an Ghearrthaisce Uilíoch.",
     "clipboardLocalOnlyDisabledWarning": "Agus é seo múchta, is féidir dintiúir chóipeáilte a shioncronú le do ghléasanna Apple eile (Mac, iPad, srl.) tríd an Ghearrthaisce Uilíoch.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Cumasaigh Glanadh an Ghearrthaisce Cúlra",
     "batteryOptimizationActive": "Tá optamú ceallraí ag cur bac ar thascanna cúlra",
     "batteryOptimizationDisabled": "Cumasaíodh glanadh gearrthaisce cúlra",
-    "batteryOptimizationHelpDescription": "Cuireann optamú ceallraí Android cosc ​​ar ghlanadh iontaofa an ghearrthaisce nuair a bhíonn an aip sa chúlra. Trí optamú ceallraí a dhíchumasú le haghaidh VelixVault, is féidir an ghearrthaisce cúlra a ghlanadh go beacht agus deonaítear na ceadanna aláraim riachtanacha go huathoibríoch.",
+    "batteryOptimizationHelpDescription": "Cuireann optamú ceallraí Android cosc ​​ar ghlanadh iontaofa an ghearrthaisce nuair a bhíonn an aip sa chúlra. Trí optamú ceallraí a dhíchumasú le haghaidh VVault, is féidir an ghearrthaisce cúlra a ghlanadh go beacht agus deonaítear na ceadanna aláraim riachtanacha go huathoibríoch.",
     "disableBatteryOptimization": "Díchumasaigh uasmhéadú ceallraí",
     "identityGenerator": "Gineadóir Céannachta",
     "passwordGenerator": "Gineadóir Pasfhocal",
     "importExport": "Iompórtáil / Easpórtáil",
     "importSectionTitle": "Iompórtáil",
-    "importSectionDescription": "Iompórtáil do phasfhocail ó bhainisteoirí pasfhocal eile nó ó easpórtáil VelixVault roimhe seo.",
+    "importSectionDescription": "Iompórtáil do phasfhocail ó bhainisteoirí pasfhocal eile nó ó easpórtáil VVault roimhe seo.",
     "importWebNote": "Chun dintiúir a allmhairiú ó bhainisteoirí pasfhocal atá ann cheana féin, logáil isteach san aip ghréasáin le do thoil. Níl an ghné allmhairithe ar fáil faoi láthair ach ar an leagan gréasáin.",
     "exportSectionTitle": "Easpórtáil",
     "exportSectionDescription": "Easpórtáil do shonraí cruinneacháin chuig comhad CSV. Is féidir an comhad seo a úsáid mar chúltaca agus is féidir é a allmhairiú isteach i mbainisteoirí pasfhocal eile freisin.",
@@ -214,7 +214,7 @@
       "24hours": "24 uair an chloig"
     },
     "language": "Teanga",
-    "languageSystemMessage": "Chun teanga an aip a athrú, cumraigh an teanga is fearr leat do VelixVault i socruithe do ghléis.",
+    "languageSystemMessage": "Chun teanga an aip a athrú, cumraigh an teanga is fearr leat do VVault i socruithe do ghléis.",
     "openSettings": "Oscail Socruithe",
     "vaultUnlockSettings": {
       "description": "Roghnaigh conas is mian leat do chruinneachán a dhíghlasáil.",
@@ -224,7 +224,7 @@
       "faceIdTouchId": "ID Aghaidh / ID dteagmháil",
       "biometricEnabled": "Tá {{biometric}} cumasaithe go rathúil anois",
       "biometricNotAvailable": "Níl {{biometric}} ar fáil",
-      "biometricDisabledMessage": "Tá {{biometric}} díchumasaithe le haghaidh VelixVault. Chun é a úsáid, cumasaigh é i socruithe do ghléis ar dtús.",
+      "biometricDisabledMessage": "Tá {{biometric}} díchumasaithe le haghaidh VVault. Chun é a úsáid, cumasaigh é i socruithe do ghléis ar dtús.",
       "biometricHelp": "Bain úsáid as bithmhéadracht chun do chruinneachán a dhíghlasáil, atá slán leis an {{keystore}}.",
       "biometricUnavailableHelp": "Níl {{biometric}} ar fáil. Tapáil chun socruithe a oscailt agus/nó téigh chuig socruithe do ghléis chun é a chumasú agus a chumrú.",
       "featureRequiresPasscode": "Éilíonn an ghné seo paschód a bheith cumasaithe ar do ghléas.",
@@ -327,7 +327,7 @@
     },
     "qrScanner": {
       "title": "Scanóir Cód QR",
-      "scanningMessage": "Scanáil cód QR VelixVault",
+      "scanningMessage": "Scanáil cód QR VVault",
       "mobileLogin": {
         "confirmTitle": "Deimhnigh Iarratas Logála Isteach",
         "confirmSubtitle": "Athfhíordheimhnigh chun logáil isteach ar ghléas eile a cheadú.",
@@ -422,7 +422,7 @@
     "enterEmailPrefix": "Cuir isteach réimír ríomhphoist",
     "selectEmailDomain": "Roghnaigh Fearann ​​Ríomhphoist",
     "privateEmailTitle": "Ríomhphost Príobháideach",
-    "privateEmailAliasVaultServer": "Freastalaí VelixVault",
+    "privateEmailAliasVaultServer": "Freastalaí VVault",
     "privateEmailDescription": "E2E criptithe, go hiomlán príobháideach.",
     "publicEmailTitle": "Soláthraithe Ríomhphoist Sealadacha Poiblí",
     "publicEmailDescription": "Príobháideacht gan ainm ach teoranta. Is féidir le duine ar bith a bhfuil an seoladh ar eolas aige ábhar an ríomhphoist a léamh.",
@@ -430,7 +430,7 @@
     "noMatchingItems": "Níl aon mhíreanna a oireann don scagaire roghnaithe.",
     "noMatchingItemsSearch": "Níl aon mhíreanna ag teacht le \"{{search}}\"",
     "noMatchingItemsWithFilter": "Níl aon mhír {{filter}} a mheaitseálann \"{{search}}\"",
-    "noItemsFound": "Níor aimsíodh aon mhír. Cruthaigh ceann le tosú. Leid: is féidir leat logáil isteach san aip ghréasáin VelixVault freisin chun dintiúir a allmhairiú ó bhainisteoirí pasfhocal eile.",
+    "noItemsFound": "Níor aimsíodh aon mhír. Cruthaigh ceann le tosú. Leid: is féidir leat logáil isteach san aip ghréasáin VVault freisin chun dintiúir a allmhairiú ó bhainisteoirí pasfhocal eile.",
     "allItemsInFolders": "Tá do chuid míreanna go léir eagraithe i bhfillteáin. Tapáil fillteán thuas chun do chuid dintiúir a fheiceáil, nó bain úsáid as an gcuardach chun míreanna sonracha a aimsiú.",
     "clearSearch": "Glan an cuardach",
     "clearFilter": "Glan an scagaire",
@@ -671,7 +671,7 @@
       "message": "Tá an leathanach seo bogtha nó scriosta.",
       "goHome": "Téigh ar ais go dtí an tús"
     },
-    "appName": "VelixVault",
+    "appName": "VVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Glasálfar an cruinneachán go huathoibríoch tar éis an ama istigh.",
       "attemptingToUnlockMessage": "Ag iarraidh díghlasáil."
@@ -691,7 +691,7 @@
       "version": "Leagan: {{version}}",
       "advancedSettings": "Socruithe ardleibhéil",
       "customProxyHeaders": "Ceanntásca seachfhreastalaí saincheaptha",
-      "customProxyHeadersDescription": "Cuir ceanntásca HTTP leis a sheolfar le gach iarratas chuig do fhreastalaí VelixVault. Is féidir iad a úsáid le haghaidh socruithe féinóstáilte taobh thiar de sheachfhreastalaí droim ar ais a sheiceálann ceanntásca saincheaptha (e.g. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Cuir ceanntásca HTTP leis a sheolfar le gach iarratas chuig do fhreastalaí VVault. Is féidir iad a úsáid le haghaidh socruithe féinóstáilte taobh thiar de sheachfhreastalaí droim ar ais a sheiceálann ceanntásca saincheaptha (e.g. Pangolin, Cloudflare Access).",
       "headerName": "Ainm an cheanntásca",
       "headerNamePlaceholder": "Ceanntásc-Saincheaptha-X",
       "headerValue": "Luach ceanntásca"
@@ -699,7 +699,7 @@
   },
   "upgrade": {
     "title": "Uasghrádú an Cruinneacháin",
-    "subtitle": "Tá VelixVault nuashonraithe agus ní mór do chruinneachán a uasghrádú. Níor cheart go dtógfadh sé seo ach cúpla soicind.",
+    "subtitle": "Tá VVault nuashonraithe agus ní mór do chruinneachán a uasghrádú. Níor cheart go dtógfadh sé seo ach cúpla soicind.",
     "versionInformation": "Faisnéis Leagan",
     "yourVault": "Do leagan cruinneachán:",
     "newVersion": "Leagan nua ar fáil:",

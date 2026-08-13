@@ -2,9 +2,9 @@
 sidebar_position: 2
 sidebar_label: "Build from Source"
 ---
-# Building VelixVault iOS App from Source
+# Building VVault iOS App from Source
 
-This guide explains how to build and install the VelixVault iOS app from source code using React Native.
+This guide explains how to build and install the VVault iOS app from source code using React Native.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ This guide explains how to build and install the VelixVault iOS app from source 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/pgpvieira-code/velixvault.git
+git clone https://github.com/pgpvieira-code/vvault.git
 ```
 
 2. Navigate to the mobile app directory:
@@ -40,7 +40,7 @@ npx pod-install
 
 5. Open the iOS workspace in Xcode:
 ```bash
-./apps/mobile-app/ios/VelixVault.xcworkspace
+./apps/mobile-app/ios/VVault.xcworkspace
 ```
 
 6. In Xcode, select a simulator or a connected physical device.

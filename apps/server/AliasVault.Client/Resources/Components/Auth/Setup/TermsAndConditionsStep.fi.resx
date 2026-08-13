@@ -31,17 +31,17 @@
   </data>
   <!-- Terms content -->
   <data name="TermsContent">
-    <value>VelixVault on suunniteltu parantamaan verkkoturvallisuuttasi ja suojaamaan yksityisyyttäsi. VelixVaultin avulla voit luoda yksilöllisiä identiteettejä ja sähköpostialiaksia eri verkkotileillesi, mikä auttaa sinua hallitsemaan henkilötietojasi ja vähentämään identiteettivarkauksien riskiä.
+    <value>VVault on suunniteltu parantamaan verkkoturvallisuuttasi ja suojaamaan yksityisyyttäsi. VVaultin avulla voit luoda yksilöllisiä identiteettejä ja sähköpostialiaksia eri verkkotileillesi, mikä auttaa sinua hallitsemaan henkilötietojasi ja vähentämään identiteettivarkauksien riskiä.
 
-Käyttämällä VelixVaultia hyväksyt seuraavat ehdot:
+Käyttämällä VVaultia hyväksyt seuraavat ehdot:
 
-1. Et käytä VelixVaultia mihinkään laittomiin tarkoituksiin, mukaan lukien, mutta ei rajoittuen, petoksiin, identiteettivarkauksiin tai oikeiden henkilöiden henkilöllisyyden anastamiseen.
+1. Et käytä VVaultia mihinkään laittomiin tarkoituksiin, mukaan lukien, mutta ei rajoittuen, petoksiin, identiteettivarkauksiin tai oikeiden henkilöiden henkilöllisyyden anastamiseen.
 
-2. Olet vastuussa tilisi ja VelixVaultin kautta luotujen aliasten luottamuksellisuuden ylläpitämisestä.
+2. Olet vastuussa tilisi ja VVaultin kautta luotujen aliasten luottamuksellisuuden ylläpitämisestä.
 
-3. VelixVault pidättää oikeuden lopettaa tilisi, jos epäilemme näiden ehtojen väärinkäyttöä tai rikkomista.
+3. VVault pidättää oikeuden lopettaa tilisi, jos epäilemme näiden ehtojen väärinkäyttöä tai rikkomista.
 
-4. Ymmärrät, että vaikka VelixVault parantaa yksityisyyttäsi, mikään järjestelmä ei ole täysin erehtymätön, ja käytät palvelua omalla vastuullasi.</value>
+4. Ymmärrät, että vaikka VVault parantaa yksityisyyttäsi, mikään järjestelmä ei ole täysin erehtymätön, ja käytät palvelua omalla vastuullasi.</value>
     <comment>Full terms and conditions content</comment>
   </data>
   <!-- Agreement checkbox -->

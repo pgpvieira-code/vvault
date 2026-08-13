@@ -75,7 +75,7 @@
     <comment>Refresh button text</comment>
   </data>
   <data name="NoEmailClaimsMessage" xml:space="preserve">
-    <value>Вы ещё не используете личные адреса электронной почты. Создайте псевдоним и получите приватный адрес от VelixVault — все письма, пришедшие на него, будут появляться здесь.</value>
+    <value>Вы ещё не используете личные адреса электронной почты. Создайте псевдоним и получите приватный адрес от VVault — все письма, пришедшие на него, будут появляться здесь.</value>
     <comment>Message when no email addresses are configured</comment>
   </data>
   <data name="NoEmailsReceivedMessage" xml:space="preserve">

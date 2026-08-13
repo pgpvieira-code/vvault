@@ -75,7 +75,7 @@
     <comment>Refresh button text</comment>
   </data>
   <data name="NoEmailClaimsMessage" xml:space="preserve">
-    <value>Nem használ privát e-mail címet (még). Hozzon létre egy új aliast, és vegye igénybe a privát e-mail címet amit az VelixVault biztosít. Minden ami ezekre a privát címekre érkezik, itt jelenik majd meg.</value>
+    <value>Nem használ privát e-mail címet (még). Hozzon létre egy új aliast, és vegye igénybe a privát e-mail címet amit az VVault biztosít. Minden ami ezekre a privát címekre érkezik, itt jelenik majd meg.</value>
     <comment>Message when no email addresses are configured</comment>
   </data>
   <data name="NoEmailsReceivedMessage" xml:space="preserve">

@@ -35,7 +35,7 @@
       "unknownError": "An unknown error occurred.",
       "unknownErrorTryAgain": "ایک نامعلوم مسئلہ پیش آ گیا ہے۔ براہِ کرم دوبارہ کوشش کریں۔",
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
-      "serverVersionTooOld": "The VelixVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help."
+      "serverVersionTooOld": "The VVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Please enter a valid 6-digit authentication code",
       "incorrectPassword": "Incorrect password. Please try again.",
       "enterPassword": "Please enter your password",
-      "serverError": "Could not reach VelixVault server. Please try again later or contact support if the problem persists.",
+      "serverError": "Could not reach VVault server. Please try again later or contact support if the problem persists.",
       "serverErrorSelfHosted": "Could not reach the API. For self-hosted instances, please verify the API endpoint is reachable by navigating to it in a browser: it should display 'OK'.",
       "networkError": "Network request failed. Please check your internet connection and try again.",
       "networkErrorSelfHosted": "Network request failed. Check your network connection and server availability. For self-hosted instances, please ensure you have a valid SSL certificate installed. Self-signed certificates are not supported on mobile devices for security reasons.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Failed to get encrypted database",
       "usernameNotFound": "Username not found",
-      "vaultOutdated": "Your vault is outdated. Please login on the VelixVault website and follow the steps.",
+      "vaultOutdated": "Your vault is outdated. Please login on the VVault website and follow the steps.",
       "failedToSyncVault": "Failed to sync vault",
-      "versionNotSupported": "This version of the VelixVault mobile app is not supported by the server anymore. Please update your app to the latest version.",
-      "serverVersionNotSupported": "The VelixVault server needs to be updated to a newer version in order to use this mobile app. Please contact support if you need help.",
-      "appOutdated": "This app is outdated and cannot be used to access this (newer) vault version. Please update the VelixVault app to continue.",
+      "versionNotSupported": "This version of the VVault mobile app is not supported by the server anymore. Please update your app to the latest version.",
+      "serverVersionNotSupported": "The VVault server needs to be updated to a newer version in order to use this mobile app. Please contact support if you need help.",
+      "appOutdated": "This app is outdated and cannot be used to access this (newer) vault version. Please update the VVault app to continue.",
       "passwordChanged": "Your password has changed since the last time you logged in. Please login again for security reasons.",
       "passwordChangeRequiresOnline": "Password change requires an internet connection. Please try again when online."
     }
@@ -131,13 +131,13 @@
     "title": "Settings",
     "autofill": "Autofill & Passkeys",
     "iosAutofillSettings": {
-      "headerText": "You can configure VelixVault to provide native password and passkey autofill functionality in iOS. Follow the instructions below to enable it.",
-      "passkeyNotice": "Passkeys are created through iOS. To store them in VelixVault, ensure Autofill below is enabled.",
+      "headerText": "You can configure VVault to provide native password and passkey autofill functionality in iOS. Follow the instructions below to enable it.",
+      "passkeyNotice": "Passkeys are created through iOS. To store them in VVault, ensure Autofill below is enabled.",
       "howToEnable": "How to enable Autofill & Passkeys:",
       "step1": "1. Open iOS Settings via the button below",
       "step2": "2. Go to \"General\"",
       "step3": "3. Tap \"AutoFill & Passwords\"",
-      "step4": "4. Enable \"VelixVault\"",
+      "step4": "4. Enable \"VVault\"",
       "step5": "5. Disable other password providers (e.g. \"iCloud Passwords\") to avoid conflicts",
       "openIosSettings": "Open iOS Settings",
       "alreadyConfigured": "I already configured it"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Experimental Feature",
       "warningDescription": "Autofill and passkey support for Android is currently in an experimental state.",
       "warningLink": "Read more about it here",
-      "headerText": "You can configure VelixVault to provide native password and passkey autofill functionality in Android. Follow the instructions below to enable it.",
-      "passkeyNotice": "Passkeys are created through Android Credential Manager (Android 14+). To store them in VelixVault, ensure Autofill below is enabled.",
+      "headerText": "You can configure VVault to provide native password and passkey autofill functionality in Android. Follow the instructions below to enable it.",
+      "passkeyNotice": "Passkeys are created through Android Credential Manager (Android 14+). To store them in VVault, ensure Autofill below is enabled.",
       "howToEnable": "How to enable Autofill & Passkeys:",
-      "step1": "1. Open Android Settings via the button below, and change the \"autofill preferred service\" to \"VelixVault\"",
+      "step1": "1. Open Android Settings via the button below, and change the \"autofill preferred service\" to \"VVault\"",
       "openAutofillSettings": "Open Autofill Settings",
       "buttonTip": "If the button above doesn't work it might be blocked because of security settings. You can manually go to Android Settings → General Management → Passwords and autofill.",
       "step2": "2. Some apps, e.g. Google Chrome, may require manual configuration in their settings to allow third-party autofill apps. However, most apps should work with autofill by default.",
       "alreadyConfigured": "I already configured it",
       "showSearchText": "Show search text",
-      "showSearchTextDescription": "Include the text VelixVault receives from Android that it uses to search for a matching credential"
+      "showSearchTextDescription": "Include the text VVault receives from Android that it uses to search for a matching credential"
     },
     "advancedOptions": "Advanced Options",
     "copyTotpOnFill": "Copy TOTP code on autofill",
@@ -164,7 +164,7 @@
     "autoLock": "Auto-lock Timeout",
     "clipboardClear": "Clear Clipboard",
     "clipboardClearDescription": "Automatically clear copied passwords and sensitive information from your clipboard after a specified time period.",
-    "clipboardClearAndroidWarning": "Note: some Android devices have clipboard history enabled, which may keep track of previously copied items, even after VelixVault clears the clipboard. VelixVault can only overwrite the most recent item, but older entries may remain visible in history. For security reasons, we recommend disabling any clipboard history features in your device settings.",
+    "clipboardClearAndroidWarning": "Note: some Android devices have clipboard history enabled, which may keep track of previously copied items, even after VVault clears the clipboard. VVault can only overwrite the most recent item, but older entries may remain visible in history. For security reasons, we recommend disabling any clipboard history features in your device settings.",
     "clipboardLocalOnly": "Local Clipboard Only",
     "clipboardLocalOnlyDescription": "Keep copied credentials on this device instead of syncing them to your other Apple devices via Universal Clipboard.",
     "clipboardLocalOnlyDisabledWarning": "With this off, copied credentials can sync to your other Apple devices (Mac, iPad, etc.) through Universal Clipboard.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Enable Background Clipboard Clearing",
     "batteryOptimizationActive": "Battery optimization is blocking background tasks",
     "batteryOptimizationDisabled": "Background clipboard clearing enabled",
-    "batteryOptimizationHelpDescription": "Android's battery optimization prevents reliable clipboard clearing when the app is in the background. Disabling battery optimization for VelixVault allows precise background clipboard clearing and automatically grants necessary alarm permissions.",
+    "batteryOptimizationHelpDescription": "Android's battery optimization prevents reliable clipboard clearing when the app is in the background. Disabling battery optimization for VVault allows precise background clipboard clearing and automatically grants necessary alarm permissions.",
     "disableBatteryOptimization": "Disable battery optimization",
     "identityGenerator": "Identity Generator",
     "passwordGenerator": "Password Generator",
     "importExport": "Import / Export",
     "importSectionTitle": "Import",
-    "importSectionDescription": "Import your passwords from other password managers or from a previous VelixVault export.",
+    "importSectionDescription": "Import your passwords from other password managers or from a previous VVault export.",
     "importWebNote": "To import credentials from existing password managers, please login to the web app. The import feature is currently only available on the web version.",
     "exportSectionTitle": "Export",
     "exportSectionDescription": "Export your vault data to a CSV file. This file can be used as a back-up and can also be imported into other password managers.",
@@ -214,7 +214,7 @@
       "24hours": "24 hours"
     },
     "language": "Language",
-    "languageSystemMessage": "To change the app language, configure the preferred language for VelixVault in your device settings.",
+    "languageSystemMessage": "To change the app language, configure the preferred language for VVault in your device settings.",
     "openSettings": "Open Settings",
     "vaultUnlockSettings": {
       "description": "Choose how you want to unlock your vault.",
@@ -224,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} is now successfully enabled",
       "biometricNotAvailable": "{{biometric}} Not Available",
-      "biometricDisabledMessage": "{{biometric}} is disabled for VelixVault. In order to use it, please enable it in your device settings first.",
+      "biometricDisabledMessage": "{{biometric}} is disabled for VVault. In order to use it, please enable it in your device settings first.",
       "biometricHelp": "Use biometrics to unlock your vault, which is secured by the {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} is not available. Tap to open settings and/or go to your device settings to enable and configure it.",
       "featureRequiresPasscode": "This feature requires a passcode to be enabled on your device.",
@@ -327,7 +327,7 @@
     },
     "qrScanner": {
       "title": "QR Code Scanner",
-      "scanningMessage": "Scan VelixVault QR code",
+      "scanningMessage": "Scan VVault QR code",
       "mobileLogin": {
         "confirmTitle": "Confirm Login Request",
         "confirmSubtitle": "Re-authenticate to approve login on another device.",
@@ -422,7 +422,7 @@
     "enterEmailPrefix": "Enter email prefix",
     "selectEmailDomain": "Select Email Domain",
     "privateEmailTitle": "Private Email",
-    "privateEmailAliasVaultServer": "VelixVault server",
+    "privateEmailAliasVaultServer": "VVault server",
     "privateEmailDescription": "E2E encrypted, fully private.",
     "publicEmailTitle": "Public Temp Email Providers",
     "publicEmailDescription": "Anonymous but limited privacy. Email content is readable by anyone that knows the address.",
@@ -430,7 +430,7 @@
     "noMatchingItems": "No items match the selected filter.",
     "noMatchingItemsSearch": "No items matching \"{{search}}\"",
     "noMatchingItemsWithFilter": "No {{filter}} items matching \"{{search}}\"",
-    "noItemsFound": "No items found. Create one to get started. Tip: you can also login to the VelixVault web app to import credentials from other password managers.",
+    "noItemsFound": "No items found. Create one to get started. Tip: you can also login to the VVault web app to import credentials from other password managers.",
     "allItemsInFolders": "All your items are organized in folders. Tap a folder above to view your credentials, or use the search to find specific items.",
     "clearSearch": "Clear search",
     "clearFilter": "Clear filter",
@@ -671,7 +671,7 @@
       "message": "This page has been moved or deleted.",
       "goHome": "Go back to the start"
     },
-    "appName": "VelixVault",
+    "appName": "VVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Vault auto-locked after timeout.",
       "attemptingToUnlockMessage": "Attempting to unlock."
@@ -691,7 +691,7 @@
       "version": "Version: {{version}}",
       "advancedSettings": "Advanced settings",
       "customProxyHeaders": "Custom proxy headers",
-      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your VelixVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Add HTTP headers that will be sent with every request to your VVault server. Can be used for self-hosted setups behind a reverse proxy that checks for custom headers (e.g. Pangolin, Cloudflare Access).",
       "headerName": "Header name",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header value"
@@ -699,7 +699,7 @@
   },
   "upgrade": {
     "title": "Upgrade Vault",
-    "subtitle": "VelixVault has updated and your vault needs to be upgraded. This should only take a few seconds.",
+    "subtitle": "VVault has updated and your vault needs to be upgraded. This should only take a few seconds.",
     "versionInformation": "Version Information",
     "yourVault": "Your vault version:",
     "newVersion": "New available version:",

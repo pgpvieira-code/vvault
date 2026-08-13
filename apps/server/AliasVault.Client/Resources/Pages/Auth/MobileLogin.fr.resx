@@ -67,11 +67,11 @@
     <comment>Modal title for mobile unlock feature</comment>
   </data>
   <data name="ScanQrCodeDescription" xml:space="preserve">
-    <value>Scannez ce code QR avec votre application mobile VelixVault pour vous connecter.</value>
+    <value>Scannez ce code QR avec votre application mobile VVault pour vous connecter.</value>
     <comment>Description instructing user to scan QR code</comment>
   </data>
   <data name="ScanQrCodeToUnlock" xml:space="preserve">
-    <value>Scannez ce code QR avec votre application mobile VelixVault pour déverrouiller votre coffre-fort.</value>
+    <value>Scannez ce code QR avec votre application mobile VVault pour déverrouiller votre coffre-fort.</value>
     <comment>Description instructing user to scan QR code to unlock</comment>
   </data>
 </root>

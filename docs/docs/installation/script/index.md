@@ -3,7 +3,7 @@ sidebar_position: 0
 sidebar_label: "Overview"
 ---
 # Self-host using Install Script (multi-container)
-The following guide will walk you through the steps to install VelixVault on your own server using the VelixVault installer script: `install.sh`. This script will pull pre-built Docker Images and do all the configuration for you while using `docker compose` in the background.
+The following guide will walk you through the steps to install VVault on your own server using the VVault installer script: `install.sh`. This script will pull pre-built Docker Images and do all the configuration for you while using `docker compose` in the background.
 
 :::info[Requirements]
 - 64-bit Linux VM with root access (Ubuntu or RHEL-based recommended)
@@ -16,10 +16,10 @@ The following guide will walk you through the steps to install VelixVault on you
 ---
 
 ## 1. Basic Installation
-1. Download the install script to a directory of your choice. All VelixVault files and directories will be created in this directory.
+1. Download the install script to a directory of your choice. All VVault files and directories will be created in this directory.
 ```bash
 # Download the install script
-curl -L -o install.sh https://github.com/pgpvieira-code/velixvault/releases/latest/download/install.sh
+curl -L -o install.sh https://github.com/pgpvieira-code/vvault/releases/latest/download/install.sh
 ```
 
 2. Make the install script executable.
@@ -31,9 +31,9 @@ chmod +x install.sh
 ```bash
 ./install.sh install
 ```
-> **Note**: VelixVault binds to ports 80 and 443 by default. If you want to change the default VelixVault ports you can do so in the `.env` file. Afterwards re-run the `./install.sh install` command to restart the containers with the new port settings.
+> **Note**: VVault binds to ports 80 and 443 by default. If you want to change the default VVault ports you can do so in the `.env` file. Afterwards re-run the `./install.sh install` command to restart the containers with the new port settings.
 
-4. After the script completes, you can access VelixVault at:
+4. After the script completes, you can access VVault at:
   - Client: `https://localhost`
   - Admin: `https://localhost/admin`
 
@@ -44,7 +44,7 @@ The default installation will create a self-signed TLS/SSL certificate and confi
 
 **Note:** mobile apps enforce SSL certificate validation at the OS level with no "Proceed anyway" option, so the certificate must be issued by a publicly recognized CA (e.g. Let's Encrypt): self-signed certificates or ones manually added to the device keystore will not work. If the web app and browser extension connect but the mobile app does not, check the validity of your SSL cert first.
 
-To generate a valid external TLS/SSL certificate for VelixVault, you can use Let's Encrypt via a built-in helper tool. In order to make this work you will need the following:
+To generate a valid external TLS/SSL certificate for VVault, you can use Let's Encrypt via a built-in helper tool. In order to make this work you will need the following:
 
 - A public IPv4 address assigned to your server
 - Port 80 and 443 on your server must be open and accessible from the internet
@@ -66,19 +66,19 @@ and then in the prompt choose option 2.
 
 ## 3. Email Server Setup
 
-VelixVault includes a built-in email server that allows you to generate email aliases on-the-fly for every website you use, and receive + read the emails straight in VelixVault.
+VVault includes a built-in email server that allows you to generate email aliases on-the-fly for every website you use, and receive + read the emails straight in VVault.
 
 :::note
-If you skip this step, VelixVault will default to use public email domains offered by SpamOK. While this still works for creating aliases, it has privacy limitations. For complete privacy and control, we recommend setting up your own domain. [Learn more about the differences between private and public email domains](../docs/private-vs-public-email).
+If you skip this step, VVault will default to use public email domains offered by SpamOK. While this still works for creating aliases, it has privacy limitations. For complete privacy and control, we recommend setting up your own domain. [Learn more about the differences between private and public email domains](../docs/private-vs-public-email).
 :::
 
 ### 3.1 Requirements
-- A **public IPv4 address** with ports 25 and 587 forwarded to your VelixVault server
+- A **public IPv4 address** with ports 25 and 587 forwarded to your VVault server
 - Open ports **25** and **587** on your server firewall for email SMTP traffic (*NOTE: some residential IP's block this, check with your ISP*).
 
 #### Verifying Port Access
 
-While the VelixVault docker container is running, use `telnet` to confirm your public IP allows access to the ports:
+While the VVault docker container is running, use `telnet` to confirm your public IP allows access to the ports:
 
 ```bash
 # Test standard SMTP port
@@ -91,10 +91,10 @@ telnet <your-server-public-ip> 587
 If successful, you'll see a connection establishment message. Press Ctrl+C to exit the telnet session.
 
 ### 3.2 DNS configuration
-Choose your configuration: primary domain vs subdomain. VelixVault can be configured under:
+Choose your configuration: primary domain vs subdomain. VVault can be configured under:
 
 - **A primary (top-level) domain**
-  Example: `your-aliasvault.net`. This allows you to receive email on `%alias%@your-aliasvault.net`.
+  Example: `your-vvault.com.br`. This allows you to receive email on `%alias%@your-vvault.com.br`.
 
 - **A subdomain of your existing domain**
   Example: `aliasvault.example.net`. This allows you to receive email on `%alias%@aliasvault.example.net`. Email sent to your main domain remains unaffected and will continue arriving in your usual inbox.
@@ -103,19 +103,19 @@ Choose your configuration: primary domain vs subdomain. VelixVault can be config
 
 #### a) Setup using a primary domain
 
-Configure the following DNS records **on your primary domain** (e.g. `your-aliasvault.net`):
+Configure the following DNS records **on your primary domain** (e.g. `your-vvault.com.br`):
 
 | Name | Type | Priority | Content                   | TTL |
 |------|------|----------|---------------------------|-----|
 | mail | A    |          | `<your-server-public-ip>` | 3600 |
-| @    | MX   | 10       | `mail.your-aliasvault.net`| 3600 |
+| @    | MX   | 10       | `mail.your-vvault.com.br`| 3600 |
 
 > Replace `<your-server-public-ip>` with your actual server IP.
 
 ##### Example
 
-- `mail.your-aliasvault.net` points to your server IP.
-- Email to `@your-aliasvault.net` will be handled by your VelixVault server.
+- `mail.your-vvault.com.br` points to your server IP.
+- Email to `@your-vvault.com.br` will be handled by your VVault server.
 
 ---
 
@@ -137,14 +137,14 @@ Configure the following DNS records **on your subdomain setup** (for example, `a
 ##### Example
 
 - `mail.aliasvault.example.com` points to your server IP.
-- Emails to `user@aliasvault.example.com` will be handled by your VelixVault server.
+- Emails to `user@aliasvault.example.com` will be handled by your VVault server.
 
-This keeps the email configuration of your primary domain (`example.com`) completely separate, so you can keep receiving email on your normal email addresses and have unique VelixVault addresses too.
+This keeps the email configuration of your primary domain (`example.com`) completely separate, so you can keep receiving email on your normal email addresses and have unique VVault addresses too.
 
 ---
 
-### 3.3 VelixVault server email domain configuration
-After setting up your DNS, continue with configuring VelixVault to let it know which email domains it should support.
+### 3.3 VVault server email domain configuration
+After setting up your DNS, continue with configuring VVault to let it know which email domains it should support.
 
 1. Run the email configuration script:
   ```bash
@@ -156,9 +156,9 @@ After setting up your DNS, continue with configuring VelixVault to let it know w
     3. Restart required services
 
 3. Once configured, you can:
-   - Create new aliases in the VelixVault client
+   - Create new aliases in the VVault client
    - Use your custom domain(s) for email addresses
-     - Note: you can configure the default domain for new aliases in the VelixVault client in Menu > Settings > Email Settings > Default Email Domain
+     - Note: you can configure the default domain for new aliases in the VVault client in Menu > Settings > Email Settings > Default Email Domain
    - Start receiving emails on your aliases
 
 :::note
@@ -185,7 +185,7 @@ If you have multiple mail domains, use a single certificate with Subject Alterna
 
 ## 4. Configure Account Registration
 
-By default, VelixVault is configured to allow public registration of new accounts. This means that anyone can create a new account on your server.
+By default, VVault is configured to allow public registration of new accounts. This means that anyone can create a new account on your server.
 
 If you want to disable public registration, you can do so by running the install script with the `configure-registration` option and then choosing option 2.
 
@@ -194,14 +194,14 @@ If you want to disable public registration, you can do so by running the install
 ```
 
 :::note
-Disabling public registration means the ability to create new accounts in the VelixVault client is disabled for everyone, including administrators. Accounts cannot be created outside of the client because of the end-to-end encryption employed by VelixVault. So make sure you have created your own account(s) before disabling public registration.
+Disabling public registration means the ability to create new accounts in the VVault client is disabled for everyone, including administrators. Accounts cannot be created outside of the client because of the end-to-end encryption employed by VVault. So make sure you have created your own account(s) before disabling public registration.
 :::
 
 ---
 
 ## 5. Configure IP logging
 
-By default, VelixVault is configured to log (anonymized) IP addresses for all authentication attempts. This is used to monitor and combat potential abuse. However for privacy reasons the last octet of the IP address is anonymized, e.g. the IP address `127.0.0.1` is logged as `127.0.0.xxx`. This is to prevent an IP address directly being linked to an individual person or household.
+By default, VVault is configured to log (anonymized) IP addresses for all authentication attempts. This is used to monitor and combat potential abuse. However for privacy reasons the last octet of the IP address is anonymized, e.g. the IP address `127.0.0.1` is logged as `127.0.0.xxx`. This is to prevent an IP address directly being linked to an individual person or household.
 
 If you want to entirely disable IP logging, you can do so by running the install script with the `configure-ip-logging` option and then choosing option 2.
 
@@ -210,7 +210,7 @@ If you want to entirely disable IP logging, you can do so by running the install
 ```
 
 :::note
-Disabling IP logging means the ability to monitor and track abusive users on your VelixVault server is disabled.
+Disabling IP logging means the ability to monitor and track abusive users on your VVault server is disabled.
 :::
 
 ---

@@ -4,7 +4,7 @@ sidebar_label: "Build from Source"
 ---
 # Building Firefox Extension from Source
 
-This guide explains how to build and install the VelixVault Firefox extension from source code.
+This guide explains how to build and install the VVault Firefox extension from source code.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ This guide explains how to build and install the VelixVault Firefox extension fr
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/pgpvieira-code/velixvault.git
+git clone https://github.com/pgpvieira-code/vvault.git
 ```
 
 2. Navigate to the Browser Extension directory:
@@ -39,7 +39,7 @@ npm run build:firefox
 2. Click "This Firefox"
 3. Click "Load Temporary Add-on"
 4. Navigate to and select the file `apps/browser-extension/dist/firefox-mv2/manifest.json`
-5. The VelixVault extension should now appear in your extensions list
+5. The VVault extension should now appear in your extensions list
 
 ## Development Mode (Optional)
 

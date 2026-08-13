@@ -2,9 +2,9 @@
 sidebar_position: 1
 sidebar_label: "Build from Source"
 ---
-# Building VelixVault Android App from Source
+# Building VVault Android App from Source
 
-This guide explains how to build and install the VelixVault Android app from source code using React Native.
+This guide explains how to build and install the VVault Android app from source code using React Native.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ This guide explains how to build and install the VelixVault Android app from sou
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/pgpvieira-code/velixvault.git
+git clone https://github.com/pgpvieira-code/vvault.git
 ```
 
 2. Navigate to the mobile app directory:

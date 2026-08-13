@@ -63,7 +63,7 @@
     <comment>Title for passkey unlock section</comment>
   </data>
   <data name="EnabledDescription" xml:space="preserve">
-    <value>Tá do phasfhocal máistir criptithe leis an eochair phas PRF agus stóráilte go háitiúil. Nuair a athlódálann tú leathanach nó cluaisín VelixVault, is féidir leat do chruinneachán a dhíghlasáil le do phasfhocal. Más mian leat díghlasáil an eochair phas a dhíchumasú, is féidir leat é sin a dhéanamh leis an gcnaipe thíos. Oibreoidh do phasfhocal máistir fós chun an cruinneachán a dhíghlasáil.</value>
+    <value>Tá do phasfhocal máistir criptithe leis an eochair phas PRF agus stóráilte go háitiúil. Nuair a athlódálann tú leathanach nó cluaisín VVault, is féidir leat do chruinneachán a dhíghlasáil le do phasfhocal. Más mian leat díghlasáil an eochair phas a dhíchumasú, is féidir leat é sin a dhéanamh leis an gcnaipe thíos. Oibreoidh do phasfhocal máistir fós chun an cruinneachán a dhíghlasáil.</value>
     <comment>Description when passkey unlock is enabled</comment>
   </data>
   <data name="DisableButton" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Button to disable passkey unlock</comment>
   </data>
   <data name="DisabledDescription" xml:space="preserve">
-    <value>De réir réamhshocraithe, ní mór duit do phasfhocal máistir a iontráil arís chun leathanach nó cluaisín VelixVault a athlódáil. Le pasfhocal, is féidir leat do chruinneachán a dhíghlasáil láithreach. Nuair a bhíonn sé cumasaithe, déantar do phasfhocal máistir a chriptiú go háitiúil ag baint úsáide as síneadh PRF an phasfhocal. Tabhair faoi deara: ní oibreoidh an pasfhocal ach don fheiste agus don bhrabhsálaí reatha ar a gcumasaíonn tú é.</value>
+    <value>De réir réamhshocraithe, ní mór duit do phasfhocal máistir a iontráil arís chun leathanach nó cluaisín VVault a athlódáil. Le pasfhocal, is féidir leat do chruinneachán a dhíghlasáil láithreach. Nuair a bhíonn sé cumasaithe, déantar do phasfhocal máistir a chriptiú go háitiúil ag baint úsáide as síneadh PRF an phasfhocal. Tabhair faoi deara: ní oibreoidh an pasfhocal ach don fheiste agus don bhrabhsálaí reatha ar a gcumasaíonn tú é.</value>
     <comment>Description when passkey unlock is disabled</comment>
   </data>
   <data name="ExperimentalWarning" xml:space="preserve">
-    <value>Tacaítear leis an ngné seo faoi láthair ag síneadh brabhsálaí VelixVault agus ag aip iOS. Beidh tacaíocht Android ag teacht go luath. Má bhíonn aon fhadhbanna agat, is féidir leat an ghné seo a dhíchumasú am ar bith.</value>
+    <value>Tacaítear leis an ngné seo faoi láthair ag síneadh brabhsálaí VVault agus ag aip iOS. Beidh tacaíocht Android ag teacht go luath. Má bhíonn aon fhadhbanna agat, is féidir leat an ghné seo a dhíchumasú am ar bith.</value>
     <comment>Warning about feature compatibility</comment>
   </data>
   <data name="EnableButton" xml:space="preserve">

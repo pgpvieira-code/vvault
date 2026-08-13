@@ -21,7 +21,7 @@
   </xsd:schema>
   <!-- Assistant messages -->
   <data name="GreatNowLetsSetupUsername">
-    <value>Kitűnő! Most állítsa be felhasználónevét az VelixVault-hoz.</value>
+    <value>Kitűnő! Most állítsa be felhasználónevét az VVault-hoz.</value>
     <comment>Assistant message about setting up username</comment>
   </data>
   <data name="EnterUsernameInstructions">
@@ -55,12 +55,12 @@
     <comment>Error message when username is empty</comment>
   </data>
   <data name="ServerCommunicationError">
-    <value>Hiba lépett fel az VelixVault szerverrel való kommunikáció során.</value>
+    <value>Hiba lépett fel az VVault szerverrel való kommunikáció során.</value>
     <comment>Error message for server communication issues</comment>
   </data>
   <!-- Alt text -->
   <data name="AssistantAvatarAlt">
-    <value>VelixVault asszisztens</value>
+    <value>VVault asszisztens</value>
     <comment>Alt text for assistant avatar image</comment>
   </data>
 </root>

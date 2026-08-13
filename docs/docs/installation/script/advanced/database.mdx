@@ -5,12 +5,12 @@ sidebar_label: "Database"
 import TOCInline from '@theme/TOCInline';
 
 # Database (install.sh)
-This page explains how to import/export on the VelixVault server database via the `./install.sh` script, and how to point VelixVault at an external PostgreSQL server.
+This page explains how to import/export on the VVault server database via the `./install.sh` script, and how to point VVault at an external PostgreSQL server.
 
 <TOCInline toc={toc} />
 
 ## Database Export
-In order to backup the VelixVault server database (which includes all encrypted user vaults as well), you can use the `install.sh` script. This streams a compressed export of the database to the file you redirect to, while the services keep running. This script has to be run in a root terminal, not using sudo.
+In order to backup the VVault server database (which includes all encrypted user vaults as well), you can use the `install.sh` script. This streams a compressed export of the database to the file you redirect to, while the services keep running. This script has to be run in a root terminal, not using sudo.
 
 ```bash
 $ ./install.sh db-export > backup.sql.gz
@@ -59,7 +59,7 @@ $ docker compose stop api admin task-runner smtp && \
 ---
 
 ## Using an external PostgreSQL server
-By default VelixVault runs a bundled PostgreSQL container and no database configuration is needed. If you prefer to use your own PostgreSQL server instead (e.g. a managed instance or a dedicated database host):
+By default VVault runs a bundled PostgreSQL container and no database configuration is needed. If you prefer to use your own PostgreSQL server instead (e.g. a managed instance or a dedicated database host):
 
 1. Set the connection settings in the `.env` file. The host must be a network address that is reachable from within the Docker containers.
 ```bash
@@ -69,7 +69,7 @@ POSTGRES_DATABASE=aliasvault
 POSTGRES_USER=aliasvault
 ```
 2. Write the password of your external database user to the `secrets/postgres_password` file.
-3. Restart VelixVault: `./install.sh restart`.
+3. Restart VVault: `./install.sh restart`.
 
 Database migrations are applied automatically on startup, so an empty external database is initialized on first start. The `db-export` and `db-import` commands described still work and will automatically use whichever database is configured in `.env`.
 

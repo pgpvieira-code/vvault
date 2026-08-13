@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "VelixVault",
-    "slug": "VelixVault",
+    "name": "VVault",
+    "slug": "VVault",
     "version": "0.31.0-alpha",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "velixvault",
+    "scheme": "vvault",
     "userInterfaceStyle": "automatic",
     "platforms": [
       "ios",
@@ -21,7 +21,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.velixvault.app"
+      "package": "com.vvault.app"
     },
     "web": {
       "bundler": "metro",

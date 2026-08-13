@@ -35,7 +35,7 @@
       "unknownError": "Der opstod en ukendt fejl.",
       "unknownErrorTryAgain": "Der opstod en ukendt fejl. Prøv venligst igen.",
       "vaultTooLarge": "Boksen er for stor til, at serveren kan acceptere. Prøv at fjerne nogle elementer eller vedhæftede filer for at reducere størrelsen og prøv igen.",
-      "serverVersionTooOld": "VelixVault-serveren skal opdateres til en nyere version for at bruge denne funktion. Kontakt venligst serveradministratoren, hvis du har brug for hjælp."
+      "serverVersionTooOld": "VVault-serveren skal opdateres til en nyere version for at bruge denne funktion. Kontakt venligst serveradministratoren, hvis du har brug for hjælp."
     }
   },
   "auth": {
@@ -66,7 +66,7 @@
       "invalidAuthCode": "Indtast venligst en gyldig 6-cifret autentificeringskode",
       "incorrectPassword": "Forkert adgangskode. Prøv venligst igen.",
       "enterPassword": "Indtast venligst din adgangskode",
-      "serverError": "Kunne ikke få forbindelse til VelixVault-serveren. Prøv igen senere eller kontakt support, hvis problemet fortsætter.",
+      "serverError": "Kunne ikke få forbindelse til VVault-serveren. Prøv igen senere eller kontakt support, hvis problemet fortsætter.",
       "serverErrorSelfHosted": "Kunne ikke få forbindelse til API'en. For selvhostede instanser skal du kontrollere, at API-endpointet er tilgængeligt ved at besøge det i en browser: det bør vise 'OK'.",
       "networkError": "Netværksanmodning mislykkedes. Tjek venligst din internetforbindelse og prøv igen.",
       "networkErrorSelfHosted": "Netværksanmodning mislykkedes. Tjek din netværksforbindelse og serverens tilgængelighed. For selvhostede instanser skal du sikre dig, at du har installeret et gyldigt SSL-certifikat. Selvsignerede certifikater understøttes ikke på mobile enheder af sikkerhedsmæssige årsager.",
@@ -97,11 +97,11 @@
     "errors": {
       "failedToGetEncryptedDatabase": "Kunne ikke hente krypteret database",
       "usernameNotFound": "Brugernavn ikke fundet",
-      "vaultOutdated": "Din boks er forældet. Log venligst ind på VelixVault-hjemmesiden og følg trinene.",
+      "vaultOutdated": "Din boks er forældet. Log venligst ind på VVault-hjemmesiden og følg trinene.",
       "failedToSyncVault": "Kunne ikke synkronisere boks",
-      "versionNotSupported": "Denne version af VelixVault-mobilappen understøttes ikke længere af serveren. Opdater venligst din app til den nyeste version.",
-      "serverVersionNotSupported": "VelixVault-serveren skal opdateres til en nyere version for at kunne bruge denne mobilapp. Kontakt venligst support, hvis du har brug for hjælp.",
-      "appOutdated": "Denne app er forældet og kan ikke bruges til at tilgå denne (nyere) boks-version. Opdater venligst VelixVault-appen for at fortsætte.",
+      "versionNotSupported": "Denne version af VVault-mobilappen understøttes ikke længere af serveren. Opdater venligst din app til den nyeste version.",
+      "serverVersionNotSupported": "VVault-serveren skal opdateres til en nyere version for at kunne bruge denne mobilapp. Kontakt venligst support, hvis du har brug for hjælp.",
+      "appOutdated": "Denne app er forældet og kan ikke bruges til at tilgå denne (nyere) boks-version. Opdater venligst VVault-appen for at fortsætte.",
       "passwordChanged": "Din adgangskode er blevet ændret, siden du sidst loggede ind. Log venligst ind igen af sikkerhedsmæssige årsager.",
       "passwordChangeRequiresOnline": "Ændring af adgangskode kræver en internetforbindelse. Prøv venligst igen, når du er online."
     }
@@ -131,13 +131,13 @@
     "title": "Indstillinger",
     "autofill": "Autofyld & Passkeys",
     "iosAutofillSettings": {
-      "headerText": "Du kan konfigurere VelixVault til at levere indbygget autofyld af adgangskoder og passkeys i iOS. Følg instruktionerne herunder for at aktivere det.",
-      "passkeyNotice": "Passkeys oprettes gennem iOS. For at gemme dem i VelixVault skal du sikre, at Autofyld herunder er aktiveret.",
+      "headerText": "Du kan konfigurere VVault til at levere indbygget autofyld af adgangskoder og passkeys i iOS. Følg instruktionerne herunder for at aktivere det.",
+      "passkeyNotice": "Passkeys oprettes gennem iOS. For at gemme dem i VVault skal du sikre, at Autofyld herunder er aktiveret.",
       "howToEnable": "Sådan aktiverer du Autofyld & Passkeys:",
       "step1": "1. Åbn iOS-indstillinger via knappen herunder",
       "step2": "2. Gå til \"Generelt\"",
       "step3": "3. Tryk på \"Autofyld & Adgangskoder\"",
-      "step4": "4. Aktiver \"VelixVault\"",
+      "step4": "4. Aktiver \"VVault\"",
       "step5": "5. Deaktiver andre adgangskodeudbydere (f.eks. \"iCloud-adgangskoder\") for at undgå konflikter",
       "openIosSettings": "Åbn iOS-indstillinger",
       "alreadyConfigured": "Jeg har allerede konfigureret det"
@@ -146,16 +146,16 @@
       "warningTitle": "⚠️ Eksperimentel funktion",
       "warningDescription": "Understøttelse af autofyld og passkeys på Android er i øjeblikket på et eksperimentelt stadie.",
       "warningLink": "Læs mere om det her",
-      "headerText": "Du kan konfigurere VelixVault til at levere indbygget autofyld af adgangskoder og passkeys i Android. Følg instruktionerne herunder for at aktivere det.",
-      "passkeyNotice": "Passkeys oprettes via Android Credential Manager (Android 14+). For at gemme dem i VelixVault skal du sikre, at Autofyld herunder er aktiveret.",
+      "headerText": "Du kan konfigurere VVault til at levere indbygget autofyld af adgangskoder og passkeys i Android. Følg instruktionerne herunder for at aktivere det.",
+      "passkeyNotice": "Passkeys oprettes via Android Credential Manager (Android 14+). For at gemme dem i VVault skal du sikre, at Autofyld herunder er aktiveret.",
       "howToEnable": "Sådan aktiverer du Autofyld & Passkeys:",
-      "step1": "1. Åbn Android-indstillinger via knappen herunder, og skift den \"foretrukne autofyld-tjeneste\" til \"VelixVault\"",
+      "step1": "1. Åbn Android-indstillinger via knappen herunder, og skift den \"foretrukne autofyld-tjeneste\" til \"VVault\"",
       "openAutofillSettings": "Åbn autofyld-indstillinger",
       "buttonTip": "Hvis knappen herover ikke virker, kan den være blokeret pga. sikkerhedsindstillinger. Du kan manuelt gå til Android-indstillinger → Generel styring → Adgangskoder og autofyld.",
       "step2": "2. Nogle apps, f.eks. Google Chrome, kan kræve manuel konfiguration i deres indstillinger for at tillade tredjeparts-autofyld-apps. De fleste apps bør dog fungere med autofyld som standard.",
       "alreadyConfigured": "Jeg har allerede konfigureret det",
       "showSearchText": "Vis søgetekst",
-      "showSearchTextDescription": "Inkluder den tekst, VelixVault modtager fra Android, som den bruger til at søge efter matchende loginoplysninger"
+      "showSearchTextDescription": "Inkluder den tekst, VVault modtager fra Android, som den bruger til at søge efter matchende loginoplysninger"
     },
     "advancedOptions": "Avancerede indstillinger",
     "copyTotpOnFill": "Kopier TOTP kode ved autofyld",
@@ -164,7 +164,7 @@
     "autoLock": "Tidsafbrydelse for autolås",
     "clipboardClear": "Ryd udklipsholder",
     "clipboardClearDescription": "Ryd automatisk kopierede adgangskoder og følsomme oplysninger fra din udklipsholder efter et bestemt tidsrum.",
-    "clipboardClearAndroidWarning": "Bemærk: Nogle Android-enheder har udklipsholder-historik aktiveret, hvilket kan gemme tidligere kopierede elementer, selv efter VelixVault har ryddet udklipsholderen. VelixVault kan kun overskrive det seneste element, men ældre indlæg kan forblive synlige i historikken. Af sikkerhedsmæssige årsager anbefaler vi at deaktivere alle funktioner til udklipsholder-historik i din enheds indstillinger.",
+    "clipboardClearAndroidWarning": "Bemærk: Nogle Android-enheder har udklipsholder-historik aktiveret, hvilket kan gemme tidligere kopierede elementer, selv efter VVault har ryddet udklipsholderen. VVault kan kun overskrive det seneste element, men ældre indlæg kan forblive synlige i historikken. Af sikkerhedsmæssige årsager anbefaler vi at deaktivere alle funktioner til udklipsholder-historik i din enheds indstillinger.",
     "clipboardLocalOnly": "Kun Lokal Udklipsholder",
     "clipboardLocalOnlyDescription": "Behold kopierede legitimationsoplysninger på denne enhed i stedet for at synkronisere dem med dine andre Apple-enheder via Universal Udklipsholder.",
     "clipboardLocalOnlyDisabledWarning": "Med dette fra kan kopierede legitimationsoplysninger synkronisere til dine andre Apple-enheder (Mac, iPad osv.) via Universal Udklipsholder.",
@@ -178,13 +178,13 @@
     "batteryOptimizationHelpTitle": "Aktiver rydning af udklipsholder i baggrunden",
     "batteryOptimizationActive": "Batterioptimering blokerer baggrundsopgaver",
     "batteryOptimizationDisabled": "Rydning af udklipsholder i baggrunden er aktiveret",
-    "batteryOptimizationHelpDescription": "Androids batterioptimering forhindrer pålidelig rydning af udklipsholderen, når appen er i baggrunden. Ved at deaktivere batterioptimering for VelixVault muliggøres præcis rydning af udklipsholderen i baggrunden, og nødvendige alarmtilladelser tildeles automatisk.",
+    "batteryOptimizationHelpDescription": "Androids batterioptimering forhindrer pålidelig rydning af udklipsholderen, når appen er i baggrunden. Ved at deaktivere batterioptimering for VVault muliggøres præcis rydning af udklipsholderen i baggrunden, og nødvendige alarmtilladelser tildeles automatisk.",
     "disableBatteryOptimization": "Deaktiver batterioptimering",
     "identityGenerator": "Identitetsgenerator",
     "passwordGenerator": "Adgangskodegenerator",
     "importExport": "Import / Eksport",
     "importSectionTitle": "Importer",
-    "importSectionDescription": "Importer dine adgangskoder fra andre adgangskodeadministratorer eller fra en tidligere VelixVault-eksport.",
+    "importSectionDescription": "Importer dine adgangskoder fra andre adgangskodeadministratorer eller fra en tidligere VVault-eksport.",
     "importWebNote": "For at importere loginoplysninger fra eksisterende adgangskodeadministratorer skal du logge ind på web-appen. Importfunktionen er i øjeblikket kun tilgængelig i webversionen.",
     "exportSectionTitle": "Eksport",
     "exportSectionDescription": "Eksporter dine boksdata til en CSV-fil. Denne fil kan bruges som backup og kan også importeres i andre adgangskodeadministratorer.",
@@ -214,7 +214,7 @@
       "24hours": "24 timer"
     },
     "language": "Sprog",
-    "languageSystemMessage": "For at ændre app-sproget skal du konfigurere det foretrukne sprog for VelixVault i din enheds indstillinger.",
+    "languageSystemMessage": "For at ændre app-sproget skal du konfigurere det foretrukne sprog for VVault i din enheds indstillinger.",
     "openSettings": "Åbn indstillinger",
     "vaultUnlockSettings": {
       "description": "Vælg, hvordan du vil låse din boks op.",
@@ -224,7 +224,7 @@
       "faceIdTouchId": "Face ID / Touch ID",
       "biometricEnabled": "{{biometric}} er nu aktiveret",
       "biometricNotAvailable": "{{biometric}} ikke tilgængelig",
-      "biometricDisabledMessage": "{{biometric}} er deaktiveret for VelixVault. For at bruge det skal du først aktivere det i din enheds indstillinger.",
+      "biometricDisabledMessage": "{{biometric}} er deaktiveret for VVault. For at bruge det skal du først aktivere det i din enheds indstillinger.",
       "biometricHelp": "Brug biometri til at låse din boks op, som er sikret af {{keystore}}.",
       "biometricUnavailableHelp": "{{biometric}} er ikke tilgængelig. Tryk for at åbne indstillinger og/eller gå til din enheds indstillinger for at aktivere og konfigurere det.",
       "featureRequiresPasscode": "Denne funktion kræver, at en adgangskode er aktiveret på din enhed.",
@@ -327,7 +327,7 @@
     },
     "qrScanner": {
       "title": "QR-kodescanner",
-      "scanningMessage": "Scan VelixVault QR-kode",
+      "scanningMessage": "Scan VVault QR-kode",
       "mobileLogin": {
         "confirmTitle": "Bekræft loginanmodning",
         "confirmSubtitle": "Autentificer igen for at godkende login på en anden enhed.",
@@ -422,7 +422,7 @@
     "enterEmailPrefix": "Indtast e-mail-præfiks",
     "selectEmailDomain": "Vælg e-mail-domæne",
     "privateEmailTitle": "Privat e-mail",
-    "privateEmailAliasVaultServer": "VelixVault-server",
+    "privateEmailAliasVaultServer": "VVault-server",
     "privateEmailDescription": "E2E-krypteret, fuldstændig privat.",
     "publicEmailTitle": "Offentlige midlertidige e-mail-udbydere",
     "publicEmailDescription": "Anonym men begrænset privatliv. E-mail-indhold kan læses af alle, der kender adressen.",
@@ -430,7 +430,7 @@
     "noMatchingItems": "Ingen elementer matcher det valgte filter.",
     "noMatchingItemsSearch": "Ingen elementer matcher \"{{search}}\"",
     "noMatchingItemsWithFilter": "Ingen {{filter}}-elementer matcher \"{{search}}\"",
-    "noItemsFound": "Ingen elementer fundet. Opret et for at komme i gang. Tip: Du kan også logge ind på VelixVault-webappen for at importere oplysninger fra andre adgangskodeadministratorer.",
+    "noItemsFound": "Ingen elementer fundet. Opret et for at komme i gang. Tip: Du kan også logge ind på VVault-webappen for at importere oplysninger fra andre adgangskodeadministratorer.",
     "allItemsInFolders": "Alle dine elementer er organiseret i mapper. Tryk på en mappe ovenfor for at se dine oplysninger, eller brug søgningen til at finde specifikke elementer.",
     "clearSearch": "Ryd søgning",
     "clearFilter": "Ryd filter",
@@ -671,7 +671,7 @@
       "message": "Denne side er blevet flyttet eller slettet.",
       "goHome": "Gå tilbage til starten"
     },
-    "appName": "VelixVault",
+    "appName": "VVault",
     "reinitialize": {
       "vaultAutoLockedMessage": "Boksen blev automatisk låst efter tidsafbrydelse.",
       "attemptingToUnlockMessage": "Forsøger at låse op."
@@ -691,7 +691,7 @@
       "version": "Version: {{version}}",
       "advancedSettings": "Avancerede indstillinger",
       "customProxyHeaders": "Tilpassede proxy headers",
-      "customProxyHeadersDescription": "Tilføj HTTP-headere, der sendes med alle anmodninger til din VelixVault-server. Kan bruges til selvhostede opsætninger bag en omvendt proxy, der kontrollerer brugerdefinerede overskrifter (f.eks Pangolin, Cloudflare Access).",
+      "customProxyHeadersDescription": "Tilføj HTTP-headere, der sendes med alle anmodninger til din VVault-server. Kan bruges til selvhostede opsætninger bag en omvendt proxy, der kontrollerer brugerdefinerede overskrifter (f.eks Pangolin, Cloudflare Access).",
       "headerName": "Header navn",
       "headerNamePlaceholder": "X-Custom-Header",
       "headerValue": "Header værdi"
@@ -699,7 +699,7 @@
   },
   "upgrade": {
     "title": "Opgrader boks",
-    "subtitle": "VelixVault er blevet opdateret, og din boks skal opgraderes. Dette bør kun tage få sekunder.",
+    "subtitle": "VVault er blevet opdateret, og din boks skal opgraderes. Dette bør kun tage få sekunder.",
     "versionInformation": "Versionsinformation",
     "yourVault": "Din boks-version:",
     "newVersion": "Ny tilgængelig version:",

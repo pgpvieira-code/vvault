@@ -38,7 +38,7 @@
     <comment>Title for browser extensions section</comment>
   </data>
   <data name="BrowserExtensionsDescription">
-    <value>Rozszerzenie przeglądarki VelixVault automatycznie wypełnia dane logowania na dowolnej stronie internetowej. Umożliwia też generowanie nowych aliasów przy rejestracji, dostęp do wiadomości e-mail otrzymanych na wszystkie aliasy oraz przeglądanie aliasów i tożsamości.</value>
+    <value>Rozszerzenie przeglądarki VVault automatycznie wypełnia dane logowania na dowolnej stronie internetowej. Umożliwia też generowanie nowych aliasów przy rejestracji, dostęp do wiadomości e-mail otrzymanych na wszystkie aliasy oraz przeglądanie aliasów i tożsamości.</value>
     <comment>Description for browser extensions</comment>
   </data>
   <data name="InstallButton">
@@ -55,7 +55,7 @@
     <comment>Title for mobile apps section</comment>
   </data>
   <data name="MobileAppsDescription">
-    <value>Aplikacja mobilna VelixVault umożliwia dostęp do aliasów i tożsamości w dowolnym miejscu, przeglądanie i zarządzanie otrzymanymi wiadomościami e-mail oraz generowanie nowych aliasów w dowolnym momencie. Dane użytkownika są w pełni chronione dzięki uwierzytelnianiu biometrycznemu w urządzeniu.</value>
+    <value>Aplikacja mobilna VVault umożliwia dostęp do aliasów i tożsamości w dowolnym miejscu, przeglądanie i zarządzanie otrzymanymi wiadomościami e-mail oraz generowanie nowych aliasów w dowolnym momencie. Dane użytkownika są w pełni chronione dzięki uwierzytelnianiu biometrycznemu w urządzeniu.</value>
     <comment>Description for mobile apps</comment>
   </data>
   <data name="DownloadButton">

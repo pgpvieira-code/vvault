@@ -21,11 +21,11 @@
   </xsd:schema>
   <!-- Step titles -->
   <data name="WelcomeStepTitle">
-    <value>Bienvenue dans VelixVault !</value>
+    <value>Bienvenue dans VVault !</value>
     <comment>Title for the welcome step</comment>
   </data>
   <data name="HowAliasVaultWorksStepTitle">
-    <value>Comment fonctionne VelixVault</value>
+    <value>Comment fonctionne VVault</value>
     <comment>Title for the how it works step</comment>
   </data>
   <data name="TipsStepTitle">
@@ -42,7 +42,7 @@
   </data>
   <!-- Welcome step content -->
   <data name="WelcomeMessage">
-    <value>Votre coffre-fort a été créé avec succès ! Protégez votre vie privée en ligne en créant des alias uniques pour chaque service auquel vous vous inscrivez. Apprenez comment VelixVault fonctionne, puis créez vos premiers alias sécurisés.</value>
+    <value>Votre coffre-fort a été créé avec succès ! Protégez votre vie privée en ligne en créant des alias uniques pour chaque service auquel vous vous inscrivez. Apprenez comment VVault fonctionne, puis créez vos premiers alias sécurisés.</value>
     <comment>Welcome message on the first tutorial step</comment>
   </data>
   <!-- How it works step content -->
@@ -51,7 +51,7 @@
     <comment>Introduction text for how it works step</comment>
   </data>
   <data name="HowItWorksStep1">
-    <value>VelixVault génère une identité aléatoire avec une adresse e-mail privée sécurisée</value>
+    <value>VVault génère une identité aléatoire avec une adresse e-mail privée sécurisée</value>
     <comment>First step in how it works explanation</comment>
   </data>
   <data name="HowItWorksStep2">
@@ -88,7 +88,7 @@
     <comment>Title for browser extensions and mobile apps tip</comment>
   </data>
   <data name="ExtensionsAppsTipContent">
-    <value>Installez l'extension de navigateur et l'application mobile VelixVault pour créer des alias et des formulaires de saisie automatique directement à partir de votre navigateur et de votre smartphone.</value>
+    <value>Installez l'extension de navigateur et l'application mobile VVault pour créer des alias et des formulaires de saisie automatique directement à partir de votre navigateur et de votre smartphone.</value>
     <comment>Content for browser extensions and mobile apps tip</comment>
   </data>
   <!-- Create first identity step content -->
@@ -97,7 +97,7 @@
     <comment>Title for ready to start section</comment>
   </data>
   <data name="ReadyToStartMessage">
-    <value>Maintenant que vous savez comment fonctionne VelixVault, créons votre première identité sécurisée !</value>
+    <value>Maintenant que vous savez comment fonctionne VVault, créons votre première identité sécurisée !</value>
     <comment>Message encouraging user to create first identity</comment>
   </data>
   <data name="CreateFirstIdentityButton">

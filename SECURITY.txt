@@ -1,8 +1,8 @@
-Contact: mailto:security@aliasvault.com
+Contact: mailto:security@vvault.com.br
 Expires: 2026-09-16T12:00:00.000Z
 Preferred-Languages: en
-Canonical: https://raw.githubusercontent.com/aliasvault/aliasvault/main/SECURITY.txt
-Policy: https://github.com/aliasvault/aliasvault/blob/main/SECURITY.md
+Canonical: https://raw.githubusercontent.com/pgpvieira-code/vvault/main/SECURITY.txt
+Policy: https://github.com/pgpvieira-code/vvault/blob/main/SECURITY.md
 
 # Security Policy for AliasVault
 #

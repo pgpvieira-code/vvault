@@ -4,10 +4,10 @@ sidebar_label: "Development setup"
 ---
 # Development setup
 
-How to run VelixVault from source.
+How to run VVault from source.
 
 :::note Windows users
-Note for Windows users: the VelixVault development tooling is built around Linux and bash scripts (e.g. `./scripts/dev.sh`), so some commands may need to be altered for it to work on Windows. We also advise using **WSL** (Windows Subsystem for Linux).
+Note for Windows users: the VVault development tooling is built around Linux and bash scripts (e.g. `./scripts/dev.sh`), so some commands may need to be altered for it to work on Windows. We also advise using **WSL** (Windows Subsystem for Linux).
 :::
 
 ## Prerequisites
@@ -15,7 +15,7 @@ Note for Windows users: the VelixVault development tooling is built around Linux
 - **.NET 10 SDK**: https://dotnet.microsoft.com/download/dotnet/10.0
 - **Docker Desktop**
 - **`dotnet-ef`** tools, if you'll touch the database: `dotnet tool install --global dotnet-ef`
-- **Rust** The VelixVault apps depend on the Rust core, which needs to be compiled locally. Install [rustup](https://rustup.rs), then `rustup target add wasm32-unknown-unknown` and `cargo install wasm-pack`. Build the core with `./core/rust/build.sh --browser`.
+- **Rust** The VVault apps depend on the Rust core, which needs to be compiled locally. Install [rustup](https://rustup.rs), then `rustup target add wasm32-unknown-unknown` and `cargo install wasm-pack`. Build the core with `./core/rust/build.sh --browser`.
 
 ## Running the apps
 
@@ -41,8 +41,8 @@ shows which ports it expects.
 The Admin and Client projects compile their CSS with Tailwind:
 
 ```bash
-cd apps/server/VelixVault.Admin  && npm run build:admin-css
-cd apps/server/VelixVault.Client && npm run build:client-css
+cd apps/server/VVault.Admin  && npm run build:admin-css
+cd apps/server/VVault.Client && npm run build:client-css
 ```
 
 ### Dev client settings
@@ -66,7 +66,7 @@ the client some other way:
 
 ```bash
 dotnet tool install --global Microsoft.Playwright.CLI
-pwsh apps/server/Tests/VelixVault.E2ETests/bin/Debug/net10.0/playwright.ps1 install
+pwsh apps/server/Tests/VVault.E2ETests/bin/Debug/net10.0/playwright.ps1 install
 ```
 
 ## Troubleshooting

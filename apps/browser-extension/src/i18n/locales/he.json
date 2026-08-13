@@ -1,6 +1,6 @@
 {
   "auth": {
-    "loginTitle": "כניסה ל־VelixVault",
+    "loginTitle": "כניסה ל־VVault",
     "username": "שם משתמש או דוא״ל",
     "usernamePlaceholder": "שם / name@company.com",
     "passwordPlaceholder": "נא למלא את הסיסמה שלך",
@@ -29,7 +29,7 @@
     "switchAccounts": "להחליף חשבונות?",
     "loginWithMobile": "Log in using Mobile App",
     "unlockWithMobile": "Unlock using Mobile App",
-    "scanQrCode": "Scan this QR code with your VelixVault mobile app to log in and unlock your vault.",
+    "scanQrCode": "Scan this QR code with your VVault mobile app to log in and unlock your vault.",
     "passwordAttemptsWarning": "Incorrect password. You will be logged out if you enter the wrong password {{remainingAttempts}} more times.",
     "maxAttemptsReached": "Too many failed unlock attempts. You have been logged out for security reasons."
   },
@@ -99,11 +99,11 @@
     "mergingVaultChanges": "Merging vault changes...",
     "uploadingVault": "Uploading vault...",
     "errors": {
-      "serverNotAvailable": "שרת ה־VelixVault לא זמין. נא לנסות שוב מאוחר יותר או ליצור קשר עם התמיכה אם הבעיה נשנית.",
-      "clientVersionNotSupported": "הגרסה הזאת של הרחבת הדפדפן של VelixVault לא נתמכת עוד על ידי השרת. נא לעדכן את הרחבת הדפדפן שלך לגרסה העדכנית ביותר.",
+      "serverNotAvailable": "שרת ה־VVault לא זמין. נא לנסות שוב מאוחר יותר או ליצור קשר עם התמיכה אם הבעיה נשנית.",
+      "clientVersionNotSupported": "הגרסה הזאת של הרחבת הדפדפן של VVault לא נתמכת עוד על ידי השרת. נא לעדכן את הרחבת הדפדפן שלך לגרסה העדכנית ביותר.",
       "browserExtensionOutdated": "הרחבת הדפדפן הזאת לא עדכנית ואי אפשר להשתמש בה כדי לגשת לכספת הזאת. נא לעדכן את הרחבת הדפדפן הזאת כדי להמשיך.",
-      "serverVersionNotSupported": "יש לעדכן את שרת VelixVault לגרסה חדשה יותר כדי להשתמש בהרחבת הדפדפן הזאת. נא ליצור קשר עם התמיכה לקבלת עזרה.",
-      "serverVersionTooOld": "The VelixVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help.",
+      "serverVersionNotSupported": "יש לעדכן את שרת VVault לגרסה חדשה יותר כדי להשתמש בהרחבת הדפדפן הזאת. נא ליצור קשר עם התמיכה לקבלת עזרה.",
+      "serverVersionTooOld": "The VVault server needs to be updated to a newer version in order to use this feature. Please contact the server admin if you need help.",
       "unknownError": "אירעה שגיאה לא ידועה",
       "unknownErrorTryAgain": "אירעה שגיאה לא ידועה, נא לנסות שוב.",
       "vaultNotAvailable": "הכספת לא זמינה",
@@ -114,7 +114,7 @@
       "vaultTooLarge": "The vault is too large for the server to accept. Try to remove some items or attachments to reduce the size and try again.",
       "vaultSyncTimeout": "Vault sync timed out. This can happen when the vault is large or the internet connection is slow. Please try again.",
       "invalidCode": "נא למלא קוד אימות באורך 6 ספרות.",
-      "serverError": "לא ניתן ליצור קשר עם השרת של VelixVault. נא לנסות שוב מאוחר יותר או ליצור קשר עם התמיכה אם הבעיה נשנית.",
+      "serverError": "לא ניתן ליצור קשר עם השרת של VVault. נא לנסות שוב מאוחר יותר או ליצור קשר עם התמיכה אם הבעיה נשנית.",
       "wrongPassword": "סיסמה שגויה. נא לנסות שוב.",
       "sessionExpired": "תוקף ההפעלה שלך פג. נא להיכנס מחדש.",
       "mobileLoginRequestExpired": "Mobile login request timed out. Please reload the page and try again."
@@ -148,7 +148,7 @@
   "content": {
     "or": "או",
     "new": "חדש",
-    "vaultLocked": "VelixVault נעול.",
+    "vaultLocked": "VVault נעול.",
     "creatingNewAlias": "נוצר כינוי חדש",
     "creatingNewCredential": "Creating new credential",
     "noMatchesFound": "לא נמצאו תוצאות",
@@ -165,7 +165,7 @@
     "usernamePassword": "שם משתמש/סיסמה",
     "createAndSaveAlias": "יצירה ושמירה של כינוי",
     "createAndSaveCredential": "יצירה ושמירה של פרטי גישה",
-    "randomIdentityDescription": "יצירת זהות אקראית עם כתובת דוא״ל אקראית שנגישה דרך VelixVault.",
+    "randomIdentityDescription": "יצירת זהות אקראית עם כתובת דוא״ל אקראית שנגישה דרך VVault.",
     "randomIdentityDescriptionDropdown": "זהות אקראיות עם דוא״ל אקראי",
     "manualCredentialDescription": "נא לציין כתובת דוא״ל ושם משתמש משלך.",
     "manualCredentialDescriptionDropdown": "שם משתמש וסיסמה ידניים",
@@ -177,13 +177,13 @@
     "generateNewPassword": "יצירת סיסמה חדשה",
     "togglePasswordVisibility": "הצגת/הסתרת סיסמה",
     "passwordCopiedToClipboard": "הסיסמה הועתקה ללוח הגזירים",
-    "openAliasVaultToUpgrade": "יש לפתוח את VelixVault כדי לשדרג",
+    "openAliasVaultToUpgrade": "יש לפתוח את VVault כדי לשדרג",
     "vaultUpgradeRequired": "יש לשדרג את הכספת.",
     "dismissPopup": "התעלמות מחלונית",
     "noTotpItemsFound": "No 2FA code matches found",
     "close": "סגירה",
     "savePrompt": {
-      "title": "Save to VelixVault?",
+      "title": "Save to VVault?",
       "neverForThisSite": "Never for this site",
       "addUrlTitle": "Add URL to credential?"
     }
@@ -207,8 +207,8 @@
     "folderName": "Folder Name",
     "folderNameRequired": "Folder name is required",
     "folder": "תיקייה",
-    "welcomeTitle": "ברוך בואך ל־VelixVault!",
-    "welcomeDescription": "כדי להשתמש בהרחבת הדפדפן של VelixVault: יש לנווט לאתר ולהשתמש בחלונית ההשלמה האוטומטית של VelixVault כדי ליצור פרטי גישה חדשים.",
+    "welcomeTitle": "ברוך בואך ל־VVault!",
+    "welcomeDescription": "כדי להשתמש בהרחבת הדפדפן של VVault: יש לנווט לאתר ולהשתמש בחלונית ההשלמה האוטומטית של VVault כדי ליצור פרטי גישה חדשים.",
     "currentSiteMatch": "For {{domain}}",
     "numberOfItemMatchesFound": "{{count}} items found",
     "noMatchingItems": "No items match the selected filter.",
@@ -269,7 +269,7 @@
       "Suffix": "Suffix"
     },
     "privateEmailTitle": "כתובת דוא״ל פרטית",
-    "privateEmailAliasVaultServer": "שרת VelixVault",
+    "privateEmailAliasVaultServer": "שרת VVault",
     "privateEmailDescription": "הצפנה מקצה לקצה, פרטיות מלאה.",
     "publicEmailTitle": "ספקי תיבת דוא״ל זמנית ציבוריים",
     "publicEmailDescription": "פרטיות אלמונית אך מוגבלת. תוכן הדוא״ל נגיש לכל מי שיודע את הכתובת.",
@@ -440,10 +440,10 @@
     "clipboardSettings": "הגדרות לוח הגזירים",
     "contextMenuSettings": "הגדרות תפריט הקשר",
     "passkeySettings": "Passkey Settings",
-    "contextMenuDescription": "ניתן ללחוץ על שדה עם הלחצן הימני כדי לגשת לאפשרויות VelixVault",
+    "contextMenuDescription": "ניתן ללחוץ על שדה עם הלחצן הימני כדי לגשת לאפשרויות VVault",
     "selectLanguage": "בחירת שפה",
     "serverConfiguration": "הגדרות שרת",
-    "serverConfigurationDescription": "הגדרת כתובת שרת VelixVault לעותקים באירוח עצמי",
+    "serverConfigurationDescription": "הגדרת כתובת שרת VVault לעותקים באירוח עצמי",
     "customApiUrl": "כתובת API",
     "customClientUrl": "כתובת לקוח",
     "apiUrlHint": "נקודת הקצה של ה־API (בדרך כלל כתובת לקוח + ‎/api)",
@@ -542,7 +542,7 @@
       "selectExistingLoginDescription": "Attach this passkey to an existing login credential for this site.",
       "attachingToCredential": "Adding passkey to: {{serviceName}}",
       "attachPasskey": "Add Passkey",
-      "unsupportedAlgorithm": "This website requires a passkey type that VelixVault doesn't support."
+      "unsupportedAlgorithm": "This website requires a passkey type that VVault doesn't support."
     },
     "settings": {
       "passkeyProvider": "Passkey Provider",
@@ -567,7 +567,7 @@
   },
   "upgrade": {
     "title": "שדרוג כספת",
-    "subtitle": "VelixVault התעדכן וצריך לשדרג את הכספת שלך. הפעולה הזאת אמורה לארוך מספר שניות.",
+    "subtitle": "VVault התעדכן וצריך לשדרג את הכספת שלך. הפעולה הזאת אמורה לארוך מספר שניות.",
     "versionInformation": "פרטי גרסה",
     "yourVault": "גרסת הכספת שלך:",
     "newVersion": "הגרסה החדשה הזמינה:",

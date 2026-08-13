@@ -111,7 +111,7 @@
     <comment>Error message for session timeout</comment>
   </data>
   <data name="ConnectionFailedError" xml:space="preserve">
-    <value>Не вдалося з’єднатися із серверами VelixVault. Спробуйте ще раз (пізніше).</value>
+    <value>Не вдалося з’єднатися із серверами VVault. Спробуйте ще раз (пізніше).</value>
     <comment>Error message for server connection failure</comment>
   </data>
   <data name="WebAuthnNotSupportedError" xml:space="preserve">
