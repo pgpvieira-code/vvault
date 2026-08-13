@@ -21,14 +21,14 @@ public static class Constants
         {
             Name = "iOS",
             IconPath = "/img/mobile-icons/ios.svg",
-            DownloadUrl = "https://apps.apple.com/app/id6745490915",
+            DownloadUrl = "https://github.com/pgpvieira-code/vvault/releases",
             IsAvailable = true,
         },
         new MobileAppInfo
         {
             Name = "Android",
             IconPath = "/img/mobile-icons/android.svg",
-            DownloadUrl = "https://play.google.com/store/apps/details?id=net.aliasvault.app",
+            DownloadUrl = "https://github.com/pgpvieira-code/vvault/releases",
             IsAvailable = true,
         },
     ];

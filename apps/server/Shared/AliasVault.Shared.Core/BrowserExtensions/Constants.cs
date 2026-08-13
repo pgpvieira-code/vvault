@@ -22,35 +22,35 @@ public static class Constants
         {
             Name = "Google Chrome",
             IconPath = "/img/browser-icons/chrome.svg",
-            DownloadUrl = "https://chromewebstore.google.com/detail/aliasvault/bmoggiinmnodjphdjnmpcnlleamkfedj",
+            DownloadUrl = "https://github.com/pgpvieira-code/vvault/releases",
             IsAvailable = true,
         },
         [BrowserType.Firefox] = new BrowserExtensionInfo
         {
             Name = "Firefox",
             IconPath = "/img/browser-icons/firefox.svg",
-            DownloadUrl = "https://addons.mozilla.org/en-US/firefox/addon/aliasvault/",
+            DownloadUrl = "https://github.com/pgpvieira-code/vvault/releases",
             IsAvailable = true,
         },
         [BrowserType.Safari] = new BrowserExtensionInfo
         {
             Name = "Safari",
             IconPath = "/img/browser-icons/safari.svg",
-            DownloadUrl = "https://apps.apple.com/app/6743163173",
+            DownloadUrl = "https://github.com/pgpvieira-code/vvault/releases",
             IsAvailable = true,
         },
         [BrowserType.Edge] = new BrowserExtensionInfo
         {
             Name = "Microsoft Edge",
             IconPath = "/img/browser-icons/edge.svg",
-            DownloadUrl = "https://microsoftedge.microsoft.com/addons/detail/aliasvault/kabaanafahnjkfkplbnllebdmppdemfo",
+            DownloadUrl = "https://github.com/pgpvieira-code/vvault/releases",
             IsAvailable = true,
         },
         [BrowserType.Brave] = new BrowserExtensionInfo
         {
             Name = "Brave",
             IconPath = "/img/browser-icons/brave.svg",
-            DownloadUrl = "https://chromewebstore.google.com/detail/aliasvault/bmoggiinmnodjphdjnmpcnlleamkfedj",
+            DownloadUrl = "https://github.com/pgpvieira-code/vvault/releases",
             IsAvailable = true,
         },
     };
