@@ -92,6 +92,53 @@ estampado em letra garrafal na primeira tela que o usuário vê. Sempre buscar s
 2. `AliasVault.Client/Main/Pages/Settings/ImportExport/Components/ImportServiceAliasVault.razor` —
    `ServiceName="AliasVault"`, nome do serviço externo de onde se importa.
 
+### Admin — armadilha do filtro por caminho
+
+Uma verificação anterior concluiu que o painel admin não tinha branding nenhum. Estava errada.
+O comando era:
+
+```bash
+grep -rn "AliasVault" AliasVault.Admin | grep -vE "...|AliasVault\.[A-Z]|..."
+```
+
+A intenção do `AliasVault\.[A-Z]` era descartar namespaces. Só que **o caminho do arquivo faz parte
+de cada linha de resultado** — `AliasVault.Admin/Auth/Pages/Login.razor:8:...` — e o diretório do
+projeto se chama `AliasVault.Admin`. O filtro descartava toda linha, sempre, e o resultado zero
+parecia confirmação de limpeza.
+
+Estavam intactos: tela de login, menu superior, título da aba de todas as páginas e o **issuer do
+2FA**, que aparece no aplicativo autenticador do administrador.
+
+Ao filtrar resultados de `grep -rn`, remova o prefixo antes:
+
+```bash
+grep -rn "AliasVault" . | sed 's|^[^:]*:[0-9]*:||' | grep -vE "<padroes>"
+```
+
+### Admin — tradução para português
+
+O projeto admin **não tem infraestrutura de localização**: nenhum `.resx`, nenhum `IStringLocalizer`,
+nada registrado no `Program.cs`. As strings ficam direto no markup.
+
+A tradução foi feita no próprio markup, não adicionando a stack de localização — o painel tem um
+operador só, e a infra completa tocaria todos os arquivos e conflitaria em cada merge com o upstream.
+
+314 substituições em 48 arquivos, em duas passadas. A primeira só casava `>texto<` **na mesma linha**
+e perdeu o menu de navegação, marcado assim:
+
+```html
+<a href="...">
+    General logs
+</a>
+```
+
+A segunda passada casa a **linha inteira, literalmente** contra o mapa de tradução. Literal e nunca
+heurística: blocos `@code` são cheios de linhas que um regex lê como prosa
+(`private void Cancel()`, `else if (result.Succeeded)`).
+
+Comentários XML de documentação são pulados — `<summary>The query to filter.</summary>` é
+indistinguível de texto de interface para um regex, mas ninguém o vê.
+
 ### Extensão — `apps/browser-extension/src/i18n`
 ### Mobile — `apps/mobile-app/i18n`
 ### Admin — `apps/server/AliasVault.Admin`
