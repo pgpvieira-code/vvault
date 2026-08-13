@@ -9,8 +9,8 @@
     Title="@(TotalRecords > 0 ? $"General logs ({TotalRecords:N0})" : "General logs")"
     Description="Esta página mostra os logs recentes do sistema.">
     <CustomActions>
-        <DeleteButton OnClick="DeleteLogsWithConfirmation" ButtonText="Delete all logs" />
-        <RefreshButton OnClick="() => RefreshData(CancellationToken.None)" ButtonText="Refresh" />
+        <DeleteButton OnClick="DeleteLogsWithConfirmation" ButtonText="Excluir todos os logs" />
+        <RefreshButton OnClick="() => RefreshData(CancellationToken.None)" ButtonText="Atualizar" />
     </CustomActions>
 </PageHeader>
 

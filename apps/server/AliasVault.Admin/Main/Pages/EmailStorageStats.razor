@@ -10,7 +10,7 @@
 
 <PageHeader Title="Armazenamento de e-mails" BreadcrumbItems="BreadcrumbItems">
     <CustomActions>
-        <RefreshButton OnClick="RefreshData" ButtonText="Refresh" />
+        <RefreshButton OnClick="RefreshData" ButtonText="Atualizar" />
     </CustomActions>
 </PageHeader>
 
@@ -123,7 +123,7 @@
                         <SortableTableColumn>
                             <button @onclick="() => DeleteAttachment(attachment.Id)"
                                     class="text-red-600 hover:text-red-900 dark:text-red-400 dark:hover:text-red-300 text-sm font-medium">
-                                Delete
+                                Excluir
                             </button>
                         </SortableTableColumn>
                     </SortableTableRow>

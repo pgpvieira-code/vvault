@@ -5,7 +5,7 @@
 <LayoutPageTitle>Entrar</LayoutPageTitle>
 
 <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
-    Sign in to VVault Admin
+    Entrar no VVault Admin
 </h2>
 
 <ServerValidationErrors @ref="ServerValidationErrors" />
@@ -13,22 +13,22 @@
 @if (!IsAdminConfigured)
 {
     <MessageInfo Title="Usuário admin não configurado">
-        The admin user has not been configured yet. To set up admin access:
+        O usuário admin ainda não foi configurado. Para configurar o acesso:
         <ol class="list-decimal list-inside space-y-1 mb-3">
             <li>
-                Connect to your Docker container:
+                Conecte-se ao seu container Docker:
                 <div>
                     <code class="bg-gray-700 text-white px-1 py-0.5 rounded text-xs">$ docker compose exec -it aliasvault /bin/bash</code>
                 </div>
             </li>
             <li>
-                Run the password reset script:
+                Execute o script de redefinição de senha:
                 <div>
                     <code class="bg-gray-700 text-white px-1 py-0.5 rounded text-xs">$ aliasvault reset-admin-password</code>
                 </div>
             </li>
             <li>
-                Exit out of the container, then restart the container to apply changes:
+                Saia do container e reinicie-o para aplicar as alterações:
                 <div>
                     <code class="bg-gray-700 text-white px-1 py-0.5 rounded text-xs">$ docker compose restart</code>
                 </div>

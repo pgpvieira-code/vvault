@@ -21,7 +21,7 @@ else
         Title="Ver usuário"
         Description="Veja os detalhes do usuário abaixo.">
         <CustomActions>
-            <RefreshButton OnClick="RefreshData" ButtonText="Refresh" />
+            <RefreshButton OnClick="RefreshData" ButtonText="Atualizar" />
             <LinkButton Color="danger" Href="@($"users/{Id}/delete")" Text="Delete user" />
         </CustomActions>
     </PageHeader>
@@ -58,7 +58,7 @@ else
                                         <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Alterar nome de usuário</h4>
                                     </div>
                                     <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">
-                                        Changing a username is permanent and may affect the user's ability to log in.
+                                        Alterar o nome de usuário é permanente e pode afetar a capacidade dele de fazer login.
                                         This is typically used for account archival or when a user specifically requests a username change.
                                     </p>
                                 </div>
@@ -172,7 +172,7 @@ else
                                                 </Button>
                                                 <span class="text-sm text-gray-500 dark:text-gray-400">
                                                     <i class="fas fa-info-circle mr-1"></i>
-                                                    Blocking a user prevents them from logging in or accessing VVault
+                                                    Bloquear um usuário impede que ele faça login ou acesse o VVault
                                                 </span>
                                             </div>
                                         </td>
@@ -268,7 +268,7 @@ else
                         <h3 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">Related users (@RelatedUsersCount)</h3>
                         <p class="text-sm text-gray-500 dark:text-gray-400">
                             Other user accounts that have authenticated from the same IP addresses or IP ranges as this user.
-                            This can help identify potential duplicate accounts or related users.
+                            Isso ajuda a identificar contas duplicadas ou usuários relacionados.
                         </p>
                         <RelatedUsersTable UserId="@Id" @ref="RelatedUsersTableRef" OnCountChanged="HandleCountChanged" />
                     </div>
@@ -509,7 +509,7 @@ else
                 title: "Confirm Vault Restoration",
                 message: @"Are you sure you want to restore this specific vault and make it the active one?
 
-Important notes:
+Observações importantes:
 • The next time the user logs in, they will load this vault version.
 • If the user has changed their password recently, their password will be reverted to the one associated with this vault.
 • All active sessions will be revoked and the user will need to login again on all devices.
