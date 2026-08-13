@@ -234,8 +234,8 @@ fn available_age_ranges_starts_with_random() {
 #[test]
 fn available_languages_contains_all_dictionaries() {
     let languages = available_languages();
-    assert_eq!(languages.len(), 11);
-    for code in ["da", "de", "en", "es", "fr", "it", "nl", "ro", "sv", "ur", "fa"] {
+    assert_eq!(languages.len(), 12);
+    for code in ["da", "de", "en", "es", "fr", "it", "nl", "pt", "ro", "sv", "ur", "fa"] {
         assert!(languages.contains(&code.to_string()), "missing language {code}");
     }
 }

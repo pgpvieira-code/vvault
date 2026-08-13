@@ -133,6 +133,7 @@ pub static DICTIONARIES: &[LanguageDictionary] = &[
         (2010, 2019),
     ),
     flat_language!("nl"),
+    flat_language!("pt"),
     decade_language!(
         "ro",
         (1950, 1959),
