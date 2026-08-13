@@ -225,6 +225,45 @@ VVault sincronizar o cofre **no servidor do AliasVault**. Ambos foram apontados 
 
 **Bloqueante para distribuição**: trocar para o domínio real antes de publicar extensão ou app.
 
+## Assets — como foram gerados
+
+A arte de origem era um render 3D opaco, com o padrão xadrez de transparência **achatado nos pixels**
+(`color type 2`, sem canal alfa). O SVG que veio junto era um autotrace monocromático — um único
+`fill="#000000"` em 65 paths, sem nenhuma das cores.
+
+O fundo foi removido por floodfill a partir dos quatro cantos, com 8% de tolerância:
+
+```bash
+magick origem.png -alpha set -fuzz 8% \
+  -fill none -draw "alpha 0,0 floodfill" -draw "alpha 1253,0 floodfill" \
+  -draw "alpha 0,1253 floodfill" -draw "alpha 1253,1253 floodfill" cube-keyed.png
+```
+
+Floodfill a partir das bordas, e não `-transparent`, porque só remove fundo **conectado** — pixels
+claros dentro da arte (o néon, o display) permanecem intactos.
+
+Regras por plataforma que não são intercambiáveis:
+
+| Alvo | Exigência |
+|---|---|
+| Ícone iOS (`assets/images/icon.png`) | **Opaco.** A App Store rejeita canal alfa. Composto sobre `#0A0E0D`. |
+| Adaptive icon Android | **Transparente**, arte em ~60% do quadro para caber na zona segura do recorte |
+| Favicon, PWA, extensão | Transparente |
+
+`logo.svg` é um wrapper SVG com PNG embutido em base64, não vetor. Quantizado para 200 cores sem
+dithering: 456 KB → 127 KB, RMSE de 0,89% contra o original. Dithering **aumenta** o arquivo (267 KB),
+porque o ruído comprime mal.
+
+**Service worker mascara troca de asset.** O cliente Blazor registra `service-worker.published.js`,
+que serve os assets do cache próprio. Depois de trocar um ícone e reconstruir, a página continua
+mostrando o antigo — e `cmd+shift+R` não resolve, porque o SW intercepta antes. Para verificar de
+verdade, abrir por outra origem (`127.0.0.1` em vez de `localhost`), que não tem o SW registrado.
+Conferir o que o servidor entrega, não o que o browser mostra:
+
+```bash
+curl -s http://localhost/img/logo.svg | head -c 120
+```
+
 ## Operação local — armadilha das duas compose files
 
 `docker-compose.yml` referencia as imagens publicadas (`ghcr.io/aliasvault/*`).
