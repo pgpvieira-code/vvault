@@ -34,7 +34,7 @@ export const useApiUrl = (): {
    */
   const getDisplayUrl = (): string => {
     const cleanUrl = apiUrl.replace('https://', '').replace('http://', '').replace(':443', '').replace('/api', '');
-    return cleanUrl === 'app.aliasvault.com' ? 'aliasvault.com' : cleanUrl;
+    return cleanUrl === 'app.vvault.com.br' ? 'vvault.com.br' : cleanUrl;
   };
 
   return {
