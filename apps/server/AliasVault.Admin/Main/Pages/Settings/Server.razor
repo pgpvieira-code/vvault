@@ -7,33 +7,33 @@
 @using AliasVault.Admin.Main.Pages.Settings.Components
 @inherits MainBase
 
-<LayoutPageTitle>Server settings</LayoutPageTitle>
+<LayoutPageTitle>Configurações do servidor</LayoutPageTitle>
 
 <PageHeader
     BreadcrumbItems="@BreadcrumbItems"
-    Title="Server settings"
-    Description="Configure AliasVault server settings.">
+    Title="Configurações do servidor"
+    Description="Configure as opções do servidor VVault.">
     <CustomActions>
         <RefreshButton OnClick="RefreshData" ButtonText="Refresh" />
-        <ConfirmButton OnClick="SaveSettings">Save changes</ConfirmButton>
+        <ConfirmButton OnClick="SaveSettings">Salvar alterações</ConfirmButton>
     </CustomActions>
 </PageHeader>
 
 <div class="p-4 mb-4 mx-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Authentication Settings</h3>
+    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Configurações de autenticação</h3>
     <div class="grid gap-4 mb-4 sm:grid-cols-2 sm:gap-6 sm:mb-5">
         <div>
-            <label for="refreshTokenShort" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Short Refresh Token Lifetime (hours)</label>
+            <label for="refreshTokenShort" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Validade curta do token de atualização (horas)</label>
             <input type="number" @bind="Settings.RefreshTokenLifetimeShort" id="refreshTokenShort" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Determines how long the user stays logged in after inactivity. Used when "Remember me" is not checked during login.</p>
         </div>
         <div>
-            <label for="refreshTokenLong" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Long Refresh Token Lifetime (hours)</label>
+            <label for="refreshTokenLong" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Validade longa do token de atualização (horas)</label>
             <input type="number" @bind="Settings.RefreshTokenLifetimeLong" id="refreshTokenLong" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Determines how long the user stays logged in after inactivity. Used when "Remember me" is checked during login.</p>
         </div>
         <div>
-            <label for="maxRegistrationsPerIp" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Max Registrations per IP per 24 Hours</label>
+            <label for="maxRegistrationsPerIp" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Máximo de cadastros por IP em 24 horas</label>
             <input type="number" @bind="Settings.MaxRegistrationsPerIpPer24Hours" id="maxRegistrationsPerIp" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Maximum number of new account registrations allowed from a single IP address (/24 range) within a 24 hour period. Set to 0 to disable rate limiting. Recommended: 5-10 for most deployments.</p>
         </div>
@@ -41,20 +41,20 @@
 </div>
 
 <div class="p-4 mb-4 mx-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">General Data Retention</h3>
+    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Retenção geral de dados</h3>
     <div class="grid gap-4 mb-4 sm:grid-cols-2 sm:gap-6 sm:mb-5">
         <div>
-            <label for="generalLogRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">General Log Retention (days)</label>
+            <label for="generalLogRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Retenção geral de logs (dias)</label>
             <input type="number" @bind="Settings.GeneralLogRetentionDays" id="generalLogRetention" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Number of days to keep general logs before deletion. Set to 0 to disable automatic cleanup.</p>
+            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Dias para manter os logs gerais antes da exclusão. Use 0 para desativar a limpeza automática.</p>
         </div>
         <div>
-            <label for="authLogRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Auth Log Retention (days)</label>
+            <label for="authLogRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Retenção de logs de autenticação (dias)</label>
             <input type="number" @bind="Settings.AuthLogRetentionDays" id="authLogRetention" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Number of days to keep auth logs before deletion. Set to 0 to disable automatic cleanup.</p>
+            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Dias para manter os logs de autenticação antes da exclusão. Use 0 para desativar a limpeza automática.</p>
         </div>
         <div>
-            <label for="mobileLoginLogRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mobile Login Log Retention (days)</label>
+            <label for="mobileLoginLogRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Retenção de logs de login móvel (dias)</label>
             <input type="number" @bind="Settings.MobileLoginLogRetentionDays" id="mobileLoginLogRetention" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
                 Number of days to keep mobile login request logs before deletion. Set to 0 to disable automatic cleanup.            </p>
@@ -63,10 +63,10 @@
 </div>
 
 <div class="p-4 mb-4 mx-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Inactive User Settings</h3>
+    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Configurações de usuários inativos</h3>
     <div class="grid gap-4 mb-4 sm:grid-cols-1 sm:gap-6 sm:mb-5">
         <div>
-            <label for="markInactiveDays" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mark User as Inactive After (days)</label>
+            <label for="markInactiveDays" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Marcar usuário como inativo após (dias)</label>
             <input type="number" @bind="Settings.MarkUserInactiveAfterDays" id="markInactiveDays" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Users that have not logged in or had activity in the last number of days are marked as inactive. Other retention rules can act on this. Set to 0 to disable.</p>
         </div>
@@ -74,25 +74,25 @@
 </div>
 
 <div class="p-4 mb-4 mx-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Email Settings</h3>
+    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Configurações de e-mail</h3>
     <div class="grid gap-4 mb-4 sm:grid-cols-2 sm:gap-6 sm:mb-5">
         <div>
-            <label for="emailRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">General Email Retention (days)</label>
+            <label for="emailRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Retenção geral de e-mails (dias)</label>
             <input type="number" @bind="Settings.EmailRetentionDays" id="emailRetention" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Number of days to keep emails before deletion. This affects all emails for all users. Set to 0 to disable automatic cleanup.</p>
         </div>
         <div>
-            <label for="disabledEmailRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Disabled Email Retention (days)</label>
+            <label for="disabledEmailRetention" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Retenção de e-mails desativados (dias)</label>
             <input type="number" @bind="Settings.DisabledEmailRetentionDays" id="disabledEmailRetention" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Number of days to keep emails for disabled aliases before deletion. A disabled alias is an alias that was originally claimed by a user, but has since been changed or deleted. Set to 0 to disable automatic cleanup.</p>
         </div>
         <div>
-            <label for="maxEmails" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Max Emails per User</label>
+            <label for="maxEmails" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Máximo de e-mails por usuário</label>
             <input type="number" @bind="Settings.MaxEmailsPerUser" id="maxEmails" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Number of emails a user can have in total. Emails exceeding this limit will be deleted, oldest first. Set to 0 for unlimited emails</p>
         </div>
         <div>
-            <label for="maxEmailsInactive" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Max Emails per Inactive User</label>
+            <label for="maxEmailsInactive" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Máximo de e-mails por usuário inativo</label>
             <input type="number" @bind="Settings.MaxEmailsPerInactiveUser" id="maxEmailsInactive" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
             <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">This limit only applies to users that are marked as inactive per the Mark User as Inactive After (days) setting. Set to 0 for unlimited emails.</p>
         </div>
@@ -100,14 +100,14 @@
 </div>
 
 <div class="p-4 mb-4 mx-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Maintenance Schedule</h3>
+    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Agendamento de manutenção</h3>
     <div class="mb-4">
-        <label for="schedule" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Time</label>
+        <label for="schedule" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Horário</label>
         <input type="time" @bind="Settings.MaintenanceTime" id="schedule" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Time when maintenance tasks are run (server local time)</p>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Horário de execução das tarefas de manutenção (hora local do servidor)</p>
     </div>
     <div class="mb-4">
-        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Run on Days</label>
+        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Executar nos dias</label>
         <div class="flex flex-wrap gap-4">
             @foreach (var day in DaysOfWeek)
             {
@@ -121,13 +121,13 @@
     </div>
 
     <div class="mb-4">
-        <h4 class="mb-2 text-md font-medium text-gray-900 dark:text-white">Manual Execution</h4>
-        <ConfirmButton OnClick="RunMaintenanceTasksNow">Run Maintenance Tasks Now</ConfirmButton>
+        <h4 class="mb-2 text-md font-medium text-gray-900 dark:text-white">Execução manual</h4>
+        <ConfirmButton OnClick="RunMaintenanceTasksNow">Executar manutenção agora</ConfirmButton>
     </div>
 </div>
 
 <div class="p-4 mb-4 mx-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Maintenance History</h3>
+    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Histórico de manutenção</h3>
     <TaskRunnerHistory @ref="_taskRunnerHistoryComponent" />
 </div>
 

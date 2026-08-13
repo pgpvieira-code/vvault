@@ -2,12 +2,12 @@
 @using AliasVault.RazorComponents.Tables
 @inherits MainBase
 
-<LayoutPageTitle>System logs</LayoutPageTitle>
+<LayoutPageTitle>Logs do sistema</LayoutPageTitle>
 
 <PageHeader
     BreadcrumbItems="@BreadcrumbItems"
     Title="@(TotalRecords > 0 ? $"General logs ({TotalRecords:N0})" : "General logs")"
-    Description="This page shows an overview of recent system logs.">
+    Description="Esta página mostra os logs recentes do sistema.">
     <CustomActions>
         <DeleteButton OnClick="DeleteLogsWithConfirmation" ButtonText="Delete all logs" />
         <RefreshButton OnClick="() => RefreshData(CancellationToken.None)" ButtonText="Refresh" />
@@ -24,12 +24,12 @@
                 <div class="w-1/2 pr-2">
                     <div class="relative">
                         <SearchIcon />
-                        <input type="text" @bind-value="SearchTerm" @bind-value:event="oninput" id="search" placeholder="Search logs..." class="w-full px-4 ps-10 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
+                        <input type="text" @bind-value="SearchTerm" @bind-value:event="oninput" id="search" placeholder="Buscar logs..." class="w-full px-4 ps-10 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
                     </div>
                 </div>
                 <div class="w-1/4 px-2">
                     <select @bind="SelectedServiceName" class="w-full px-4 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
-                        <option value="">All Services</option>
+                        <option value="">Todos os serviços</option>
                         @foreach (var service in ServiceNames)
                         {
                             <option value="@service">@service</option>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="w-1/4 pl-2">
                     <select @bind="SelectedLogLevel" class="w-full px-4 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
-                        <option value="">All Levels</option>
+                        <option value="">Todos os níveis</option>
                         @foreach (var level in LogLevels)
                         {
                             <option value="@level">@level</option>

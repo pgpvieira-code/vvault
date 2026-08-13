@@ -7,7 +7,7 @@
         </Button>
         @if (EmailClaimList.Any(e => !e.Disabled))
         {
-            <Button Color="danger" OnClick="DisableAllEmailClaims">Disable All</Button>
+            <Button Color="danger" OnClick="DisableAllEmailClaims">Desativar todos</Button>
         }
     </div>
 </div>
@@ -30,11 +30,11 @@ else
                 <SortableTableColumn>
                     @if (entry.Disabled)
                     {
-                        <Button Color="success" OnClick="() => ToggleEmailClaimStatus(entry)">Enable</Button>
+                        <Button Color="success" OnClick="() => ToggleEmailClaimStatus(entry)">Ativar</Button>
                     }
                     else
                     {
-                        <Button Color="danger" OnClick="() => ToggleEmailClaimStatus(entry)">Disable</Button>
+                        <Button Color="danger" OnClick="() => ToggleEmailClaimStatus(entry)">Desativar</Button>
                     }
                 </SortableTableColumn>
             </SortableTableRow>

@@ -7,12 +7,12 @@
 @inherits MainBase
 @inject StatisticsService StatisticsService
 
-<LayoutPageTitle>All-Time Statistics</LayoutPageTitle>
+<LayoutPageTitle>Estatísticas totais</LayoutPageTitle>
 
 <PageHeader
     BreadcrumbItems="@BreadcrumbItems"
-    Title="All-Time Statistics"
-    Description="View metrics and insights into the usage totals of this AliasVault server.">
+    Title="Estatísticas totais"
+    Description="Métricas e totais de uso deste servidor VVault.">
     <CustomActions>
         <RefreshButton OnClick="RefreshData" ButtonText="Refresh" />
     </CustomActions>
@@ -24,7 +24,7 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center">
                 <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Users</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Usuários</h3>
                     @if (_totalUsers.HasValue)
                     {
                         <p class="text-2xl font-bold text-gray-900 dark:text-white">@_totalUsers.Value.ToString("N0")</p>
@@ -40,7 +40,7 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center">
                 <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Email Aliases</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Aliases de e-mail</h3>
                     @if (_totalAliases.HasValue)
                     {
                         <p class="text-2xl font-bold text-gray-900 dark:text-white">@_totalAliases.Value.ToString("N0")</p>
@@ -56,7 +56,7 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center">
                 <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Emails</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">E-mails</h3>
                     @if (_totalEmails.HasValue)
                     {
                         <p class="text-2xl font-bold text-gray-900 dark:text-white">@_totalEmails.Value.ToString("N0")</p>
@@ -72,7 +72,7 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center">
                 <div class="ml-4">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Email attachments</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Anexos de e-mail</h3>
                     @if (_totalEmailAttachments.HasValue)
                     {
                         <p class="text-2xl font-bold text-gray-900 dark:text-white">@_totalEmailAttachments.Value.ToString("N0")</p>
@@ -92,8 +92,8 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center justify-between mb-4">
                 <div>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Top Users by Storage</h3>
-                    <p class="text-sm text-gray-500 dark:text-gray-400">Users with the largest vault storage requirements</p>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Usuários com mais armazenamento</h3>
+                    <p class="text-sm text-gray-500 dark:text-gray-400">Usuários com maior uso de armazenamento</p>
                 </div>
             </div>
             @if (_topUsersByStorage != null)
@@ -132,8 +132,8 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center justify-between mb-4">
                 <div>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Top Users by Credentials</h3>
-                    <p class="text-sm text-gray-500 dark:text-gray-400">Users with the most credentials stored in their vault</p>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Usuários com mais credenciais</h3>
+                    <p class="text-sm text-gray-500 dark:text-gray-400">Usuários com mais credenciais no cofre</p>
                 </div>
             </div>
             @if (_topUsersByCredentials != null)
@@ -171,8 +171,8 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center justify-between mb-4">
                 <div>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Top Users by Aliases</h3>
-                    <p class="text-sm text-gray-500 dark:text-gray-400">Users with the most email aliases created</p>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Usuários com mais aliases</h3>
+                    <p class="text-sm text-gray-500 dark:text-gray-400">Usuários com mais aliases criados</p>
                 </div>
             </div>
             @if (_topUsersByAliases != null)
@@ -210,8 +210,8 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center justify-between mb-4">
                 <div>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Top Users by Emails</h3>
-                    <p class="text-sm text-gray-500 dark:text-gray-400">Users with the most emails stored</p>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Usuários com mais e-mails</h3>
+                    <p class="text-sm text-gray-500 dark:text-gray-400">Usuários com mais e-mails armazenados</p>
                 </div>
             </div>
             @if (_topUsersByEmails != null)
@@ -253,7 +253,7 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center justify-between mb-4">
                 <div>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Top IP Address Ranges</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Principais faixas de IP</h3>
                     <p class="text-sm text-gray-500 dark:text-gray-400">IP ranges with the most associated user accounts (last octet anonymized, successful logins only)</p>
                 </div>
             </div>
@@ -282,8 +282,8 @@
                 <svg class="mx-auto h-12 w-12 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                 </svg>
-                <h3 class="mt-2 text-sm font-medium text-gray-900 dark:text-white">No IP Address Data</h3>
-                <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">IP addresses are fully anonymized or no successful logins recorded.</p>
+                <h3 class="mt-2 text-sm font-medium text-gray-900 dark:text-white">Sem dados de endereço IP</h3>
+                <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Endereços IP totalmente anonimizados ou nenhum login bem-sucedido registrado.</p>
             </div>
         </div>
     }
@@ -292,7 +292,7 @@
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             <div class="flex items-center justify-between mb-4">
                 <div>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Top IP Address Ranges</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Principais faixas de IP</h3>
                     <p class="text-sm text-gray-500 dark:text-gray-400">IP ranges with the most associated user accounts (last octet anonymized, successful logins only)</p>
                 </div>
             </div>
@@ -313,8 +313,8 @@
                     </svg>
                 </div>
                 <div class="ml-3">
-                    <h3 class="text-sm font-medium text-red-800 dark:text-red-200">Error Loading Statistics</h3>
-                    <p class="text-sm text-red-700 dark:text-red-300 mt-1">Unable to retrieve some server statistics. Please try refreshing the page.</p>
+                    <h3 class="text-sm font-medium text-red-800 dark:text-red-200">Erro ao carregar estatísticas</h3>
+                    <p class="text-sm text-red-700 dark:text-red-300 mt-1">Não foi possível obter algumas estatísticas do servidor. Tente recarregar a página.</p>
                 </div>
             </div>
         </div>

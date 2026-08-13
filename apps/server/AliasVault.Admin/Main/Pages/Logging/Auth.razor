@@ -6,12 +6,12 @@
 @inject NavigationManager Navigation
 @implements IDisposable
 
-<LayoutPageTitle>Auth logs</LayoutPageTitle>
+<LayoutPageTitle>Logs de autenticação</LayoutPageTitle>
 
 <PageHeader
     BreadcrumbItems="@BreadcrumbItems"
     Title="@GetTitle()"
-    Description="This page shows an overview of recent auth attempts.">
+    Description="Esta página mostra as tentativas de autenticação recentes.">
     <CustomActions>
         <DeleteButton OnClick="DeleteLogsWithConfirmation" ButtonText="Delete all logs" />
         <RefreshButton OnClick="() => RefreshData(CancellationToken.None)" ButtonText="Refresh" />
@@ -28,12 +28,12 @@
                 <div class="w-1/2 pr-2">
                     <div class="relative">
                         <SearchIcon />
-                        <input type="text" @bind-value="SearchTerm" @bind-value:event="oninput" id="search" placeholder="Search logs..." class="w-full px-4 ps-10 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
+                        <input type="text" @bind-value="SearchTerm" @bind-value:event="oninput" id="search" placeholder="Buscar logs..." class="w-full px-4 ps-10 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
                     </div>
                 </div>
                 <div class="w-1/4 px-1">
                     <select @bind="SelectedEventType" class="w-full px-4 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
-                        <option value="">All event types</option>
+                        <option value="">Todos os tipos de evento</option>
                         @foreach (var eventType in Enum.GetValues<AuthEventType>())
                         {
                             <option value="@eventType">@eventType</option>

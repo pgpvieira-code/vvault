@@ -2,17 +2,17 @@
 @using AliasVault.RazorComponents.Alerts
 @using AliasVault.Shared.Models.Enums
 
-<LayoutPageTitle>Log in</LayoutPageTitle>
+<LayoutPageTitle>Entrar</LayoutPageTitle>
 
 <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
-    Sign in to AliasVault Admin
+    Sign in to VVault Admin
 </h2>
 
 <ServerValidationErrors @ref="ServerValidationErrors" />
 
 @if (!IsAdminConfigured)
 {
-    <MessageInfo Title="Admin User Not Configured">
+    <MessageInfo Title="Usuário admin não configurado">
         The admin user has not been configured yet. To set up admin access:
         <ol class="list-decimal list-inside space-y-1 mb-3">
             <li>
@@ -41,12 +41,12 @@ else
     <EditForm Model="Input" FormName="LoginForm" OnValidSubmit="LoginUser" class="mt-8 space-y-6">
         <DataAnnotationsValidator/>
         <div>
-            <label asp-for="Input.UserName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your username</label>
-            <InputTextField id="username" @bind-Value="Input.UserName" type="text" placeholder="username" />
+            <label asp-for="Input.UserName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Seu nome de usuário</label>
+            <InputTextField id="username" @bind-Value="Input.UserName" type="text" placeholder="nome de usuário" />
             <ValidationMessage For="() => Input.UserName"/>
         </div>
         <div>
-            <label asp-for="Input.Password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+            <label asp-for="Input.Password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Sua senha</label>
             <InputTextField id="password" @bind-Value="Input.Password" type="password" placeholder="••••••••" />
             <ValidationMessage For="() => Input.Password"/>
         </div>
@@ -56,12 +56,12 @@ else
                 <input id="remember" aria-describedby="remember" name="remember" type="checkbox" class="w-4 h-4 border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:focus:ring-primary-600 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600">
             </div>
             <div class="ml-3 text-sm">
-                <label for="remember" class="font-medium text-gray-900 dark:text-white">Remember me</label>
+                <label for="remember" class="font-medium text-gray-900 dark:text-white">Lembrar de mim</label>
             </div>
-            <a href="user/forgot-password" class="ml-auto text-sm text-primary-700 hover:underline dark:text-primary-500">Lost Password?</a>
+            <a href="user/forgot-password" class="ml-auto text-sm text-primary-700 hover:underline dark:text-primary-500">Perdeu a senha?</a>
         </div>
 
-        <button type="submit" class="w-full px-5 py-3 text-base font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 sm:w-auto dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Login to your account</button>
+        <button type="submit" class="w-full px-5 py-3 text-base font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 sm:w-auto dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Entre na sua conta</button>
     </EditForm>
 }
 

@@ -1,6 +1,6 @@
 <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
     <div class="flex items-center justify-between mb-4">
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Total active users</h3>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Total de usuários ativos</h3>
     </div>
     @if (IsLoading)
     {
@@ -10,28 +10,28 @@
     {
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg cursor-pointer hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors" @onclick="NavigateToUsers">
-                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Last 24 hours</p>
+                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Últimas 24 horas</p>
                 <div class="flex items-baseline gap-2">
                     <h4 class="text-2xl font-bold text-gray-900 dark:text-white">@UserStats.Last24Hours</h4>
                     <span class="text-sm text-gray-600 dark:text-gray-400" title="Returning users">(@UserStats.ReturningLast24Hours)</span>
                 </div>
             </div>
             <div class="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg cursor-pointer hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors" @onclick="NavigateToUsers">
-                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Last 3 days</p>
+                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Últimos 3 dias</p>
                 <div class="flex items-baseline gap-2">
                     <h4 class="text-2xl font-bold text-gray-900 dark:text-white">@UserStats.Last3Days</h4>
                     <span class="text-sm text-gray-600 dark:text-gray-400" title="Returning users">(@UserStats.ReturningLast3Days)</span>
                 </div>
             </div>
             <div class="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg cursor-pointer hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors" @onclick="NavigateToUsers">
-                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Last 7 days</p>
+                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Últimos 7 dias</p>
                 <div class="flex items-baseline gap-2">
                     <h4 class="text-2xl font-bold text-gray-900 dark:text-white">@UserStats.Last7Days</h4>
                     <span class="text-sm text-gray-600 dark:text-gray-400" title="Returning users">(@UserStats.ReturningLast7Days)</span>
                 </div>
             </div>
             <div class="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg cursor-pointer hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors" @onclick="NavigateToUsers">
-                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Last 30 days</p>
+                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Últimos 30 dias</p>
                 <div class="flex items-baseline gap-2">
                     <h4 class="text-2xl font-bold text-gray-900 dark:text-white">@UserStats.Last30Days</h4>
                     <span class="text-sm text-gray-600 dark:text-gray-400" title="Returning users (activity 24h after registration)">(@UserStats.ReturningLast30Days)</span>

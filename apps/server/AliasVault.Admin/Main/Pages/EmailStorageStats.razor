@@ -8,7 +8,7 @@
 @inject IAliasServerDbContextFactory ContextFactory
 @implements IDisposable
 
-<PageHeader Title="Email Storage Stats" BreadcrumbItems="BreadcrumbItems">
+<PageHeader Title="Armazenamento de e-mails" BreadcrumbItems="BreadcrumbItems">
     <CustomActions>
         <RefreshButton OnClick="RefreshData" ButtonText="Refresh" />
     </CustomActions>
@@ -38,7 +38,7 @@
             <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
                 <div class="flex items-center">
                     <div class="ml-4">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Total Emails</h3>
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Total de e-mails</h3>
                         <p class="text-2xl font-bold text-gray-900 dark:text-white">@TotalEmails.ToString("N0")</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
             <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
                 <div class="flex items-center">
                     <div class="ml-4">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Email Attachments</h3>
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Anexos de e-mail</h3>
                         <p class="text-2xl font-bold text-gray-900 dark:text-white">@TotalAttachments.ToString("N0")</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
             <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
                 <div class="flex items-center">
                     <div class="ml-4">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Storage Used</h3>
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Armazenamento usado</h3>
                         <p class="text-2xl font-bold text-gray-900 dark:text-white">@TotalStorageMB.ToString("N2") MB</p>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
     <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
         <div class="flex items-center justify-between mb-4">
             <div>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Email Attachments</h3>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Anexos de e-mail</h3>
                 <p class="text-sm text-gray-500 dark:text-gray-400">All email attachments stored in the system. The content of the attachments is encrypted with the user's public key and are unreadable by the server.</p>
             </div>
         </div>
@@ -117,7 +117,7 @@
                             }
                             else
                             {
-                                <span>Unknown</span>
+                                <span>Desconhecido</span>
                             }
                         </SortableTableColumn>
                         <SortableTableColumn>
@@ -146,8 +146,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
                 </svg>
             </div>
-            <h3 class="mt-2 text-sm font-medium text-gray-900 dark:text-white">No attachments found</h3>
-            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">No email attachments exist in the system.</p>
+            <h3 class="mt-2 text-sm font-medium text-gray-900 dark:text-white">Nenhum anexo encontrado</h3>
+            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Não há anexos de e-mail no sistema.</p>
         </div>
     }
     </div>
@@ -162,7 +162,7 @@
                     </svg>
                 </div>
                 <div class="ml-3">
-                    <h3 class="text-sm font-medium text-red-800 dark:text-red-200">Error Loading Data</h3>
+                    <h3 class="text-sm font-medium text-red-800 dark:text-red-200">Erro ao carregar dados</h3>
                     <p class="text-sm text-red-700 dark:text-red-300 mt-1">@ErrorMessage</p>
                 </div>
             </div>

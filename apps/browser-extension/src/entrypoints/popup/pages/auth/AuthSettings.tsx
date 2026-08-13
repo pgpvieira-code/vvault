@@ -228,7 +228,7 @@ const AuthSettings: React.FC = () => {
             {t('settings.serverConfiguration', 'Server Configuration')}
           </h2>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            {t('settings.serverConfigurationDescription', 'Configure the AliasVault server URL for self-hosted instances')}
+            {t('settings.serverConfigurationDescription', 'Configure the VVault server URL for self-hosted instances')}
           </p>
         </div>
 

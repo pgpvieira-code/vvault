@@ -2,12 +2,12 @@
 @using AliasVault.RazorComponents.Tables
 @inherits MainBase
 
-<LayoutPageTitle>Emails</LayoutPageTitle>
+<LayoutPageTitle>E-mails</LayoutPageTitle>
 
 <PageHeader
     BreadcrumbItems="@BreadcrumbItems"
     Title="@(TotalRecords > 0 ? $"Emails ({TotalRecords:N0})" : "Emails")"
-    Description="This page shows all received mails by this AliasVault server. All email fields except 'To' are encrypted with the public key of the user and are unreadable by the server.">
+    Description="This page shows all received mails by this VVault server. All email fields except 'To' are encrypted with the public key of the user and are unreadable by the server.">
     <CustomActions>
         <a href="email-storage-stats" class="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-600 bg-gray-100 border border-gray-300 rounded-md hover:bg-gray-200 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-gray-200 mr-3">
             <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -26,7 +26,7 @@
         <div class="mb-3">
             <div class="relative">
                 <SearchIcon />
-                <input type="text" @bind-value="SearchTerm" @bind-value:event="oninput" id="search" placeholder="Search emails..." class="w-full px-4 ps-10 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
+                <input type="text" @bind-value="SearchTerm" @bind-value:event="oninput" id="search" placeholder="Buscar e-mails..." class="w-full px-4 ps-10 py-2 border rounded text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
             </div>
         </div>
     </div>

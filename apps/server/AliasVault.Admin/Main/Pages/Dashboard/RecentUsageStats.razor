@@ -5,12 +5,12 @@
 @inherits MainBase
 @inject StatisticsService StatisticsService
 
-<LayoutPageTitle>Recent Usage Statistics</LayoutPageTitle>
+<LayoutPageTitle>Estatísticas de uso recente</LayoutPageTitle>
 
 <PageHeader
     BreadcrumbItems="@BreadcrumbItems"
-    Title="Recent Usage Statistics"
-    Description="View usage patterns from the last 72 hours.">
+    Title="Estatísticas de uso recente"
+    Description="Padrões de uso das últimas 72 horas.">
     <CustomActions>
         <RefreshButton OnClick="RefreshData" ButtonText="Refresh" />
     </CustomActions>
@@ -48,8 +48,8 @@
                     </svg>
                 </div>
                 <div class="ml-3">
-                    <h3 class="text-sm font-medium text-red-800 dark:text-red-200">Error Loading Statistics</h3>
-                    <p class="text-sm text-red-700 dark:text-red-300 mt-1">Unable to retrieve recent usage statistics. Please try refreshing the page.</p>
+                    <h3 class="text-sm font-medium text-red-800 dark:text-red-200">Erro ao carregar estatísticas</h3>
+                    <p class="text-sm text-red-700 dark:text-red-300 mt-1">Não foi possível obter as estatísticas de uso recente. Tente recarregar a página.</p>
                 </div>
             </div>
         </div>

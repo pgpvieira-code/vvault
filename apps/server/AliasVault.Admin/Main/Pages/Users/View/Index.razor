@@ -18,8 +18,8 @@ else
 {
     <PageHeader
         BreadcrumbItems="@BreadcrumbItems"
-        Title="View user"
-        Description="View details of the user below.">
+        Title="Ver usuário"
+        Description="Veja os detalhes do usuário abaixo.">
         <CustomActions>
             <RefreshButton OnClick="RefreshData" ButtonText="Refresh" />
             <LinkButton Color="danger" Href="@($"users/{Id}/delete")" Text="Delete user" />
@@ -55,7 +55,7 @@ else
                                         <svg class="w-5 h-5 text-orange-600 dark:text-orange-400 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Change Username</h4>
+                                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Alterar nome de usuário</h4>
                                     </div>
                                     <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">
                                         Changing a username is permanent and may affect the user's ability to log in.
@@ -64,8 +64,8 @@ else
                                 </div>
                                 <div class="space-y-3">
                                     <div>
-                                        <label class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">New Username</label>
-                                        <input type="text" @bind="NewUsername" placeholder="Enter new username"
+                                        <label class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Novo nome de usuário</label>
+                                        <input type="text" @bind="NewUsername" placeholder="Digite o novo nome de usuário"
                                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full max-w-md p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
                                         @if (!string.IsNullOrEmpty(UsernameValidationError))
                                         {
@@ -73,8 +73,8 @@ else
                                         }
                                     </div>
                                     <div class="flex space-x-2 pt-2">
-                                        <Button Color="danger" OnClick="ChangeUsername">Change Username</Button>
-                                        <Button Color="secondary" OnClick="CancelEditingUsername">Cancel</Button>
+                                        <Button Color="danger" OnClick="ChangeUsername">Alterar nome de usuário</Button>
+                                        <Button Color="secondary" OnClick="CancelEditingUsername">Cancelar</Button>
                                     </div>
                                 </div>
                             </div>
@@ -84,11 +84,11 @@ else
                         @if (UserUsageStats != null)
                         {
                             <div class="mb-6 bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
-                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white text-center mb-3">Usage Statistics</h4>
+                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white text-center mb-3">Estatísticas de uso</h4>
                                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                                     <div class="text-left">
                                         <div class="text-xl text-center font-semibold text-gray-900 dark:text-white">@UserUsageStats.TotalCredentials.ToString("N0")</div>
-                                        <div class="text-sm text-center text-gray-600 dark:text-gray-400">Total Credentials</div>
+                                        <div class="text-sm text-center text-gray-600 dark:text-gray-400">Total de credenciais</div>
                                         @if (UserUsageStats.RecentCredentials72h > 0)
                                         {
                                             <div class="text-xs text-center text-green-500 dark:text-green-400">(+@UserUsageStats.RecentCredentials72h.ToString("N0") in last 72h)</div>
@@ -96,7 +96,7 @@ else
                                     </div>
                                     <div class="text-left">
                                         <div class="text-xl text-center font-semibold text-gray-900 dark:text-white">@UserUsageStats.TotalActiveEmailClaims.ToString("N0")</div>
-                                        <div class="text-sm text-center text-gray-600 dark:text-gray-400">Active Email Claims</div>
+                                        <div class="text-sm text-center text-gray-600 dark:text-gray-400">Aliases de e-mail ativos</div>
                                         @if (UserUsageStats.RecentEmailClaims72h > 0)
                                         {
                                             <div class="text-xs text-center text-green-500 dark:text-green-400">(+@UserUsageStats.RecentEmailClaims72h.ToString("N0") in last 72h)</div>
@@ -108,7 +108,7 @@ else
                                     </div>
                                     <div class="text-left">
                                         <div class="text-xl text-center font-semibold text-gray-900 dark:text-white">@UserUsageStats.TotalReceivedEmails.ToString("N0")</div>
-                                        <div class="text-sm text-center text-gray-600 dark:text-gray-400">Total Received Emails</div>
+                                        <div class="text-sm text-center text-gray-600 dark:text-gray-400">Total de e-mails recebidos</div>
                                         @if (UserUsageStats.RecentReceivedEmails72h > 0)
                                         {
                                             <div class="text-xs text-center text-green-500 dark:text-green-400">(+@UserUsageStats.RecentReceivedEmails72h.ToString("N0") in last 72h)</div>
@@ -120,7 +120,7 @@ else
                                     </div>
                                     <div class="text-left">
                                         <div class="text-xl text-center font-semibold text-gray-900 dark:text-white">@UserUsageStats.TotalEmailAttachments.ToString("N0")</div>
-                                        <div class="text-sm text-center text-gray-600 dark:text-gray-400">Email Attachments</div>
+                                        <div class="text-sm text-center text-gray-600 dark:text-gray-400">Anexos de e-mail</div>
                                         @if (UserUsageStats.TotalEmailAttachmentStorageMB > 0)
                                         {
                                             <div class="text-xs text-center text-blue-500 dark:text-blue-400">@UserUsageStats.TotalEmailAttachmentStorageMB.ToString("N2") MB</div>
@@ -134,7 +134,7 @@ else
                             <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                                 <tbody>
                                     <tr class="">
-                                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Registered at</th>
+                                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Cadastrado em</th>
                                         <td class="px-4 py-3">@User.CreatedAt.ToString("yyyy-MM-dd HH:mm")</td>
                                     </tr>
                                     <tr>
@@ -145,21 +145,21 @@ else
                                                 <span class="text-gray-700 dark:text-gray-300">Authenticator key(s) active: @TwoFactorKeysCount</span>
                                                 @if (User.TwoFactorEnabled)
                                                 {
-                                                    <Button Color="danger" OnClick="DisableTwoFactor">Disable 2FA</Button>
+                                                    <Button Color="danger" OnClick="DisableTwoFactor">Desativar 2FA</Button>
                                                 }
                                                 else
                                                 {
                                                     if (TwoFactorKeysCount > 0)
                                                     {
-                                                        <Button Color="success" OnClick="EnableTwoFactor">Enable 2FA</Button>
-                                                        <Button Color="danger" OnClick="ResetTwoFactor">Remove 2FA keys</Button>
+                                                        <Button Color="success" OnClick="EnableTwoFactor">Ativar 2FA</Button>
+                                                        <Button Color="danger" OnClick="ResetTwoFactor">Remover chaves 2FA</Button>
                                                     }
                                                 }
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Account Status</th>
+                                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Status da conta</th>
                                         <td class="px-4 py-3">
                                             <div class="flex items-center space-x-2">
                                                 <StatusPill Enabled="@(!User.Blocked)" TextTrue="Active" TextFalse="Blocked" />
@@ -172,29 +172,29 @@ else
                                                 </Button>
                                                 <span class="text-sm text-gray-500 dark:text-gray-400">
                                                     <i class="fas fa-info-circle mr-1"></i>
-                                                    Blocking a user prevents them from logging in or accessing AliasVault
+                                                    Blocking a user prevents them from logging in or accessing VVault
                                                 </span>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Email Limits</th>
+                                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Limites de e-mail</th>
                                         <td class="px-4 py-3">
                                             @if (!IsEditingEmailLimits)
                                             {
                                                 <div class="flex flex-col space-y-2">
                                                     <div class="flex items-center space-x-2">
                                                         <span class="text-gray-700 dark:text-gray-300">
-                                                            <strong>Max Emails:</strong> @(User.MaxEmails == 0 ? "Unlimited" : User.MaxEmails.ToString("N0"))
+                                                            <strong>Máximo de e-mails:</strong> @(User.MaxEmails == 0 ? "Unlimited" : User.MaxEmails.ToString("N0"))
                                                         </span>
                                                     </div>
                                                     <div class="flex items-center space-x-2">
                                                         <span class="text-gray-700 dark:text-gray-300">
-                                                            <strong>Max Age:</strong> @(User.MaxEmailAgeDays == 0 ? "Unlimited" : User.MaxEmailAgeDays + " days")
+                                                            <strong>Idade máxima:</strong> @(User.MaxEmailAgeDays == 0 ? "Unlimited" : User.MaxEmailAgeDays + " days")
                                                         </span>
                                                     </div>
                                                     <div class="mt-2">
-                                                        <Button Color="primary" OnClick="@(() => StartEditingEmailLimits())">Edit Limits</Button>
+                                                        <Button Color="primary" OnClick="@(() => StartEditingEmailLimits())">Editar limites</Button>
                                                     </div>
                                                 </div>
                                             }
@@ -202,22 +202,22 @@ else
                                             {
                                                 <div class="space-y-3 p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
                                                     <div>
-                                                        <label class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Max Emails</label>
+                                                        <label class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Máximo de e-mails</label>
                                                         <div class="flex items-center space-x-2">
                                                             <input type="number" min="0" @bind="EditMaxEmails" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-32 p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
                                                             <span class="text-sm text-gray-500 dark:text-gray-400">(0 = unlimited)</span>
                                                         </div>
                                                     </div>
                                                     <div>
-                                                        <label class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Max Email Age</label>
+                                                        <label class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Idade máxima do e-mail</label>
                                                         <div class="flex items-center space-x-2">
                                                             <input type="number" min="0" @bind="EditMaxEmailAgeDays" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-32 p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
                                                             <span class="text-sm text-gray-500 dark:text-gray-400">days (0 = unlimited)</span>
                                                         </div>
                                                     </div>
                                                     <div class="flex space-x-2 pt-2">
-                                                        <Button Color="success" OnClick="SaveEmailLimits">Save</Button>
-                                                        <Button Color="secondary" OnClick="CancelEditingEmailLimits">Cancel</Button>
+                                                        <Button Color="success" OnClick="SaveEmailLimits">Salvar</Button>
+                                                        <Button Color="secondary" OnClick="CancelEditingEmailLimits">Cancelar</Button>
                                                     </div>
                                                 </div>
                                             }

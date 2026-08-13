@@ -2,12 +2,12 @@
 @inherits MainBase
 @inject ILogger<Delete> Logger
 
-<LayoutPageTitle>Delete user</LayoutPageTitle>
+<LayoutPageTitle>Excluir usuário</LayoutPageTitle>
 
 <PageHeader
     BreadcrumbItems="@BreadcrumbItems"
-    Title="Delete user"
-    Description="You can delete the user below.">
+    Title="Excluir usuário"
+    Description="Você pode excluir o usuário abaixo.">
 </PageHeader>
 
 @if (IsLoading)
@@ -24,12 +24,12 @@ else
             <div class="text-gray-900 dark:text-white">@Id</div>
         </div>
         <div class="mb-4">
-            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
+            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nome de usuário</label>
             <div class="text-gray-900 dark:text-white">@Obj?.UserName</div>
         </div>
         <div class="flex space-x-3">
-            <Button Color="danger" OnClick="DeleteConfirm">Yes, I'm sure</Button>
-            <Button Color="secondary" OnClick="Cancel">No, cancel</Button>
+            <Button Color="danger" OnClick="DeleteConfirm">Sim, tenho certeza</Button>
+            <Button Color="secondary" OnClick="Cancel">Não, cancelar</Button>
         </div>
     </div>
 }

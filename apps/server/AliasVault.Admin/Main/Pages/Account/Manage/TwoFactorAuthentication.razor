@@ -3,44 +3,44 @@
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<AdminUser> UserManager
 
-<LayoutPageTitle>Two-factor authentication (2FA)</LayoutPageTitle>
+<LayoutPageTitle>Autenticação de dois fatores (2FA)</LayoutPageTitle>
 
 @if (_is2FaEnabled)
 {
     <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">Two-factor authentication (2FA)</h3>
+        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">Autenticação de dois fatores (2FA)</h3>
 
         @if (_recoveryCodesLeft == 0)
         {
             <div class="mb-4 p-4 bg-red-100 border-l-4 border-red-500 text-red-700 dark:bg-red-900 dark:text-red-100">
-                <p class="font-bold">You have no recovery codes left.</p>
-                <p>You must <a href="account/manage/generate-recovery-codes" class="text-red-800 dark:text-red-200 underline">generate a new set of recovery codes</a> before you can log in with a recovery code.</p>
+                <p class="font-bold">Você não tem códigos de recuperação restantes.</p>
+                <p>Você precisa <a href="account/manage/generate-recovery-codes" class="text-red-800 dark:text-red-200 underline">gerar novos códigos de recuperação</a> before you can log in with a recovery code.</p>
             </div>
         }
         else if (_recoveryCodesLeft == 1)
         {
             <div class="mb-4 p-4 bg-red-100 border-l-4 border-red-500 text-red-700 dark:bg-red-900 dark:text-red-100">
-                <p class="font-bold">You have 1 recovery code left.</p>
-                <p>You can <a href="account/manage/generate-recovery-codes" class="text-red-800 dark:text-red-200 underline">generate a new set of recovery codes</a>.</p>
+                <p class="font-bold">Você tem 1 código de recuperação restante.</p>
+                <p>Você pode <a href="account/manage/generate-recovery-codes" class="text-red-800 dark:text-red-200 underline">gerar novos códigos de recuperação</a>.</p>
             </div>
         }
         else if (_recoveryCodesLeft <= 3)
         {
             <div class="mb-4 p-4 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 dark:bg-yellow-900 dark:text-yellow-100">
                 <p class="font-bold">You have @_recoveryCodesLeft recovery codes left.</p>
-                <p>You should <a href="account/manage/generate-recovery-codes" class="text-yellow-800 dark:text-yellow-200 underline">generate a new set of recovery codes</a>.</p>
+                <p>Você deveria <a href="account/manage/generate-recovery-codes" class="text-yellow-800 dark:text-yellow-200 underline">gerar novos códigos de recuperação</a>.</p>
             </div>
         }
 
         <div class="flex space-x-4">
-            <a href="account/manage/disable-2fa" class="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg text-sm focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Disable 2FA</a>
-            <a href="account/manage/generate-recovery-codes" class="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg text-sm focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Reset recovery codes</a>
+            <a href="account/manage/disable-2fa" class="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg text-sm focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Desativar 2FA</a>
+            <a href="account/manage/generate-recovery-codes" class="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg text-sm focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Redefinir códigos de recuperação</a>
         </div>
     </div>
 }
 
 <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-    <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Authenticator app</h4>
+    <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Aplicativo autenticador</h4>
     <div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
         @if (!_hasAuthenticator)
         {

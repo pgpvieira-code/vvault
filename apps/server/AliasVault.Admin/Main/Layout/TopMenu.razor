@@ -6,8 +6,8 @@
         <div class="flex justify-between items-center max-w-screen-2xl mx-auto relative">
             <div class="flex justify-start items-center">
                 <a href="@NavigationService.BaseUri" class="flex mr-14 flex-shrink-0">
-                    <img src="/img/logo.svg" class="mr-3 h-8" alt="AliasVault Logo">
-                    <span class="self-center flex text-2xl font-semibold whitespace-nowrap dark:text-white">AliasVault</span>
+                    <img src="/img/logo.svg" class="mr-3 h-8" alt="VVault Logo">
+                    <span class="self-center flex text-2xl font-semibold whitespace-nowrap dark:text-white">VVault</span>
                     <span class="ps-2 self-center flex text-sm font-bold whitespace-nowrap text-white bg-red-600 rounded-full px-2 py-1 ml-2">Admin</span>
                 </a>
 
@@ -50,7 +50,7 @@
                 </div>
 
                 <button @onclick="ToggleMenu" type="button" class="flex mx-3 text-sm rounded-full md:mr-0 flex-shrink-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="userMenuDropdownButton" aria-expanded="false" data-dropdown-toggle="userMenuDropdown">
-                    <span class="sr-only">Open user menu</span>
+                    <span class="sr-only">Abrir menu do usuário</span>
                       <div class="w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center">
                              <span class="text-primary-600 dark:text-primary-300 text-lg font-medium">A</span>
                     </div>
@@ -64,19 +64,19 @@
                         </div>
                         <ul class="py-1 text-gray-700 dark:text-gray-400" aria-labelledby="userMenuDropdownButton">
                             <li>
-                                <a href="account/manage/change-password" class="block py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Account settings</a>
+                                <a href="account/manage/change-password" class="block py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Configurações da conta</a>
                             </li>
                         </ul>
                         <ul class="py-1 text-gray-700 dark:text-gray-400" aria-labelledby="dropdown">
                             <li>
-                                <a href="user/logout" class="block py-2 px-4 font-bold text-sm text-primary-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-primary-200 dark:hover:text-white">Sign out</a>
+                                <a href="user/logout" class="block py-2 px-4 font-bold text-sm text-primary-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-primary-200 dark:hover:text-white">Sair</a>
                             </li>
                         </ul>
                     </div>
                 }
 
                 <button @onclick="ToggleMobileMenu" type="button" id="toggleMobileMenuButton" class="flex items-center p-2 text-gray-500 rounded-lg ml-1 lg:hidden hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
-                    <span class="sr-only">Open menu</span>
+                    <span class="sr-only">Abrir menu</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 </button>
             </div>
