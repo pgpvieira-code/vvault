@@ -195,6 +195,38 @@ docker run --rm -v "$PWD":/work -w /work/core/rust \
 
 Leva ~130s na primeira vez; os volumes deixam as reexecuções rápidas.
 
+### iOS — compilar exige Rust nativo, e o cache incremental engana
+
+O Xcode roda `core/rust/build.sh --ios --incremental` numa fase de build, e espera o `cargo` em
+**`~/.cargo/bin`**. Aqui o core do browser era compilado em container para não instalar Rust na
+máquina — mas para iOS isso não funciona: compilar Rust para iPhone precisa dos SDKs da Apple, que
+só existem no macOS. Rust nativo é obrigatório.
+
+```bash
+brew install rustup && rustup toolchain install stable --profile minimal
+rustup target add aarch64-apple-ios aarch64-apple-ios-sim
+```
+
+O rustup do Homebrew **não cria `~/.cargo/bin`**, que é o caminho fixo no script do Xcode. Sem isso o
+build falha mesmo com o Rust instalado e funcionando no terminal:
+
+```bash
+mkdir -p ~/.cargo/bin
+for b in /opt/homebrew/opt/rustup/bin/*; do ln -sf "$b" ~/.cargo/bin/$(basename "$b"); done
+```
+
+**A armadilha do `--incremental`**: o marcador de "está atualizado" é compartilhado entre
+plataformas. Depois de compilar para browser, um `./build.sh --ios --incremental` imprime
+`Rust Core is up to date, skipping build` e **pula o iOS inteiro**, sem gerar os bindings Swift. O
+Xcode então falha com uma mensagem que não sugere a causa:
+
+```
+error: Build input file cannot be found:
+  .../RustCoreFramework/RustCore/Generated/aliasvault_core.swift
+```
+
+Solução: rodar `./build.sh --ios` sem `--incremental` uma vez. Leva ~13s.
+
 ### Mobile — `apps/mobile-app/app.json` + nativos
 
 `app.json`: `name`, `slug`, `scheme` (`aliasvault` → `vvault`), `ios.bundleIdentifier`, `android.package`.
