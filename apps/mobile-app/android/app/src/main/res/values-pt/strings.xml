@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">AliasVault</string>
-  <string name="autofill_service_description" translatable="true">Preenchimento Automático do AliasVault</string>
-  <string name="aliasvault_icon">Ícone do AliasVault</string>
+  <string name="app_name">VVault</string>
+  <string name="autofill_service_description" translatable="true">Preenchimento Automático do VVault</string>
+  <string name="aliasvault_icon">Ícone do VVault</string>
   <string name="common_close">Fechar</string>
   <string name="common_next">Próximo</string>
   <string name="common_cancel">Cancelar</string>
@@ -22,7 +22,7 @@
   <string name="biometric_unlock_vault_subtitle">Autentique para acessar seu cofre</string>
   <string name="passkey_registration_title">Criar Passkey</string>
   <string name="create_passkey_title">Criar Nova Passkey</string>
-  <string name="create_passkey_subtitle">Registre uma nova passkey para este website. Ela será armazenada com segurança no seu cofre e sincronizada automaticamente nos seus dispositivos com AliasVault.</string>
+  <string name="create_passkey_subtitle">Registre uma nova passkey para este website. Ela será armazenada com segurança no seu cofre e sincronizada automaticamente nos seus dispositivos com VVault.</string>
   <string name="replace_passkey">Substituir Passkey</string>
   <string name="passkey_display_name_label">Nome da Passkey</string>
   <string name="passkey_display_name_hint">Digite um nome para esta passkey</string>
@@ -37,7 +37,7 @@
   <string name="passkey_creation_failed">Falha ao criar passkey</string>
   <string name="passkey_retry_button">Tentar Novamente</string>
   <string name="passkey_info_icon">Ícone de informação</string>
-  <string name="passkey_create_explanation">Isto cria uma nova passkey e a salva no seu cofre. Ela será automaticamente sincronizada em todos os seus dispositivos que utilizam AliasVault.</string>
+  <string name="passkey_create_explanation">Isto cria uma nova passkey e a salva no seu cofre. Ela será automaticamente sincronizada em todos os seus dispositivos que utilizam VVault.</string>
   <string name="passkey_create_new_button">Criar Nova Passkey</string>
   <string name="passkey_select_to_replace">Ou, substituir passkey existente:</string>
   <string name="passkey_add_to_existing">Ou, adicione o passkey à um item existente:</string>
@@ -64,8 +64,8 @@
   <string name="network_error_message">Ocorreu um erro de rede. Por favor, verifique sua conexão e tente novamente.</string>
   <string name="server_version_not_supported_title">Atualização de Servidor Necessária</string>
   <string name="server_version_not_supported_message">A versão do servidor está desatualizada. Por favor, entre em contato com seu administrador para atualizar o servidor.</string>
-  <string name="error_unlock_method_required">Por favor, habilite a autenticação por biometria ou PIN no aplicativo AliasVault principal para continuar</string>
-  <string name="error_unlock_vault_first">Por favor, desbloqueie seu cofre no aplicativo do AliasVault antes</string>
+  <string name="error_unlock_method_required">Por favor, habilite a autenticação por biometria ou PIN no aplicativo VVault principal para continuar</string>
+  <string name="error_unlock_vault_first">Por favor, desbloqueie seu cofre no aplicativo do VVault antes</string>
   <string name="error_vault_decrypt_failed">Falha ao descriptografar cofre</string>
   <string name="error_biometric_cancelled">Autenticação biométrica cancelada</string>
   <string name="error_encryption_key_failed">Falha ao recuperar chave de criptografia</string>

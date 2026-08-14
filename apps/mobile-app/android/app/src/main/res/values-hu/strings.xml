@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">AliasVault</string>
-  <string name="autofill_service_description" translatable="true">AliasVault kitöltés</string>
-  <string name="aliasvault_icon">AliasVault ikon</string>
+  <string name="app_name">VVault</string>
+  <string name="autofill_service_description" translatable="true">VVault kitöltés</string>
+  <string name="aliasvault_icon">VVault ikon</string>
   <string name="common_close">Bezár</string>
   <string name="common_next">Következő</string>
   <string name="common_cancel">Mégse</string>
@@ -37,7 +37,7 @@
   <string name="passkey_creation_failed">Az azonosítókulcs létrehozása sikertelen volt</string>
   <string name="passkey_retry_button">Újra</string>
   <string name="passkey_info_icon">Infó ikon</string>
-  <string name="passkey_create_explanation">Ezzel létrehoz egy új azonosítókulcsot, és menti azt a széfjébe. Minden AliasVault-ot használó eszköze között szinkronizálódni fog.</string>
+  <string name="passkey_create_explanation">Ezzel létrehoz egy új azonosítókulcsot, és menti azt a széfjébe. Minden VVault-ot használó eszköze között szinkronizálódni fog.</string>
   <string name="passkey_create_new_button">Új azonosítókulcs létrehozása</string>
   <string name="passkey_select_to_replace">Vagy cserélje le a már meglevő azonosítókulcsát:</string>
   <string name="passkey_add_to_existing">Vagy adja hozzá egy már létező elemhez:</string>
@@ -65,7 +65,7 @@
   <string name="server_version_not_supported_title">Szerver frissítés szükséges</string>
   <string name="server_version_not_supported_message">A szerver verzió túl régi. Kérem, lépjen kapcsolatba a rendszergazdával, hogy frissítse a szervert.</string>
   <string name="error_unlock_method_required">Kérem, kapcsolja be a PIN kódos vagy biometrikus belépést a fő appban mielőtt tovább halad</string>
-  <string name="error_unlock_vault_first">Kérem, először oldja fel az AliasVault-ot az appban</string>
+  <string name="error_unlock_vault_first">Kérem, először oldja fel az VVault-ot az appban</string>
   <string name="error_vault_decrypt_failed">A széf dekódolása sikertelen</string>
   <string name="error_biometric_cancelled">Biometrikus hitelesítés visszavonva</string>
   <string name="error_encryption_key_failed">Nem sikerült a kódolási kulcs kinyerése</string>

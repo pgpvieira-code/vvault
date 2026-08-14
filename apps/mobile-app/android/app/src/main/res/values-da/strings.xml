@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">AliasVault</string>
-  <string name="autofill_service_description" translatable="true">AliasVault Auto Fyld</string>
-  <string name="aliasvault_icon">AliasVault ikon</string>
+  <string name="app_name">VVault</string>
+  <string name="autofill_service_description" translatable="true">VVault Auto Fyld</string>
+  <string name="aliasvault_icon">VVault ikon</string>
   <string name="common_close">Luk</string>
   <string name="common_next">Næste</string>
   <string name="common_cancel">Annuller</string>
@@ -22,7 +22,7 @@
   <string name="biometric_unlock_vault_subtitle">Godkend for at få adgang til din boks</string>
   <string name="passkey_registration_title">Opret Passkey</string>
   <string name="create_passkey_title">Opret ny passkey</string>
-  <string name="create_passkey_subtitle">Registrer en ny passkey til dette websted. Den vil blive opbevaret sikkert i din boks og automatisk synkroniseret på tværs af dine enheder med AliasVault.</string>
+  <string name="create_passkey_subtitle">Registrer en ny passkey til dette websted. Den vil blive opbevaret sikkert i din boks og automatisk synkroniseret på tværs af dine enheder med VVault.</string>
   <string name="replace_passkey">Erstat passkey</string>
   <string name="passkey_display_name_label">Navn på passkey</string>
   <string name="passkey_display_name_hint">Indtast et navn til denne passkey</string>
@@ -37,7 +37,7 @@
   <string name="passkey_creation_failed">Kunne ikke oprette passkey</string>
   <string name="passkey_retry_button">Prøv igen</string>
   <string name="passkey_info_icon">Info-ikon</string>
-  <string name="passkey_create_explanation">Dette skaber en ny adgangsnøgle og gemmer den i din boks. Den synkroniseres automatisk på tværs af alle dine enheder, der bruger AliasVault.</string>
+  <string name="passkey_create_explanation">Dette skaber en ny adgangsnøgle og gemmer den i din boks. Den synkroniseres automatisk på tværs af alle dine enheder, der bruger VVault.</string>
   <string name="passkey_create_new_button">Opret ny passkey</string>
   <string name="passkey_select_to_replace">Eller erstat en eksisterende passkey:</string>
   <string name="passkey_add_to_existing">Eller tilføj passkey til et eksisterende element:</string>
@@ -64,8 +64,8 @@
   <string name="network_error_message">Der opstod en netværksfejl. Kontroller venligst din forbindelse og prøv igen.</string>
   <string name="server_version_not_supported_title">Serveropdatering påkrævet</string>
   <string name="server_version_not_supported_message">Server versionen er forældet. Kontakt venligst din administrator for at opdatere serveren.</string>
-  <string name="error_unlock_method_required">Aktiver venligst biometrisk- eller PIN-godkendelse i den primære AliasVault-app for at fortsætte</string>
-  <string name="error_unlock_vault_first">Lås venligst boksen op i AliasVault-appen først</string>
+  <string name="error_unlock_method_required">Aktiver venligst biometrisk- eller PIN-godkendelse i den primære VVault-app for at fortsætte</string>
+  <string name="error_unlock_vault_first">Lås venligst boksen op i VVault-appen først</string>
   <string name="error_vault_decrypt_failed">Kunne ikke dekryptere boks</string>
   <string name="error_biometric_cancelled">Biometrisk godkendelse annulleret</string>
   <string name="error_encryption_key_failed">Kunne ikke hente krypteringsnøgle</string>

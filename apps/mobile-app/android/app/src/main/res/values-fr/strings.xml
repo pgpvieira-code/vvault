@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">AliasVault</string>
-  <string name="autofill_service_description" translatable="true">Remplissage automatique AliasVault</string>
-  <string name="aliasvault_icon">Icône AliasVault</string>
+  <string name="app_name">VVault</string>
+  <string name="autofill_service_description" translatable="true">Remplissage automatique VVault</string>
+  <string name="aliasvault_icon">Icône VVault</string>
   <string name="common_close">Fermer</string>
   <string name="common_next">Suivant</string>
   <string name="common_cancel">Annuler</string>
@@ -22,7 +22,7 @@
   <string name="biometric_unlock_vault_subtitle">Authentifiez-vous pour accéder à votre coffre-fort</string>
   <string name="passkey_registration_title">Créer une clé d\'accès</string>
   <string name="create_passkey_title">Créer une nouvelle clé d\'accès</string>
-  <string name="create_passkey_subtitle">Enregistrez une nouvelle clé d\'accès pour ce site Web. Elle sera stockée de manière sécurisée dans votre coffre-fort et automatiquement synchronisée entre vos appareils avec AliasVault.</string>
+  <string name="create_passkey_subtitle">Enregistrez une nouvelle clé d\'accès pour ce site Web. Elle sera stockée de manière sécurisée dans votre coffre-fort et automatiquement synchronisée entre vos appareils avec VVault.</string>
   <string name="replace_passkey">Remplacer la clé d\'accès</string>
   <string name="passkey_display_name_label">Nom de la clé d\'accès</string>
   <string name="passkey_display_name_hint">Entrez un nom pour cette clé d\'accès</string>
@@ -37,7 +37,7 @@
   <string name="passkey_creation_failed">Echec de la création de la clé d\'accès</string>
   <string name="passkey_retry_button">Recommencer</string>
   <string name="passkey_info_icon">Icône d\'info</string>
-  <string name="passkey_create_explanation">Cela crée une nouvelle clé d\'accès et la stocke dans votre coffre-fort. Elle sera automatiquement synchronisée sur tous vos appareils qui utilisent AliasVault.</string>
+  <string name="passkey_create_explanation">Cela crée une nouvelle clé d\'accès et la stocke dans votre coffre-fort. Elle sera automatiquement synchronisée sur tous vos appareils qui utilisent VVault.</string>
   <string name="passkey_create_new_button">Créer une nouvelle clé d\'accès</string>
   <string name="passkey_select_to_replace">Ou, remplacer une clé d\'accès existante :</string>
   <string name="passkey_add_to_existing">Ou, ajouter la clé d\'accès à un élément existant :</string>
@@ -64,8 +64,8 @@
   <string name="network_error_message">Une erreur réseau s\'est produite. Veuillez vérifier votre connexion et réessayer.</string>
   <string name="server_version_not_supported_title">Mise à jour du serveur requise</string>
   <string name="server_version_not_supported_message">La version du serveur est obsolète. Veuillez contacter votre administrateur pour mettre à jour le serveur.</string>
-  <string name="error_unlock_method_required">Veuillez activer l\'authentification biométrique ou PIN dans l\'application principale AliasVault pour continuer</string>
-  <string name="error_unlock_vault_first">Veuillez d\'abord déverrouiller le coffre-fort dans l\'application AliasVault</string>
+  <string name="error_unlock_method_required">Veuillez activer l\'authentification biométrique ou PIN dans l\'application principale VVault pour continuer</string>
+  <string name="error_unlock_vault_first">Veuillez d\'abord déverrouiller le coffre-fort dans l\'application VVault</string>
   <string name="error_vault_decrypt_failed">Échec du déchiffrement du coffre-fort</string>
   <string name="error_biometric_cancelled">Authentification biométrique annulée</string>
   <string name="error_encryption_key_failed">Impossible de récupérer la clé de cryptage</string>

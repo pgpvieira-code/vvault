@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">AliasVault</string>
-  <string name="autofill_service_description" translatable="true">AliasVault 自动填充</string>
-  <string name="aliasvault_icon">AliasVault 图标</string>
+  <string name="app_name">VVault</string>
+  <string name="autofill_service_description" translatable="true">VVault 自动填充</string>
+  <string name="aliasvault_icon">VVault 图标</string>
   <string name="common_close">关闭</string>
   <string name="common_next">下一步</string>
   <string name="common_cancel">取消</string>
@@ -22,7 +22,7 @@
   <string name="biometric_unlock_vault_subtitle">请验证身份以访问您的密码库</string>
   <string name="passkey_registration_title">创建通行密钥</string>
   <string name="create_passkey_title">创建新通行密钥</string>
-  <string name="create_passkey_subtitle">为此网站注册一个新的通行密钥。它将安全地存储在您的密码库中，并通过 AliasVault 在您的设备间自动同步。</string>
+  <string name="create_passkey_subtitle">为此网站注册一个新的通行密钥。它将安全地存储在您的密码库中，并通过 VVault 在您的设备间自动同步。</string>
   <string name="replace_passkey">替换通行密钥</string>
   <string name="passkey_display_name_label">通行密钥名称</string>
   <string name="passkey_display_name_hint">输入此通行密钥的名称</string>
@@ -37,7 +37,7 @@
   <string name="passkey_creation_failed">创建通行密钥失败</string>
   <string name="passkey_retry_button">重试</string>
   <string name="passkey_info_icon">信息图标</string>
-  <string name="passkey_create_explanation">这将创建一个新的通行密钥并将其存储在您的密码库中。它将自动同步到您所有使用 AliasVault 的设备。</string>
+  <string name="passkey_create_explanation">这将创建一个新的通行密钥并将其存储在您的密码库中。它将自动同步到您所有使用 VVault 的设备。</string>
   <string name="passkey_create_new_button">创建新通行密钥</string>
   <string name="passkey_select_to_replace">或者替换现有的通行密钥：</string>
   <string name="passkey_add_to_existing">或者将通行密钥添加到现有项目：</string>
@@ -64,8 +64,8 @@
   <string name="network_error_message">网络发生错误，请检查您的连接后重试。</string>
   <string name="server_version_not_supported_title">服务器需要更新</string>
   <string name="server_version_not_supported_message">服务器版本过旧，请联系您的管理员更新服务器。</string>
-  <string name="error_unlock_method_required">请在 AliasVault 主应用中启用生物识别或 PIN 码认证以继续</string>
-  <string name="error_unlock_vault_first">请先在 AliasVault 应用中解锁密码库</string>
+  <string name="error_unlock_method_required">请在 VVault 主应用中启用生物识别或 PIN 码认证以继续</string>
+  <string name="error_unlock_vault_first">请先在 VVault 应用中解锁密码库</string>
   <string name="error_vault_decrypt_failed">解密密码库失败</string>
   <string name="error_biometric_cancelled">已取消生物识别认证</string>
   <string name="error_encryption_key_failed">检索加密密钥失败</string>

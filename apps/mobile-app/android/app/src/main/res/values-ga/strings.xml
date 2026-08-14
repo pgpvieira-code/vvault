@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">AliasVault</string>
-  <string name="autofill_service_description" translatable="true">AliasVault Autofill</string>
-  <string name="aliasvault_icon">Deilbhín AliasVault</string>
+  <string name="app_name">VVault</string>
+  <string name="autofill_service_description" translatable="true">VVault Autofill</string>
+  <string name="aliasvault_icon">Deilbhín VVault</string>
   <string name="common_close">Dún</string>
   <string name="common_next">Ar Aghaidh</string>
   <string name="common_cancel">Cealaigh</string>
@@ -22,7 +22,7 @@
   <string name="biometric_unlock_vault_subtitle">Fíordheimhnigh rochtain a fháil ar do chruinneachán</string>
   <string name="passkey_registration_title">Cruthaigh Eochair phas</string>
   <string name="create_passkey_title">Cruthaigh Eochair phas Nua</string>
-  <string name="create_passkey_subtitle">Cláraigh eochair phas nua don suíomh Gréasáin seo. Stórálfar go slán é i do chruinneachán agus sioncrónófar go huathoibríoch é ar fud do ghléasanna le AliasVault.</string>
+  <string name="create_passkey_subtitle">Cláraigh eochair phas nua don suíomh Gréasáin seo. Stórálfar go slán é i do chruinneachán agus sioncrónófar go huathoibríoch é ar fud do ghléasanna le VVault.</string>
   <string name="replace_passkey">Athsholáthar Eochair Pas</string>
   <string name="passkey_display_name_label">Ainm Pasfhocal</string>
   <string name="passkey_display_name_hint">Cuir isteach ainm don eochair phas seo</string>
@@ -37,7 +37,7 @@
   <string name="passkey_creation_failed">Theip ar an eochair pas a chruthú</string>
   <string name="passkey_retry_button">Bain triail eile as</string>
   <string name="passkey_info_icon">Deilbhín faisnéise</string>
-  <string name="passkey_create_explanation">Cruthaíonn sé seo eochair phas nua agus stórálann sé í i do chruinneachán. Déanfar í a shioncronú go huathoibríoch ar fud do ghléasanna uile a úsáideann AliasVault.</string>
+  <string name="passkey_create_explanation">Cruthaíonn sé seo eochair phas nua agus stórálann sé í i do chruinneachán. Déanfar í a shioncronú go huathoibríoch ar fud do ghléasanna uile a úsáideann VVault.</string>
   <string name="passkey_create_new_button">Cruthaigh Eochair phas Nua</string>
   <string name="passkey_select_to_replace">Nó, cuir pasfhocal atá ann cheana in áit:</string>
   <string name="passkey_add_to_existing">Nó, cuir pasfhocal le mír atá ann cheana féin:</string>
@@ -64,8 +64,8 @@
   <string name="network_error_message">Tharla earráid líonra. Seiceáil do cheangal agus bain triail eile as.</string>
   <string name="server_version_not_supported_title">Nuashonrú Freastalaí ag Teastáil</string>
   <string name="server_version_not_supported_message">Tá leagan an fhreastalaí as dáta. Déan teagmháil le do riarthóir chun an freastalaí a nuashonrú.</string>
-  <string name="error_unlock_method_required">Cumasaigh fíordheimhniú bithmhéadrach nó PIN sa phríomhaip AliasVault chun leanúint ar aghaidh</string>
-  <string name="error_unlock_vault_first">Díghlasáil cruinneachán san aip AliasVault ar dtús</string>
+  <string name="error_unlock_method_required">Cumasaigh fíordheimhniú bithmhéadrach nó PIN sa phríomhaip VVault chun leanúint ar aghaidh</string>
+  <string name="error_unlock_vault_first">Díghlasáil cruinneachán san aip VVault ar dtús</string>
   <string name="error_vault_decrypt_failed">Theip ar dhíchriptiú cruinneachán</string>
   <string name="error_biometric_cancelled">Fíordheimhniú bithmhéadrach ar ceal</string>
   <string name="error_encryption_key_failed">Theip ar aisghabháil eochair chriptiúcháin</string>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">AliasVault</string>
-  <string name="autofill_service_description" translatable="true">AliasVaultin automaattinen täyttö</string>
-  <string name="aliasvault_icon">AliasVault-kuvake</string>
+  <string name="app_name">VVault</string>
+  <string name="autofill_service_description" translatable="true">VVaultin automaattinen täyttö</string>
+  <string name="aliasvault_icon">VVault-kuvake</string>
   <string name="common_close">Sulje</string>
   <string name="common_next">Seuraava</string>
   <string name="common_cancel">Peruuta</string>
@@ -22,7 +22,7 @@
   <string name="biometric_unlock_vault_subtitle">Todenna päästäksesi holviisi</string>
   <string name="passkey_registration_title">Luo todennusavain</string>
   <string name="create_passkey_title">Luo uusi todennusavain</string>
-  <string name="create_passkey_subtitle">Rekisteröi uusi todennusavain tälle sivustolle. Se tallennetaan turvallisesti holveen ja synkronoidaan automaattisesti eri laitteissa AliasVaultin kanssa.</string>
+  <string name="create_passkey_subtitle">Rekisteröi uusi todennusavain tälle sivustolle. Se tallennetaan turvallisesti holveen ja synkronoidaan automaattisesti eri laitteissa VVaultin kanssa.</string>
   <string name="replace_passkey">Korvaa sala-avain</string>
   <string name="passkey_display_name_label">Todennusavaimen nimi</string>
   <string name="passkey_display_name_hint">Anne nimi tälle todennusavaimelle</string>
@@ -37,7 +37,7 @@
   <string name="passkey_creation_failed">Todennusavaimen luonti epäonnistui</string>
   <string name="passkey_retry_button">Yritä uudelleen</string>
   <string name="passkey_info_icon">Info-ikoni</string>
-  <string name="passkey_create_explanation">Tämä luo uuden todennusavaimen ja tallentaa sen holviisi. Se synkronoidaan automaattisesti kaikkiin laitteisiin, jotka käyttävät AliasVaultia.</string>
+  <string name="passkey_create_explanation">Tämä luo uuden todennusavaimen ja tallentaa sen holviisi. Se synkronoidaan automaattisesti kaikkiin laitteisiin, jotka käyttävät VVaultia.</string>
   <string name="passkey_create_new_button">Luo uusi todennusavain, Passkey</string>
   <string name="passkey_select_to_replace">Tai korvaa olemassa oleva todennusavain:</string>
   <string name="passkey_add_to_existing">Or, add passkey to an existing item:</string>
@@ -64,8 +64,8 @@
   <string name="network_error_message">Verkkovirhe tapahtui. Tarkista yhteytesi ja yritä uudelleen.</string>
   <string name="server_version_not_supported_title">Palvelimen päivtys vaaditaan</string>
   <string name="server_version_not_supported_message">Palvelimen versio on vanhentunut. Ota yhteyttä järjestelmänvalvojaan päivittääksesi palvelin.</string>
-  <string name="error_unlock_method_required">Ole hyvä ja ota biometrinen todennus käyttöön AliasVault-sovelluksessa, jotta voit käyttää todennusavaimia.</string>
-  <string name="error_unlock_vault_first">Ole hyvä ja avaa holvi ensin AliasVault-sovelluksessa</string>
+  <string name="error_unlock_method_required">Ole hyvä ja ota biometrinen todennus käyttöön VVault-sovelluksessa, jotta voit käyttää todennusavaimia.</string>
+  <string name="error_unlock_vault_first">Ole hyvä ja avaa holvi ensin VVault-sovelluksessa</string>
   <string name="error_vault_decrypt_failed">Holvin salauksen purku epäonnistui</string>
   <string name="error_biometric_cancelled">Biometrinen tunnistus peruttu</string>
   <string name="error_encryption_key_failed">Salausavaimen noutaminen epäonnistui</string>

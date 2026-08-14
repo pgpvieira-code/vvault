@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">AliasVault</string>
-  <string name="autofill_service_description" translatable="true">AliasVault AutoFyll</string>
-  <string name="aliasvault_icon">AliasVault ikon</string>
+  <string name="app_name">VVault</string>
+  <string name="autofill_service_description" translatable="true">VVault AutoFyll</string>
+  <string name="aliasvault_icon">VVault ikon</string>
   <string name="common_close">Stäng</string>
   <string name="common_next">Nästa</string>
   <string name="common_cancel">Avbryt</string>
@@ -22,7 +22,7 @@
   <string name="biometric_unlock_vault_subtitle">Autentisera för att få tillgång till ditt valv</string>
   <string name="passkey_registration_title">Skapa Passkey</string>
   <string name="create_passkey_title">Skapa ny Passkey</string>
-  <string name="create_passkey_subtitle">Registrera ett nytt passkey för denna webbplats. Det lagras säkert i ditt valv och synkroniseras automatiskt mellan dina enheter med AliasVault.</string>
+  <string name="create_passkey_subtitle">Registrera ett nytt passkey för denna webbplats. Det lagras säkert i ditt valv och synkroniseras automatiskt mellan dina enheter med VVault.</string>
   <string name="replace_passkey">Ersätt Passkey</string>
   <string name="passkey_display_name_label">Namn på Passkey</string>
   <string name="passkey_display_name_hint">Ange ett namn för denna Passkey</string>
@@ -37,7 +37,7 @@
   <string name="passkey_creation_failed">Kunde inte skapa Passkey</string>
   <string name="passkey_retry_button">Försök igen</string>
   <string name="passkey_info_icon">Infoikon</string>
-  <string name="passkey_create_explanation">Detta skapar en ny passkey och lagrar den i ditt valv. Den synkroniseras automatiskt mellan alla dina enheter som använder AliasVault.</string>
+  <string name="passkey_create_explanation">Detta skapar en ny passkey och lagrar den i ditt valv. Den synkroniseras automatiskt mellan alla dina enheter som använder VVault.</string>
   <string name="passkey_create_new_button">Skapa ny Passkey</string>
   <string name="passkey_select_to_replace">Eller, ersätt en befintlig passkey:</string>
   <string name="passkey_add_to_existing">Eller, lägg till passkey till ett befintligt objekt:</string>
@@ -64,8 +64,8 @@
   <string name="network_error_message">Ett nätverksfel inträffade. Vänligen kontrollera din anslutning och försök igen.</string>
   <string name="server_version_not_supported_title">Serveruppdatering krävs</string>
   <string name="server_version_not_supported_message">Serverversionen är föråldrad. Kontakta administratören för att uppdatera servern.</string>
-  <string name="error_unlock_method_required">Aktivera biometrisk eller PIN-autentisering i AliasVault-appen för att fortsätta</string>
-  <string name="error_unlock_vault_first">Lås upp valv i AliasVault-appen först</string>
+  <string name="error_unlock_method_required">Aktivera biometrisk eller PIN-autentisering i VVault-appen för att fortsätta</string>
+  <string name="error_unlock_vault_first">Lås upp valv i VVault-appen först</string>
   <string name="error_vault_decrypt_failed">Misslyckades att dekryptera valvet</string>
   <string name="error_biometric_cancelled">Biometrisk autentisering avbruten</string>
   <string name="error_encryption_key_failed">Det gick inte att hämta krypteringsnyckeln</string>
