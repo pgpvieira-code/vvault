@@ -71,7 +71,7 @@ The Crowdin project covers translations for all client apps in one place:
 
 Want to add a completely new language to VVault?
 
-1. **Contact us first** via [Discord](https://discord.gg/DsaXMTEtpF) or email at [suporte@vvault.com.br](mailto:suporte@vvault.com.br)
+1. **Contact us first** via [GitHub](https://github.com/pgpvieira-code/vvault/issues) or email at [suporte@vvault.com.br](mailto:suporte@vvault.com.br)
 2. We'll add the language to Crowdin
 3. We'll configure it in the codebase
 4. You can start translating!
@@ -82,8 +82,8 @@ Want to add a completely new language to VVault?
 
 ### Questions About Translation?
 
-- **Discord**: Join our [community server](https://discord.gg/DsaXMTEtpF) - Ask in #translations
-- **Email**: [contact@suporte@vvault.com.br](mailto:suporte@vvault.com.br)
+- **Discord**: Join our [GitHub](https://github.com/pgpvieira-code/vvault/issues) - Ask in #translations
+- **Email**: [suporte@vvault.com.br](mailto:suporte@vvault.com.br)
 - **Crowdin**: Use the discussion feature for specific strings
 
 Thank you for helping make VVault accessible to more people!

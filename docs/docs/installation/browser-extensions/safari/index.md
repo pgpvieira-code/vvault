@@ -2,14 +2,13 @@
 sidebar_position: 4
 ---
 # Safari Extension
-In order to install the Safari Extension, see the options below.
 
-## Download from MacOS App Store
-Installing the extension from the MacOS App Store is the easiest way to get started. This ensures that you are always using the latest version of the extension.
+VVault is not on the Mac App Store yet, and Safari does not load unsigned extensions the way Chrome
+and Firefox do — it requires the extension to be wrapped in a macOS app and signed with an Apple
+developer certificate.
 
-1. Go to the [MacOS App Store](https://apps.apple.com/app/id6743163173) page
-2. Click on the "Get" button
-3. The extension will be installed and added to Safari. Follow the instructions in the VVault MacOS app that is shown on screen after installation.
+Until VVault is published there, the only way to run the Safari extension is to
+[build it from source](build-from-source.md) on a Mac with Xcode installed.
 
-## Build from Source
-If you wish to install the extension from source instead, see the [build-from-source](build-from-source.md) documentation. This will allow you to make changes to the extension and/or to use a specific version of the extension.
+On any other browser — Chrome, Edge, Firefox, Brave — you can install directly from the
+[releases page](https://github.com/pgpvieira-code/vvault/releases).

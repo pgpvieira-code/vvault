@@ -19,7 +19,7 @@ For the best experience, we recommend using browsers that support Android's mode
 
 For additional background and technical details, see GitHub issue #2088: https://github.com/pgpvieira-code/vvault/issues/2088.
 
-If you're running into any specific issues with your specific device make/model, please read the tips below. If your issue is not mentioned on this page, feel free to raise an issue on [GitHub](https://github.com/pgpvieira-code/vvault/issues) or get in contact via [Discord](https://discord.gg/DsaXMTEtpF).
+If you're running into any specific issues with your specific device make/model, please read the tips below. If your issue is not mentioned on this page, feel free to raise an issue on [GitHub](https://github.com/pgpvieira-code/vvault/issues) or get in contact via [GitHub](https://github.com/pgpvieira-code/vvault/issues).
 
 ## Passkeys
 

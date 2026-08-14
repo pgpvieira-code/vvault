@@ -176,7 +176,7 @@ Afterwards, when you login to the VVault web app, you should now be able to crea
 Important: DNS propagation can take up to 24-48 hours. During this time, email delivery might be inconsistent.
 :::
 
-If you encounter any issues, feel free to join the [Discord chat](https://discord.gg/DsaXMTEtpF) to get help from other users and maintainers.
+If you encounter any issues, feel free to join the [GitHub](https://github.com/pgpvieira-code/vvault/issues) to get help from other users and maintainers.
 
 ### 3.4 Optional: SMTP advertised hostname
 

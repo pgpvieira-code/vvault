@@ -2,14 +2,12 @@
 sidebar_position: 1
 ---
 # iOS app
-In order to install the VVault iOS app, see the options below.
 
-## Download from App Store
-You can download the VVault mobile app via the iOS App Store.
+VVault is not on the App Store yet.
 
-1. Go to the [iOS App Store](https://apps.apple.com/us/app/aliasvault/id6745490915?mt=12)
-2. Click on the "Get" button
-3. The app will be installed. Open the app and follow the instructions.
+Apple does not allow installing iOS apps outside the App Store without a developer certificate, so
+until VVault is published there the only option is to
+[build from source](build-from-source.md) on a Mac with Xcode and install onto your own device.
 
-## Build from Source
-If you wish to install the mobile app from source instead, see the [build-from-source](build-from-source.md) documentation. This will allow you to make changes to the mobile app and/or to use a specific version of the mobile app. Note: compiling the iOS app requires a MacOS device.
+In the meantime the vault works in Safari on iOS at
+[app.vvault.com.br](https://app.vvault.com.br), including saving it to the home screen.

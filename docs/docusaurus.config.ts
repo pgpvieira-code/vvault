@@ -306,13 +306,6 @@ const config: Config = {
           'aria-label': 'VVault website',
         },
         {
-          href: 'https://discord.gg/DsaXMTEtpF',
-          label: 'Discord',
-          position: 'right',
-          className: 'navbar__icon-link navbar__icon-link--discord',
-          'aria-label': 'VVault Discord',
-        },
-        {
           href: 'https://github.com/pgpvieira-code/vvault',
           label: 'GitHub',
           position: 'right',

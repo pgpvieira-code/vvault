@@ -40,7 +40,7 @@ A good word list:
 ### How to submit
 
 - **GitHub**: Open a pull request adding a `<code>.diceware` file (see [existing dictionaries](#existing-dictionaries) below for the exact format)
-- **Discord**: Join our [community server](https://discord.gg/DsaXMTEtpF) and share in #translations (a maintainer will collaborate with you)
+- **Discord**: Join our [GitHub](https://github.com/pgpvieira-code/vvault/issues) and share in #translations (a maintainer will collaborate with you)
 - **Email**: [suporte@vvault.com.br](mailto:suporte@vvault.com.br) and attach the wordlist to the email.
 
 After we receive the list, we'll take care of the technical formatting, attribution, and wiring it into the VVault apps.
@@ -74,7 +74,7 @@ You can edit an existing word list directly on GitHub.
 4. Click **Commit changes** and choose **Create a new branch and start a pull request**.
 5. Submit the pull request. A maintainer will review it and merge it in.
 
-If you'd rather not use GitHub, you can also reach us on [Discord](https://discord.gg/DsaXMTEtpF) or by [email](mailto:suporte@vvault.com.br), and send us your improved list there.
+If you'd rather not use GitHub, you can also reach us on [GitHub](https://github.com/pgpvieira-code/vvault/issues) or by [email](mailto:suporte@vvault.com.br), and send us your improved list there.
 
 :::warning Keep exactly 7776 words
 A Diceware list must always contain **exactly 7776 words**, since removing a word breaks the entropy math (and the validation tests). So **replace or edit words in place, don't add or remove lines**. To fix a bad word, swap it for a better one on the same line.
@@ -97,5 +97,5 @@ These files are plain text, with one word per line, in dice (random) order. Each
 ## Questions?
 If you have any questions, feel free to get in touch:
 
-- Join our [Discord](https://discord.gg/DsaXMTEtpF) - Ask questions in #translations
+- Join our [GitHub](https://github.com/pgpvieira-code/vvault/issues) - Ask questions in #translations
 - Email us: [suporte@vvault.com.br](mailto:suporte@vvault.com.br)

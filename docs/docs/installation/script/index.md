@@ -165,7 +165,7 @@ After setting up your DNS, continue with configuring VVault to let it know which
 Important: DNS propagation can take up to 24-48 hours. During this time, email delivery might be inconsistent.
 :::
 
-If you encounter any issues, feel free to join the [Discord chat](https://discord.gg/DsaXMTEtpF) to get help from other users and maintainers.
+If you encounter any issues, feel free to join the [GitHub](https://github.com/pgpvieira-code/vvault/issues) to get help from other users and maintainers.
 
 ### 3.4 Optional: SMTP TLS (STARTTLS)
 

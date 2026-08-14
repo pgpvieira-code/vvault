@@ -50,7 +50,7 @@ VVault also supports history specific first names (per decade). In many countrie
    - `lastnames.txt`
 
 2. **Send the files to us:**
-   - **Discord**: Join our [community server](https://discord.gg/DsaXMTEtpF) and share in #translations or via private message
+   - **Discord**: Join our [GitHub](https://github.com/pgpvieira-code/vvault/issues) and share in #translations or via private message
    - **Email**: [suporte@vvault.com.br](mailto:suporte@vvault.com.br)
    - **Crowdin**: If you're already a member of the VVault Crowdin project, send a PM with an attachment
 
@@ -86,5 +86,5 @@ Want to see what the actual dictionaries look like that VVault uses right now? C
 ## Questions?
 If you have any questions, feel free to contact us and get in touch:
 
-- Join our [Discord](https://discord.gg/DsaXMTEtpF) - Ask questions in #translations
+- Join our [GitHub](https://github.com/pgpvieira-code/vvault/issues) - Ask questions in #translations
 - Email us: [suporte@vvault.com.br](mailto:suporte@vvault.com.br)

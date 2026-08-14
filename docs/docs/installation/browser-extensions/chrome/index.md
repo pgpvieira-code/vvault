@@ -2,14 +2,22 @@
 sidebar_position: 2
 ---
 # Google Chrome Extension
-In order to install the Google Chrome Extension, see the options below.
 
-## Download from Chrome Web Store
-Installing the extension from the Chrome Web Store is the easiest way to get started. This ensures that you are always using the latest version of the extension.
+VVault is not on the Chrome Web Store yet. Until it is, install it manually.
+The same package works for Brave and Opera, which use Chrome extensions.
 
-1. Go to the [Chrome Web Store](https://chromewebstore.google.com/detail/aliasvault/bmoggiinmnodjphdjnmpcnlleamkfedj)
-2. Click on the "Add to Chrome" button
-3. The extension will be installed and added to your browser
+## Install from a release
+
+1. Download `vvault-browser-extension-<version>-chrome.zip` from the
+   [releases page](https://github.com/pgpvieira-code/vvault/releases)
+2. Unpack it into a folder you will keep — Chrome loads the extension from that folder on every
+   start, so deleting it uninstalls the extension
+3. Open `chrome://extensions`
+4. Turn on **Developer mode**
+5. Click **Load unpacked** and select the unpacked folder
+
+The extension points at `https://app.vvault.com.br` by default. To use your own instance, change the
+server address in the extension's settings.
 
 ## Build from Source
 If you wish to install the extension from source instead, see the [build-from-source](build-from-source.md) documentation. This will allow you to make changes to the extension and/or to use a specific version of the extension.

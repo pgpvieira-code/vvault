@@ -8,7 +8,7 @@ We're happy to help you get the most out of VVault. Whether you're setting up yo
 
 ## Questions and help
 
-If you need help or have any questions about installing or using VVault, the quickest way to get a response is to join our community on [Discord](https://discord.gg/DsaXMTEtpF). You'll find other users and the maintainers there, and it's the best place to ask setup and usage questions.
+If you need help or have any questions about installing or using VVault, the quickest way to get a response is to join our community on [GitHub](https://github.com/pgpvieira-code/vvault/issues). You'll find other users and the maintainers there, and it's the best place to ask setup and usage questions.
 
 ## Bugs and feature requests
 
