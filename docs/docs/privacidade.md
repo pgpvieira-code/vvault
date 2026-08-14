@@ -54,9 +54,9 @@ bruta. Os IPs são anonimizados nas estatísticas do painel administrativo.
 Não há rastreadores, análise de comportamento, cookies de publicidade nem SDK de terceiros nos nossos
 aplicativos. Não vendemos, alugamos nem compartilhamos seus dados. Não há anúncios.
 
-O VVault não envia e-mail — não existe newsletter, nem mensagem promocional, nem e-mail transacional.
-O domínio publica registros SPF e DMARC restritivos justamente para que ninguém consiga falsificar
-mensagens em nome dele.
+O VVault não envia e-mail automatizado — não existe newsletter, nem mensagem promocional, nem e-mail
+transacional. O serviço nunca vai te escrever pedindo sua senha, porque não temos como usá-la. As
+únicas mensagens que partem do domínio são respostas humanas aos endereços de contato desta página.
 
 ## Retenção e exclusão
 
