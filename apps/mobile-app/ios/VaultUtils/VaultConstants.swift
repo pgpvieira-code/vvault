@@ -4,8 +4,8 @@ import Foundation
 /// identifiers across the app, autofill extension, and shared frameworks.
 public struct VaultConstants {
     public static let keychainService = "net.aliasvault.autofill"
-    public static let keychainAccessGroup = "group.net.aliasvault.autofill"
-    public static let userDefaultsSuite = "group.net.aliasvault.autofill"
+    public static let keychainAccessGroup = "group.com.vvault.autofill"
+    public static let userDefaultsSuite = "group.com.vvault.autofill"
 
     public static let vaultMetadataKey = "aliasvault_vault_metadata"
     public static let encryptionKeyKey = "aliasvault_encryption_key"

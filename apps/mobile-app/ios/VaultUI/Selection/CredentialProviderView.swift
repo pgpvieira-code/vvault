@@ -223,7 +223,7 @@ public struct CredentialProviderView: View {
 /// AliasVault app via deep link. Shared by the empty-state CTA and the
 /// toolbar "+" button so iOS and Android land in the same flow.
 private func openAutofillActionPicker(serviceUrl: String?) {
-    var urlString = "aliasvault://items/autofill-open-app"
+    var urlString = "vvault://items/autofill-open-app"
     if let serviceUrl = serviceUrl,
        let encodedUrl = serviceUrl.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
         urlString += "?itemUrl=\(encodedUrl)"

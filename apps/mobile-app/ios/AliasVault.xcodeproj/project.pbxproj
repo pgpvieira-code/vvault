@@ -1563,7 +1563,7 @@
 					"-laliasvault_core",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.RustCoreFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.RustCoreFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"RUST_LIB_PLATFORM[sdk=iphoneos*]" = device;
 				"RUST_LIB_PLATFORM[sdk=iphonesimulator*]" = simulator;
@@ -1601,7 +1601,7 @@
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = AliasVault/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AliasVault;
+				INFOPLIST_KEY_CFBundleDisplayName = VVault;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1615,7 +1615,7 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app;
 				PRODUCT_NAME = AliasVault;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
@@ -1641,7 +1641,7 @@
 				DEVELOPMENT_TEAM = 8PHW4HN3F7;
 				EXCLUDED_ARCHS = x86_64;
 				INFOPLIST_FILE = AliasVault/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AliasVault;
+				INFOPLIST_KEY_CFBundleDisplayName = VVault;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1655,7 +1655,7 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app;
 				PRODUCT_NAME = AliasVault;
 				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "AliasVault/AliasVault-Bridging-Header.h";
@@ -1842,7 +1842,7 @@
 					"-laliasvault_core",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.RustCoreFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.RustCoreFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"RUST_LIB_PLATFORM[sdk=iphoneos*]" = device;
 				"RUST_LIB_PLATFORM[sdk=iphonesimulator*]" = simulator;
@@ -1883,7 +1883,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.AliasVaultUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.AliasVaultUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -1918,7 +1918,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.AliasVaultUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.AliasVaultUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -1969,7 +1969,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -2028,7 +2028,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -2086,7 +2086,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultStoreKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultStoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				"RUST_LIB_PLATFORM[sdk=iphoneos*]" = device;
 				"RUST_LIB_PLATFORM[sdk=iphonesimulator*]" = simulator;
@@ -2145,7 +2145,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultStoreKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultStoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				"RUST_LIB_PLATFORM[sdk=iphoneos*]" = device;
 				"RUST_LIB_PLATFORM[sdk=iphonesimulator*]" = simulator;
@@ -2186,7 +2186,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultStoreKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultStoreKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -2220,7 +2220,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultStoreKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultStoreKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -2270,7 +2270,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				"RUST_LIB_PLATFORM[sdk=iphoneos*]" = device;
 				"RUST_LIB_PLATFORM[sdk=iphonesimulator*]" = simulator;
@@ -2329,7 +2329,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				"RUST_LIB_PLATFORM[sdk=iphoneos*]" = device;
 				"RUST_LIB_PLATFORM[sdk=iphonesimulator*]" = simulator;
@@ -2385,7 +2385,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultModels;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultModels;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -2439,7 +2439,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.VaultModels;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.VaultModels;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -2476,7 +2476,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = autofill/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "AliasVault AutoFill";
+				INFOPLIST_KEY_CFBundleDisplayName = "VVault AutoFill";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2489,7 +2489,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.autofill;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.autofill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -2525,7 +2525,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = autofill/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "AliasVault AutoFill";
+				INFOPLIST_KEY_CFBundleDisplayName = "VVault AutoFill";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2537,7 +2537,7 @@
 				MARKETING_VERSION = 0.31.0;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = net.aliasvault.app.autofill;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvault.app.autofill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;

@@ -223,7 +223,7 @@ final class AliasVaultUITests: XCTestCase {
         print("[Test02] Step 2: Enable offline mode via deep link")
         let encodedInvalidUrl = invalidApiUrl.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? invalidApiUrl
         print("[Test02] Setting API URL to invalid: \(invalidApiUrl)")
-        app.openDeepLink("aliasvault://open/__debug__/set-api-url/\(encodedInvalidUrl)")
+        app.openDeepLink("vvault://open/__debug__/set-api-url/\(encodedInvalidUrl)")
 
         unlockVaultIfNeeded(with: testUser)
 
@@ -286,7 +286,7 @@ final class AliasVaultUITests: XCTestCase {
         print("[Test02] Step 4: Go back online and sync")
         let encodedValidUrl = originalApiUrl.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? originalApiUrl
         print("[Test02] Restoring API URL to: \(originalApiUrl)")
-        app.openDeepLink("aliasvault://open/__debug__/set-api-url/\(encodedValidUrl)")
+        app.openDeepLink("vvault://open/__debug__/set-api-url/\(encodedValidUrl)")
 
         unlockVaultIfNeeded(with: testUser)
 
