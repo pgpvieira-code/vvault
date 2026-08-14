@@ -311,6 +311,27 @@ Conferir o que o servidor entrega, não o que o browser mostra:
 curl -s http://localhost/img/logo.svg | head -c 120
 ```
 
+## Produção — o proxy trava em 503 depois de recriar um container
+
+O nginx do `reverse-proxy` resolve o IP dos serviços **uma vez, na inicialização**. Recriar o
+`client` ou o `api` dá a eles um IP novo na rede do Docker, e o proxy segue mandando tráfego para o
+endereço antigo. O sintoma é `503` com todos os containers `Up` e saudáveis — nada nos logs do
+serviço, só no do proxy:
+
+```
+connect() failed (111: Connection refused) while connecting to upstream,
+upstream: "http://172.18.0.3:3000/"
+```
+
+Compare com o IP real:
+
+```bash
+docker inspect vvault-client-1 --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
+```
+
+Se divergir, `docker compose restart reverse-proxy` resolve. **Reinicie o proxy sempre que recriar
+client ou api**, senão o site fica fora do ar sem sinal óbvio de causa.
+
 ## Operação local — armadilha das duas compose files
 
 `docker-compose.yml` referencia as imagens publicadas (`ghcr.io/aliasvault/*`).
