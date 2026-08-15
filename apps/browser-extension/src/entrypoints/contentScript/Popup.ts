@@ -1141,7 +1141,7 @@ export async function createVaultLockedPopup(input: HTMLInputElement, rootContai
 
   // Add unlock button with SVG icon
   const button = document.createElement('button');
-  button.title = 'Unlock AliasVault';
+  button.title = 'Unlock VVault';
   button.className = 'av-vault-locked-button';
   button.innerHTML = `
     <svg class="av-icon-lock" viewBox="0 0 24 24">
@@ -1560,7 +1560,7 @@ function addReliableClickHandler(
     const mouseEvent = e as MouseEvent;
 
     if (!await clickValidator.validateClick(mouseEvent)) {
-      console.warn(`[AliasVault Security] Blocked click action due to security validation failure`);
+      console.warn(`[VVault Security] Blocked click action due to security validation failure`);
       return;
     }
 

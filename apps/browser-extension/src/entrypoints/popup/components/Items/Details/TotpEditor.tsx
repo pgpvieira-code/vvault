@@ -282,7 +282,7 @@ const TotpEditor: React.FC<TotpEditorProps> = ({
        * Generate QR code for the SAVED version (not edited)
        * Format: otpauth://totp/Issuer:AccountName?secret=SECRET&issuer=Issuer
        */
-      const issuer = itemDisplayName || 'AliasVault';
+      const issuer = itemDisplayName || 'VVault';
       const accountName = itemUsername || editingTotpCode.Name;
       const label = `${encodeURIComponent(issuer)}:${encodeURIComponent(accountName)}`;
       const totpUri = `otpauth://totp/${label}?secret=${editingTotpCode.SecretKey}&issuer=${encodeURIComponent(issuer)}`;

@@ -41,7 +41,7 @@ export class ClickValidator {
       return true;
 
     } catch (error) {
-      console.error('[AliasVault Security] Click validation error:', error);
+      console.error('[VVault Security] Click validation error:', error);
       return false;
     }
   }

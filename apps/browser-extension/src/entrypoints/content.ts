@@ -72,13 +72,13 @@ async function handleSaveLogin(login: CapturedLogin, serviceName: string): Promi
     });
 
     if (!response.success) {
-      console.error('[AliasVault] Failed to save login:', response.error);
+      console.error('[VVault] Failed to save login:', response.error);
     }
 
     // Clear the last autofilled state after save
     await sendMessage('CLEAR_LAST_AUTOFILLED');
   } catch (error) {
-    console.error('[AliasVault] Error saving login:', error);
+    console.error('[VVault] Error saving login:', error);
   }
 }
 
@@ -95,7 +95,7 @@ async function handleNeverSaveForDomain(domain: string): Promise<void> {
       await storage.setItem('local:loginSaveBlockedDomains', blockedDomains);
     }
   } catch (error) {
-    console.error('[AliasVault] Error saving blocked domain:', error);
+    console.error('[VVault] Error saving blocked domain:', error);
   }
 }
 
@@ -120,13 +120,13 @@ async function handleAddUrlToCredential(itemId: string, url: string): Promise<vo
     });
 
     if (!response.success) {
-      console.error('[AliasVault] Failed to add URL to credential:', response.error);
+      console.error('[VVault] Failed to add URL to credential:', response.error);
     }
 
     // Clear the last autofilled state after successful add
     await sendMessage('CLEAR_LAST_AUTOFILLED');
   } catch (error) {
-    console.error('[AliasVault] Error adding URL to credential:', error);
+    console.error('[VVault] Error adding URL to credential:', error);
   }
 }
 
@@ -271,7 +271,7 @@ async function checkAndRestoreSavePromptEarly(ctx: Parameters<typeof createShado
 
     ui.mount();
   } catch (error) {
-    console.error('[AliasVault] Error in early save prompt restore:', error);
+    console.error('[VVault] Error in early save prompt restore:', error);
   }
 }
 
@@ -331,7 +331,7 @@ async function checkAndRestorePersistedSavePrompt(container: HTMLElement): Promi
       );
     }
   } catch (error) {
-    console.error('[AliasVault] Error restoring persisted save prompt:', error);
+    console.error('[VVault] Error restoring persisted save prompt:', error);
   }
 }
 
@@ -840,7 +840,7 @@ export default defineContentScript({
             }
             // If disabled, don't show any popup (user can rely on clipboard auto-copy for TOTP)
           } catch (error) {
-            console.error('[AliasVault] Error checking vault status:', error);
+            console.error('[VVault] Error checking vault status:', error);
             // Fall back to normal autofill popup if check fails
             POPUP_RUNTIME[DEFAULT_POPUP_TYPE].open(inputElement, container);
           }

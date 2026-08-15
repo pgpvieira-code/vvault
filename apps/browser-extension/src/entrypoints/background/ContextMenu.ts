@@ -78,7 +78,7 @@ export async function setupContextMenus() : Promise<void> {
     // Root must exist before its children
     await createContextMenu({
       id: "aliasvault-root",
-      title: "AliasVault",
+      title: "VVault",
       contexts: ["all"]
     });
 

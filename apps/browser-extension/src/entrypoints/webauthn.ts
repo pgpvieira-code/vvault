@@ -573,13 +573,13 @@ export default defineUnlistedScript(() => {
 
     // Re-apply get if it's missing our marker
     if (!(currentGet as any).__aliasVaultPatched) {
-      console.debug('[AliasVault] Re-applying credentials.get patch');
+      console.debug('[VVault] Re-applying credentials.get patch');
       navigator.credentials.get = getOverrideRef;
     }
 
     // Re-apply create if it's missing our marker
     if (!(currentCreate as any).__aliasVaultPatched) {
-      console.debug('[AliasVault] Re-applying credentials.create patch');
+      console.debug('[VVault] Re-applying credentials.create patch');
       navigator.credentials.create = createOverrideRef;
     }
   };
@@ -594,7 +594,7 @@ export default defineUnlistedScript(() => {
 
     // Check for our marker
     if (!(get as any).__aliasVaultPatched || !(create as any).__aliasVaultPatched) {
-      console.debug('[AliasVault] WebAuthn patch markers missing', {
+      console.debug('[VVault] WebAuthn patch markers missing', {
         hasGetMarker: !!(get as any).__aliasVaultPatched,
         hasCreateMarker: !!(create as any).__aliasVaultPatched
       });
@@ -606,7 +606,7 @@ export default defineUnlistedScript(() => {
 
   // Verify immediately
   if (!verifyPatches()) {
-    console.debug('[AliasVault] WebAuthn initial patch markers missing - re-applying patches');
+    console.debug('[VVault] WebAuthn initial patch markers missing - re-applying patches');
     applyPatches();
   }
 
@@ -615,7 +615,7 @@ export default defineUnlistedScript(() => {
   const verifyInterval = setInterval(() => {
     checkCount++;
     if (!verifyPatches()) {
-      console.debug('[AliasVault] WebAuthn periodic patch markers missing - re-applying patches');
+      console.debug('[VVault] WebAuthn periodic patch markers missing - re-applying patches');
       applyPatches();
     }
 

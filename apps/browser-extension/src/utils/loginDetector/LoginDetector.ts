@@ -499,7 +499,7 @@ export class LoginDetector {
       try {
         callback(login);
       } catch (error) {
-        console.error('[AliasVault] Error in login capture callback:', error);
+        console.error('[VVault] Error in login capture callback:', error);
       }
     }
   }

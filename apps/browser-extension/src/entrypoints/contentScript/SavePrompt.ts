@@ -412,7 +412,7 @@ export async function restoreAddUrlPromptFromState(
   const { login, remainingTimeMs: restoredRemainingTime, initialAutoDismissMs: restoredInitialMs, existingCredential } = state;
 
   if (!existingCredential) {
-    console.error('[AliasVault] Cannot restore Add URL prompt without existing credential');
+    console.error('[VVault] Cannot restore Add URL prompt without existing credential');
     return;
   }
 
@@ -736,7 +736,7 @@ async function persistSavePromptState(): Promise<void> {
   try {
     await sendMessage('STORE_SAVE_PROMPT_STATE', state);
   } catch (error) {
-    console.error('[AliasVault] Error persisting save prompt state:', error);
+    console.error('[VVault] Error persisting save prompt state:', error);
   }
 }
 
@@ -788,7 +788,7 @@ export async function getPersistedSavePromptState(): Promise<SavePromptPersisted
 
     return state;
   } catch (error) {
-    console.error('[AliasVault] Error reading persisted save prompt state:', error);
+    console.error('[VVault] Error reading persisted save prompt state:', error);
     return null;
   }
 }
@@ -800,7 +800,7 @@ export async function clearPersistedSavePromptState(): Promise<void> {
   try {
     await sendMessage('CLEAR_SAVE_PROMPT_STATE');
   } catch (error) {
-    console.error('[AliasVault] Error clearing persisted save prompt state:', error);
+    console.error('[VVault] Error clearing persisted save prompt state:', error);
   }
 }
 

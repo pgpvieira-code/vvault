@@ -75,7 +75,7 @@ export class FormFiller {
 
       const pageWideSecure = await this.clickValidator.validateClick(dummyEvent);
       if (!pageWideSecure) {
-        console.warn('[AliasVault Security] Page-wide attack detected - blocking all autofill');
+        console.warn('[VVault Security] Page-wide attack detected - blocking all autofill');
         // Mark all fields as unsafe
         this.getAllFormFields().forEach(field => results.set(field, false));
         return results;
@@ -84,7 +84,7 @@ export class FormFiller {
       // 2. Check for suspicious form duplication (decoy attack)
       const hasDecoyForms = this.detectDecoyForms();
       if (hasDecoyForms) {
-        console.warn('[AliasVault Security] Multiple suspicious forms detected - blocking all autofill');
+        console.warn('[VVault Security] Multiple suspicious forms detected - blocking all autofill');
         // Mark all fields as unsafe
         this.getAllFormFields().forEach(field => results.set(field, false));
         return results;
@@ -97,13 +97,13 @@ export class FormFiller {
         results.set(field, isFieldSecure);
 
         if (!isFieldSecure) {
-          console.warn('[AliasVault Security] Field failed security check (will be skipped):', field);
+          console.warn('[VVault Security] Field failed security check (will be skipped):', field);
         }
       }
 
       return results;
     } catch (error) {
-      console.error('[AliasVault Security] Form security validation error:', error);
+      console.error('[VVault Security] Form security validation error:', error);
       // Fail safely - mark all fields as unsafe if validation fails
       this.getAllFormFields().forEach(field => results.set(field, false));
       return results;
@@ -156,7 +156,7 @@ export class FormFiller {
     if (rect.width === 0 || rect.height === 0 ||
         centerX < 0 || centerY < 0 ||
         centerX > window.innerWidth || centerY > window.innerHeight) {
-      console.warn('[AliasVault Security] Field outside viewport or zero-sized:', rect);
+      console.warn('[VVault Security] Field outside viewport or zero-sized:', rect);
       return false;
     }
 
@@ -165,7 +165,7 @@ export class FormFiller {
       const elementsAtPoint = document.elementsFromPoint(centerX, centerY);
 
       if (elementsAtPoint.length === 0) {
-        console.warn('[AliasVault Security] No elements found at field center');
+        console.warn('[VVault Security] No elements found at field center');
         return false;
       }
 
@@ -180,7 +180,7 @@ export class FormFiller {
       const fieldFound = elementsAtPoint.some(isFieldOrRelated);
 
       if (!fieldFound) {
-        console.warn('[AliasVault Security] Field is obstructed by other elements');
+        console.warn('[VVault Security] Field is obstructed by other elements');
         return false;
       }
 
@@ -195,14 +195,14 @@ export class FormFiller {
         // Check for nearly transparent overlays
         const opacity = parseFloat(style.opacity);
         if (opacity > 0 && opacity < 0.1) {
-          console.warn('[AliasVault Security] Nearly transparent overlay detected:', element);
+          console.warn('[VVault Security] Nearly transparent overlay detected:', element);
           return true;
         }
 
         // Check for high z-index elements (potential overlays)
         const zIndex = parseInt(style.zIndex) || 0;
         if (zIndex > 1000000) {
-          console.warn('[AliasVault Security] Suspicious high z-index element:', element, zIndex);
+          console.warn('[VVault Security] Suspicious high z-index element:', element, zIndex);
           return true;
         }
 
@@ -210,7 +210,7 @@ export class FormFiller {
         const elementRect = element.getBoundingClientRect();
         if (elementRect.width >= window.innerWidth * 0.8 &&
             elementRect.height >= window.innerHeight * 0.8) {
-          console.warn('[AliasVault Security] Large covering element detected:', element);
+          console.warn('[VVault Security] Large covering element detected:', element);
           return true;
         }
 
@@ -219,7 +219,7 @@ export class FormFiller {
 
       return !suspiciousCovering;
     } catch (error) {
-      console.warn('[AliasVault Security] Field validation error:', error);
+      console.warn('[VVault Security] Field validation error:', error);
       return false; // Fail safely
     }
   }
@@ -256,13 +256,13 @@ export class FormFiller {
 
       // If more than 2 visible login forms, it's suspicious
       if (suspiciousFormCount > 2) {
-        console.warn('[AliasVault Security] Multiple login forms detected:', suspiciousFormCount);
+        console.warn('[VVault Security] Multiple login forms detected:', suspiciousFormCount);
         return true;
       }
 
       return false;
     } catch (error) {
-      console.warn('[AliasVault Security] Decoy form detection error:', error);
+      console.warn('[VVault Security] Decoy form detection error:', error);
       return false; // Don't block on detection errors
     }
   }

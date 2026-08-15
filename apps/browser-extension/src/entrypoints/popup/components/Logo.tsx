@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { LOGO_COLOR, LOGO_MARK_PATH_DATA } from '@/utils/constants/logo';
+import { LOGO_MARK_DATA_URI } from '@/utils/constants/logo';
 
 type LogoProps = {
   className?: string;
@@ -31,9 +31,7 @@ const Logo: React.FC<LogoProps> = ({
       className={className}
     >
       {/* Logo mark */}
-      {LOGO_MARK_PATH_DATA.map((d, index) => (
-        <path key={index} d={d} fill={LOGO_COLOR} />
-      ))}
+      <image href={LOGO_MARK_DATA_URI} x="0" y="0" width="500" height="500" />
 
       {/* Wordmark - only show if showText is true */}
       {showText && (
@@ -46,7 +44,7 @@ const Logo: React.FC<LogoProps> = ({
           letterSpacing="-7"
           fill={color}
         >
-          AliasVault
+          VVault
         </text>
       )}
     </svg>
